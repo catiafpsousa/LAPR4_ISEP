@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ApproveRejectStudentRequestUI <<ui>>{
+    - theController : ApproveRejectStudentRequestController
+    + doShow()
+    }
+}
+
+
+package "domain" #dbd8ae{
+    class Enrollment <<aggregate root>> <<entity>>{
+    + Enrollment(mechanographicNumber, courseIdentifier)
+    + enrollmentStatus()
+    + accepted(createdOn)
+    + rejected(createdOn)
+    }
+
+    class EnrollmentStatus <<value object>>{
+    - enrollmentStatus : String
+    + valueOf(enrollmentStatus)
+    + EnrollmentStatus(enrollmentStatus)
+    }
+
+    class EnrollmentStatusDate <<value object>>{
+    - enrollmentStatusDate : Date
+    + valueOf(enrollmentStatusDate)
+    + EnrollmentStatusDate(enrollmentStatusDate)
+    }
+}
+
+package "persistence" #dbd8ae{
+
+    interface EnrollmentRepository <<repository>>{
+     +findByRequestedStatus()
+     + save(enrollment)
+
+    }
+
+}
+
+package "application" #eaf4d3{
+ class ApproveRejectStudentRequestController <<controller>>{
+    - enrollmentSvc : EnrollmentManagementService
+    + pendingRequests()
+    + approveStudentRequest(enrollment)
+    + rejectStudentRequest(enrollment)
+    }
+
+ class EnrollmentManagementService <<service>>{
+    - enrollmentRepository : EnrollmentRepository
+     + approveStudentRequest(enrollment)
+     + rejectStudentRequest(enrollment)
+    }
+}
+
+ApproveRejectStudentRequestUI .-> ApproveRejectStudentRequestController
+
+
+EnrollmentManagementService .-> EnrollmentRepository
+Enrollment --> EnrollmentStatus
+EnrollmentStatus --> EnrollmentStatusDate
+EnrollmentManagementService ..> Enrollment
+
+
+
+@enduml

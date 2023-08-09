@@ -1,0 +1,24 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+
+participant UndoLastChangeInPostItController as Controller <<application>>
+participant BoardManagementService as boardSvc <<application>>
+database BoardRepository as Repository <<repository>>
+
+Controller -> boardSvc : create()
+activate boardSvc
+Controller -> boardSvc : boardsByUser()
+boardSvc -> Repository: boards = findBySystemUserWithWritePermission()
+activate Repository
+
+Repository --> boardSvc : boards
+deactivate Repository
+boardSvc --> Controller : boards
+deactivate Controller
+
+@enduml

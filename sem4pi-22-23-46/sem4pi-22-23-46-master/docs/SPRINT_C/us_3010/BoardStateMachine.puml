@@ -1,0 +1,15 @@
+@startuml
+
+scale 200 width
+hide empty description
+
+skinparam state {
+    BackgroundColor White
+    BorderColor Black
+}
+
+[*] --> Active : createSharedBoard()
+Active --> Archived : archiveBoard()
+Archived --> [*]
+
+@enduml

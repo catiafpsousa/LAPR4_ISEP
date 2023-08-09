@@ -1,0 +1,24 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant RegisterUserUI as UI <<presentation>>
+
+Actor --> UI: Register User
+activate UI
+
+    UI --> Actor: Ask user information
+    Actor --> UI: Email, Password,\nFull Name,\nShort Name
+
+
+        UI --> Actor: Show List\nof Role Types
+        Actor --> UI: Role Type
+
+
+        UI-->Actor: displayUserInfo
+deactivate UI
+@enduml

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="1006px" preserveAspectRatio="none" style="width:2392px;height:1006px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 2392 1006" width="2392px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--cluster presentation-->
+        <g id="cluster_presentation">
+            <path d="M949.5,6 L1055.5,6 A3.75,3.75 0 0 1 1058,8.5 L1065,28.2969 L1354.5,28.2969 A2.5,2.5 0 0 1 1357,30.7969 L1357,143.5 A2.5,2.5 0 0 1 1354.5,146 L949.5,146 A2.5,2.5 0 0 1 947,143.5 L947,8.5 A2.5,2.5 0 0 1 949.5,6 "
+                  fill="#DDDDDD" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="947" x2="1065" y1="28.2969" y2="28.2969"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="105" x="951" y="20.9951">presentation
+            </text>
+        </g><!--cluster domain-->
+        <g id="cluster_domain">
+            <path d="M1570.5,368 L1631.5,368 A3.75,3.75 0 0 1 1634,370.5 L1641,390.2969 L2382.5,390.2969 A2.5,2.5 0 0 1 2385,392.7969 L2385,584.5 A2.5,2.5 0 0 1 2382.5,587 L1570.5,587 A2.5,2.5 0 0 1 1568,584.5 L1568,370.5 A2.5,2.5 0 0 1 1570.5,368 "
+                  fill="#DBD8AE" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="1568" x2="1641" y1="390.2969" y2="390.2969"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="60" x="1572" y="382.9951">domain
+            </text>
+        </g><!--cluster persistence-->
+        <g id="cluster_persistence">
+            <path d="M844.5,884 L939.5,884 A3.75,3.75 0 0 1 942,886.5 L949,906.2969 L1572.5,906.2969 A2.5,2.5 0 0 1 1575,908.7969 L1575,996.5 A2.5,2.5 0 0 1 1572.5,999 L844.5,999 A2.5,2.5 0 0 1 842,996.5 L842,886.5 A2.5,2.5 0 0 1 844.5,884 "
+                  fill="#DBD8AE" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="842" x2="949" y1="906.2969" y2="906.2969"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="94" x="846" y="898.9951">persistence
+            </text>
+        </g><!--cluster application-->
+        <g id="cluster_application">
+            <path d="M8.5,170 L101.5,170 A3.75,3.75 0 0 1 104,172.5 L111,192.2969 L1344.5,192.2969 A2.5,2.5 0 0 1 1347,194.7969 L1347,857.5 A2.5,2.5 0 0 1 1344.5,860 L8.5,860 A2.5,2.5 0 0 1 6,857.5 L6,172.5 A2.5,2.5 0 0 1 8.5,170 "
+                  fill="#EAF4D3" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="111" y1="192.2969" y2="192.2969"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="92" x="10" y="184.9951">application
+            </text>
+        </g><!--class TakeAnAutomaticExamUI-->
+        <g id="elem_TakeAnAutomaticExamUI">
+            <rect codeLine="4" fill="#F1F1F1" height="88.8594" id="TakeAnAutomaticExamUI" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="378" x="963" y="41"/>
+            <ellipse cx="1057.25" cy="61.1328" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1059.5938,56.8047 C1058.6563,56.3672 1058.0625,56.2266 1057.1875,56.2266 C1054.5625,56.2266 1052.5625,58.3047 1052.5625,61.0234 L1052.5625,62.1484 C1052.5625,64.7266 1054.6719,66.6172 1057.5625,66.6172 C1058.7813,66.6172 1059.9375,66.3203 1060.6875,65.7734 C1061.2656,65.3672 1061.5938,64.9141 1061.5938,64.5234 C1061.5938,64.0703 1061.2031,63.6797 1060.7344,63.6797 C1060.5156,63.6797 1060.3125,63.7578 1060.125,63.9453 C1059.6719,64.4297 1059.6719,64.4297 1059.4844,64.5234 C1059.0625,64.7891 1058.375,64.9141 1057.6094,64.9141 C1055.5625,64.9141 1054.2656,63.8203 1054.2656,62.1172 L1054.2656,61.0234 C1054.2656,59.2422 1055.5156,57.9297 1057.25,57.9297 C1057.8281,57.9297 1058.4375,58.0859 1058.9063,58.3359 C1059.3906,58.6172 1059.5625,58.8359 1059.6563,59.2422 C1059.7188,59.6484 1059.75,59.7734 1059.8906,59.8984 C1060.0313,60.0391 1060.2656,60.1484 1060.4844,60.1484 C1060.75,60.1484 1061.0156,60.0078 1061.1875,59.7891 C1061.2969,59.6328 1061.3281,59.4453 1061.3281,59.0234 L1061.3281,57.6016 C1061.3281,57.1641 1061.3125,57.0391 1061.2188,56.8828 C1061.0625,56.6172 1060.7813,56.4766 1060.4844,56.4766 C1060.1875,56.4766 1059.9844,56.5703 1059.7656,56.8828 L1059.5938,56.8047 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="25" x="1155.75" y="57.1387">&#171;ui&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181"
+                  x="1077.75" y="72.9639">TakeAnAutomaticExamUI
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="964" x2="1340" y1="81.2656" y2="81.2656"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="971" y="91.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="352" x="983"
+                  y="98.2607">theController : TakeAnAutomaticExamController
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="964" x2="1340" y1="105.5625" y2="105.5625"/>
+            <ellipse cx="974" cy="119.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="983"
+                  y="122.5576">doShow()
+            </text>
+        </g><!--class AutomaticFormativeExam-->
+        <g id="elem_AutomaticFormativeExam">
+            <rect codeLine="14" fill="#F1F1F1" height="168.0156" id="AutomaticFormativeExam" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="278" x="1584" y="403"/>
+            <ellipse cx="1625.55" cy="430.1172" fill="#ADD1B2" rx="11" ry="11"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1627.8938,425.7891 C1626.9563,425.3516 1626.3625,425.2109 1625.4875,425.2109 C1622.8625,425.2109 1620.8625,427.2891 1620.8625,430.0078 L1620.8625,431.1328 C1620.8625,433.7109 1622.9719,435.6016 1625.8625,435.6016 C1627.0813,435.6016 1628.2375,435.3047 1628.9875,434.7578 C1629.5656,434.3516 1629.8938,433.8984 1629.8938,433.5078 C1629.8938,433.0547 1629.5031,432.6641 1629.0344,432.6641 C1628.8156,432.6641 1628.6125,432.7422 1628.425,432.9297 C1627.9719,433.4141 1627.9719,433.4141 1627.7844,433.5078 C1627.3625,433.7734 1626.675,433.8984 1625.9094,433.8984 C1623.8625,433.8984 1622.5656,432.8047 1622.5656,431.1016 L1622.5656,430.0078 C1622.5656,428.2266 1623.8156,426.9141 1625.55,426.9141 C1626.1281,426.9141 1626.7375,427.0703 1627.2063,427.3203 C1627.6906,427.6016 1627.8625,427.8203 1627.9563,428.2266 C1628.0188,428.6328 1628.05,428.7578 1628.1906,428.8828 C1628.3313,429.0234 1628.5656,429.1328 1628.7844,429.1328 C1629.05,429.1328 1629.3156,428.9922 1629.4875,428.7734 C1629.5969,428.6172 1629.6281,428.4297 1629.6281,428.0078 L1629.6281,426.5859 C1629.6281,426.1484 1629.6125,426.0234 1629.5188,425.8672 C1629.3625,425.6016 1629.0813,425.4609 1628.7844,425.4609 C1628.4875,425.4609 1628.2844,425.5547 1628.0656,425.8672 L1627.8938,425.7891 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="104" x="1686.95" y="419.1387">&#171;aggregate root&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="49" x="1714.45" y="433.1074">&#171;entity&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187"
+                  x="1645.45" y="448.9326">AutomaticFormativeExam
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1585" x2="1861" y1="457.2344" y2="457.2344"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1592" y="467.8828"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157"
+                  x="1604" y="474.2295">examTitle : ExamTitle
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1592" y="484.1797"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="1604"
+                  y="490.5264">string : String
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1592" y="500.4766"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1604"
+                  y="506.8232">id : Long
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1592" y="516.7734"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183"
+                  x="1604" y="523.1201">courseCode : CourseCode
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1592" y="533.0703"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219"
+                  x="1604" y="539.417">examQuestion : ExamQuestion
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1585" x2="1861" y1="546.7188" y2="546.7188"/>
+            <ellipse cx="1595" cy="560.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="252"
+                  x="1604" y="563.7139">init(examTitle, courseCode , string)
+            </text>
+        </g><!--class ExamTitle-->
+        <g id="elem_ExamTitle">
+            <rect codeLine="23" fill="#F1F1F1" height="56.2656" id="ExamTitle" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="113" x="2255.5" y="459"/>
+            <ellipse cx="2270.5" cy="479.1328" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2272.8438,474.8047 C2271.9063,474.3672 2271.3125,474.2266 2270.4375,474.2266 C2267.8125,474.2266 2265.8125,476.3047 2265.8125,479.0234 L2265.8125,480.1484 C2265.8125,482.7266 2267.9219,484.6172 2270.8125,484.6172 C2272.0313,484.6172 2273.1875,484.3203 2273.9375,483.7734 C2274.5156,483.3672 2274.8438,482.9141 2274.8438,482.5234 C2274.8438,482.0703 2274.4531,481.6797 2273.9844,481.6797 C2273.7656,481.6797 2273.5625,481.7578 2273.375,481.9453 C2272.9219,482.4297 2272.9219,482.4297 2272.7344,482.5234 C2272.3125,482.7891 2271.625,482.9141 2270.8594,482.9141 C2268.8125,482.9141 2267.5156,481.8203 2267.5156,480.1172 L2267.5156,479.0234 C2267.5156,477.2422 2268.7656,475.9297 2270.5,475.9297 C2271.0781,475.9297 2271.6875,476.0859 2272.1563,476.3359 C2272.6406,476.6172 2272.8125,476.8359 2272.9063,477.2422 C2272.9688,477.6484 2273,477.7734 2273.1406,477.8984 C2273.2813,478.0391 2273.5156,478.1484 2273.7344,478.1484 C2274,478.1484 2274.2656,478.0078 2274.4375,477.7891 C2274.5469,477.6328 2274.5781,477.4453 2274.5781,477.0234 L2274.5781,475.6016 C2274.5781,475.1641 2274.5625,475.0391 2274.4688,474.8828 C2274.3125,474.6172 2274.0313,474.4766 2273.7344,474.4766 C2273.4375,474.4766 2273.2344,474.5703 2273.0156,474.8828 L2272.8438,474.8047 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="85" x="2282.5" y="475.1387">&#171;valueObject&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="2289"
+                  y="490.9639">ExamTitle
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2256.5" x2="2367.5" y1="499.2656" y2="499.2656"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2256.5" x2="2367.5" y1="507.2656" y2="507.2656"/>
+        </g><!--class CourseCode-->
+        <g id="elem_CourseCode">
+            <rect codeLine="26" fill="#F1F1F1" height="56.2656" id="CourseCode" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="118" x="2102" y="459"/>
+            <ellipse cx="2117" cy="479.1328" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2119.3438,474.8047 C2118.4063,474.3672 2117.8125,474.2266 2116.9375,474.2266 C2114.3125,474.2266 2112.3125,476.3047 2112.3125,479.0234 L2112.3125,480.1484 C2112.3125,482.7266 2114.4219,484.6172 2117.3125,484.6172 C2118.5313,484.6172 2119.6875,484.3203 2120.4375,483.7734 C2121.0156,483.3672 2121.3438,482.9141 2121.3438,482.5234 C2121.3438,482.0703 2120.9531,481.6797 2120.4844,481.6797 C2120.2656,481.6797 2120.0625,481.7578 2119.875,481.9453 C2119.4219,482.4297 2119.4219,482.4297 2119.2344,482.5234 C2118.8125,482.7891 2118.125,482.9141 2117.3594,482.9141 C2115.3125,482.9141 2114.0156,481.8203 2114.0156,480.1172 L2114.0156,479.0234 C2114.0156,477.2422 2115.2656,475.9297 2117,475.9297 C2117.5781,475.9297 2118.1875,476.0859 2118.6563,476.3359 C2119.1406,476.6172 2119.3125,476.8359 2119.4063,477.2422 C2119.4688,477.6484 2119.5,477.7734 2119.6406,477.8984 C2119.7813,478.0391 2120.0156,478.1484 2120.2344,478.1484 C2120.5,478.1484 2120.7656,478.0078 2120.9375,477.7891 C2121.0469,477.6328 2121.0781,477.4453 2121.0781,477.0234 L2121.0781,475.6016 C2121.0781,475.1641 2121.0625,475.0391 2120.9688,474.8828 C2120.8125,474.6172 2120.5313,474.4766 2120.2344,474.4766 C2119.9375,474.4766 2119.7344,474.5703 2119.5156,474.8828 L2119.3438,474.8047 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="85" x="2131.5" y="475.1387">&#171;valueObject&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="2131"
+                  y="490.9639">CourseCode
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2103" x2="2219" y1="499.2656" y2="499.2656"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2103" x2="2219" y1="507.2656" y2="507.2656"/>
+        </g><!--class ExamQuestion-->
+        <g id="elem_ExamQuestion">
+            <rect codeLine="29" fill="#F1F1F1" height="121.4531" id="ExamQuestion" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="169" x="1897.5" y="426.5"/>
+            <ellipse cx="1927.8" cy="446.6328" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1930.1438,442.3047 C1929.2063,441.8672 1928.6125,441.7266 1927.7375,441.7266 C1925.1125,441.7266 1923.1125,443.8047 1923.1125,446.5234 L1923.1125,447.6484 C1923.1125,450.2266 1925.2219,452.1172 1928.1125,452.1172 C1929.3313,452.1172 1930.4875,451.8203 1931.2375,451.2734 C1931.8156,450.8672 1932.1438,450.4141 1932.1438,450.0234 C1932.1438,449.5703 1931.7531,449.1797 1931.2844,449.1797 C1931.0656,449.1797 1930.8625,449.2578 1930.675,449.4453 C1930.2219,449.9297 1930.2219,449.9297 1930.0344,450.0234 C1929.6125,450.2891 1928.925,450.4141 1928.1594,450.4141 C1926.1125,450.4141 1924.8156,449.3203 1924.8156,447.6172 L1924.8156,446.5234 C1924.8156,444.7422 1926.0656,443.4297 1927.8,443.4297 C1928.3781,443.4297 1928.9875,443.5859 1929.4563,443.8359 C1929.9406,444.1172 1930.1125,444.3359 1930.2063,444.7422 C1930.2688,445.1484 1930.3,445.2734 1930.4406,445.3984 C1930.5813,445.5391 1930.8156,445.6484 1931.0344,445.6484 C1931.3,445.6484 1931.5656,445.5078 1931.7375,445.2891 C1931.8469,445.1328 1931.8781,444.9453 1931.8781,444.5234 L1931.8781,443.1016 C1931.8781,442.6641 1931.8625,442.5391 1931.7688,442.3828 C1931.6125,442.1172 1931.3313,441.9766 1931.0344,441.9766 C1930.7375,441.9766 1930.5344,442.0703 1930.3156,442.3828 L1930.1438,442.3047 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="49" x="1972.2" y="442.6387">&#171;entity&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103"
+                  x="1945.2" y="458.4639">ExamQuestion
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1898.5" x2="2065.5" y1="466.7656" y2="466.7656"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1905.5" y="477.4141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61"
+                  x="1917.5" y="483.7607">id : Long
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1905.5" y="493.7109"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139"
+                  x="1917.5" y="500.0576">question : Question
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1905.5" y="510.0078"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93"
+                  x="1917.5" y="516.3545">score : Score
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1898.5" x2="2065.5" y1="523.6563" y2="523.6563"/>
+            <ellipse cx="1908.5" cy="537.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143"
+                  x="1917.5" y="540.6514">init(question, score)
+            </text>
+        </g><!--class ExamRepository-->
+        <g id="elem_ExamRepository">
+            <rect codeLine="39" fill="#F1F1F1" height="64.2969" id="ExamRepository" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="241" x="1075.5" y="919"/>
+            <ellipse cx="1133.75" cy="935" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1134.7031,931.7813 L1136.4219,931.7813 C1136.8125,931.7813 1137,931.75 1137.125,931.6719 C1137.3906,931.5156 1137.5313,931.2344 1137.5313,930.9375 C1137.5313,930.6719 1137.4219,930.4063 1137.1875,930.2344 C1137.0156,930.125 1136.875,930.0938 1136.4219,930.0938 L1131.2813,930.0938 C1130.8438,930.0938 1130.7188,930.1094 1130.5625,930.2031 C1130.3125,930.3594 1130.1563,930.6563 1130.1563,930.9375 C1130.1563,931.2188 1130.2969,931.4688 1130.5156,931.6406 C1130.6719,931.75 1130.8594,931.7813 1131.2813,931.7813 L1133,931.7813 L1133,938.2969 L1131.2813,938.2969 C1130.8438,938.2969 1130.7188,938.3125 1130.5625,938.4219 C1130.3125,938.5781 1130.1563,938.8594 1130.1563,939.1563 C1130.1563,939.4063 1130.2969,939.6719 1130.5156,939.8281 C1130.6719,939.9531 1130.875,940 1131.2813,940 L1136.4219,940 C1137.1719,940 1137.5313,939.7188 1137.5313,939.1563 C1137.5313,938.875 1137.4219,938.625 1137.1875,938.4531 C1137.0156,938.3281 1136.875,938.2969 1136.4219,938.2969 L1134.7031,938.2969 L1134.7031,931.7813 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="116" x="1154.25" y="939.8467">ExamRepository
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1076.5" x2="1315.5" y1="951" y2="951"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1076.5" x2="1315.5" y1="959" y2="959"/>
+            <ellipse cx="1086.5" cy="972.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215"
+                  x="1095.5" y="975.9951">AllAutomaticFormativeExam()
+            </text>
+        </g><!--class QuestionRepository-->
+        <g id="elem_QuestionRepository">
+            <rect codeLine="43" fill="#F1F1F1" height="64.2969" id="QuestionRepository" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="182" x="858" y="919"/>
+            <ellipse cx="877.95" cy="935" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M878.9031,931.7813 L880.6219,931.7813 C881.0125,931.7813 881.2,931.75 881.325,931.6719 C881.5906,931.5156 881.7313,931.2344 881.7313,930.9375 C881.7313,930.6719 881.6219,930.4063 881.3875,930.2344 C881.2156,930.125 881.075,930.0938 880.6219,930.0938 L875.4813,930.0938 C875.0438,930.0938 874.9188,930.1094 874.7625,930.2031 C874.5125,930.3594 874.3563,930.6563 874.3563,930.9375 C874.3563,931.2188 874.4969,931.4688 874.7156,931.6406 C874.8719,931.75 875.0594,931.7813 875.4813,931.7813 L877.2,931.7813 L877.2,938.2969 L875.4813,938.2969 C875.0438,938.2969 874.9188,938.3125 874.7625,938.4219 C874.5125,938.5781 874.3563,938.8594 874.3563,939.1563 C874.3563,939.4063 874.4969,939.6719 874.7156,939.8281 C874.8719,939.9531 875.075,940 875.4813,940 L880.6219,940 C881.3719,940 881.7313,939.7188 881.7313,939.1563 C881.7313,938.875 881.6219,938.625 881.3875,938.4531 C881.2156,938.3281 881.075,938.2969 880.6219,938.2969 L878.9031,938.2969 L878.9031,931.7813 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="139" x="893.05" y="939.8467">QuestionRepository
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="859" x2="1039" y1="951" y2="951"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="859" x2="1039" y1="959" y2="959"/>
+            <ellipse cx="869" cy="972.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="878"
+                  y="975.9951">findQuestionByType()
+            </text>
+        </g><!--class EnrollmentRepository-->
+        <g id="elem_EnrollmentRepository">
+            <rect codeLine="46" fill="#F1F1F1" height="64.2969" id="EnrollmentRepository" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="207" x="1351.5" y="919"/>
+            <ellipse cx="1375.95" cy="935" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1376.9031,931.7813 L1378.6219,931.7813 C1379.0125,931.7813 1379.2,931.75 1379.325,931.6719 C1379.5906,931.5156 1379.7313,931.2344 1379.7313,930.9375 C1379.7313,930.6719 1379.6219,930.4063 1379.3875,930.2344 C1379.2156,930.125 1379.075,930.0938 1378.6219,930.0938 L1373.4813,930.0938 C1373.0438,930.0938 1372.9188,930.1094 1372.7625,930.2031 C1372.5125,930.3594 1372.3563,930.6563 1372.3563,930.9375 C1372.3563,931.2188 1372.4969,931.4688 1372.7156,931.6406 C1372.8719,931.75 1373.0594,931.7813 1373.4813,931.7813 L1375.2,931.7813 L1375.2,938.2969 L1373.4813,938.2969 C1373.0438,938.2969 1372.9188,938.3125 1372.7625,938.4219 C1372.5125,938.5781 1372.3563,938.8594 1372.3563,939.1563 C1372.3563,939.4063 1372.4969,939.6719 1372.7156,939.8281 C1372.8719,939.9531 1373.075,940 1373.4813,940 L1378.6219,940 C1379.3719,940 1379.7313,939.7188 1379.7313,939.1563 C1379.7313,938.875 1379.6219,938.625 1379.3875,938.4531 C1379.2156,938.3281 1379.075,938.2969 1378.6219,938.2969 L1376.9031,938.2969 L1376.9031,931.7813 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="154" x="1392.05" y="939.8467">EnrollmentRepository
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1352.5" x2="1557.5" y1="951" y2="951"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1352.5" x2="1557.5" y1="959" y2="959"/>
+            <ellipse cx="1362.5" cy="972.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181"
+                  x="1371.5" y="975.9951">findAllCourseByStudent()
+            </text>
+        </g><!--class TakeAnAutomaticExamController-->
+        <g id="elem_TakeAnAutomaticExamController">
+            <rect codeLine="52" fill="#F1F1F1" height="137.75" id="TakeAnAutomaticExamController" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="334" x="985" y="205"/>
+            <ellipse cx="1027.45" cy="225.1328" fill="#ADD1B2" rx="11" ry="11"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1029.7938,220.8047 C1028.8563,220.3672 1028.2625,220.2266 1027.3875,220.2266 C1024.7625,220.2266 1022.7625,222.3047 1022.7625,225.0234 L1022.7625,226.1484 C1022.7625,228.7266 1024.8719,230.6172 1027.7625,230.6172 C1028.9813,230.6172 1030.1375,230.3203 1030.8875,229.7734 C1031.4656,229.3672 1031.7938,228.9141 1031.7938,228.5234 C1031.7938,228.0703 1031.4031,227.6797 1030.9344,227.6797 C1030.7156,227.6797 1030.5125,227.7578 1030.325,227.9453 C1029.8719,228.4297 1029.8719,228.4297 1029.6844,228.5234 C1029.2625,228.7891 1028.575,228.9141 1027.8094,228.9141 C1025.7625,228.9141 1024.4656,227.8203 1024.4656,226.1172 L1024.4656,225.0234 C1024.4656,223.2422 1025.7156,221.9297 1027.45,221.9297 C1028.0281,221.9297 1028.6375,222.0859 1029.1063,222.3359 C1029.5906,222.6172 1029.7625,222.8359 1029.8563,223.2422 C1029.9188,223.6484 1029.95,223.7734 1030.0906,223.8984 C1030.2313,224.0391 1030.4656,224.1484 1030.6844,224.1484 C1030.95,224.1484 1031.2156,224.0078 1031.3875,223.7891 C1031.4969,223.6328 1031.5281,223.4453 1031.5281,223.0234 L1031.5281,221.6016 C1031.5281,221.1641 1031.5125,221.0391 1031.4188,220.8828 C1031.2625,220.6172 1030.9813,220.4766 1030.6844,220.4766 C1030.3875,220.4766 1030.1844,220.5703 1029.9656,220.8828 L1029.7938,220.8047 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="71" x="1132.55" y="221.1387">&#171;controller&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241"
+                  x="1047.55" y="236.9639">TakeAnAutomaticExamController
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="986" x2="1318" y1="245.2656" y2="245.2656"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="993" y="255.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204"
+                  x="1005" y="262.2607">authz : AuthorizationService
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="986" x2="1318" y1="269.5625" y2="269.5625"/>
+            <ellipse cx="996" cy="283.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181"
+                  x="1005" y="286.5576">findAllCourseByStudent()
+            </text>
+            <ellipse cx="996" cy="299.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="308"
+                  x="1005" y="302.8545">findFormativeExamsByCourse(courseCode)
+            </text>
+            <ellipse cx="996" cy="315.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203"
+                  x="1005" y="319.1514">automaticExamToTxt(exam)
+            </text>
+            <ellipse cx="996" cy="332.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="223"
+                  x="1005" y="335.4482">verifyAnswers(answerPath, list)
+            </text>
+        </g><!--class ExamManagementService-->
+        <g id="elem_ExamManagementService">
+            <rect codeLine="60" fill="#F1F1F1" height="121.4531" id="ExamManagementService" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="334" x="604" y="426.5"/>
+            <ellipse cx="673.75" cy="446.6328" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M676.0938,442.3047 C675.1563,441.8672 674.5625,441.7266 673.6875,441.7266 C671.0625,441.7266 669.0625,443.8047 669.0625,446.5234 L669.0625,447.6484 C669.0625,450.2266 671.1719,452.1172 674.0625,452.1172 C675.2813,452.1172 676.4375,451.8203 677.1875,451.2734 C677.7656,450.8672 678.0938,450.4141 678.0938,450.0234 C678.0938,449.5703 677.7031,449.1797 677.2344,449.1797 C677.0156,449.1797 676.8125,449.2578 676.625,449.4453 C676.1719,449.9297 676.1719,449.9297 675.9844,450.0234 C675.5625,450.2891 674.875,450.4141 674.1094,450.4141 C672.0625,450.4141 670.7656,449.3203 670.7656,447.6172 L670.7656,446.5234 C670.7656,444.7422 672.0156,443.4297 673.75,443.4297 C674.3281,443.4297 674.9375,443.5859 675.4063,443.8359 C675.8906,444.1172 676.0625,444.3359 676.1563,444.7422 C676.2188,445.1484 676.25,445.2734 676.3906,445.3984 C676.5313,445.5391 676.7656,445.6484 676.9844,445.6484 C677.25,445.6484 677.5156,445.5078 677.6875,445.2891 C677.7969,445.1328 677.8281,444.9453 677.8281,444.5234 L677.8281,443.1016 C677.8281,442.6641 677.8125,442.5391 677.7188,442.3828 C677.5625,442.1172 677.2813,441.9766 676.9844,441.9766 C676.6875,441.9766 676.4844,442.0703 676.2656,442.3828 L676.0938,442.3047 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="56" x="759.25" y="442.6387">&#171;service&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186"
+                  x="694.25" y="458.4639">ExamManagementService
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="605" x2="937" y1="466.7656" y2="466.7656"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="612" y="477.4141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="624"
+                  y="483.7607">examRepository : ExamRepository
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="605" x2="937" y1="491.0625" y2="491.0625"/>
+            <ellipse cx="615" cy="504.7109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="308" x="624"
+                  y="508.0576">findFormativeExamsByCourse(courseCode)
+            </text>
+            <ellipse cx="615" cy="521.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203" x="624"
+                  y="524.3545">automaticExamToTxt(exam)
+            </text>
+            <ellipse cx="615" cy="537.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="223" x="624"
+                  y="540.6514">verifyAnswers(answerPath, list)
+            </text>
+        </g><!--class EnrollmentManagementService-->
+        <g id="elem_EnrollmentManagementService">
+            <rect codeLine="66" fill="#F1F1F1" height="88.8594" id="EnrollmentManagementService" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="357" x="973.5" y="442.5"/>
+            <ellipse cx="1034.25" cy="462.6328" fill="#ADD1B2" rx="11" ry="11"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1036.5938,458.3047 C1035.6563,457.8672 1035.0625,457.7266 1034.1875,457.7266 C1031.5625,457.7266 1029.5625,459.8047 1029.5625,462.5234 L1029.5625,463.6484 C1029.5625,466.2266 1031.6719,468.1172 1034.5625,468.1172 C1035.7813,468.1172 1036.9375,467.8203 1037.6875,467.2734 C1038.2656,466.8672 1038.5938,466.4141 1038.5938,466.0234 C1038.5938,465.5703 1038.2031,465.1797 1037.7344,465.1797 C1037.5156,465.1797 1037.3125,465.2578 1037.125,465.4453 C1036.6719,465.9297 1036.6719,465.9297 1036.4844,466.0234 C1036.0625,466.2891 1035.375,466.4141 1034.6094,466.4141 C1032.5625,466.4141 1031.2656,465.3203 1031.2656,463.6172 L1031.2656,462.5234 C1031.2656,460.7422 1032.5156,459.4297 1034.25,459.4297 C1034.8281,459.4297 1035.4375,459.5859 1035.9063,459.8359 C1036.3906,460.1172 1036.5625,460.3359 1036.6563,460.7422 C1036.7188,461.1484 1036.75,461.2734 1036.8906,461.3984 C1037.0313,461.5391 1037.2656,461.6484 1037.4844,461.6484 C1037.75,461.6484 1038.0156,461.5078 1038.1875,461.2891 C1038.2969,461.1328 1038.3281,460.9453 1038.3281,460.5234 L1038.3281,459.1016 C1038.3281,458.6641 1038.3125,458.5391 1038.2188,458.3828 C1038.0625,458.1172 1037.7813,457.9766 1037.4844,457.9766 C1037.1875,457.9766 1036.9844,458.0703 1036.7656,458.3828 L1036.5938,458.3047 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="56" x="1140.25" y="458.6387">&#171;service&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227"
+                  x="1054.75" y="474.4639">EnrollmentManagementService
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="974.5" x2="1329.5" y1="482.7656" y2="482.7656"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="981.5" y="493.4141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="331"
+                  x="993.5" y="499.7607">enrollmentRepository : EnrollmentRepository
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="974.5" x2="1329.5" y1="507.0625" y2="507.0625"/>
+            <ellipse cx="984.5" cy="520.7109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181"
+                  x="993.5" y="524.0576">findAllCourseByStudent()
+            </text>
+        </g><!--class QuestionManagementService-->
+        <g id="elem_QuestionManagementService">
+            <rect codeLine="71" fill="#F1F1F1" height="88.8594" id="QuestionManagementService" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="323" x="407.5" y="755"/>
+            <ellipse cx="459.25" cy="775.1328" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M461.5938,770.8047 C460.6563,770.3672 460.0625,770.2266 459.1875,770.2266 C456.5625,770.2266 454.5625,772.3047 454.5625,775.0234 L454.5625,776.1484 C454.5625,778.7266 456.6719,780.6172 459.5625,780.6172 C460.7813,780.6172 461.9375,780.3203 462.6875,779.7734 C463.2656,779.3672 463.5938,778.9141 463.5938,778.5234 C463.5938,778.0703 463.2031,777.6797 462.7344,777.6797 C462.5156,777.6797 462.3125,777.7578 462.125,777.9453 C461.6719,778.4297 461.6719,778.4297 461.4844,778.5234 C461.0625,778.7891 460.375,778.9141 459.6094,778.9141 C457.5625,778.9141 456.2656,777.8203 456.2656,776.1172 L456.2656,775.0234 C456.2656,773.2422 457.5156,771.9297 459.25,771.9297 C459.8281,771.9297 460.4375,772.0859 460.9063,772.3359 C461.3906,772.6172 461.5625,772.8359 461.6563,773.2422 C461.7188,773.6484 461.75,773.7734 461.8906,773.8984 C462.0313,774.0391 462.2656,774.1484 462.4844,774.1484 C462.75,774.1484 463.0156,774.0078 463.1875,773.7891 C463.2969,773.6328 463.3281,773.4453 463.3281,773.0234 L463.3281,771.6016 C463.3281,771.1641 463.3125,771.0391 463.2188,770.8828 C463.0625,770.6172 462.7813,770.4766 462.4844,770.4766 C462.1875,770.4766 461.9844,770.5703 461.7656,770.8828 L461.5938,770.8047 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="56" x="557.25" y="771.1387">&#171;service&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211"
+                  x="479.75" y="786.9639">QuestionManagementService
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="408.5" x2="729.5" y1="795.2656" y2="795.2656"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="415.5" y="805.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="297"
+                  x="427.5" y="812.2607">questionRepository : QuestionRepository
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="408.5" x2="729.5" y1="819.5625" y2="819.5625"/>
+            <ellipse cx="418.5" cy="833.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156"
+                  x="427.5" y="836.5576">findQuestionByType()
+            </text>
+        </g><!--class AutomaticExamGenerateQuestionsVisitor-->
+        <g id="elem_AutomaticExamGenerateQuestionsVisitor">
+            <rect codeLine="76" fill="#F1F1F1" height="64.2969" id="AutomaticExamGenerateQuestionsVisitor" rx="2.5"
+                  ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="332" x="22" y="631"/>
+            <ellipse cx="37" cy="647" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M39.3438,642.6719 C38.4063,642.2344 37.8125,642.0938 36.9375,642.0938 C34.3125,642.0938 32.3125,644.1719 32.3125,646.8906 L32.3125,648.0156 C32.3125,650.5938 34.4219,652.4844 37.3125,652.4844 C38.5313,652.4844 39.6875,652.1875 40.4375,651.6406 C41.0156,651.2344 41.3438,650.7813 41.3438,650.3906 C41.3438,649.9375 40.9531,649.5469 40.4844,649.5469 C40.2656,649.5469 40.0625,649.625 39.875,649.8125 C39.4219,650.2969 39.4219,650.2969 39.2344,650.3906 C38.8125,650.6563 38.125,650.7813 37.3594,650.7813 C35.3125,650.7813 34.0156,649.6875 34.0156,647.9844 L34.0156,646.8906 C34.0156,645.1094 35.2656,643.7969 37,643.7969 C37.5781,643.7969 38.1875,643.9531 38.6563,644.2031 C39.1406,644.4844 39.3125,644.7031 39.4063,645.1094 C39.4688,645.5156 39.5,645.6406 39.6406,645.7656 C39.7813,645.9063 40.0156,646.0156 40.2344,646.0156 C40.5,646.0156 40.7656,645.875 40.9375,645.6563 C41.0469,645.5 41.0781,645.3125 41.0781,644.8906 L41.0781,643.4688 C41.0781,643.0313 41.0625,642.9063 40.9688,642.75 C40.8125,642.4844 40.5313,642.3438 40.2344,642.3438 C39.9375,642.3438 39.7344,642.4375 39.5156,642.75 L39.3438,642.6719 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="300" x="51"
+                  y="651.8467">AutomaticExamGenerateQuestionsVisitor
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="353" y1="663" y2="663"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="353" y1="671" y2="671"/>
+            <ellipse cx="33" cy="684.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="42"
+                  y="687.9951">visit(tree)
+            </text>
+        </g><!--class ConvertExamIntoSolutionsListener-->
+        <g id="elem_ConvertExamIntoSolutionsListener">
+            <rect codeLine="80" fill="#F1F1F1" height="64.2969" id="ConvertExamIntoSolutionsListener" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="283" x="389.5" y="631"/>
+            <ellipse cx="404.5" cy="647" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M406.8438,642.6719 C405.9063,642.2344 405.3125,642.0938 404.4375,642.0938 C401.8125,642.0938 399.8125,644.1719 399.8125,646.8906 L399.8125,648.0156 C399.8125,650.5938 401.9219,652.4844 404.8125,652.4844 C406.0313,652.4844 407.1875,652.1875 407.9375,651.6406 C408.5156,651.2344 408.8438,650.7813 408.8438,650.3906 C408.8438,649.9375 408.4531,649.5469 407.9844,649.5469 C407.7656,649.5469 407.5625,649.625 407.375,649.8125 C406.9219,650.2969 406.9219,650.2969 406.7344,650.3906 C406.3125,650.6563 405.625,650.7813 404.8594,650.7813 C402.8125,650.7813 401.5156,649.6875 401.5156,647.9844 L401.5156,646.8906 C401.5156,645.1094 402.7656,643.7969 404.5,643.7969 C405.0781,643.7969 405.6875,643.9531 406.1563,644.2031 C406.6406,644.4844 406.8125,644.7031 406.9063,645.1094 C406.9688,645.5156 407,645.6406 407.1406,645.7656 C407.2813,645.9063 407.5156,646.0156 407.7344,646.0156 C408,646.0156 408.2656,645.875 408.4375,645.6563 C408.5469,645.5 408.5781,645.3125 408.5781,644.8906 L408.5781,643.4688 C408.5781,643.0313 408.5625,642.9063 408.4688,642.75 C408.3125,642.4844 408.0313,642.3438 407.7344,642.3438 C407.4375,642.3438 407.2344,642.4375 407.0156,642.75 L406.8438,642.6719 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251"
+                  x="418.5" y="651.8467">ConvertExamIntoSolutionsListener
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="390.5" x2="671.5" y1="663" y2="663"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="390.5" x2="671.5" y1="671" y2="671"/>
+            <ellipse cx="400.5" cy="684.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133"
+                  x="409.5" y="687.9951">getExamAnswers()
+            </text>
+        </g><!--class ConvertIntoExamReadyToBeAnsweredVisitor-->
+        <g id="elem_ConvertIntoExamReadyToBeAnsweredVisitor">
+            <rect codeLine="85" fill="#F1F1F1" height="64.2969" id="ConvertIntoExamReadyToBeAnsweredVisitor" rx="2.5"
+                  ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="356" x="708" y="631"/>
+            <ellipse cx="723" cy="647" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M725.3438,642.6719 C724.4063,642.2344 723.8125,642.0938 722.9375,642.0938 C720.3125,642.0938 718.3125,644.1719 718.3125,646.8906 L718.3125,648.0156 C718.3125,650.5938 720.4219,652.4844 723.3125,652.4844 C724.5313,652.4844 725.6875,652.1875 726.4375,651.6406 C727.0156,651.2344 727.3438,650.7813 727.3438,650.3906 C727.3438,649.9375 726.9531,649.5469 726.4844,649.5469 C726.2656,649.5469 726.0625,649.625 725.875,649.8125 C725.4219,650.2969 725.4219,650.2969 725.2344,650.3906 C724.8125,650.6563 724.125,650.7813 723.3594,650.7813 C721.3125,650.7813 720.0156,649.6875 720.0156,647.9844 L720.0156,646.8906 C720.0156,645.1094 721.2656,643.7969 723,643.7969 C723.5781,643.7969 724.1875,643.9531 724.6563,644.2031 C725.1406,644.4844 725.3125,644.7031 725.4063,645.1094 C725.4688,645.5156 725.5,645.6406 725.6406,645.7656 C725.7813,645.9063 726.0156,646.0156 726.2344,646.0156 C726.5,646.0156 726.7656,645.875 726.9375,645.6563 C727.0469,645.5 727.0781,645.3125 727.0781,644.8906 L727.0781,643.4688 C727.0781,643.0313 727.0625,642.9063 726.9688,642.75 C726.8125,642.4844 726.5313,642.3438 726.2344,642.3438 C725.9375,642.3438 725.7344,642.4375 725.5156,642.75 L725.3438,642.6719 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="324" x="737"
+                  y="651.8467">ConvertIntoExamReadyToBeAnsweredVisitor
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="709" x2="1063" y1="663" y2="663"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="709" x2="1063" y1="671" y2="671"/>
+            <ellipse cx="719" cy="684.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="728"
+                  y="687.9951">visit(sectionsTree)
+            </text>
+        </g><!--class GradeAnsweredExamVisitor-->
+        <g id="elem_GradeAnsweredExamVisitor">
+            <rect codeLine="89" fill="#F1F1F1" height="64.2969" id="GradeAnsweredExamVisitor" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="231" x="1099.5" y="631"/>
+            <ellipse cx="1114.5" cy="647" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1116.8438,642.6719 C1115.9063,642.2344 1115.3125,642.0938 1114.4375,642.0938 C1111.8125,642.0938 1109.8125,644.1719 1109.8125,646.8906 L1109.8125,648.0156 C1109.8125,650.5938 1111.9219,652.4844 1114.8125,652.4844 C1116.0313,652.4844 1117.1875,652.1875 1117.9375,651.6406 C1118.5156,651.2344 1118.8438,650.7813 1118.8438,650.3906 C1118.8438,649.9375 1118.4531,649.5469 1117.9844,649.5469 C1117.7656,649.5469 1117.5625,649.625 1117.375,649.8125 C1116.9219,650.2969 1116.9219,650.2969 1116.7344,650.3906 C1116.3125,650.6563 1115.625,650.7813 1114.8594,650.7813 C1112.8125,650.7813 1111.5156,649.6875 1111.5156,647.9844 L1111.5156,646.8906 C1111.5156,645.1094 1112.7656,643.7969 1114.5,643.7969 C1115.0781,643.7969 1115.6875,643.9531 1116.1563,644.2031 C1116.6406,644.4844 1116.8125,644.7031 1116.9063,645.1094 C1116.9688,645.5156 1117,645.6406 1117.1406,645.7656 C1117.2813,645.9063 1117.5156,646.0156 1117.7344,646.0156 C1118,646.0156 1118.2656,645.875 1118.4375,645.6563 C1118.5469,645.5 1118.5781,645.3125 1118.5781,644.8906 L1118.5781,643.4688 C1118.5781,643.0313 1118.5625,642.9063 1118.4688,642.75 C1118.3125,642.4844 1118.0313,642.3438 1117.7344,642.3438 C1117.4375,642.3438 1117.2344,642.4375 1117.0156,642.75 L1116.8438,642.6719 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199"
+                  x="1128.5" y="651.8467">GradeAnsweredExamVisitor
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1100.5" x2="1329.5" y1="663" y2="663"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1100.5" x2="1329.5" y1="671" y2="671"/>
+            <ellipse cx="1110.5" cy="684.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137"
+                  x="1119.5" y="687.9951">visit(answerd_tree)
+            </text>
+        </g><!--class AuthorizationService-->
+        <g id="elem_AuthorizationService">
+            <rect fill="#F1F1F1" height="48" id="AuthorizationService" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="183" x="1365.5" y="463"/>
+            <ellipse cx="1380.5" cy="479" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1382.8438,474.6719 C1381.9063,474.2344 1381.3125,474.0938 1380.4375,474.0938 C1377.8125,474.0938 1375.8125,476.1719 1375.8125,478.8906 L1375.8125,480.0156 C1375.8125,482.5938 1377.9219,484.4844 1380.8125,484.4844 C1382.0313,484.4844 1383.1875,484.1875 1383.9375,483.6406 C1384.5156,483.2344 1384.8438,482.7813 1384.8438,482.3906 C1384.8438,481.9375 1384.4531,481.5469 1383.9844,481.5469 C1383.7656,481.5469 1383.5625,481.625 1383.375,481.8125 C1382.9219,482.2969 1382.9219,482.2969 1382.7344,482.3906 C1382.3125,482.6563 1381.625,482.7813 1380.8594,482.7813 C1378.8125,482.7813 1377.5156,481.6875 1377.5156,479.9844 L1377.5156,478.8906 C1377.5156,477.1094 1378.7656,475.7969 1380.5,475.7969 C1381.0781,475.7969 1381.6875,475.9531 1382.1563,476.2031 C1382.6406,476.4844 1382.8125,476.7031 1382.9063,477.1094 C1382.9688,477.5156 1383,477.6406 1383.1406,477.7656 C1383.2813,477.9063 1383.5156,478.0156 1383.7344,478.0156 C1384,478.0156 1384.2656,477.875 1384.4375,477.6563 C1384.5469,477.5 1384.5781,477.3125 1384.5781,476.8906 L1384.5781,475.4688 C1384.5781,475.0313 1384.5625,474.9063 1384.4688,474.75 C1384.3125,474.4844 1384.0313,474.3438 1383.7344,474.3438 C1383.4375,474.3438 1383.2344,474.4375 1383.0156,474.75 L1382.8438,474.6719 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151"
+                  x="1394.5" y="483.8467">AuthorizationService
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1366.5" x2="1547.5" y1="495" y2="495"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1366.5" x2="1547.5" y1="503" y2="503"/>
+        </g><!--link TakeAnAutomaticExamController to AuthorizationService-->
+        <g id="link_TakeAnAutomaticExamController_AuthorizationService">
+            <path codeLine="96"
+                  d="M1319.19,341.758 C1328.86,347.481 1338.21,353.563 1347,360 C1384.81,387.685 1418.66,430.531 1438.52,458.426 "
+                  fill="none" id="TakeAnAutomaticExamController-to-AuthorizationService"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="1441.58,462.769,1439.6573,453.1096,1438.6964,458.6843,1433.1218,457.7234,1441.58,462.769"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link TakeAnAutomaticExamUI to TakeAnAutomaticExamController-->
+        <g id="link_TakeAnAutomaticExamUI_TakeAnAutomaticExamController">
+            <path codeLine="97" d="M1152,130.226 C1152,150.845 1152,176.015 1152,199.447 " fill="none"
+                  id="TakeAnAutomaticExamUI-to-TakeAnAutomaticExamController"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818" points="1152,204.731,1156,195.731,1152,199.731,1148,195.731,1152,204.731"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link TakeAnAutomaticExamController to ExamManagementService-->
+        <g id="link_TakeAnAutomaticExamController_ExamManagementService">
+            <path codeLine="98"
+                  d="M988.558,343.065 C977.424,348.561 966.477,354.228 956,360 C921.96,378.753 886.283,402.084 855.442,423.554 "
+                  fill="none" id="TakeAnAutomaticExamController-to-ExamManagementService"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="851.317,426.434,860.9861,424.5611,855.4165,423.5715,856.4061,418.0019,851.317,426.434"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link TakeAnAutomaticExamController to EnrollmentManagementService-->
+        <g id="link_TakeAnAutomaticExamController_EnrollmentManagementService">
+            <path codeLine="99" d="M1152,343.214 C1152,373.818 1152,409.227 1152,437.126 " fill="none"
+                  id="TakeAnAutomaticExamController-to-EnrollmentManagementService"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818" points="1152,442.246,1156,433.246,1152,437.246,1148,433.246,1152,442.246"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link ExamManagementService to AutomaticFormativeExam-->
+        <g id="link_ExamManagementService_AutomaticFormativeExam">
+            <path codeLine="102"
+                  d="M835.328,426.18 C872.482,395.936 921.97,363.352 973.5,351.5 C1004.63,344.339 1517.37,344.339 1548.5,351.5 C1582.17,359.244 1613.75,378.312 1640.54,399.777 "
+                  fill="none" id="ExamManagementService-to-AutomaticFormativeExam"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818"
+                     points="1644.45,402.961,1639.9937,394.178,1640.5717,399.8052,1634.9445,400.3833,1644.45,402.961"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link AutomaticFormativeExam to ExamTitle-->
+        <g id="link_AutomaticFormativeExam_ExamTitle">
+            <path codeLine="104"
+                  d="M1801.55,402.961 C1829.15,380.215 1862.18,359.625 1897.5,351.5 C1932.48,343.455 2185.52,343.455 2220.5,351.5 C2267.1,362.217 2291.99,417.491 2303.56,454.049 "
+                  fill="none" id="AutomaticFormativeExam-to-ExamTitle" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818"
+                     points="2305.04,458.854,2306.2102,449.0749,2303.5666,454.076,2298.5654,451.4324,2305.04,458.854"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link AutomaticFormativeExam to CourseCode-->
+        <g id="link_AutomaticFormativeExam_CourseCode">
+            <path codeLine="105"
+                  d="M1801.55,402.961 C1829.15,380.215 1862.18,359.625 1897.5,351.5 C1934.1,343.082 2029.9,343.082 2066.5,351.5 C2074.93,353.438 2077.61,354.176 2084,360 C2112.92,386.349 2134.6,426.075 2147.47,454.066 "
+                  fill="none" id="AutomaticFormativeExam-to-CourseCode" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818"
+                     points="2149.62,458.802,2149.5526,448.9534,2147.5581,454.2469,2142.2645,452.2524,2149.62,458.802"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link AutomaticFormativeExam to ExamQuestion-->
+        <g id="link_AutomaticFormativeExam_ExamQuestion">
+            <path codeLine="106" d="M1862.11,487 C1872.08,487 1882.05,487 1892.02,487 " fill="none"
+                  id="AutomaticFormativeExam-to-ExamQuestion" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="1897.23,487,1888.23,483,1892.23,487,1888.23,491,1897.23,487"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link ExamManagementService to ExamRepository-->
+        <g id="link_ExamManagementService_ExamRepository">
+            <path codeLine="108"
+                  d="M856.291,547.649 C886.477,565.9 921.526,584.034 956,595 C1039.36,621.517 1289.04,566.377 1348,631 C1426.85,717.425 1303.88,852.107 1236.01,915.1923 "
+                  fill="none" id="ExamManagementService-to-ExamRepository"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="1232.03,918.8761,1241.3518,915.6974,1235.6991,915.4794,1235.9171,909.8268,1232.03,918.8761"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link ExamManagementService to AutomaticExamGenerateQuestionsVisitor-->
+        <g id="link_ExamManagementService_AutomaticExamGenerateQuestionsVisitor">
+            <path codeLine="109" d="M603.936,537.861 C505.361,567.282 383.415,603.677 297.117,629.433 " fill="none"
+                  id="ExamManagementService-to-AutomaticExamGenerateQuestionsVisitor"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="292.262,630.882,302.0301,632.1403,297.0531,629.4517,299.7416,624.4746,292.262,630.882"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link AutomaticExamGenerateQuestionsVisitor to QuestionManagementService-->
+        <g id="link_AutomaticExamGenerateQuestionsVisitor_QuestionManagementService">
+            <path codeLine="110" d="M275.887,695.026 C324.739,712.271 386.422,734.047 440.587,753.168 " fill="none"
+                  id="AutomaticExamGenerateQuestionsVisitor-to-QuestionManagementService"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="445.47,754.892,438.3167,748.1222,440.7556,753.2263,435.6515,755.6652,445.47,754.892"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link ExamManagementService to ConvertExamIntoSolutionsListener-->
+        <g id="link_ExamManagementService_ConvertExamIntoSolutionsListener">
+            <path codeLine="111" d="M688.741,547.637 C651.86,574.376 609.684,604.954 578.227,627.76 " fill="none"
+                  id="ExamManagementService-to-ConvertExamIntoSolutionsListener"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="574.057,630.784,583.6912,628.739,578.1048,627.8488,578.9949,622.2625,574.057,630.784"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link ExamManagementService to ConvertIntoExamReadyToBeAnsweredVisitor-->
+        <g id="link_ExamManagementService_ConvertIntoExamReadyToBeAnsweredVisitor">
+            <path codeLine="112" d="M810.576,547.881 C827.875,574.055 847.579,603.867 862.508,626.455 " fill="none"
+                  id="ExamManagementService-to-ConvertIntoExamReadyToBeAnsweredVisitor"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="865.428,630.873,863.8024,621.1592,862.671,626.7018,857.1284,625.5704,865.428,630.873"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link ExamManagementService to GradeAnsweredExamVisitor-->
+        <g id="link_ExamManagementService_GradeAnsweredExamVisitor">
+            <path codeLine="113"
+                  d="M862.603,547.545 C891.635,564.604 924.412,582.062 956,595 C969.639,600.586 1033.43,617.105 1094.28,632.341 "
+                  fill="none" id="ExamManagementService-to-GradeAnsweredExamVisitor"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="1099.4,633.622,1091.6405,627.5565,1094.5496,632.408,1089.6981,635.3171,1099.4,633.622"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link QuestionManagementService to QuestionRepository-->
+        <g id="link_QuestionManagementService_QuestionRepository">
+            <path codeLine="114" d="M679.678,844.043 C738.909,867.346 810.677,895.581 865.228,917.0425 " fill="none"
+                  id="QuestionManagementService-to-QuestionRepository"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="870.12,918.9669,863.2104,911.9485,865.4674,917.1356,860.2803,919.3926,870.12,918.9669"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--link EnrollmentManagementService to EnrollmentRepository-->
+        <g id="link_EnrollmentManagementService_EnrollmentRepository">
+            <path codeLine="115"
+                  d="M1231.62,531.585 C1306.87,572.865 1408.54,628.877 1410,631 C1469.8,717.96 1465.89,850.039 1459.7,913.478 "
+                  fill="none" id="EnrollmentManagementService-to-EnrollmentRepository"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="1459.18,918.6625,1464.0703,910.1135,1459.686,913.6882,1456.1114,909.3039,1459.18,918.6625"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--SRC=[dLPHRvim47xthq3TmuYQjW_RmrH5aPAkgofrsjPaUvrSk2HUYSriavP6-U-p3TY6G4B62s3klllkyztXzoifKt5zTPKccCfidLn6R7qL9LY8YvZW9SThX58SFUCb16Sf1m5KOaaOFGlUVJRN5WNgCYx173_3X4uooTRAABfznUkVzy5eb97nkB2x2EGARXYLd2K9yE2wpSTzDpxdGSncA_OI3iph3kqGybZ5of5eFl5J_0d35XahHyf2Vs5StpUWOoXMUBdaiCGI0iwO78_LaigEoBmYMn06PJqdCW55zhPwzhuBoGbTgeypy-1z8R5QVM2rjOXbN2W5OWrtOryQyNva8BJAPSZgrLgT1uGI6LfgGnztM58QE2Ls3Kri7Yhd3Kuo-FRq1oAjmTRpQJWvjlsyl5Ws7oUnvzCgbLhywrJOKq0B7p6kLPpfk_jGQbCv3mkxWJFGvLC8uYeRk2120et0AwJIdb09V84ZCAayGie4aOpdrk0yc2H9Uvc5DgulZ4Eiycf1jU0BGkFARfhFynJ2GSDertYlaQQwbzPAz-uWRI5LJiMEJ_EPp6BblnUsIQBiJoihJjE4HDMy0Bpu67yuCY-ysJ0QHVQbtf8uawitjVFASyKuUJCHPi0t909qGXQ5IMt3n3Glx4FNKRu3zidEsVorw4BVP0ESBF895I-gga9ixj-nN0s3HDLOio1Satp5LAccDwfCHIaWYYS__N94kCqiXuHRGC5_9zWdmvufbZLPvcUBy8GiMmfNvzgoZ4wjtPhuLNFrfLQVJZLo-_sCJkdc6grQNzm11Qx-LPMh-4KC_jOlFBqKIWvGxG3ofpTLkoOrrZsLRCQIpE0ycBcdsir7Me8nh3PuW3hnD5PHVJZEvsmAXG_4dVo4-cNem7FBSm_xZkFO0cdqJh2YzEBViW5cZWY7nylbnRXzWBIVOhJvuRFAyN2jNTx7hxjxL9hjiwF8hkMNX537YQWaM9nlkcsyGyjX8FlFxc1OAUBrIhTXhsP0lQmCNcVF7-1mh8MEknxhbWC8dKs1kiUNdwYlye5XN2ytv_GF]-->
+    </g>
+</svg>

@@ -1,0 +1,100 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam monochrome false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant CreatePostItOnBoardUI as UI <<presentation>>
+participant CreatePostItOnBoardController as Controller <<application>>
+participant BoardManagementService as BoardManagementService <<application>>
+participant "cell:Cell" as Cell <<domain>>
+participant "postIt:PostIt" as PostIt <<domain>>
+participant "sharedBoard:SharedBoard" as SharedBoard <<domain>>
+participant "mod : BoardModification" as modification <<domain>>
+database BoardRepository as BoardRepository <<repository>>
+
+
+Actor -> UI: Create PostIt on a Board
+activate UI
+UI -> Controller: create()
+UI -> Controller: sharedBoardsWithWritePermission()
+activate Controller
+Controller -> Controller : user:currentUser()
+Controller -> BoardManagementService: allBoardsBySystemUserWithWritePermission(user)
+activate BoardManagementService
+
+BoardManagementService -> BoardRepository: findBySystemUserWithWritePermission(user)
+ref over BoardManagementService : SD_findBySystemUserWithWritePermission
+activate BoardRepository
+
+BoardRepository --> BoardManagementService: allUserBoardsWithWritePermissions
+deactivate BoardRepository
+
+BoardManagementService --> Controller: allUserBoardsWithWritePermissions
+Controller --> UI: allUserBoardsWithWritePermissions
+UI --> Actor: lists the boards with write permissions
+Actor -> UI: selects a board
+
+UI -> Controller : findAvailableCellsFromBoard(board)
+Controller -> BoardManagementService : findAvailableCellsFromBoard(board)
+
+BoardManagementService -> SharedBoard: availableCells = findAvailableCellsFromBoard()
+activate SharedBoard
+SharedBoard --> BoardManagementService : availableCells
+deactivate SharedBoard
+BoardManagementService --> Controller : availableCells
+
+
+Controller --> UI : availableCells
+
+
+UI --> Actor : shows availableCells in board
+Actor -> UI: selects a cell to post
+
+
+
+UI --> Actor: asks PostIt content
+Actor -> UI: inputs the PostIt content
+
+UI -> Controller: createPostIt(sharedBoard, cell, content)
+Controller -> Controller : owner : currentUser()
+Controller -> Cell : addPostIt(owner, content)
+
+
+activate Cell
+Cell -> Cell : canHavePostiIt()
+Cell -> PostIt : postItToadd :create()
+Cell -> Cell : postItList : postItList()
+Cell -> Cell : addedPostIt : add(postItToadd)
+
+Cell --> Controller : addedPostIt
+deactivate Cell
+Controller -> BoardManagementService : saveSharedBoard(sharedBoard)
+BoardManagementService -> BoardRepository :save(sharedBoard)
+activate BoardRepository
+deactivate BoardRepository
+Controller --> Cell : createdPostIt = latestPostIt()
+Cell ---> Controller : createdPostIt
+Controller --> BoardManagementService : registerPrimaryBoardModification(board, createdPostIt, ModificationType.CREATION, cell)
+ BoardManagementService --> SharedBoard : addCreationModification(createdPostIt, cell)
+ activate SharedBoard
+SharedBoard --> modification : createBoardModification()
+SharedBoard --> SharedBoard : addBoardModification(mod)
+
+
+BoardManagementService -> BoardRepository :save(sharedBoard)
+ deactivate SharedBoard
+activate BoardRepository
+deactivate BoardRepository
+
+Controller --> UI :addedPostIt
+deactivate BoardManagementService
+
+
+deactivate Controller
+UI --> Actor: displays success
+@enduml
+

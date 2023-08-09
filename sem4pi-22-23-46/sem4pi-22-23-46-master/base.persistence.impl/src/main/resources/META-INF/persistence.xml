@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
+  <persistence-unit name="eapli.base">
+    <!--
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    -->
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <class>eapli.base.infrastructure.authz.domain.model.SystemUser</class>
+    <class>eapli.base.infrastructure.authz.domain.model.EmailAddress</class>
+    <class>eapli.base.infrastructure.authz.domain.model.Role</class>
+    <class>eapli.base.infrastructure.authz.domain.model.RoleSet</class>
+    <class>eapli.base.infrastructure.authz.domain.model.RoleAssignment</class>
+    <class>eapli.base.studentmanagement.domain.Student</class>
+    <class>eapli.base.studentmanagement.domain.MechanographicNumber</class>
+    <class>eapli.base.teachermanagement.domain.Teacher</class>
+    <class>eapli.base.teachermanagement.domain.Acronym</class>
+    <class>eapli.base.coursemanagement.domain.Course</class>
+    <class>eapli.base.coursemanagement.domain.CourseCode</class>
+    <class>eapli.base.coursemanagement.domain.CourseState</class>
+    <class>eapli.base.enrollmentmanagement.domain.Enrollment</class>
+    <class>eapli.base.boardmanagement.domain.SharedBoard</class>
+    <class>eapli.base.boardmanagement.domain.PostIt</class>
+    <class>eapli.base.boardmanagement.domain.Cell</class>
+    <class>eapli.base.boardmanagement.domain.BoardRow</class>
+    <class>eapli.base.boardmanagement.domain.BoardColumn</class>
+    <class>eapli.base.boardmanagement.domain.BoardParticipant</class>
+    <class>eapli.base.boardmanagement.domain.BoardPermission</class>
+    <class>eapli.base.boardmanagement.domain.BoardModification</class>
+    <class>eapli.base.boardmanagement.domain.ModificationDescription</class>
+    <class>eapli.base.meetingmanagement.domain.Meeting</class>
+    <class>eapli.base.meetingmanagement.domain.MeetingToken</class>
+    <class>eapli.base.meetingmanagement.domain.MeetingParticipant</class>
+    <class>eapli.base.classmanagement.domain.Class</class>
+    <class>eapli.base.classmanagement.domain.ExtraordinaryClass</class>
+    <class>eapli.base.classmanagement.domain.RecurringClass</class>
+    <class>eapli.base.exammanagement.domain.ExamTitle</class>
+    <class>eapli.base.exammanagement.domain.ExamQuestion</class>
+    <class>eapli.base.exammanagement.domain.Exam</class>
+    <class>eapli.base.exammanagement.domain.AutomaticFormativeExam</class>
+    <class>eapli.base.questionmanagement.domain.Question</class>
+    <class>eapli.base.questionmanagement.domain.QuestionType</class>
+    <class>eapli.base.grademanagement.domain.ExamGrade</class>
+
+    <properties>
+      <!--<property name="javMechanographicNumberistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/base"/>-->
+      <property name="javax.persistence.jdbc.url" value="jdbc:h2:~\base;MV_STORE=FALSE;AUTO_SERVER=true;"/>
+
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.password" value="eapli"/>
+      <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+      <!-- <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/> -->
+      <!-- <property name="eclipselink.logging.level" value="FINE"/> -->
+      <!-- <property name = "hibernate.show_sql" value = "true" /> -->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+
+    </properties>
+  </persistence-unit>
+</persistence>

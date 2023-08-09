@@ -1,0 +1,43 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant CreateBoardUI as UI <<presentation>>
+
+
+
+Actor -> UI: create board
+activate UI
+
+        UI-->Actor: requests data (shared board title, number of columns, number of rows)
+
+        Actor -> UI : types requested data
+
+
+         UI --> Actor : asks if user wants to give title to shared board entries (columns and rows)
+
+         Actor -> UI : confirms
+
+         UI --> Actor : displays all columns and rows
+         loop
+         Actor -> UI : shows row/column
+
+         UI --> Actor : requests title
+
+         Actor -> UI : enters title
+         end
+
+          UI --> Actor : requests confirmation to save
+
+          Actor -> UI : save data
+
+          UI --> Actor : informs operation success
+
+
+deactivate UI
+@enduml

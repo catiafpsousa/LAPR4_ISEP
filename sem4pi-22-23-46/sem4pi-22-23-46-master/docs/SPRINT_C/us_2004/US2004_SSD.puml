@@ -1,0 +1,20 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor Student as Actor
+ participant TakeAnExamUI as UI <<presentation>>
+
+      Actor --> UI: take An Exam
+     UI --> Actor : List of courses
+     Actor --> UI: choose a course
+    UI --> Actor : List of exams
+    Actor --> UI: choose an exam to answer
+    UI-->Actor : ask path to the file with the answers
+    Actor --> UI: insert the path to the file where the answers are saved
+    UI-->Actor : Display Grade and Feedback
+
+
+ @enduml

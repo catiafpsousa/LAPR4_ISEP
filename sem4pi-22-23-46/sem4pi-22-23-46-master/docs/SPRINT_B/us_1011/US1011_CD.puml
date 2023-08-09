@@ -1,0 +1,144 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #LightSteelBlue {
+    class ScheduleExtraClassUI <<UI>>{
+    - theController : ScheduleExtraClassController
+    }
+}
+
+package "domain" #LightSteelBlue {
+    class Class <<aggregate root>> <<entity>>{
+    -teacher : Teacher
+    -course: Course
+    - title: classTitle
+    - day: Calendar
+    - time: Calendar
+    - duration: Calendar
+    + Class(teacher, course, title, date, hour, duration)
+    }
+
+    class ExtraClass extends Class {
+     - participantList : List <Student>
+    + ExtraClass(super(teacher, course, title, date, hour, duration) participantList)
+    }
+
+    class ClassTitle <<value object>>{
+    - classTitle : String
+    + valueOf(classTitle)
+    +  CourseTitle (classTitle)
+    }
+
+    class ClassDuration <<value object>>{
+        - classDuration : Calendar
+        + valueOf(classDuration)
+        +  ClassDuration (ClassDuration)
+     }
+
+      class Time <<value object>>{
+             - time : Calendar
+             +  Time (time)
+       }
+
+       class Day <<value object>>{
+                    - date : Calendar
+                    +  Day (date)
+              }
+
+
+     class Teacher <<entity>> {
+
+     }
+
+     class Student <<entity>> {
+
+     }
+
+      class Course <<entity>> {
+
+          }
+
+          class ClassBuilder <<Builder>>{
+                  +withTeacher()
+                  +withDay()
+                  +withTime()
+                  +withParticipantList()
+                  +withTitle()
+                  +withCourse()
+                  +build()
+                  }
+
+}
+
+package "repositories" #LightSteelBlue {
+
+    interface ClassRepository <<repository>>{
+    save(extraClass)
+    }
+
+    interface CourseRepository <<repository>>{
+    }
+
+
+    interface StudentRepository <<repository>>{
+
+    }
+
+}
+
+package "application" #LightSteelBlue {
+ class ScheduleExtraClassController <<controller>>{
+    - courseSvc : CourseManagementService
+    - scheduleSvc : ScheduleManagementService
+    - studentSvc: StudentManagementService
+    + listCourses()
+    + checkAvailability()
+    +listStudent()
+    +scheduleExtraClass()
+    }
+
+ class CourseManagementService <<service>>{
+    - courseRepository : CourseRepository
+    + findByTeacher()
+    }
+
+ class StudentManagementService <<service>>{
+    - studentRepository : StudentRepository
+    + findByCourse()
+    }
+ class ScheduleManagementService <<service>>{
+     + checkAvailability()
+     }
+}
+
+package "persistence" #LightSteelBlue {
+    class JpaClassRepository {
+    }
+
+    class InMemoryClassRepository {
+    }
+
+}
+
+ScheduleExtraClassUI .-> ScheduleExtraClassController
+ScheduleExtraClassController .-> CourseManagementService
+ScheduleExtraClassController .-> StudentManagementService
+ScheduleExtraClassController .-> ScheduleManagementService
+CourseManagementService .-> CourseRepository
+StudentManagementService .-> StudentRepository
+Class -> Teacher
+Class -> Student
+Class -> Course
+Class -> ClassDuration
+Class -> ClassTitle
+Class -> Day
+Class -> Time
+ScheduleExtraClassController .-> ClassRepository
+ScheduleExtraClassController .-> ExtraClass
+ClassRepository .-> ExtraClass
+JpaClassRepository .-> ClassRepository : implements
+InMemoryClassRepository .-> ClassRepository: implements
+ScheduleExtraClassController .-> ClassBuilder
+ClassBuilder .-> ExtraClass
+
+@enduml

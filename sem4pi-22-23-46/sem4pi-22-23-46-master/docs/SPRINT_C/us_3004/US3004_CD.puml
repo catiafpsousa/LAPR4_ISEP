@@ -1,0 +1,126 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #LightSteelBlue {
+    class ShareABoardUI <<UI>>{
+    - theController : ShareABoardController
+    }
+}
+
+package "domain" #LightSteelBlue {
+    class SharedBoard <<aggregate root>> <<entity>>{
+    -owner : SystemUser
+    -rowNumber: NumberOfRow
+    - columnNumber: NumberOfColumn
+    - Set <Cell> cells : Cell
+    + SharedBoard(owner, rowNumber, columnNumber, cells title)
+    }
+
+
+    class SharedBoardTitle <<value object>>{
+    - classTitle : String
+    + valueOf(classTitle)
+    +  CourseTitle (classTitle)
+    }
+
+    class BoardParticipant <<entity>>{
+    -user : SystemUser
+    -permission: BoardPermission
+    }
+
+    enum BoardPermission <<value object>>{
+        READ, WRITE
+
+    }
+
+    class BoardColumn <<value object>>{
+        - number : int
+        -title : String
+        + valueOf(BoardColumn)
+        +  BoardColumn (number, title)
+     }
+     
+     class BoardRow <<value object>>{
+             - number : int
+             -title : String
+             + valueOf(BoardRow)
+             +  BoardRow (number, title)
+          }
+
+      class Cell <<entity>>{
+             - row : BoardRow
+             - column : BoardColumn
+             +  Cell (row, column)
+       }
+
+        class SystemUser<<entity>>{
+
+        }
+
+        class NumberOfColumn <<value object>>{
+               - number : int
+               + valueOf(NumberOfColumn)
+               + NumberOfColumn (number)
+            }
+
+            class NumberOfRow <<value object>>{
+                    - number : int
+                    + valueOf( NumberOfRow)
+                    +   NumberOfRow(number)
+                 }
+
+}
+
+package "repositories" #LightSteelBlue {
+
+    interface SharedBoardRepository <<repository>>{
+    save(SharedBoard)
+    }
+
+    interface  UserRepository <<repository>>{
+
+        }
+}
+
+package "application" #LightSteelBlue {
+ class ShareABoardController <<controller>>{
+    - boardRepo : BoardRepository
+    - userRepo : UserRepository
+    - board: SharedBoard
+    +ShareABoard()
+    +saveSharedBoard()
+    +updateColumnTitle()
+    +updateRowTitle()
+    }
+}
+
+package "persistence" #LightSteelBlue {
+    class JpaSharedBoardRepository {
+    }
+
+    class InMemorySharedBoardRepository {
+    }
+
+}
+
+ShareABoardUI .-> ShareABoardController
+ShareABoardController .--> SharedBoardRepository
+ShareABoardController .--> UserRepository
+ShareABoardController .----> SharedBoard
+SharedBoard -> Cell
+Cell ----> BoardColumn
+Cell ----> BoardRow
+BoardParticipant ----> BoardPermission
+BoardParticipant ----> SystemUser
+SharedBoard --> SharedBoardTitle
+SharedBoard --> NumberOfColumn
+SharedBoard --> NumberOfRow
+SharedBoard --> SystemUser
+SharedBoard --> BoardParticipant
+SharedBoardRepository .-> SharedBoard
+JpaSharedBoardRepository .-> SharedBoardRepository : implements
+InMemorySharedBoardRepository .-> SharedBoardRepository: implements
+
+
+
+@enduml

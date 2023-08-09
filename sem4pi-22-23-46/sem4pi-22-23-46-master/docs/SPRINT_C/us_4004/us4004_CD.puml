@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ListParticipantsInMeetingUI <<ui>>{
+    - theController : ListParticipantsInMeetingController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+
+        class Meeting <<aggregate root>> <<entity>>{
+       - meetingToken : MeetingToken
+        - duration : MeetingDuration
+        - date : Calendar
+        - participantList : List<MeetingParticipant>
+        - id : Long
+        + init(duration, date, participantList)
+
+        }
+
+         class MeetingParticipant <<entity>>{
+         - inviteStatus : InviteStatus
+         - id : Long
+         - systemUser : SystemUser
+         + init(systemUser, inviteStatus)
+         }
+
+         enum InviteStatus <<valueObject>> {
+
+         }
+
+         class MeetingDuration <<valueObject>> {
+
+         }
+          class MeetingToken <<valueObject>> {
+
+          }
+
+}
+
+package "persistence" #dbd8ae{
+
+    interface MeetingRepository <<repository>>{
+    findMeetingsByUser(user)
+    findParticipantsByMeeting(meeting)
+    }
+
+
+
+}
+
+package "application" #eaf4d3{
+ class ListParticipantsInMeetingController <<controller>>{
+    - authz : AuthorizationService
+    - meetingSvc : MeetingManagementService
+    + allMeetingsByUser()
+    + allParticipantsByMeeting(meeting)
+    }
+
+ class MeetingManagementService <<service>>{
+    - meetingRepository : MeetingRepository
+    +allMeetingsByUser(user)
+    +allParticipantsByMeeting(meeting)
+    }
+
+
+ListParticipantsInMeetingUI .-> ListParticipantsInMeetingController
+ListParticipantsInMeetingController .-> MeetingManagementService
+MeetingManagementService ..> Meeting
+MeetingManagementService .-> MeetingRepository
+MeetingRepository -> Meeting
+ListParticipantsInMeetingController ..> Meeting
+Meeting --> MeetingDuration
+Meeting --> MeetingParticipant
+MeetingParticipant --> InviteStatus
+Meeting --> MeetingToken
+@enduml

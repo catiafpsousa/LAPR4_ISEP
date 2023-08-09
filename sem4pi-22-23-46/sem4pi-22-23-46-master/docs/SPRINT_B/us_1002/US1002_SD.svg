@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="716px" preserveAspectRatio="none" style="width:1333px;height:716px;background:#FFFFFF;" version="1.1" viewBox="0 0 1333 716" width="1333.6px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="529.3875" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="154.4" y="94.8563"/><rect fill="#FFFFFF" height="355.6563" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="360.8" y="244.3063"/><rect fill="#FFFFFF" height="24" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="668" y="268.5875"/><rect fill="#FFFFFF" height="258.8125" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="827.2" y="316.8688"/><rect fill="#FFFFFF" height="77.6438" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="1058.8" y="365.4313"/><rect fill="#FFFFFF" height="48.5625" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="1173.2" y="467.3563"/><rect fill="#FFFFFF" height="11.2" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="1281.2" y="540.2"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="28.8" x2="28.8" y1="68.975" y2="638.6438"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="158" x2="158" y1="68.975" y2="638.6438"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="364.4" x2="364.4" y1="68.975" y2="638.6438"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="671.6" x2="671.6" y1="68.975" y2="638.6438"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="830.8" x2="830.8" y1="68.975" y2="638.6438"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="957.2" x2="957.2" y1="68.975" y2="638.6438"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="1062.8" x2="1062.8" y1="68.975" y2="638.6438"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="1177.2" x2="1177.2" y1="68.975" y2="638.6438"/><line style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:5.0,5.0;" x1="1285.2" x2="1285.2" y1="68.975" y2="638.6438"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="44.8" x="4" y="66.5141">Manager</text><ellipse cx="28.8" cy="13.6875" fill="#E2E2F0" rx="6.4" ry="6.4" style="stroke:#181818;stroke-width:0.4000000000000001;"/><path d="M28.8,20.0875 L28.8,41.6875 M18.4,26.4875 L39.2,26.4875 M28.8,41.6875 L18.4,53.6875 M28.8,41.6875 L39.2,53.6875 " fill="none" style="stroke:#181818;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="44.8" x="4" y="649.4703">Manager</text><ellipse cx="28.8" cy="658.7313" fill="#E2E2F0" rx="6.4" ry="6.4" style="stroke:#181818;stroke-width:0.4000000000000001;"/><path d="M28.8,665.1313 L28.8,686.7313 M18.4,671.5313 L39.2,671.5313 M28.8,686.7313 L18.4,698.7313 M28.8,686.7313 L39.2,698.7313 " fill="none" style="stroke:#181818;stroke-width:0.4000000000000001;"/><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="92" x="112.4" y="28.8"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="76" x="120.4" y="46.0266">«presentation»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="80.8" x="118" y="60.1141">CreateCourseUI</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="92" x="112.4" y="637.8438"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="76" x="120.4" y="655.0703">«presentation»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="80.8" x="118" y="669.1578">CreateCourseUI</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="132" x="298.8" y="28.8"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="331.2" y="46.0266">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="120.8" x="304.4" y="60.1141">CreateCourseController</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="132" x="298.8" y="637.8438"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="331.2" y="655.0703">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="120.8" x="304.4" y="669.1578">CreateCourseController</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="114.4" x="614.8" y="28.8"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="638.4" y="46.0266">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="103.2" x="620.4" y="60.1141">AuthorizationService</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="114.4" x="614.8" y="637.8438"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="638.4" y="655.0703">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="103.2" x="620.4" y="669.1578">AuthorizationService</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="151.2" x="755.6" y="28.8"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="797.6" y="46.0266">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="140" x="761.2" y="60.1141">CourseManagementService</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="151.2" x="755.6" y="637.8438"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="797.6" y="655.0703">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="140" x="761.2" y="669.1578">CourseManagementService</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="85.6" x="914.8" y="28.8"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="49.6" x="932.8" y="46.0266">«domain»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="74.4" x="920.4" y="60.1141">course:Course</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="85.6" x="914.8" y="637.8438"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="49.6" x="932.8" y="655.0703">«domain»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="74.4" x="920.4" y="669.1578">course:Course</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="108.8" x="1008.4" y="28.8"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="1027.2" y="46.0266">«persistence»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="97.6" x="1014" y="60.1141">PersistenceContext</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="108.8" x="1008.4" y="637.8438"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="1027.2" y="655.0703">«persistence»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="97.6" x="1014" y="669.1578">PersistenceContext</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="104" x="1125.2" y="28.8"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="47.2" x="1153.6" y="46.0266">«factory»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="92.8" x="1130.8" y="60.1141">RepositoryFactory</text><rect fill="#E2E2F0" height="39.375" rx="2" ry="2" style="stroke:#181818;stroke-width:0.4000000000000001;" width="104" x="1125.2" y="637.8438"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="47.2" x="1153.6" y="655.0703">«factory»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="92.8" x="1130.8" y="669.1578">RepositoryFactory</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="63.2" x="1251.2" y="52.4266">«repository»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="91.2" x="1237.2" y="66.5141">CourseRepository</text><path d="M1270.8,12 C1270.8,4 1285.2,4 1285.2,4 C1285.2,4 1299.6,4 1299.6,12 L1299.6,32.8 C1299.6,40.8 1285.2,40.8 1285.2,40.8 C1285.2,40.8 1270.8,40.8 1270.8,32.8 L1270.8,12 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.2000000000000002;"/><path d="M1270.8,12 C1270.8,20 1285.2,20 1285.2,20 C1285.2,20 1299.6,20 1299.6,12 " fill="none" style="stroke:#181818;stroke-width:1.2000000000000002;"/><text fill="#000000" font-family="FG Virgil" font-size="11.2" font-style="italic" lengthAdjust="spacing" textLength="63.2" x="1251.2" y="649.4703">«repository»</text><text fill="#000000" font-family="FG Virgil" font-size="11.2" lengthAdjust="spacing" textLength="91.2" x="1237.2" y="663.5578">CourseRepository</text><path d="M1270.8,674.0188 C1270.8,666.0188 1285.2,666.0188 1285.2,666.0188 C1285.2,666.0188 1299.6,666.0188 1299.6,674.0188 L1299.6,694.8188 C1299.6,702.8188 1285.2,702.8188 1285.2,702.8188 C1285.2,702.8188 1270.8,702.8188 1270.8,694.8188 L1270.8,674.0188 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.2000000000000002;"/><path d="M1270.8,674.0188 C1270.8,682.0188 1285.2,682.0188 1285.2,682.0188 C1285.2,682.0188 1299.6,682.0188 1299.6,674.0188 " fill="none" style="stroke:#181818;stroke-width:1.2000000000000002;"/><rect fill="#FFFFFF" height="529.3875" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="154.4" y="94.8563"/><rect fill="#FFFFFF" height="355.6563" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="360.8" y="244.3063"/><rect fill="#FFFFFF" height="24" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="668" y="268.5875"/><rect fill="#FFFFFF" height="258.8125" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="827.2" y="316.8688"/><rect fill="#FFFFFF" height="77.6438" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="1058.8" y="365.4313"/><rect fill="#FFFFFF" height="48.5625" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="1173.2" y="467.3563"/><rect fill="#FFFFFF" height="11.2" style="stroke:#181818;stroke-width:0.8000000000000002;" width="8" x="1281.2" y="540.2"/><polygon fill="#181818" points="144.8,91.6563,152.8,94.8563,144.8,98.0563,148,94.8563" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="28.8" x2="149.6" y1="94.8563" y2="94.8563"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="66.4" x="34.4" y="90.9711">Create Course</text><polygon fill="#181818" points="355.2,115.9375,363.2,119.1375,355.2,122.3375,358.4,119.1375" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="162.4" x2="360" y1="119.1375" y2="119.1375"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="28.8" x="168" y="115.2523">create</text><polygon fill="#181818" points="37.6,140.2188,29.6,143.4188,37.6,146.6188,34.4,143.4188" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="32.8" x2="153.6" y1="143.4188" y2="143.4188"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="106.4" x="42.4" y="139.5336">Ask course information</text><polygon fill="#181818" points="144.8,203.7438,152.8,206.9438,144.8,210.1438,148,206.9438" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="28.8" x2="149.6" y1="206.9438" y2="206.9438"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="60.8" x="34.4" y="163.8148">Code, Name,</text><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="55.2" x="34.4" y="176.8961">Description,</text><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="87.2" x="34.4" y="189.9773">Mininum Students,</text><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="90.4" x="34.4" y="203.0586">Maximum Students</text><polygon fill="#181818" points="351.2,241.1063,359.2,244.3063,351.2,247.5063,354.4,244.3063" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;" x1="162.4" x2="356" y1="244.3063" y2="244.3063"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="167.2" x="168" y="227.3398">addCourse(code, name, description,</text><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="183.2" x="168" y="240.4211">min, max, CurrentTimeCalendars.now())</text><polygon fill="#181818" points="658.4,265.3875,666.4,268.5875,658.4,271.7875,661.6,268.5875" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;" x1="368.8" x2="663.2" y1="268.5875" y2="268.5875"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="284" x="374.4" y="264.7023">ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)</text><polygon fill="#181818" points="817.6,313.6688,825.6,316.8688,817.6,320.0688,820.8,316.8688" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;" x1="368.8" x2="822.4" y1="316.8688" y2="316.8688"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="443.2" x="374.4" y="312.9836">registerNewCourse (code, name, description, minimumStudents, maximunStudents, createdOn)</text><polygon fill="#181818" points="948,337.95,956,341.15,948,344.35,951.2,341.15" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="835.2" x2="952.8" y1="341.15" y2="341.15"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="28.8" x="840.8" y="337.2648">create</text><polygon fill="#181818" points="1049.2,362.2313,1057.2,365.4313,1049.2,368.6313,1052.4,365.4313" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;" x1="835.2" x2="1054" y1="365.4313" y2="365.4313"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="60" x="840.8" y="361.5461">repositories()</text><path d="M1070.4,375.8313 L1070.4,396.6313 L1281.6,396.6313 L1281.6,383.8313 L1273.6,375.8313 L1070.4,375.8313 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.4000000000000001;"/><path d="M1273.6,375.8313 L1273.6,383.8313 L1281.6,383.8313 L1273.6,375.8313 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="194.4" x="1075.2" y="390.6273">pode criar repositório em memória ou JPA</text><polygon fill="#181818" points="1167.6,415.5938,1175.6,418.7938,1167.6,421.9938,1170.8,418.7938" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="1066.8" x2="1172.4" y1="418.7938" y2="418.7938"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="28.8" x="1072.4" y="414.9086">create</text><polygon fill="#181818" points="844,439.875,836,443.075,844,446.275,840.8,443.075" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;" x1="839.2" x2="1062" y1="443.075" y2="443.075"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="31.2" x="848.8" y="439.1898">factory</text><polygon fill="#181818" points="1163.6,464.1563,1171.6,467.3563,1163.6,470.5563,1166.8,467.3563" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;" x1="835.2" x2="1168.4" y1="467.3563" y2="467.3563"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="43.2" x="840.8" y="463.4711">courses()</text><polygon fill="#181818" points="1275.6,488.4375,1283.6,491.6375,1275.6,494.8375,1278.8,491.6375" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="1181.2" x2="1280.4" y1="491.6375" y2="491.6375"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="28.8" x="1186.8" y="487.7523">create</text><polygon fill="#181818" points="844,512.7188,836,515.9188,844,519.1188,840.8,515.9188" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="839.2" x2="1176.4" y1="515.9188" y2="515.9188"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="82.4" x="848.8" y="512.0336">CourseRepository</text><polygon fill="#181818" points="1271.6,537,1279.6,540.2,1271.6,543.4,1274.8,540.2" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;" x1="835.2" x2="1276.4" y1="540.2" y2="540.2"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="58.4" x="840.8" y="536.3148">save(course)</text><polygon fill="#181818" points="844,548.2,836,551.4,844,554.6,840.8,551.4" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="839.2" x2="1284.4" y1="551.4" y2="551.4"/><polygon fill="#181818" points="377.6,572.4813,369.6,575.6813,377.6,578.8813,374.4,575.6813" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="372.8" x2="830.4" y1="575.6813" y2="575.6813"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="31.2" x="382.4" y="571.7961">course</text><polygon fill="#181818" points="171.2,596.7625,163.2,599.9625,171.2,603.1625,168,599.9625" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="166.4" x2="364" y1="599.9625" y2="599.9625"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="31.2" x="176" y="596.0773">course</text><polygon fill="#181818" points="37.6,621.0438,29.6,624.2438,37.6,627.4438,34.4,624.2438" style="stroke:#181818;stroke-width:0.8000000000000002;"/><line style="stroke:#181818;stroke-width:0.8000000000000002;stroke-dasharray:2.0,2.0;" x1="32.8" x2="157.6" y1="624.2438" y2="624.2438"/><text fill="#000000" font-family="FG Virgil" font-size="10.4" lengthAdjust="spacing" textLength="81.6" x="42.4" y="620.3586">displayCourseInfo</text><!--MD5=[853299f8b7fe8a78cbdcc6e4f50ebbe0]
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant CreateCourseUI as UI <<presentation>>
+participant CreateCourseController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant CourseManagementService as courseSvc <<application>>
+
+participant "course:Course" as Domain <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database CourseRepository as Repository <<repository>>
+
+Actor - -> UI: Create Course
+activate UI
+    UI - -> Controller: create
+    UI - -> Actor: Ask course information
+    Actor - -> UI: Code, Name,\nDescription,\nMininum Students,\nMaximum Students
+
+    UI -> Controller: addCourse(code, name, description, \nmin, max, CurrentTimeCalendars.now())
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller -> courseSvc : registerNewCourse (code, name, description, minimumStudents, maximunStudents, createdOn)
+        activate courseSvc
+
+
+        courseSvc - -> Domain: create
+
+
+
+
+
+
+
+          courseSvc -> Persistence: repositories()
+
+
+
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence - -> Factory: create
+            Persistence -> courseSvc: factory
+        deactivate Persistence
+
+        courseSvc -> Factory: courses()
+        activate Factory
+            Factory - -> Repository: create
+            Factory - -> courseSvc: CourseRepository
+
+        deactivate Factory
+
+        courseSvc->Repository:save(course)
+         activate Repository
+
+
+
+         Repository - -> courseSvc
+         deactivate Repository
+         courseSvc - -> Controller : course
+         deactivate courseSvc
+        Controller- ->UI: course
+    deactivate Controller
+
+        UI- ->Actor: displayCourseInfo
+deactivate UI
+@enduml
+
+@startuml
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant CreateCourseUI as UI <<presentation>>
+participant CreateCourseController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant CourseManagementService as courseSvc <<application>>
+
+participant "course:Course" as Domain <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database CourseRepository as Repository <<repository>>
+
+Actor - -> UI: Create Course
+activate UI
+    UI - -> Controller: create
+    UI - -> Actor: Ask course information
+    Actor - -> UI: Code, Name,\nDescription,\nMininum Students,\nMaximum Students
+
+    UI -> Controller: addCourse(code, name, description, \nmin, max, CurrentTimeCalendars.now())
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller -> courseSvc : registerNewCourse (code, name, description, minimumStudents, maximunStudents, createdOn)
+        activate courseSvc
+
+
+        courseSvc - -> Domain: create
+
+
+
+
+
+
+
+          courseSvc -> Persistence: repositories()
+
+
+
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence - -> Factory: create
+            Persistence -> courseSvc: factory
+        deactivate Persistence
+
+        courseSvc -> Factory: courses()
+        activate Factory
+            Factory - -> Repository: create
+            Factory - -> courseSvc: CourseRepository
+
+        deactivate Factory
+
+        courseSvc->Repository:save(course)
+         activate Repository
+
+
+
+         Repository - -> courseSvc
+         deactivate Repository
+         courseSvc - -> Controller : course
+         deactivate courseSvc
+        Controller- ->UI: course
+    deactivate Controller
+
+        UI- ->Actor: displayCourseInfo
+deactivate UI
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

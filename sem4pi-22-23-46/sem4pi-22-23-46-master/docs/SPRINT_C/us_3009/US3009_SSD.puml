@@ -1,0 +1,21 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant ViewBoardHistoryUI as UI <<presentation>>
+
+
+
+
+Actor --> UI: view board history
+activate UI
+
+UI --> Actor: lists the boards with read permissions
+Actor -> UI: selects a board
+         UI --> Actor : displays info
+deactivate UI
+@enduml

@@ -1,0 +1,114 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class CloseCourseUI <<ui>>{
+    - theController : CloseCourseController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+
+       
+        class CourseStudentsLimit <<value object>> {
+        -min : int
+        -max : int
+        +CourseStudentsLimit (min, max)
+        }
+
+        class Course <<aggregate root>> <<entity>>{
+        - code : CourseCode
+        - name : CourseName
+        - description : CourseDescription
+        - courseState : CourseName
+        - courseTeachers : List<Teacher>
+        - teacherInCharge : Teacher
+        - limits : CourseStudentsLimit
+        - createdOn : Calendar
+        - modifiedOn : Calendar
+        + Course (code, name, description, limits)
+        + Course (code, name, description, limits, createdOn)
+         + close(now)
+        }
+
+        enum CourseState{
+        CLOSED
+        OPEN
+        ENROLL
+        IN_PROGRESS
+        }
+
+        class Teacher <<value object>> <<id>>{
+         -acronym : Acronym
+         -systemUser : SystemUser
+         +Teacher(user : SystemUser)
+        }
+
+        class CourseDescription <<value object>>{
+        -description : String
+        +valueOf(description)
+        + CourseDescription (description)
+        }
+
+        class CourseCode <<value object>>{
+        -code : String
+        +valueOf(code)
+        +CourseCode (code)
+        }
+
+        class CourseName<<value object>>{
+        -name : String
+         +valueOf(name)
+        + CourseName (name)
+        }
+
+
+}
+    package "persistence" #dbd8ae{
+       interface CourseRepository{
+       findAll()
+       save(course : Course)
+       }
+    }
+package "application" #eaf4d3{
+    class CloseCourseController <<controller>>{
+        - authz : AuthorizationService
+        - courseSvc : CourseManagementService
+        - courseRepository : CourseRepository
+         + allCourses()
+        + close(course)
+    }
+
+    class CourseManagementService <<service>>{
+         - courseRepository : CourseRepository
+         + enrollingCourses()
+         + getCourseRepository()
+         + allCourses()
+    }
+
+}
+
+
+CloseCourseUI .-> CloseCourseController
+CloseCourseController .-> CourseManagementService
+
+
+Course --> CourseCode
+Course ----> CourseDescription
+Course --> Teacher
+Course --> CourseName
+
+Course --> CourseState
+
+CourseManagementService .> CourseRepository
+
+Course ----> CourseStudentsLimit
+CloseCourseController .--> Course
+
+CourseRepository --> Course
+
+@enduml

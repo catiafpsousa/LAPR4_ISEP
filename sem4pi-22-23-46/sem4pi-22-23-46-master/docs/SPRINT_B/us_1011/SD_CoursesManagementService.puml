@@ -1,0 +1,44 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+
+
+
+participant X_Controller as Controller <<application>>
+participant CourseManagementService as Service <<application>>
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant RepositoryFactory as Factory <<factory>>
+database CourseRepository as Repository <<repository>>
+
+
+  activate Controller
+  Controller ->Service : create()
+  activate Service
+   Service -> Persistence : repositories()
+   Persistence -> set: instance()
+   activate set
+   Persistence -> set: getRepositoryFactory()
+   activate Factory
+   set -> Factory : create
+   Factory --> set:
+   set -->Service: factory
+   deactivate set
+  Service -> Factory : Course()
+   Factory -> Repository : create
+   activate Repository
+   Factory --> Service : CourseRepository
+   deactivate Factory
+   Service -> Repository : findByTeacher()
+   Repository-->Service:
+   Service-->Controller:
+
+  deactivate Repository
+  deactivate Controller
+
+
+@enduml

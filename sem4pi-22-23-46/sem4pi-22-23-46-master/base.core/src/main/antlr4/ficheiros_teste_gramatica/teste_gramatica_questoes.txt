@@ -1,0 +1,43 @@
+[Questions_Repo]
+**TRUE_OR_FALSE**
+score-1
+Question-"int x = x?"
+FALSE
+Question-"int exemplo(valor1, valor2)"
+TRUE
+**MULTIPLE_CHOICE**
+score-1.5
+Question-"Qual dos for esta correto?"
+"for()"
+"for(int i; i++)"
+*"for(int i; i<10; i++)"
+"for(int i; i<10)"
+**MATCHING**
+score-3
+Question-"Match the code to the language"
+Left_column:
+"numbers_list = [2, 5, 62, 5, 42, 52, 48, 5]"
+"int[] age = {12, 4, 5};"
+"int numbers[5] = {7, 5, 6, 12, 35};"
+Right_column:
+"C/C++"
+"JavaScript"
+"Python"
+"PHP"
+Solution:
+"int[] age = {12, 4, 5};"--"JavaScript"
+"int numbers[5] = {7, 5, 6, 12, 35};"--"C/C++"
+"numbers_list = [2, 5, 62, 5, 42, 52, 48, 5]"--"Python"
+**SHORT_ANSWER**
+score-3
+Question-"2+2?"
+"quatro"
+**NUMERICAL**
+score-2
+Question-"2/3?"
+0.66
+**SELECT_MISSING_WORD**
+score-2.5
+"Em portugal há"$18$"distritos em Portugal."
+"A cidade do"$Porto$"tem as"$melhores$"asd"
+[/Questions_Repo]

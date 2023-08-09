@@ -1,0 +1,48 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant ArchiveBoardUI as UI <<presentation>>
+participant ArchiveBoardController as Controller <<application>>
+participant BoardManagementService as boardSvc <<application>>
+database BoardRepository as BoardRepository <<repository>>
+
+Actor -> UI: Archive Board
+
+
+activate UI
+UI -> Controller: create()
+activate Controller
+
+Controller -> boardSvc : allBoardsOwnedByUser()
+activate boardSvc
+boardSvc -> BoardRepository: boards = findBoardsOwnedByUser(user)
+activate BoardRepository
+BoardRepository --> boardSvc: boards
+deactivate BoardRepository
+boardSvc --> Controller : boards
+deactivate boardSvc
+Controller --> UI : boards
+UI --> Actor : Shows list of boards
+UI --> Actor : Asks to select one board
+Actor -> UI : Selects one board
+UI -> Controller : board
+
+Controller -> boardSvc : archieveBoard(board)
+activate boardSvc
+boardSvc -> BoardRepository: archiveBoard(board)
+activate BoardRepository
+BoardRepository --> boardSvc: success
+deactivate BoardRepository
+boardSvc --> Controller: success
+deactivate boardSvc
+Controller --> UI : success
+deactivate Controller
+UI-->Actor: Confirms the request
+deactivate UI
+
+@enduml

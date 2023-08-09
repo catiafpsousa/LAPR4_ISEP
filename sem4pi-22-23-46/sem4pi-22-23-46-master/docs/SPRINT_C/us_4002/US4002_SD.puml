@@ -1,0 +1,82 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor User as Actor
+ participant CancelMeetingUI as UI <<presentation>>
+ participant CancelMeetingController as Controller <<application>>
+ participant AuthorizationService  as authz <<application>>
+ participant MeetingManagementService as meetingSvc <<application>>
+
+ participant "meeting:Meeting" as Domain <<domain>>
+ participant PersistenceContext as Persistence <<persistence>>
+ participant RepositoryFactory as Factory <<factory>>
+ database MeetingRepository as MeetingRepository <<repository>>
+
+
+ Actor --> UI: Cancel a meeting
+ activate UI
+     UI -> Controller: create
+
+      activate Controller
+
+         Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER, STUDENT, TEACHER)
+         activate authz
+         Controller -> authz: systemUser()
+         authz --> Controller: systemUser
+
+         deactivate authz
+
+                      UI -> Controller: allMeetingsByOwner(systemUser)
+
+                    Controller -> meetingSvc:  allMeetingsByOwner(systemUser)
+        activate meetingSvc
+
+
+         meetingSvc   -> Persistence : repositories()
+                     activate Persistence
+                     note right of Persistence: pode criar repositório em memória ou JPA
+                     deactivate Persistence
+                     meetingSvc -> Factory: allMeetingsByOwner(systemUser)
+                     activate Factory
+                     Factory -> MeetingRepository: create
+                     activate MeetingRepository
+                     Factory -> meetingSvc: meetingRepository
+                     deactivate Factory
+
+
+                     MeetingRepository --> meetingSvc: meetings
+
+                     meetingSvc --> Controller: meetings
+
+                    Controller --> UI: meetings
+
+                      UI-->Actor: shows all meetings
+
+
+                      Actor --> UI: choose a meeting to cancel
+
+                      UI -> Controller: cancelMeeting(meeting)
+
+
+
+                    Controller -> meetingSvc: cancelMeeting(meeting)
+
+                    meetingSvc -> MeetingRepository : save(meeting)
+
+             MeetingRepository --> meetingSvc
+             deactivate MeetingRepository
+
+             meetingSvc --> Controller
+
+             deactivate meetingSvc
+             Controller->UI
+     deactivate Controller
+
+
+         UI-->Actor
+ deactivate UI
+
+ @enduml

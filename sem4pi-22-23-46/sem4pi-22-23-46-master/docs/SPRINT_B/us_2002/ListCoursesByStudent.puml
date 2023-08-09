@@ -1,0 +1,40 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+
+participant ListFutureExamsController as Controller <<application>>
+participant CourseManagementService as courseSvc <<application>>
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant RepositoryFactory as Factory <<factory>>
+database EnrollmentRepository as Repository <<repository>>
+
+
+Controller -> courseSvc : create
+activate courseSvc
+Controller -> courseSvc : allCoursesByAcceptedStatusAndSystemUser(systemUser)
+courseSvc   -> Persistence : repositories()
+activate Persistence
+Persistence -> set: instance()
+Persistence -> set: getRepositoryFactory()
+deactivate Persistence
+activate set
+set --> Factory: create
+activate Factory
+Factory --> set
+deactivate Factory
+set --> courseSvc
+deactivate set
+
+courseSvc -> Repository: coursesBySystemUser = allCoursesByAcceptedStatusAndSystemUser(systemUser)
+activate Repository
+Repository --> courseSvc
+deactivate Repository
+courseSvc --> Controller
+deactivate Controller
+
+@enduml

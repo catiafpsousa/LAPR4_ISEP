@@ -1,0 +1,27 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant AcceptOrRejectMeetingRequestUI as UI <<presentation>>
+
+
+activate Actor
+Actor -> UI: accept or reject meeting request
+
+activate UI
+
+UI-->Actor: shows the list of meetings where that user is a participant \nand the invitation is pending and asks to select one.
+Actor -> UI : selects one meeting
+UI --> Actor : asks if user wants to accept/reject invitation
+Actor -> UI : accepts/rejects
+UI --> Actor : informs operation success
+
+
+deactivate UI
+deactivate Actor
+@enduml

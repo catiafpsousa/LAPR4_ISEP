@@ -1,0 +1,132 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class TakeAnExamUI <<ui>>{
+    - theController : TakeAnExamController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+        class Exam <<aggregate root>> <<entity>>{
+        - examTitle : ExamTitle
+        - examDates : ExamDates
+        - string : String
+        - id : Long
+        - courseCode : CourseCode
+        + init(examTitle, examDates, courseCode , string)
+
+        }
+        class ExamTitle <<valueObject>> {
+        }
+
+        class CourseCode <<valueObject>> {
+        }
+
+        class ExamDates <<valueObject>> {
+                }
+
+        class ExamGrade <<aggregate root>> <<entity>>{
+        - student : Student
+        - exam : Exam
+        - score : Double
+        - id : Long
+        - date : Calendar
+        + init(student, exam, score)
+
+        }
+         class Student <<Entity>> {
+                }
+
+         class Exam <<Entity>> {
+                }
+
+}
+    package "persistence" #dbd8ae{
+      interface GradeRepository{
+                    + saveGrade()
+                    }
+
+       interface ExamRepository{
+       + findExamsByCourseAndDates(course, calendar)
+       }
+
+       interface EnrollmentRepository{
+              + findAllCourseByStudent()
+              }
+
+    }
+package "application" #eaf4d3{
+    class TakeAnExamController <<controller>>{
+        - authz : AuthorizationService
+        + allCoursesByStudent()
+        + allExamsByCourseAndDate(courseCode, calendar)
+        + saveExamToBeAnsweredOnPath(selectedExam, filePath)
+        + gradeSubmitedExam(examWithSolutions, filePathAnsweredExam)
+       }
+
+    class ExamManagementService <<service>>{
+         - examRepository : ExamRepository
+         + findExamsByCourseAndDates(course, calendar)
+         + convertExamToExamToBeAnswered(selectedExam)
+         + getGradeSubmitedExam(examWithSolutions.examContent(), filePathAnsweredExam)
+         + generateFeedback(examWithSolutions.examContent(), examGrade)
+
+    }
+
+    class EnrollmentManagementService <<service>>{
+             - enrollmentRepository : enrollmentRepository
+             + findAllCourseByStudent(systemUser)
+
+        }
+
+      class GradeManagementService <<service>>{
+                 - gradeRepository : GradeRepository
+                 + saveGrade(systemUser, examWithSolutions, examGrade)
+
+            }
+       class ConvertExamIntoSolutionsListener {
+                    + getExamAnswers()
+
+            }
+
+        class ConvertIntoExamReadyToBeAnsweredVisitor{
+        + visit(sectionsTree)
+             }
+         class GradeAnsweredExamVisitor{
+        + visit(answerd_tree)
+             }
+}
+
+
+
+TakeAnExamController .-> AuthorizationService
+TakeAnExamUI .-> TakeAnExamController
+TakeAnExamController .-> ExamManagementService
+TakeAnExamController .-> EnrollmentManagementService
+TakeAnExamController .-> GradeManagementService
+
+ExamManagementService -> Exam
+ExamManagementService -> ExamGrade
+ExamManagementService .-> ConvertExamIntoSolutionsListener
+ExamManagementService .-> ConvertIntoExamReadyToBeAnsweredVisitor
+ExamManagementService .->  GradeAnsweredExamVisitor
+
+Exam -> ExamTitle
+Exam -> CourseCode
+Exam -> ExamDates
+
+ExamGrade -> Student
+ExamGrade -> Exam
+
+
+ExamManagementService .-> ExamRepository
+GradeManagementService .-> GradeRepository
+EnrollmentManagementService .-> EnrollmentRepository
+
+
+@enduml

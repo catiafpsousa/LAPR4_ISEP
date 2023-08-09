@@ -1,0 +1,59 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor Student as Actor
+ participant ListMyGradesUI as UI <<presentation>>
+ participant ListMyGradesController as Controller <<application>>
+ participant AuthorizationService  as authz <<application>>
+ participant GradeManagementService as gradeSvc <<application>>
+
+ participant PersistenceContext as Persistence <<persistence>>
+ participant RepositoryFactory as Factory <<factory>>
+ database GradeRepository as GradeRepository <<repository>>
+
+
+ Actor --> UI: ask list of grades
+ activate UI
+  UI --> Controller: create
+Controller -> authz: ensureAuthenticatedUserHasAnyOf(STUDENT)
+
+                activate authz
+                deactivate authz
+
+     UI -> Controller:  allGradesByStudent
+
+
+
+
+        Controller -> gradeSvc : allGradesByStudent(student)
+
+
+       gradeSvc   -> Persistence : repositories()
+                     activate Persistence
+
+                     deactivate Persistence
+                     gradeSvc -> Factory: grades()
+                     activate Factory
+                     Factory -> GradeRepository: create
+
+                     Factory -> gradeSvc: gradeRepository
+                     deactivate Factory
+
+                     gradeSvc -> GradeRepository : allGradesByStudent(student)
+                     activate GradeRepository
+                     GradeRepository --> gradeSvc : listOfGrades
+                    deactivate GradeRepository
+                       gradeSvc --> Controller: listOfGrades
+
+
+         Controller --> UI :listOfGrades
+     deactivate Controller
+
+
+         UI-->Actor : list Of Grades
+ deactivate UI
+
+ @enduml

@@ -1,0 +1,142 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #LightSteelBlue {
+    class AddExamQuestionUI <<UI>>{
+    - theController : AddExamQuestionController
+    }
+}
+
+package "domain" #LightSteelBlue {
+    class Question <<aggregate root>> <<entity>>{
+    -questionText : QuestionText
+    -questionInstruction: questionInstruction
+    + Question(questionText, questionInstruction)
+
+    }
+
+     class QuestionType <<aggregate root>> <<entity>>{
+        -questionType : String
+        + QuestionType(questionType)
+
+        }
+
+
+ class TrueOrFalseQuestion extends Question {
+     - answerTrueOrFalse : boolean
+    + TrueOrFalseQuestion(super(questionText, questionInstruction), answerTrueOrFalse)
+    }
+
+ class ShortAnswerQuestion extends Question {
+          - validAnswers : Set <ShortAnswerValid>
+         + ShortAnswerQuestion(super(questionText, questionInstruction), validAnswers)
+  }
+
+           
+ class NumericalQuestion extends Question {
+     - answerNumerical : double
+     - acceptedError: double
+    + NumericalQuestion(super(questionText, questionInstruction), answerNumerical, acceptedError)
+    }
+
+  class MultipleChoiceQuestion extends Question {
+      - correctAnswers : List <String>
+      - options : List <String>
+     + MultipleChoiceQuestion(super(questionText, questionInstruction), correctAnswers, options)
+     }
+
+  class MatchingQuestion extends Question {
+      - questionAnswerMatching : Map<String, String>
+     + MatchingQuestion(super(questionText, questionInstruction), questionAnswerMatching)
+     }
+
+   class MissingWordsQuestion extends Question {
+
+      + MissingWordsQuestion(super(questionText, questionInstruction))
+      }
+
+ class ShortAnswerValid <<value object>>{
+    - answer : String
+    - percentage: int
+    - sensitiveCase: boolean
+    + valueOf(answer, percentage, sensitiveCase)
+    +  ShortAnswerValid(answer, percentage, sensitiveCase)
+    }
+
+
+
+    class QuestionText <<value object>>{
+    - questionText : String
+    + valueOf(questionText)
+    +  QuestionText (questionText)
+    }
+
+ class QuestionInstruction <<value object>>{
+   - QuestionInstruction : String
+   + valueOf(QuestionInstruction)
+   +  QuestionInstruction (QuestionInstruction)
+   }
+
+
+
+
+}
+
+package "repositories" #LightSteelBlue {
+
+    interface QuestionRepository <<repository>>{
+    save(xQuestion)
+    }
+
+    interface QuestionTypeRepository <<repository>>{
+    findAll()
+    }
+
+}
+
+package "application" #LightSteelBlue {
+ class AddExamQuestionController <<controller>>{
+    - questionRepository : QuestionRepository
+    - questionTypeRepository : QuestionTypeRepository
+    + listQuestionTypes()
+    + addMatchingQuestion()
+    + addMultipleChoiceQuestion()
+    + addTrueOrFalseQuestion()
+    + addShortAnswerQuestion()
+    + addMissingWordsQuestion()
+    + addNumericalQuestion()
+
+    }
+
+}
+
+package "persistence" #LightSteelBlue {
+    class JpaQuestionRepository {
+    }
+
+    class InMemoryQuestionRepository {
+    }
+
+    class JpaQuestionTypeRepository {
+  }
+
+      class InMemoryQuestionTypeRepository {
+    }
+
+}
+
+AddExamQuestionUI .-> AddExamQuestionController
+AddExamQuestionController .-> QuestionRepository
+AddExamQuestionController .-> QuestionTypeRepository
+Question -> QuestionInstruction
+Question -> QuestionText
+Question -> QuestionType
+ShortAnswerQuestion -> ShortAnswerValid
+QuestionRepository .-> Question
+QuestionTypeRepository .-> QuestionType
+JpaQuestionRepository .-> QuestionRepository : implements
+InMemoryQuestionRepository .-> QuestionRepository: implements
+JpaQuestionTypeRepository .-> QuestionTypeRepository : implements
+InMemoryQuestionTypeRepository .-> QuestionTypeRepository: implements
+
+@enduml

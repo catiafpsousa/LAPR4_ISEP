@@ -1,0 +1,46 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant ListParticipantsInMeetingUI as UI <<presentation>>
+participant ListParticipantsInMeetingController as Controller <<application>>
+participant MeetingManagementService as meetingSvc <<application>>
+database MeetingRepository as MeetingRepository <<repository>>
+
+Actor -> UI: List Participants in Meeting
+activate UI
+UI -> Controller: create()
+activate Controller
+
+Controller -> meetingSvc : allMeetingsByUser(user)
+activate meetingSvc
+meetingSvc -> MeetingRepository: meetings = findMeetingsByUser(user)
+activate MeetingRepository
+MeetingRepository --> meetingSvc: meetings
+deactivate MeetingRepository
+meetingSvc --> Controller : meetings
+deactivate meetingSvc
+
+Controller --> UI : meetings
+UI --> Actor : Shows list of meetings
+UI --> Actor : Asks to select one meeting
+Actor -> UI : Selects one meeting
+UI -> Controller : meeting
+
+Controller -> meetingSvc : allParticipantsByMeeting(meeting)
+activate meetingSvc
+meetingSvc -> MeetingRepository: participants = findParticipantsByMeeting(meeting)
+activate MeetingRepository
+MeetingRepository --> meetingSvc: participants
+deactivate MeetingRepository
+meetingSvc --> Controller: participants
+deactivate meetingSvc
+Controller --> UI : participants
+deactivate Controller
+UI-->Actor: Shows list of participants (w/status) in meeting
+deactivate UI
+@enduml

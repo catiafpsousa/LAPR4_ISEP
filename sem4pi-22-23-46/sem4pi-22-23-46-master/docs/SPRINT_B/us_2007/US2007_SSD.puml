@@ -1,0 +1,34 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+skinparam monochrome true
+
+actor Teacher as Actor
+participant AddExamQuestionUI as UI <<presentation>>
+
+
+
+Actor -> UI: add exam question
+activate UI
+
+        UI-->Actor: shows question types list and asks to select one
+
+        Actor -> UI : selects one
+
+         UI --> Actor : requests data (questionInstruction, questionText, (...))
+
+
+         note right UI: **Question Types:** Matching, Missing Words, Multiple Choice, Numerical, Short Answer and True or False
+         note right UI: according to the question type chosen, the data entered will be different
+
+         Actor -> UI : enters data (questionInstruction, questionText, (...))
+
+          UI --> Actor : informs operation success
+
+
+deactivate UI
+@enduml

@@ -1,0 +1,99 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class UpdatePostItUI <<ui>>{
+    - theController : UpdatePostItController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+        class PostIt <<entity>>{
+        - owner : SystemUser
+        - parent : PostIt
+        - next : PostIt
+        - content : Content
+        - timestamp : Calendar
+        - isDeleted : boolean
+        + PostIt(owner, content)
+        + PostIt(parent, newContent)
+        + PostIt(parent)
+        + deleteStatePostIt()
+        + registerContentBoardModification(board, postIt, cell, newContent)
+        + registerPlacementBoardModification(board, postIt, oldCell, newCell);
+        + registerPrimaryBoardModification(board, createdPostIt, modificationType, cell)
+        }
+        class Content<<value object>>{
+        - textContent: String
+         }
+
+        class SharedBoard <<aggregate root>> <<entity>>{
+        -owner : SystemUser
+        - rowNumber: NumberOfRow
+        - columnNumber: NumberOfColumn
+        - Set <Cell> cells : Cell
+        - Set<Modification> modifications : Modification
+        + SharedBoard(owner, rowNumber, columnNumber, cells title)
+        + availableCells()
+        +addContentModification(postIt, cell, newContent)
+        +addPlacementModification(createdPostIt, oldCell, newCell)
+        +addDeleteModification(createdPostIt, cell)
+        }
+
+      class Cell <<entity>>{
+             - row : BoardRow
+             - column : BoardColumn
+             +  Cell (row, column)
+             + canHavePostIt()
+             + addPostIt (owner, content)
+             + latestPostIt()
+             + addMovedPostIt(parent)
+             + updatePostIt(postIt, newContent)
+       }
+}
+    package "persistence" #dbd8ae{
+       interface BoardRepository{
+       + findBySystemUserWithWritePermission(user)
+       + save(board)
+       }
+    }
+package "application" #eaf4d3{
+    class UpdatePostItController <<controller>>{
+        - authz : AuthorizationService
+        - boardSvc : BoardManagementService
+        - boardRepository : BoardRepository
+        + updatePostItContent(board, cell, postIt, newContent)
+        + movePostIt(boardSelected, oldCell, newCell, postIt)
+        + deletePostIt(boardSelected, cell, postIt)
+        + sharedBoardWithWritePermission()
+        + currentUser()
+    }
+
+    class BoardManagementService <<service>>{
+         - boardRepository : BoardRepository
+         + availableCells(board)
+         + allBoardsBySystemUserWithWritePermission(user)
+         + deleteStatePostIt(board, postIt)
+         + updatePostItContent(board, cell, postIt, newContent)
+         + movePostIt(boardSelected, oldCell, newCell, postIt)
+         + deletePostIt(boardSelected, cell, postIt)
+    }
+
+}
+
+
+UpdatePostItUI .-> UpdatePostItController
+UpdatePostItController .-> BoardManagementService
+
+
+
+BoardManagementService .> BoardRepository
+
+PostIt --> Content
+Cell -> PostIt
+SharedBoard --> Cell
+UpdatePostItController .--> SharedBoard
+
+
+@enduml

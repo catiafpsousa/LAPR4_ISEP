@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1182px" preserveAspectRatio="none" style="width:1108px;height:1182px;background:#FFFFFF;" version="1.1" viewBox="0 0 1108 1182" width="1108px" zoomAndPan="magnify"><defs/><g><!--MD5=[3dcf69e4e87a10af00fce8354034ba4c]
+cluster presentation--><g id="cluster_presentation"><path d="M693.56,6 L784.56,6 A3.75,3.75 0 0 1 787.06,8.5 L794.06,29.6094 L1030.56,29.6094 A2.5,2.5 0 0 1 1033.06,32.1094 L1033.06,149.5 A2.5,2.5 0 0 1 1030.56,152 L693.56,152 A2.5,2.5 0 0 1 691.06,149.5 L691.06,8.5 A2.5,2.5 0 0 1 693.56,6 " fill="#DDDDDD" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="691.06" x2="794.06" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="695.06" y="22.5332">presentation</text></g><!--MD5=[27f772719433d509ddbc20ff768eba08]
+cluster domain--><g id="cluster_domain"><path d="M34.56,571 L86.56,571 A3.75,3.75 0 0 1 89.06,573.5 L96.06,594.6094 L635.56,594.6094 A2.5,2.5 0 0 1 638.06,597.1094 L638.06,1172.5 A2.5,2.5 0 0 1 635.56,1175 L34.56,1175 A2.5,2.5 0 0 1 32.06,1172.5 L32.06,573.5 A2.5,2.5 0 0 1 34.56,571 " fill="#DBD8AE" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="32.06" x2="96.06" y1="594.6094" y2="594.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="51" x="36.06" y="587.5332">domain</text></g><!--MD5=[0334151241c2df87d13997940bbf650c]
+cluster persistence--><g id="cluster_persistence"><path d="M37.56,397.5 L122.56,397.5 A3.75,3.75 0 0 1 125.06,400 L132.06,421.1094 L420.56,421.1094 A2.5,2.5 0 0 1 423.06,423.6094 L423.06,530 A2.5,2.5 0 0 1 420.56,532.5 L37.56,532.5 A2.5,2.5 0 0 1 35.06,530 L35.06,400 A2.5,2.5 0 0 1 37.56,397.5 " fill="#DBD8AE" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="35.06" x2="132.06" y1="421.1094" y2="421.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="39.06" y="414.0332">persistence</text></g><!--MD5=[3ff016c1aa5003d713567a073e2181a6]
+cluster application--><g id="cluster_application"><path d="M449.56,176 L527.56,176 A3.75,3.75 0 0 1 530.06,178.5 L537.06,199.6094 L1050.56,199.6094 A2.5,2.5 0 0 1 1053.06,202.1094 L1053.06,544.5 A2.5,2.5 0 0 1 1050.56,547 L449.56,547 A2.5,2.5 0 0 1 447.06,544.5 L447.06,178.5 A2.5,2.5 0 0 1 449.56,176 " fill="#EAF4D3" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="447.06" x2="537.06" y1="199.6094" y2="199.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="451.06" y="192.5332">application</text></g><!--MD5=[8e67e7eb2defd0702b1ca87f0265ce04]
+class SetCourseTeachersUI--><g id="elem_SetCourseTeachersUI"><rect codeLine="4" fill="#F1F1F1" height="93.9219" id="SetCourseTeachersUI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="309" x="707.56" y="42"/><ellipse cx="788.31" cy="63.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M790.31,59.8516 Q790.5131,59.3516 790.7475,59.1016 Q790.9819,58.8516 791.2475,58.8516 Q791.7163,58.8516 792.0131,59.1328 Q792.31,59.4141 792.31,60.0703 L792.31,61.6328 Q792.31,62.2891 792.0288,62.5703 Q791.7475,62.8516 791.31,62.8516 Q790.9194,62.8516 790.6694,62.6797 Q790.4194,62.5078 790.31,62.0547 Q790.2631,61.7422 790.0913,61.5703 Q789.7788,61.2422 789.2163,61.0547 Q788.6538,60.8516 788.0913,60.8516 Q787.3881,60.8516 786.7944,61.1328 Q786.2163,61.4141 785.7631,62.0391 Q785.31,62.6641 785.31,63.5234 L785.31,64.4453 Q785.31,65.4766 786.1538,66.1641 Q786.9975,66.8516 788.4975,66.8516 Q789.3881,66.8516 790.0131,66.6484 Q790.3725,66.5391 790.7788,66.1797 Q791.0444,65.9766 791.185,65.9141 Q791.3256,65.8516 791.4975,65.8516 Q791.8256,65.8516 792.06,66.1172 Q792.31,66.3672 792.31,66.7266 Q792.31,67.0703 791.9663,67.4766 Q791.4663,68.0703 790.6694,68.3984 Q789.6225,68.8516 788.3413,68.8516 Q786.8413,68.8516 785.6381,68.2578 Q784.6694,67.7891 783.9819,66.7734 Q783.31,65.7578 783.31,64.5547 L783.31,63.4609 Q783.31,62.2109 783.9038,61.1172 Q784.5131,60.0234 785.56,59.4453 Q786.6225,58.8516 787.81,58.8516 Q788.5288,58.8516 789.1538,59.1016 Q789.7788,59.3516 790.31,59.8516 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="24" x="866.31" y="59.457">«ui»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="808.81" y="76.627">SetCourseTeachersUI</text><line style="stroke:#181818;stroke-width:0.5;" x1="708.56" x2="1015.56" y1="84.7031" y2="84.7031"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="715.56" y="96.0078"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="283" x="727.56" y="103.2363">theController : SetCourseTeachersController</text><line style="stroke:#181818;stroke-width:0.5;" x1="708.56" x2="1015.56" y1="110.3125" y2="110.3125"/><ellipse cx="718.56" cy="124.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="727.56" y="128.8457">doShow()</text></g><!--MD5=[8e0c51616f94b19d70de6207fb45de7c]
+class CourseStudentsLimit--><g id="elem_CourseStudentsLimit"><rect codeLine="16" fill="#F1F1F1" height="58.7031" id="CourseStudentsLimit" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="163" x="48.56" y="1100"/><ellipse cx="63.56" cy="1121.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M65.56,1117.8516 Q65.7631,1117.3516 65.9975,1117.1016 Q66.2319,1116.8516 66.4975,1116.8516 Q66.9663,1116.8516 67.2631,1117.1328 Q67.56,1117.4141 67.56,1118.0703 L67.56,1119.6328 Q67.56,1120.2891 67.2788,1120.5703 Q66.9975,1120.8516 66.56,1120.8516 Q66.1694,1120.8516 65.9194,1120.6797 Q65.6694,1120.5078 65.56,1120.0547 Q65.5131,1119.7422 65.3413,1119.5703 Q65.0288,1119.2422 64.4663,1119.0547 Q63.9038,1118.8516 63.3413,1118.8516 Q62.6381,1118.8516 62.0444,1119.1328 Q61.4663,1119.4141 61.0131,1120.0391 Q60.56,1120.6641 60.56,1121.5234 L60.56,1122.4453 Q60.56,1123.4766 61.4038,1124.1641 Q62.2475,1124.8516 63.7475,1124.8516 Q64.6381,1124.8516 65.2631,1124.6484 Q65.6225,1124.5391 66.0288,1124.1797 Q66.2944,1123.9766 66.435,1123.9141 Q66.5756,1123.8516 66.7475,1123.8516 Q67.0756,1123.8516 67.31,1124.1172 Q67.56,1124.3672 67.56,1124.7266 Q67.56,1125.0703 67.2163,1125.4766 Q66.7163,1126.0703 65.9194,1126.3984 Q64.8725,1126.8516 63.5913,1126.8516 Q62.0913,1126.8516 60.8881,1126.2578 Q59.9194,1125.7891 59.2319,1124.7734 Q58.56,1123.7578 58.56,1122.5547 L58.56,1121.4609 Q58.56,1120.2109 59.1538,1119.1172 Q59.7631,1118.0234 60.81,1117.4453 Q61.8725,1116.8516 63.06,1116.8516 Q63.7788,1116.8516 64.4038,1117.1016 Q65.0288,1117.3516 65.56,1117.8516 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="102.56" y="1117.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="77.56" y="1134.627">CourseStudentsLimit</text><line style="stroke:#181818;stroke-width:0.5;" x1="49.56" x2="210.56" y1="1142.7031" y2="1142.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="49.56" x2="210.56" y1="1150.7031" y2="1150.7031"/></g><!--MD5=[4066b0363c5a91ff3b6e03e0428953a9]
+class Course--><g id="elem_Course"><rect codeLine="19" fill="#F1F1F1" height="126.625" id="Course" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="268" x="191.06" y="607"/><ellipse cx="275.81" cy="635.8984" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M277.81,632.3984 Q278.0131,631.8984 278.2475,631.6484 Q278.4819,631.3984 278.7475,631.3984 Q279.2163,631.3984 279.5131,631.6797 Q279.81,631.9609 279.81,632.6172 L279.81,634.1797 Q279.81,634.8359 279.5288,635.1172 Q279.2475,635.3984 278.81,635.3984 Q278.4194,635.3984 278.1694,635.2266 Q277.9194,635.0547 277.81,634.6016 Q277.7631,634.2891 277.5913,634.1172 Q277.2788,633.7891 276.7163,633.6016 Q276.1538,633.3984 275.5913,633.3984 Q274.8881,633.3984 274.2944,633.6797 Q273.7163,633.9609 273.2631,634.5859 Q272.81,635.2109 272.81,636.0703 L272.81,636.9922 Q272.81,638.0234 273.6538,638.7109 Q274.4975,639.3984 275.9975,639.3984 Q276.8881,639.3984 277.5131,639.1953 Q277.8725,639.0859 278.2788,638.7266 Q278.5444,638.5234 278.685,638.4609 Q278.8256,638.3984 278.9975,638.3984 Q279.3256,638.3984 279.56,638.6641 Q279.81,638.9141 279.81,639.2734 Q279.81,639.6172 279.4663,640.0234 Q278.9663,640.6172 278.1694,640.9453 Q277.1225,641.3984 275.8413,641.3984 Q274.3413,641.3984 273.1381,640.8047 Q272.1694,640.3359 271.4819,639.3203 Q270.81,638.3047 270.81,637.1016 L270.81,636.0078 Q270.81,634.7578 271.4038,633.6641 Q272.0131,632.5703 273.06,631.9922 Q274.1225,631.3984 275.31,631.3984 Q276.0288,631.3984 276.6538,631.6484 Q277.2788,631.8984 277.81,632.3984 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="94" x="294.31" y="624.457">«aggregate root»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="319.81" y="639.5508">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="318.31" y="656.7207">Course</text><line style="stroke:#181818;stroke-width:0.5;" x1="192.06" x2="458.06" y1="664.7969" y2="664.7969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="199.06" y="676.1016"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="211.06" y="683.3301">courseTeachers : List&lt;Teacher&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="199.06" y="693.7109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="211.06" y="700.9395">teacherInCharge : Teacher</text><line style="stroke:#181818;stroke-width:0.5;" x1="192.06" x2="458.06" y1="708.0156" y2="708.0156"/><ellipse cx="202.06" cy="722.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="242" x="211.06" y="726.5488">setCourseTeachers (courseTeachers)</text></g><!--MD5=[61a83f88cb8b7d3a80bc8c481f3736bf]
+class Teacher--><g id="elem_Teacher"><rect codeLine="25" fill="#F1F1F1" height="126.625" id="Teacher" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="204" x="85.06" y="794"/><ellipse cx="144.31" cy="822.8984" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M146.31,819.3984 Q146.5131,818.8984 146.7475,818.6484 Q146.9819,818.3984 147.2475,818.3984 Q147.7163,818.3984 148.0131,818.6797 Q148.31,818.9609 148.31,819.6172 L148.31,821.1797 Q148.31,821.8359 148.0288,822.1172 Q147.7475,822.3984 147.31,822.3984 Q146.9194,822.3984 146.6694,822.2266 Q146.4194,822.0547 146.31,821.6016 Q146.2631,821.2891 146.0913,821.1172 Q145.7788,820.7891 145.2163,820.6016 Q144.6538,820.3984 144.0913,820.3984 Q143.3881,820.3984 142.7944,820.6797 Q142.2163,820.9609 141.7631,821.5859 Q141.31,822.2109 141.31,823.0703 L141.31,823.9922 Q141.31,825.0234 142.1538,825.7109 Q142.9975,826.3984 144.4975,826.3984 Q145.3881,826.3984 146.0131,826.1953 Q146.3725,826.0859 146.7788,825.7266 Q147.0444,825.5234 147.185,825.4609 Q147.3256,825.3984 147.4975,825.3984 Q147.8256,825.3984 148.06,825.6641 Q148.31,825.9141 148.31,826.2734 Q148.31,826.6172 147.9663,827.0234 Q147.4663,827.6172 146.6694,827.9453 Q145.6225,828.3984 144.3413,828.3984 Q142.8413,828.3984 141.6381,827.8047 Q140.6694,827.3359 139.9819,826.3203 Q139.31,825.3047 139.31,824.1016 L139.31,823.0078 Q139.31,821.7578 139.9038,820.6641 Q140.5131,819.5703 141.56,818.9922 Q142.6225,818.3984 143.81,818.3984 Q144.5288,818.3984 145.1538,818.6484 Q145.7788,818.8984 146.31,819.3984 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="162.81" y="811.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="24" x="191.31" y="826.5508">«id»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="176.81" y="843.7207">Teacher</text><line style="stroke:#181818;stroke-width:0.5;" x1="86.06" x2="288.06" y1="851.7969" y2="851.7969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="93.06" y="863.1016"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="105.06" y="870.3301">acronym : Acronym</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="93.06" y="880.7109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="105.06" y="887.9395">systemUser : SystemUser</text><line style="stroke:#181818;stroke-width:0.5;" x1="86.06" x2="288.06" y1="895.0156" y2="895.0156"/><ellipse cx="96.06" cy="909.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="105.06" y="913.5488">Teacher(user : SystemUser)</text></g><!--MD5=[0914d6e5e1a282792d31c06d16c1ac2b]
+class CourseDescription--><g id="elem_CourseDescription"><rect codeLine="31" fill="#F1F1F1" height="58.7031" id="CourseDescription" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="149" x="250.56" y="981"/><ellipse cx="265.56" cy="1002.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M267.56,998.8516 Q267.7631,998.3516 267.9975,998.1016 Q268.2319,997.8516 268.4975,997.8516 Q268.9663,997.8516 269.2631,998.1328 Q269.56,998.4141 269.56,999.0703 L269.56,1000.6328 Q269.56,1001.2891 269.2788,1001.5703 Q268.9975,1001.8516 268.56,1001.8516 Q268.1694,1001.8516 267.9194,1001.6797 Q267.6694,1001.5078 267.56,1001.0547 Q267.5131,1000.7422 267.3413,1000.5703 Q267.0288,1000.2422 266.4663,1000.0547 Q265.9038,999.8516 265.3413,999.8516 Q264.6381,999.8516 264.0444,1000.1328 Q263.4663,1000.4141 263.0131,1001.0391 Q262.56,1001.6641 262.56,1002.5234 L262.56,1003.4453 Q262.56,1004.4766 263.4038,1005.1641 Q264.2475,1005.8516 265.7475,1005.8516 Q266.6381,1005.8516 267.2631,1005.6484 Q267.6225,1005.5391 268.0288,1005.1797 Q268.2944,1004.9766 268.435,1004.9141 Q268.5756,1004.8516 268.7475,1004.8516 Q269.0756,1004.8516 269.31,1005.1172 Q269.56,1005.3672 269.56,1005.7266 Q269.56,1006.0703 269.2163,1006.4766 Q268.7163,1007.0703 267.9194,1007.3984 Q266.8725,1007.8516 265.5913,1007.8516 Q264.0913,1007.8516 262.8881,1007.2578 Q261.9194,1006.7891 261.2319,1005.7734 Q260.56,1004.7578 260.56,1003.5547 L260.56,1002.4609 Q260.56,1001.2109 261.1538,1000.1172 Q261.7631,999.0234 262.81,998.4453 Q263.8725,997.8516 265.06,997.8516 Q265.7788,997.8516 266.4038,998.1016 Q267.0288,998.3516 267.56,998.8516 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="297.56" y="998.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="279.56" y="1015.627">CourseDescription</text><line style="stroke:#181818;stroke-width:0.5;" x1="251.56" x2="398.56" y1="1023.7031" y2="1023.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="251.56" x2="398.56" y1="1031.7031" y2="1031.7031"/></g><!--MD5=[d48061ccbd276027f3231694ef585189]
+class CourseCode--><g id="elem_CourseCode"><rect codeLine="34" fill="#F1F1F1" height="58.7031" id="CourseCode" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="361.06" y="828"/><ellipse cx="376.06" cy="849.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M378.06,845.8516 Q378.2631,845.3516 378.4975,845.1016 Q378.7319,844.8516 378.9975,844.8516 Q379.4663,844.8516 379.7631,845.1328 Q380.06,845.4141 380.06,846.0703 L380.06,847.6328 Q380.06,848.2891 379.7788,848.5703 Q379.4975,848.8516 379.06,848.8516 Q378.6694,848.8516 378.4194,848.6797 Q378.1694,848.5078 378.06,848.0547 Q378.0131,847.7422 377.8413,847.5703 Q377.5288,847.2422 376.9663,847.0547 Q376.4038,846.8516 375.8413,846.8516 Q375.1381,846.8516 374.5444,847.1328 Q373.9663,847.4141 373.5131,848.0391 Q373.06,848.6641 373.06,849.5234 L373.06,850.4453 Q373.06,851.4766 373.9038,852.1641 Q374.7475,852.8516 376.2475,852.8516 Q377.1381,852.8516 377.7631,852.6484 Q378.1225,852.5391 378.5288,852.1797 Q378.7944,851.9766 378.935,851.9141 Q379.0756,851.8516 379.2475,851.8516 Q379.5756,851.8516 379.81,852.1172 Q380.06,852.3672 380.06,852.7266 Q380.06,853.0703 379.7163,853.4766 Q379.2163,854.0703 378.4194,854.3984 Q377.3725,854.8516 376.0913,854.8516 Q374.5913,854.8516 373.3881,854.2578 Q372.4194,853.7891 371.7319,852.7734 Q371.06,851.7578 371.06,850.5547 L371.06,849.4609 Q371.06,848.2109 371.6538,847.1172 Q372.2631,846.0234 373.31,845.4453 Q374.3725,844.8516 375.56,844.8516 Q376.2788,844.8516 376.9038,845.1016 Q377.5288,845.3516 378.06,845.8516 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="389.56" y="845.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="390.06" y="862.627">CourseCode</text><line style="stroke:#181818;stroke-width:0.5;" x1="362.06" x2="472.06" y1="870.7031" y2="870.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="362.06" x2="472.06" y1="878.7031" y2="878.7031"/></g><!--MD5=[f71a75121e942823de72c354b66f346f]
+class CourseName--><g id="elem_CourseName"><rect codeLine="37" fill="#F1F1F1" height="58.7031" id="CourseName" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="508.06" y="828"/><ellipse cx="523.06" cy="849.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M525.06,845.8516 Q525.2631,845.3516 525.4975,845.1016 Q525.7319,844.8516 525.9975,844.8516 Q526.4663,844.8516 526.7631,845.1328 Q527.06,845.4141 527.06,846.0703 L527.06,847.6328 Q527.06,848.2891 526.7788,848.5703 Q526.4975,848.8516 526.06,848.8516 Q525.6694,848.8516 525.4194,848.6797 Q525.1694,848.5078 525.06,848.0547 Q525.0131,847.7422 524.8413,847.5703 Q524.5288,847.2422 523.9663,847.0547 Q523.4038,846.8516 522.8413,846.8516 Q522.1381,846.8516 521.5444,847.1328 Q520.9663,847.4141 520.5131,848.0391 Q520.06,848.6641 520.06,849.5234 L520.06,850.4453 Q520.06,851.4766 520.9038,852.1641 Q521.7475,852.8516 523.2475,852.8516 Q524.1381,852.8516 524.7631,852.6484 Q525.1225,852.5391 525.5288,852.1797 Q525.7944,851.9766 525.935,851.9141 Q526.0756,851.8516 526.2475,851.8516 Q526.5756,851.8516 526.81,852.1172 Q527.06,852.3672 527.06,852.7266 Q527.06,853.0703 526.7163,853.4766 Q526.2163,854.0703 525.4194,854.3984 Q524.3725,854.8516 523.0913,854.8516 Q521.5913,854.8516 520.3881,854.2578 Q519.4194,853.7891 518.7319,852.7734 Q518.06,851.7578 518.06,850.5547 L518.06,849.4609 Q518.06,848.2109 518.6538,847.1172 Q519.2631,846.0234 520.31,845.4453 Q521.3725,844.8516 522.56,844.8516 Q523.2788,844.8516 523.9038,845.1016 Q524.5288,845.3516 525.06,845.8516 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="537.56" y="845.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="537.06" y="862.627">CourseName</text><line style="stroke:#181818;stroke-width:0.5;" x1="509.06" x2="621.06" y1="870.7031" y2="870.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="509.06" x2="621.06" y1="878.7031" y2="878.7031"/></g><!--MD5=[e357f1fd68df466d60efd00f0c47fbc0]
+class CourseRepository--><g id="elem_CourseRepository"><rect codeLine="43" fill="#F1F1F1" height="83.2188" id="CourseRepository" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="167" x="239.56" y="433.5"/><ellipse cx="264.01" cy="449.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M265.01,446.5 L265.01,452.5 L267.01,452.5 L267.4944,452.5 L268.01,453.125 L268.01,453.5 L268.01,453.875 L267.4944,454.5 L267.01,454.5 L261.01,454.5 L260.5256,454.5 L260.01,453.875 L260.01,453.5 L260.01,453.125 L260.5256,452.5 L261.01,452.5 L263.01,452.5 L263.01,446.5 L261.01,446.5 L260.5256,446.5 L260.01,445.875 L260.01,445.5 L260.01,445.125 L260.5256,444.5 L261.01,444.5 L267.01,444.5 L267.4944,444.5 L268.01,445.125 L268.01,445.5 L268.01,445.875 L267.4944,446.5 L267.01,446.5 L265.01,446.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="114" x="280.11" y="455.2285">CourseRepository</text><line style="stroke:#181818;stroke-width:0.5;" x1="240.56" x2="405.56" y1="465.5" y2="465.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="240.56" x2="405.56" y1="473.5" y2="473.5"/><ellipse cx="250.56" cy="487.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="259.56" y="492.0332">allCourses()</text><ellipse cx="250.56" cy="505.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="259.56" y="509.6426">save(course : Course)</text></g><!--MD5=[713d3355b50d800759ae0fcd65e0b94d]
+class TeacherRepository--><g id="elem_TeacherRepository"><rect codeLine="47" fill="#F1F1F1" height="65.6094" id="TeacherRepository" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="51.56" y="442"/><ellipse cx="66.56" cy="458" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M67.56,455 L67.56,461 L69.56,461 L70.0444,461 L70.56,461.625 L70.56,462 L70.56,462.375 L70.0444,463 L69.56,463 L63.56,463 L63.0756,463 L62.56,462.375 L62.56,462 L62.56,461.625 L63.0756,461 L63.56,461 L65.56,461 L65.56,455 L63.56,455 L63.0756,455 L62.56,454.375 L62.56,454 L62.56,453.625 L63.0756,453 L63.56,453 L69.56,453 L70.0444,453 L70.56,453.625 L70.56,454 L70.56,454.375 L70.0444,455 L69.56,455 L67.56,455 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="121" x="80.56" y="463.7285">TeacherRepository</text><line style="stroke:#181818;stroke-width:0.5;" x1="52.56" x2="203.56" y1="474" y2="474"/><line style="stroke:#181818;stroke-width:0.5;" x1="52.56" x2="203.56" y1="482" y2="482"/><ellipse cx="62.56" cy="496.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="71.56" y="500.5332">allTeachers()</text></g><!--MD5=[020103f22978ed3ab3f919071d1857fe]
+class SetCourseTeachersController--><g id="elem_SetCourseTeachersController"><rect codeLine="52" fill="#F1F1F1" height="146.75" id="SetCourseTeachersController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="350" x="687.06" y="212"/><ellipse cx="763.31" cy="233.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M765.31,229.8516 Q765.5131,229.3516 765.7475,229.1016 Q765.9819,228.8516 766.2475,228.8516 Q766.7163,228.8516 767.0131,229.1328 Q767.31,229.4141 767.31,230.0703 L767.31,231.6328 Q767.31,232.2891 767.0288,232.5703 Q766.7475,232.8516 766.31,232.8516 Q765.9194,232.8516 765.6694,232.6797 Q765.4194,232.5078 765.31,232.0547 Q765.2631,231.7422 765.0913,231.5703 Q764.7788,231.2422 764.2163,231.0547 Q763.6538,230.8516 763.0913,230.8516 Q762.3881,230.8516 761.7944,231.1328 Q761.2163,231.4141 760.7631,232.0391 Q760.31,232.6641 760.31,233.5234 L760.31,234.4453 Q760.31,235.4766 761.1538,236.1641 Q761.9975,236.8516 763.4975,236.8516 Q764.3881,236.8516 765.0131,236.6484 Q765.3725,236.5391 765.7788,236.1797 Q766.0444,235.9766 766.185,235.9141 Q766.3256,235.8516 766.4975,235.8516 Q766.8256,235.8516 767.06,236.1172 Q767.31,236.3672 767.31,236.7266 Q767.31,237.0703 766.9663,237.4766 Q766.4663,238.0703 765.6694,238.3984 Q764.6225,238.8516 763.3413,238.8516 Q761.8413,238.8516 760.6381,238.2578 Q759.6694,237.7891 758.9819,236.7734 Q758.31,235.7578 758.31,234.5547 L758.31,233.4609 Q758.31,232.2109 758.9038,231.1172 Q759.5131,230.0234 760.56,229.4453 Q761.6225,228.8516 762.81,228.8516 Q763.5288,228.8516 764.1538,229.1016 Q764.7788,229.3516 765.31,229.8516 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="845.81" y="229.457">«controller»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="783.81" y="246.627">SetCourseTeachersController</text><line style="stroke:#181818;stroke-width:0.5;" x1="688.06" x2="1036.06" y1="254.7031" y2="254.7031"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="695.06" y="266.0078"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="707.06" y="273.2363">authz : AuthorizationService</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="695.06" y="283.6172"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="707.06" y="290.8457">teacherSvc : TeacherManagementService</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="695.06" y="301.2266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="253" x="707.06" y="308.4551">courseSvc : CourseManagementService</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="695.06" y="318.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="707.06" y="326.0645">courseRepository : CourseRepository</text><line style="stroke:#181818;stroke-width:0.5;" x1="688.06" x2="1036.06" y1="333.1406" y2="333.1406"/><ellipse cx="698.06" cy="347.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="324" x="707.06" y="351.6738">setCourseTeachers(selection, allTeachers, course)</text></g><!--MD5=[38fb4e838808c9da8d417394166196c4]
+class TeacherManagementService--><g id="elem_TeacherManagementService"><rect codeLine="60" fill="#F1F1F1" height="93.9219" id="TeacherManagementService" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="275" x="761.56" y="428"/><ellipse cx="804.01" cy="449.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M806.01,445.8516 Q806.2131,445.3516 806.4475,445.1016 Q806.6819,444.8516 806.9475,444.8516 Q807.4163,444.8516 807.7131,445.1328 Q808.01,445.4141 808.01,446.0703 L808.01,447.6328 Q808.01,448.2891 807.7288,448.5703 Q807.4475,448.8516 807.01,448.8516 Q806.6194,448.8516 806.3694,448.6797 Q806.1194,448.5078 806.01,448.0547 Q805.9631,447.7422 805.7913,447.5703 Q805.4788,447.2422 804.9163,447.0547 Q804.3538,446.8516 803.7913,446.8516 Q803.0881,446.8516 802.4944,447.1328 Q801.9163,447.4141 801.4631,448.0391 Q801.01,448.6641 801.01,449.5234 L801.01,450.4453 Q801.01,451.4766 801.8538,452.1641 Q802.6975,452.8516 804.1975,452.8516 Q805.0881,452.8516 805.7131,452.6484 Q806.0725,452.5391 806.4788,452.1797 Q806.7444,451.9766 806.885,451.9141 Q807.0256,451.8516 807.1975,451.8516 Q807.5256,451.8516 807.76,452.1172 Q808.01,452.3672 808.01,452.7266 Q808.01,453.0703 807.6663,453.4766 Q807.1663,454.0703 806.3694,454.3984 Q805.3225,454.8516 804.0413,454.8516 Q802.5413,454.8516 801.3381,454.2578 Q800.3694,453.7891 799.6819,452.7734 Q799.01,451.7578 799.01,450.5547 L799.01,449.4609 Q799.01,448.2109 799.6038,447.1172 Q800.2131,446.0234 801.26,445.4453 Q802.3225,444.8516 803.51,444.8516 Q804.2288,444.8516 804.8538,445.1016 Q805.4788,445.3516 806.01,445.8516 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="53" x="888.61" y="445.457">«service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="824.11" y="462.627">TeacherManagementService</text><line style="stroke:#181818;stroke-width:0.5;" x1="762.56" x2="1035.56" y1="470.7031" y2="470.7031"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="769.56" y="482.0078"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="781.56" y="489.2363">teacherRepository : TeacherRepository</text><line style="stroke:#181818;stroke-width:0.5;" x1="762.56" x2="1035.56" y1="496.3125" y2="496.3125"/><ellipse cx="772.56" cy="510.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="781.56" y="514.8457">allTeachers()</text></g><!--MD5=[d2835a54d52a26759a9c0b49dfb83fe0]
+class CourseManagementService--><g id="elem_CourseManagementService"><rect codeLine="65" fill="#F1F1F1" height="111.5313" id="CourseManagementService" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="263" x="463.56" y="419"/><ellipse cx="503.76" cy="440.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M505.76,436.8516 Q505.9631,436.3516 506.1975,436.1016 Q506.4319,435.8516 506.6975,435.8516 Q507.1663,435.8516 507.4631,436.1328 Q507.76,436.4141 507.76,437.0703 L507.76,438.6328 Q507.76,439.2891 507.4788,439.5703 Q507.1975,439.8516 506.76,439.8516 Q506.3694,439.8516 506.1194,439.6797 Q505.8694,439.5078 505.76,439.0547 Q505.7131,438.7422 505.5413,438.5703 Q505.2288,438.2422 504.6663,438.0547 Q504.1038,437.8516 503.5413,437.8516 Q502.8381,437.8516 502.2444,438.1328 Q501.6663,438.4141 501.2131,439.0391 Q500.76,439.6641 500.76,440.5234 L500.76,441.4453 Q500.76,442.4766 501.6038,443.1641 Q502.4475,443.8516 503.9475,443.8516 Q504.8381,443.8516 505.4631,443.6484 Q505.8225,443.5391 506.2288,443.1797 Q506.4944,442.9766 506.635,442.9141 Q506.7756,442.8516 506.9475,442.8516 Q507.2756,442.8516 507.51,443.1172 Q507.76,443.3672 507.76,443.7266 Q507.76,444.0703 507.4163,444.4766 Q506.9163,445.0703 506.1194,445.3984 Q505.0725,445.8516 503.7913,445.8516 Q502.2913,445.8516 501.0881,445.2578 Q500.1194,444.7891 499.4319,443.7734 Q498.76,442.7578 498.76,441.5547 L498.76,440.4609 Q498.76,439.2109 499.3538,438.1172 Q499.9631,437.0234 501.01,436.4453 Q502.0725,435.8516 503.26,435.8516 Q503.9788,435.8516 504.6038,436.1016 Q505.2288,436.3516 505.76,436.8516 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="53" x="584.36" y="436.457">«service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="523.36" y="453.627">CourseManagementService</text><line style="stroke:#181818;stroke-width:0.5;" x1="464.56" x2="725.56" y1="461.7031" y2="461.7031"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="471.56" y="473.0078"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="483.56" y="480.2363">courseRepository : CourseRepository</text><line style="stroke:#181818;stroke-width:0.5;" x1="464.56" x2="725.56" y1="487.3125" y2="487.3125"/><ellipse cx="474.56" cy="501.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="483.56" y="505.8457">getCourseRepository()</text><ellipse cx="474.56" cy="519.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="483.56" y="523.4551">allCourses()</text></g><!--MD5=[159f42fe082a82190febf5c3e3d44683]
+link SetCourseTeachersUI to SetCourseTeachersController--><g id="link_SetCourseTeachersUI_SetCourseTeachersController"><path codeLine="74" d="M862.06,136.09 C862.06,157.17 862.06,182.74 862.06,206.67 " fill="none" id="SetCourseTeachersUI-to-SetCourseTeachersController" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="862.06,211.74,866.06,202.74,862.06,206.74,858.06,202.74,862.06,211.74" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b3b0d9e501aaf5c7fb1afa548c778beb]
+link SetCourseTeachersController to CourseManagementService--><g id="link_SetCourseTeachersController_CourseManagementService"><path codeLine="75" d="M758.45,359.26 C731.84,377.94 703.57,397.8 678.15,415.65 " fill="none" id="SetCourseTeachersController-to-CourseManagementService" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="673.77,418.73,683.4334,416.8276,677.8608,415.855,678.8334,410.2824,673.77,418.73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[641aca7c3c08e79f542f3e962b038ca4]
+link SetCourseTeachersController to TeacherManagementService--><g id="link_SetCourseTeachersController_TeacherManagementService"><path codeLine="76" d="M876.42,359.26 C880.61,380.52 885.11,403.29 888.98,422.9 " fill="none" id="SetCourseTeachersController-to-TeacherManagementService" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="889.95,427.82,892.1288,418.2152,888.9804,422.9149,884.2806,419.7665,889.95,427.82" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5f51c4f556a3967dddec88ee110fd332]
+link Course to CourseCode--><g id="link_Course_CourseCode"><path codeLine="79" d="M356.21,734.13 C371.03,763.93 388.15,798.37 400.45,823.1 " fill="none" id="Course-to-CourseCode" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="402.69,827.61,402.2554,817.7707,400.4597,823.135,395.0954,821.3393,402.69,827.61" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fb1b11975120a3eff39f2a5b357f0d9b]
+link Course to CourseDescription--><g id="link_Course_CourseDescription"><path codeLine="80" d="M325.06,734.28 C325.06,805.49 325.06,919 325.06,975.39 " fill="none" id="Course-to-CourseDescription" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="325.06,980.67,329.06,971.67,325.06,975.67,321.06,971.67,325.06,980.67" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[879e79d9b9300cd2bae6192b9cbae86c]
+link Course to Teacher--><g id="link_Course_Teacher"><path codeLine="81" d="M278.34,734.13 C264.96,752.06 250.34,771.67 236.79,789.84 " fill="none" id="Course-to-Teacher" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="233.73,793.93,242.319,789.1103,236.7208,789.9231,235.908,784.325,233.73,793.93" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[247acfaafee6ebcbc1a3de2d658d887a]
+link Course to CourseName--><g id="link_Course_CourseName"><path codeLine="82" d="M412.03,734.02 C437.74,752.95 465.76,774.02 491.06,794 C503.27,803.65 516.32,814.48 528.01,824.39 " fill="none" id="Course-to-CourseName" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="531.92,827.72,527.6541,818.8429,528.1107,824.4813,522.4723,824.9379,531.92,827.72" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ac1a8bcfeb8542d9f9e910e4ede23889]
+link CourseManagementService to CourseRepository--><g id="link_CourseManagementService_CourseRepository"><path codeLine="84" d="M463.38,475 C446.27,475 429.15,475 412.04,475 " fill="none" id="CourseManagementService-to-CourseRepository" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="406.73,475,415.73,479,411.73,475,415.73,471,406.73,475" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7467662de5a7f3524c8162a89b387e74]
+link TeacherManagementService to TeacherRepository--><g id="link_TeacherManagementService_TeacherRepository"><path codeLine="85" d="M836.76,427.79 C805.46,406.99 765.9,384.9 726.56,374.25 C674.33,360.11 290.23,355.27 239.56,374.25 C206.3,386.71 176.89,414.4 156.63,437.61 " fill="none" id="TeacherManagementService-to-TeacherRepository" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="153.21,441.59,162.1041,437.3599,156.464,437.7937,156.0301,432.1535,153.21,441.59" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d1190def5e9caafbaac48b25e41a7655]
+link Course to CourseStudentsLimit--><g id="link_Course_CourseStudentsLimit"><path codeLine="87" d="M191.04,703.02 C143.51,721.34 94.95,749.89 67.06,794 C6,890.58 73.12,1032.1 109.62,1095.57 " fill="none" id="Course-to-CourseStudentsLimit" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="112.2,1100,111.1626,1090.2059,109.6993,1095.6703,104.235,1094.207,112.2,1100" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f1d55085629f0d54d443ba2f454e9cbe]
+link SetCourseTeachersController to Course--><g id="link_SetCourseTeachersController_Course"><path codeLine="88" d="M1029.49,359.24 C1038.98,368.25 1047.36,378.3 1054.06,389.5 C1091.83,452.62 1101.87,499.1 1054.06,555 C979.73,641.92 654.49,663.29 464.48,668.27 " fill="none" id="SetCourseTeachersController-to-Course" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="459.45,668.4,468.5498,672.1673,464.4483,668.2715,468.3442,664.17,459.45,668.4" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[55c69a8b7b83d26318503dc8eb17e636]
+link CourseRepository to Course--><g id="link_CourseRepository_Course"><path codeLine="90" d="M323.48,516.56 C323.73,541.19 324.07,573.24 324.36,601.63 " fill="none" id="CourseRepository-to-Course" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="324.41,606.89,328.3069,597.8449,324.3529,601.8903,320.3074,597.9363,324.41,606.89" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9b22da150c9ccc12df9dafbdac8784d8]
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class SetCourseTeachersUI <<ui>>{
+    - theController : SetCourseTeachersController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+
+
+        class CourseStudentsLimit <<value object>> {
+        }
+
+        class Course <<aggregate root>> <<entity>>{
+        - courseTeachers : List<Teacher>
+        - teacherInCharge : Teacher
+        + setCourseTeachers (courseTeachers)
+        }
+
+        class Teacher <<value object>> <<id>>{
+         -acronym : Acronym
+         -systemUser : SystemUser
+         +Teacher(user : SystemUser)
+        }
+
+        class CourseDescription <<value object>>{
+        }
+
+        class CourseCode <<value object>>{
+          }
+
+        class CourseName<<value object>>{
+         }
+
+
+}
+    package "persistence" #dbd8ae{
+       interface CourseRepository{
+       +allCourses()
+       +save(course : Course)
+       }
+       interface TeacherRepository{
+       +allTeachers()
+       }
+    }
+package "application" #eaf4d3{
+    class SetCourseTeachersController <<controller>>{
+        - authz : AuthorizationService
+        - teacherSvc : TeacherManagementService
+        - courseSvc : CourseManagementService
+        - courseRepository : CourseRepository
+        + setCourseTeachers(selection, allTeachers, course)
+    }
+
+        class TeacherManagementService <<service>>{
+             - teacherRepository : TeacherRepository
+             + allTeachers()
+        }
+
+    class CourseManagementService <<service>>{
+         - courseRepository : CourseRepository
+         + getCourseRepository()
+         + allCourses()
+    }
+
+}
+
+
+SetCourseTeachersUI .-> SetCourseTeachersController
+SetCourseTeachersController .-> CourseManagementService
+SetCourseTeachersController .-> TeacherManagementService
+
+
+Course - -> CourseCode
+Course - - -> CourseDescription
+Course - -> Teacher
+Course - -> CourseName
+
+CourseManagementService .> CourseRepository
+TeacherManagementService .> TeacherRepository
+
+Course - - - -> CourseStudentsLimit
+SetCourseTeachersController .- -> Course
+
+CourseRepository - -> Course
+
+@enduml
+
+@startuml
+
+package "presentation" #DDDDDD{
+    class SetCourseTeachersUI <<ui>>{
+    - theController : SetCourseTeachersController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+
+
+        class CourseStudentsLimit <<value object>> {
+        }
+
+        class Course <<aggregate root>> <<entity>>{
+        - courseTeachers : List<Teacher>
+        - teacherInCharge : Teacher
+        + setCourseTeachers (courseTeachers)
+        }
+
+        class Teacher <<value object>> <<id>>{
+         -acronym : Acronym
+         -systemUser : SystemUser
+         +Teacher(user : SystemUser)
+        }
+
+        class CourseDescription <<value object>>{
+        }
+
+        class CourseCode <<value object>>{
+          }
+
+        class CourseName<<value object>>{
+         }
+
+
+}
+    package "persistence" #dbd8ae{
+       interface CourseRepository{
+       +allCourses()
+       +save(course : Course)
+       }
+       interface TeacherRepository{
+       +allTeachers()
+       }
+    }
+package "application" #eaf4d3{
+    class SetCourseTeachersController <<controller>>{
+        - authz : AuthorizationService
+        - teacherSvc : TeacherManagementService
+        - courseSvc : CourseManagementService
+        - courseRepository : CourseRepository
+        + setCourseTeachers(selection, allTeachers, course)
+    }
+
+        class TeacherManagementService <<service>>{
+             - teacherRepository : TeacherRepository
+             + allTeachers()
+        }
+
+    class CourseManagementService <<service>>{
+         - courseRepository : CourseRepository
+         + getCourseRepository()
+         + allCourses()
+    }
+
+}
+
+
+SetCourseTeachersUI .-> SetCourseTeachersController
+SetCourseTeachersController .-> CourseManagementService
+SetCourseTeachersController .-> TeacherManagementService
+
+
+Course - -> CourseCode
+Course - - -> CourseDescription
+Course - -> Teacher
+Course - -> CourseName
+
+CourseManagementService .> CourseRepository
+TeacherManagementService .> TeacherRepository
+
+Course - - - -> CourseStudentsLimit
+SetCourseTeachersController .- -> Course
+
+CourseRepository - -> Course
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

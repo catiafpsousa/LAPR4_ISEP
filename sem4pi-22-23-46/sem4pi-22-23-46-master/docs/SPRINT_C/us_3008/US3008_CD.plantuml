@@ -1,0 +1,90 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class UndoLastChangeInPostItUI <<ui>>{
+    - theController : UndoLastChangeInPostItController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+        class PostIt <<entity>>{
+        - owner : SystemUser
+        - parent : PostIt
+        - next : PostIt
+        - content : Content
+        - timestamp : Calendar
+        - isDeleted : boolean
+        + PostIt(owner, content)
+        + PostIt(parent, newContent)
+        + PostIt(parent)
+        + deleteStatePostIt()
+        + registerPrimaryBoardModification(board, createdPostIt, modificationType, cell)
+        }
+        class Content<<value object>>{
+        - textContent: String
+         }
+
+        class SharedBoard <<aggregate root>> <<entity>>{
+        -owner : SystemUser
+        - rowNumber: NumberOfRow
+        - columnNumber: NumberOfColumn
+        - Set <Cell> cells : Cell
+        - Set<Modification> modifications : Modification
+        + SharedBoard(owner, rowNumber, columnNumber, cells title)
+        + availableCells()
+        +addUndoModification(postIt, cell)
+        }
+
+      class Cell <<entity>>{
+             - row : BoardRow
+             - column : BoardColumn
+             +  Cell (row, column)
+             + canHavePostIt()
+             + addPostIt (owner, content)
+             + latestPostIt()
+             + undoPostIt(parent)
+       }
+}
+    package "persistence" #dbd8ae{
+       interface BoardRepository{
+       + findBySystemUserWithWritePermission(user)
+       + save(board)
+       }
+    }
+package "application" #eaf4d3{
+    class UndoLastChangeInPostItController <<controller>>{
+        - authz : AuthorizationService
+        - boardSvc : BoardManagementService
+        - boardRepository : BoardRepository
+        + undoPostItLastChange(board, postIt)
+        + sharedBoardWithWritePermission()
+        + currentUser()
+    }
+
+    class BoardManagementService <<service>>{
+         - boardRepository : BoardRepository
+         + availableCells(board)
+         + allBoardsBySystemUserWithWritePermission(user)
+         + deleteStatePostIt(board, postIt)
+         + undoPostItLastChange(board, postIt)
+    }
+
+}
+
+
+UndoLastChangeInPostItUI .-> UndoLastChangeInPostItController
+UndoLastChangeInPostItController .-> BoardManagementService
+
+
+
+BoardManagementService .> BoardRepository
+
+PostIt --> Content
+Cell -> PostIt
+SharedBoard --> Cell
+UndoLastChangeInPostItController .--> SharedBoard
+
+
+@enduml

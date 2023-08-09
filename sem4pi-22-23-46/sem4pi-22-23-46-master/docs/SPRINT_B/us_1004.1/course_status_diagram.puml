@@ -1,0 +1,18 @@
+@startuml
+
+scale 200 width
+hide empty description
+
+skinparam state {
+    BackgroundColor White
+    BorderColor Black
+}
+
+[*] --> Closed
+Closed --> Open
+Open --> Enroll
+Enroll --> inProgress
+inProgress --> Closed
+Closed--> [*]
+
+@enduml

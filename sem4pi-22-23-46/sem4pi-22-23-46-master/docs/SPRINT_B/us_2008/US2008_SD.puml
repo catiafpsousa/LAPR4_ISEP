@@ -1,0 +1,91 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor User as Actor
+ participant CreateAutomaticExamsUI as UI <<presentation>>
+ participant CreateAutomaticExamsController as Controller <<application>>
+ participant AuthorizationService  as authz <<application>>
+ participant ExamToTextLanguage as ExamToTextLanguage <<application>>
+ participant CourseManagementService as courseSvc <<application>>
+ participant QuestionManagementService as questionSvc <<application>>
+ participant ExamManagementService as examSvc <<application>>
+
+ participant "exam:Exam" as Domain <<domain>>
+ participant PersistenceContext as Persistence <<persistence>>
+ participant RepositoryFactory as Factory <<factory>>
+ database ExamRepository as ExamRepository <<repository>>
+ database CourseRepository as CourseRepository <<repository>>
+ database QuestionTypeRepository as QuestionTypeRepository <<repository>>
+
+
+ Actor -> UI: createAutomaticFormativeExam()
+ activate UI
+  UI --> Controller: create
+ UI --> Actor: ask information about the exam
+
+
+
+
+UI -> Controller: listCourses()
+activate Controller
+UI -> Controller: findQuestionType()
+
+Controller -> courseSvc :  allCourses()
+courseSvc -> CourseRepository : allCourses()
+CourseRepository -> courseSvc : courses
+courseSvc --> Controller : courses
+Controller --> UI : courses
+UI --> Actor : CourseList
+Controller -> questionSvc :  findQuestionType()
+questionSvc -> QuestionTypeRepository : findQuestionType()
+QuestionTypeRepository -> questionSvc : questionTypes
+questionSvc --> Controller : questionTypes
+Controller --> UI : questionTypes
+UI --> Actor : QuestionTypeList
+  Actor -> UI: courseCode , title, exameDescription, nrOfSections, \n sectionDescription, questionType, numberOfquestions, \n scoreOfquestion
+
+     UI -> Controller:  createAutomaticFormativeExam( examTitle,examDescription,  section, examHeader, courseCode ,questionType)
+
+
+         Controller -> authz: ensureAuthenticatedUserHasAnyOf(TEACHER)
+                activate authz
+                deactivate authz
+                Controller -> ExamToTextLanguage: convertExamIntoText(examTitle, examDescription, section, examHeader, courseCode,\n questionType)
+        Controller -> examSvc :verifyAutomaticFormativeExam(newExamFileLanguage)
+      activate examSvc
+        Controller -> examSvc :saveAutomaticFormativeExam(examTitle, examDescription, section, examHeader, courseCode)
+
+
+
+
+
+         examSvc   -> Persistence : repositories()
+                     activate Persistence
+
+                     deactivate Persistence
+                     examSvc -> Factory: exams()
+                     activate Factory
+                     Factory -> ExamRepository: create
+
+                     Factory -> examSvc: examRepository
+                     deactivate Factory
+
+                     examSvc -> ExamRepository: save(newAutomaticFormativeExam)
+
+                     activate ExamRepository
+                     ExamRepository --> examSvc
+                    deactivate ExamRepository
+                       examSvc --> Controller
+
+
+         Controller --> UI
+     deactivate Controller
+
+
+         UI-->Actor
+ deactivate UI
+
+ @enduml

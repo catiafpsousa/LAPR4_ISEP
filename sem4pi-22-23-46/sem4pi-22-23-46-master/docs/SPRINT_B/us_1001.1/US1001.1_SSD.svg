@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="415px" preserveAspectRatio="none" style="width:244px;height:415px;background:#FFFFFF;" version="1.1" viewBox="0 0 244 415" width="244px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="200.8125" style="stroke:#181818;stroke-width:1.0;" width="10" x="179" y="114.9609"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="36" x2="36" y1="82.6094" y2="333.7734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="183.5" x2="183.5" y1="82.6094" y2="333.7734"/><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="56" x="5" y="79.5332">Manager</text><ellipse cx="36" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M36,21.5 L36,48.5 M23,29.5 L49,29.5 M36,48.5 L23,63.5 M36,48.5 L49,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="56" x="5" y="347.3066">Manager</text><ellipse cx="36" cy="358.8828" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M36,366.8828 L36,393.8828 M23,374.8828 L49,374.8828 M36,393.8828 L23,408.8828 M36,393.8828 L49,408.8828 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="129.5" y="32.3906"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="136.5" y="53.9238">«presentation»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="94" x="137" y="71.5332">RegisterUserUI</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="129.5" y="332.7734"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="136.5" y="354.3066">«presentation»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="94" x="137" y="371.916">RegisterUserUI</text><rect fill="#FFFFFF" height="200.8125" style="stroke:#181818;stroke-width:1.0;" width="10" x="179" y="114.9609"/><polygon fill="#181818" points="167,110.9609,177,114.9609,167,118.9609,171,114.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="173" y1="114.9609" y2="114.9609"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="79" x="43" y="110.1045">Register User</text><polygon fill="#181818" points="47,141.3125,37,145.3125,47,149.3125,43,145.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="41" x2="178" y1="145.3125" y2="145.3125"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="119" x="53" y="140.4561">Ask user information</text><polygon fill="#181818" points="167,204.3672,177,208.3672,167,212.3672,171,208.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="173" y1="208.3672" y2="208.3672"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="102" x="43" y="170.8076">Email, Password,</text><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="63" x="43" y="187.1592">Full Name,</text><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="69" x="43" y="203.5107">Short Name</text><polygon fill="#181818" points="47,251.0703,37,255.0703,47,259.0703,43,255.0703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="41" x2="178" y1="255.0703" y2="255.0703"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="57" x="53" y="233.8623">Show List</text><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="79" x="53" y="250.2139">of Role Types</text><polygon fill="#181818" points="167,281.4219,177,285.4219,167,289.4219,171,285.4219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="173" y1="285.4219" y2="285.4219"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="58" x="43" y="280.5654">Role Type</text><polygon fill="#181818" points="47,311.7734,37,315.7734,47,319.7734,43,315.7734" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="41" x2="183" y1="315.7734" y2="315.7734"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="88" x="53" y="310.917">displayUserInfo</text><!--MD5=[76361e2b499cd5eb4e532e2f77301a7f]
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant RegisterUserUI as UI <<presentation>>
+
+Actor - -> UI: Register User
+activate UI
+    
+    UI - -> Actor: Ask user information
+    Actor - -> UI: Email, Password,\nFull Name,\nShort Name
+
+
+        UI - -> Actor: Show List\nof Role Types
+        Actor - -> UI: Role Type
+
+
+        UI- ->Actor: displayUserInfo
+deactivate UI
+@enduml
+
+@startuml
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant RegisterUserUI as UI <<presentation>>
+
+Actor - -> UI: Register User
+activate UI
+    
+    UI - -> Actor: Ask user information
+    Actor - -> UI: Email, Password,\nFull Name,\nShort Name
+
+
+        UI - -> Actor: Show List\nof Role Types
+        Actor - -> UI: Role Type
+
+
+        UI- ->Actor: displayUserInfo
+deactivate UI
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

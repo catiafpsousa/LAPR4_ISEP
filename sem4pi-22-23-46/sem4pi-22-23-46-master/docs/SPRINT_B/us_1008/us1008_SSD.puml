@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Student as student
+participant RequestEnrollmentUI as System <<presentation>>
+
+
+student -> System: Choose Request Enrollment in a Course option
+System --> student: Show list of courses in state enroll
+System --> student: Asks to choose one course
+student --> System: Selects a course
+System --> student: Registers the request and confirms the request
+
+@enduml

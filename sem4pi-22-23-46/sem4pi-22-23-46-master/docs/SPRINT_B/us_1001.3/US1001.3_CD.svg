@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1135.8px" preserveAspectRatio="none" style="width:1168px;height:1135px;background:#FFFFFF;" version="1.1" viewBox="0 0 1168 1135" width="1168.8px" zoomAndPan="magnify"><defs/><g><!--MD5=[3dcf69e4e87a10af00fce8354034ba4c]
+cluster presentation--><g id="cluster_presentation"><path d="M227.7,3.6 L282.3,3.6 A2.25,2.25 0 0 1 283.8,5.1 L288,17.7656 L387.9,17.7656 A1.5,1.5 0 0 1 389.4,19.2656 L389.4,89.7 A1.5,1.5 0 0 1 387.9,91.2 L227.7,91.2 A1.5,1.5 0 0 1 226.2,89.7 L226.2,5.1 A1.5,1.5 0 0 1 227.7,3.6 " fill="#DDDDDD" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="226.2" x2="288" y1="17.7656" y2="17.7656"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="54" x="228.6" y="13.5199">presentation</text></g><!--MD5=[27f772719433d509ddbc20ff768eba08]
+cluster domain--><g id="cluster_domain"><path d="M612.3,457.2 L643.5,457.2 A2.25,2.25 0 0 1 645,458.7 L649.2,471.3656 L1051.5,471.3656 A1.5,1.5 0 0 1 1053,472.8656 L1053,1130.1 A1.5,1.5 0 0 1 1051.5,1131.6 L612.3,1131.6 A1.5,1.5 0 0 1 610.8,1130.1 L610.8,458.7 A1.5,1.5 0 0 1 612.3,457.2 " fill="#DBD8AE" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="610.8" x2="649.2" y1="471.3656" y2="471.3656"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="30.6" x="613.2" y="467.1199">domain</text></g><!--MD5=[0334151241c2df87d13997940bbf650c]
+cluster persistence--><g id="cluster_persistence"><path d="M1068.9,518.4 L1119.9,518.4 A2.25,2.25 0 0 1 1121.4,519.9 L1125.6,532.5656 L1163.1,532.5656 A1.5,1.5 0 0 1 1164.6,534.0656 L1164.6,587.7 A1.5,1.5 0 0 1 1163.1,589.2 L1068.9,589.2 A1.5,1.5 0 0 1 1067.4,587.7 L1067.4,519.9 A1.5,1.5 0 0 1 1068.9,518.4 " fill="#DBD8AE" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="1067.4" x2="1125.6" y1="532.5656" y2="532.5656"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="50.4" x="1069.8" y="528.3199">persistence</text></g><!--MD5=[3ff016c1aa5003d713567a073e2181a6]
+cluster application--><g id="cluster_application"><path d="M5.1,105.6 L51.9,105.6 A2.25,2.25 0 0 1 53.4,107.1 L57.6,119.7656 L594.9,119.7656 A1.5,1.5 0 0 1 596.4,121.2656 L596.4,606.6 A1.5,1.5 0 0 1 594.9,608.1 L5.1,608.1 A1.5,1.5 0 0 1 3.6,606.6 L3.6,107.1 A1.5,1.5 0 0 1 5.1,105.6 " fill="#EAF4D3" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="3.6" x2="57.6" y1="119.7656" y2="119.7656"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="46.2" x="6" y="115.5199">application</text></g><!--MD5=[e068204f24efae014cc250f4748ce942]
+class ListUsersUI--><g id="elem_ListUsersUI"><rect codeLine="4" fill="#F1F1F1" height="56.3531" id="ListUsersUI" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="144" x="235.8" y="25.2"/><ellipse cx="284.25" cy="38.0109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M285.45,35.9109 Q285.5719,35.6109 285.7125,35.4609 Q285.8531,35.3109 286.0125,35.3109 Q286.2938,35.3109 286.4719,35.4797 Q286.65,35.6484 286.65,36.0422 L286.65,36.9797 Q286.65,37.3734 286.4813,37.5422 Q286.3125,37.7109 286.05,37.7109 Q285.8156,37.7109 285.6656,37.6078 Q285.5156,37.5047 285.45,37.2328 Q285.4219,37.0453 285.3187,36.9422 Q285.1312,36.7453 284.7938,36.6328 Q284.4563,36.5109 284.1188,36.5109 Q283.6969,36.5109 283.3406,36.6797 Q282.9938,36.8484 282.7219,37.2234 Q282.45,37.5984 282.45,38.1141 L282.45,38.6672 Q282.45,39.2859 282.9563,39.6984 Q283.4625,40.1109 284.3625,40.1109 Q284.8969,40.1109 285.2719,39.9891 Q285.4875,39.9234 285.7313,39.7078 Q285.8906,39.5859 285.975,39.5484 Q286.0594,39.5109 286.1625,39.5109 Q286.3594,39.5109 286.5,39.6703 Q286.65,39.8203 286.65,40.0359 Q286.65,40.2422 286.4437,40.4859 Q286.1438,40.8422 285.6656,41.0391 Q285.0375,41.3109 284.2688,41.3109 Q283.3688,41.3109 282.6469,40.9547 Q282.0656,40.6734 281.6531,40.0641 Q281.25,39.4547 281.25,38.7328 L281.25,38.0766 Q281.25,37.3266 281.6063,36.6703 Q281.9719,36.0141 282.6,35.6672 Q283.2375,35.3109 283.95,35.3109 Q284.3812,35.3109 284.7562,35.4609 Q285.1312,35.6109 285.45,35.9109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="14.4" x="310.35" y="35.6742">«ui»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="42" x="296.55" y="45.9762">ListUsersUI</text><line style="stroke:#181818;stroke-width:0.3;" x1="236.4" x2="379.2" y1="50.8219" y2="50.8219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="240.6" y="57.6047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="128.4" x="247.8" y="61.9418">theController : ListUsersController</text><line style="stroke:#181818;stroke-width:0.3;" x1="236.4" x2="379.2" y1="66.1875" y2="66.1875"/><ellipse cx="242.4" cy="74.7703" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="36" x="247.8" y="77.3074">doShow()</text></g><!--MD5=[a3638c1e5b65d287ecad7f06f5c0f212]
+class Role--><g id="elem_Role"><rect codeLine="15" fill="#F1F1F1" height="56.3531" id="Role" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="65.4" x="713.7" y="1044.6"/><ellipse cx="722.7" cy="1057.4109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M723.9,1055.3109 Q724.0219,1055.0109 724.1625,1054.8609 Q724.3031,1054.7109 724.4625,1054.7109 Q724.7438,1054.7109 724.9219,1054.8797 Q725.1,1055.0484 725.1,1055.4422 L725.1,1056.3797 Q725.1,1056.7734 724.9313,1056.9422 Q724.7625,1057.1109 724.5,1057.1109 Q724.2656,1057.1109 724.1156,1057.0078 Q723.9656,1056.9047 723.9,1056.6328 Q723.8719,1056.4453 723.7688,1056.3422 Q723.5813,1056.1453 723.2438,1056.0328 Q722.9063,1055.9109 722.5688,1055.9109 Q722.1469,1055.9109 721.7906,1056.0797 Q721.4438,1056.2484 721.1719,1056.6234 Q720.9,1056.9984 720.9,1057.5141 L720.9,1058.0672 Q720.9,1058.6859 721.4063,1059.0984 Q721.9125,1059.5109 722.8125,1059.5109 Q723.3469,1059.5109 723.7219,1059.3891 Q723.9375,1059.3234 724.1813,1059.1078 Q724.3406,1058.9859 724.425,1058.9484 Q724.5094,1058.9109 724.6125,1058.9109 Q724.8094,1058.9109 724.95,1059.0703 Q725.1,1059.2203 725.1,1059.4359 Q725.1,1059.6422 724.8938,1059.8859 Q724.5938,1060.2422 724.1156,1060.4391 Q723.4875,1060.7109 722.7188,1060.7109 Q721.8188,1060.7109 721.0969,1060.3547 Q720.5156,1060.0734 720.1031,1059.4641 Q719.7,1058.8547 719.7,1058.1328 L719.7,1057.4766 Q719.7,1056.7266 720.0563,1056.0703 Q720.4219,1055.4141 721.05,1055.0672 Q721.6875,1054.7109 722.4,1054.7109 Q722.8313,1054.7109 723.2063,1054.8609 Q723.5813,1055.0109 723.9,1055.3109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="729.9" y="1055.0742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="17.4" x="745.5" y="1065.3762">Role</text><line style="stroke:#181818;stroke-width:0.3;" x1="714.3" x2="778.5" y1="1070.2219" y2="1070.2219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="718.5" y="1077.0047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="36" x="725.7" y="1081.3418">roleName</text><line style="stroke:#181818;stroke-width:0.3;" x1="714.3" x2="778.5" y1="1085.5875" y2="1085.5875"/><ellipse cx="720.3" cy="1094.1703" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="44.4" x="725.7" y="1096.7074">Role(name)</text></g><!--MD5=[20c2d2fab8cbc867fc362748def8f1c0]
+class RoleAssignment--><g id="elem_RoleAssignment"><rect codeLine="20" fill="#F1F1F1" height="98.6156" id="RoleAssignment" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="149.4" x="846.9" y="1023.6"/><ellipse cx="888.45" cy="1036.4109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M889.65,1034.3109 Q889.7719,1034.0109 889.9125,1033.8609 Q890.0531,1033.7109 890.2125,1033.7109 Q890.4938,1033.7109 890.6719,1033.8797 Q890.85,1034.0484 890.85,1034.4422 L890.85,1035.3797 Q890.85,1035.7734 890.6813,1035.9422 Q890.5125,1036.1109 890.25,1036.1109 Q890.0156,1036.1109 889.8656,1036.0078 Q889.7156,1035.9047 889.65,1035.6328 Q889.6219,1035.4453 889.5188,1035.3422 Q889.3313,1035.1453 888.9938,1035.0328 Q888.6563,1034.9109 888.3188,1034.9109 Q887.8969,1034.9109 887.5406,1035.0797 Q887.1938,1035.2484 886.9219,1035.6234 Q886.65,1035.9984 886.65,1036.5141 L886.65,1037.0672 Q886.65,1037.6859 887.1563,1038.0984 Q887.6625,1038.5109 888.5625,1038.5109 Q889.0969,1038.5109 889.4719,1038.3891 Q889.6875,1038.3234 889.9313,1038.1078 Q890.0906,1037.9859 890.175,1037.9484 Q890.2594,1037.9109 890.3625,1037.9109 Q890.5594,1037.9109 890.7,1038.0703 Q890.85,1038.2203 890.85,1038.4359 Q890.85,1038.6422 890.6438,1038.8859 Q890.3438,1039.2422 889.8656,1039.4391 Q889.2375,1039.7109 888.4688,1039.7109 Q887.5688,1039.7109 886.8469,1039.3547 Q886.2656,1039.0734 885.8531,1038.4641 Q885.45,1037.8547 885.45,1037.1328 L885.45,1036.4766 Q885.45,1035.7266 885.8063,1035.0703 Q886.1719,1034.4141 886.8,1034.0672 Q887.4375,1033.7109 888.15,1033.7109 Q888.5813,1033.7109 888.9563,1033.8609 Q889.3313,1034.0109 889.65,1034.3109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="907.05" y="1034.0742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="61.2" x="900.75" y="1044.3762">RoleAssignment</text><line style="stroke:#181818;stroke-width:0.3;" x1="847.5" x2="995.7" y1="1049.2219" y2="1049.2219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="851.7" y="1056.0047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="9" x="858.9" y="1060.3418">pk</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="851.7" y="1066.5703"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="16.2" x="858.9" y="1070.9074">type</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="851.7" y="1077.1359"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="45.6" x="858.9" y="1081.473">assignedOn</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="851.7" y="1087.7016"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="55.2" x="858.9" y="1092.0387">unassignedOn</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="851.7" y="1098.2672"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="27.6" x="858.9" y="1102.6043">expired</text><line style="stroke:#181818;stroke-width:0.3;" x1="847.5" x2="995.7" y1="1106.85" y2="1106.85"/><ellipse cx="853.5" cy="1115.4328" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="133.8" x="858.9" y="1117.9699">RoleAssignment(type, assignedOn)</text></g><!--MD5=[baab59eb82057fff0746fc8f0031a891]
+class RoleSet--><g id="elem_RoleSet"><rect codeLine="29" fill="#F1F1F1" height="60.4969" id="RoleSet" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="93.6" x="949.8" y="853.8"/><ellipse cx="979.05" cy="863.4" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M980.25,861.3 Q980.3719,861 980.5125,860.85 Q980.6531,860.7 980.8125,860.7 Q981.0938,860.7 981.2719,860.8688 Q981.45,861.0375 981.45,861.4313 L981.45,862.3688 Q981.45,862.7625 981.2813,862.9313 Q981.1125,863.1 980.85,863.1 Q980.6156,863.1 980.4656,862.9969 Q980.3156,862.8938 980.25,862.6219 Q980.2219,862.4344 980.1188,862.3313 Q979.9313,862.1344 979.5938,862.0219 Q979.2562,861.9 978.9187,861.9 Q978.4969,861.9 978.1406,862.0688 Q977.7937,862.2375 977.5219,862.6125 Q977.25,862.9875 977.25,863.5031 L977.25,864.0563 Q977.25,864.675 977.7562,865.0875 Q978.2625,865.5 979.1625,865.5 Q979.6969,865.5 980.0719,865.3781 Q980.2875,865.3125 980.5313,865.0969 Q980.6906,864.975 980.775,864.9375 Q980.8594,864.9 980.9625,864.9 Q981.1594,864.9 981.3,865.0594 Q981.45,865.2094 981.45,865.425 Q981.45,865.6313 981.2438,865.875 Q980.9437,866.2312 980.4656,866.4281 Q979.8375,866.7 979.0687,866.7 Q978.1687,866.7 977.4469,866.3438 Q976.8656,866.0625 976.4531,865.4531 Q976.05,864.8438 976.05,864.1219 L976.05,863.4656 Q976.05,862.7156 976.4063,862.0594 Q976.7719,861.4031 977.4,861.0563 Q978.0375,860.7 978.75,860.7 Q979.1813,860.7 979.5563,860.85 Q979.9313,861 980.25,861.3 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="30" x="991.35" y="866.8371">RoleSet</text><line style="stroke:#181818;stroke-width:0.3;" x1="950.4" x2="1042.8" y1="873" y2="873"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="954.6" y="879.7828"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="47.4" x="961.8" y="884.1199">assignments</text><line style="stroke:#181818;stroke-width:0.3;" x1="950.4" x2="1042.8" y1="888.3656" y2="888.3656"/><ellipse cx="956.4" cy="896.9484" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="34.8" x="961.8" y="899.4855">add(role)</text><ellipse cx="956.4" cy="907.5141" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="78" x="961.8" y="910.0512">hasAssignment(role)</text></g><!--MD5=[73145e46247802284b2f7aaef1fa1797]
+class Set--><g id="elem_Set"><rect codeLine="146" fill="#F1F1F1" height="28.8" id="Set" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="31.8" x="984.9" y="789"/><ellipse cx="993.9" cy="798.6" fill="#B4A7E5" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M994.5,796.8 L994.5,800.4 L995.7,800.4 L995.9906,800.4 L996.3,800.775 L996.3,801 L996.3,801.225 L995.9906,801.6 L995.7,801.6 L992.1,801.6 L991.8094,801.6 L991.5,801.225 L991.5,801 L991.5,800.775 L991.8094,800.4 L992.1,800.4 L993.3,800.4 L993.3,796.8 L992.1,796.8 L991.8094,796.8 L991.5,796.425 L991.5,796.2 L991.5,795.975 L991.8094,795.6 L992.1,795.6 L995.7,795.6 L995.9906,795.6 L996.3,795.975 L996.3,796.2 L996.3,796.425 L995.9906,796.8 L995.7,796.8 L994.5,796.8 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="12.6" x="1002.3" y="802.0371">Set</text><line style="stroke:#181818;stroke-width:0.3;" x1="985.5" x2="1016.1" y1="808.2" y2="808.2"/><line style="stroke:#181818;stroke-width:0.3;" x1="985.5" x2="1016.1" y1="813" y2="813"/></g><!--MD5=[bc064d979c32666ae52f3d7624591b7b]
+class SystemUser--><g id="elem_SystemUser"><rect codeLine="36" fill="#F1F1F1" height="149.9344" id="SystemUser" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="280.8" x="762.6" y="484.8"/><ellipse cx="873.45" cy="502.1391" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M874.65,500.0391 Q874.7719,499.7391 874.9125,499.5891 Q875.0531,499.4391 875.2125,499.4391 Q875.4938,499.4391 875.6719,499.6078 Q875.85,499.7766 875.85,500.1703 L875.85,501.1078 Q875.85,501.5016 875.6813,501.6703 Q875.5125,501.8391 875.25,501.8391 Q875.0156,501.8391 874.8656,501.7359 Q874.7156,501.6328 874.65,501.3609 Q874.6219,501.1734 874.5188,501.0703 Q874.3313,500.8734 873.9938,500.7609 Q873.6563,500.6391 873.3188,500.6391 Q872.8969,500.6391 872.5406,500.8078 Q872.1938,500.9766 871.9219,501.3516 Q871.65,501.7266 871.65,502.2422 L871.65,502.7953 Q871.65,503.4141 872.1563,503.8266 Q872.6625,504.2391 873.5625,504.2391 Q874.0969,504.2391 874.4719,504.1172 Q874.6875,504.0516 874.9313,503.8359 Q875.0906,503.7141 875.175,503.6766 Q875.2594,503.6391 875.3625,503.6391 Q875.5594,503.6391 875.7,503.7984 Q875.85,503.9484 875.85,504.1641 Q875.85,504.3703 875.6438,504.6141 Q875.3438,504.9703 874.8656,505.1672 Q874.2375,505.4391 873.4688,505.4391 Q872.5688,505.4391 871.8469,505.0828 Q871.2656,504.8016 870.8531,504.1922 Q870.45,503.5828 870.45,502.8609 L870.45,502.2047 Q870.45,501.4547 870.8063,500.7984 Q871.1719,500.1422 871.8,499.7953 Q872.4375,499.4391 873.15,499.4391 Q873.5813,499.4391 873.9563,499.5891 Q874.3313,499.7391 874.65,500.0391 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="56.4" x="884.55" y="495.2742">«aggregate root»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="25.8" x="899.85" y="504.3305">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="45" x="890.25" y="514.6324">SystemUser</text><line style="stroke:#181818;stroke-width:0.3;" x1="763.2" x2="1042.8" y1="519.4781" y2="519.4781"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="526.2609"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="78.6" x="774.6" y="530.598">email : EmailAddress</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="536.8266"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="79.8" x="774.6" y="541.1637">password : Password</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="547.3922"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="75" x="774.6" y="551.7293">fullName : FullName</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="557.9578"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="90" x="774.6" y="562.2949">shortName : ShortName</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="568.5234"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="55.8" x="774.6" y="572.8605">roles : RoleSet</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="579.0891"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.2" x="774.6" y="583.4262">createdOn : Calendar</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="589.6547"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="60" x="774.6" y="593.9918">active : boolean</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="600.2203"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87.6" x="774.6" y="604.5574">activatedOn : Calendar</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="767.4" y="610.7859"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87.6" x="774.6" y="615.123">activatedOn : Calendar</text><line style="stroke:#181818;stroke-width:0.3;" x1="763.2" x2="1042.8" y1="619.3688" y2="619.3688"/><ellipse cx="769.2" cy="627.9516" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="265.2" x="774.6" y="630.4887">SystemUser (email, password, fullName, shortName, roles, createdOn)</text></g><!--MD5=[6a10e9b103e375a5f698786d329ce000]
+class EmailAddress--><g id="elem_EmailAddress"><rect codeLine="49" fill="#F1F1F1" height="75.975" id="EmailAddress" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="93" x="620.7" y="676.8"/><ellipse cx="639.69" cy="694.1391" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M640.89,692.0391 Q641.0119,691.7391 641.1525,691.5891 Q641.2931,691.4391 641.4525,691.4391 Q641.7338,691.4391 641.9119,691.6078 Q642.09,691.7766 642.09,692.1703 L642.09,693.1078 Q642.09,693.5016 641.9213,693.6703 Q641.7525,693.8391 641.49,693.8391 Q641.2556,693.8391 641.1056,693.7359 Q640.9556,693.6328 640.89,693.3609 Q640.8619,693.1734 640.7588,693.0703 Q640.5713,692.8734 640.2338,692.7609 Q639.8963,692.6391 639.5588,692.6391 Q639.1369,692.6391 638.7806,692.8078 Q638.4338,692.9766 638.1619,693.3516 Q637.89,693.7266 637.89,694.2422 L637.89,694.7953 Q637.89,695.4141 638.3963,695.8266 Q638.9025,696.2391 639.8025,696.2391 Q640.3369,696.2391 640.7119,696.1172 Q640.9275,696.0516 641.1713,695.8359 Q641.3306,695.7141 641.415,695.6766 Q641.4994,695.6391 641.6025,695.6391 Q641.7994,695.6391 641.94,695.7984 Q642.09,695.9484 642.09,696.1641 Q642.09,696.3703 641.8838,696.6141 Q641.5838,696.9703 641.1056,697.1672 Q640.4775,697.4391 639.7088,697.4391 Q638.8088,697.4391 638.0869,697.0828 Q637.5056,696.8016 637.0931,696.1922 Q636.69,695.5828 636.69,694.8609 L636.69,694.2047 Q636.69,693.4547 637.0463,692.7984 Q637.4119,692.1422 638.04,691.7953 Q638.6775,691.4391 639.39,691.4391 Q639.8213,691.4391 640.1963,691.5891 Q640.5713,691.7391 640.89,692.0391 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="651.81" y="687.2742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="14.4" x="668.91" y="696.3305">«id»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="51.6" x="650.31" y="706.6324">EmailAddress</text><line style="stroke:#181818;stroke-width:0.3;" x1="621.3" x2="713.1" y1="711.4781" y2="711.4781"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="625.5" y="718.2609"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.2" x="632.7" y="722.598">email : String</text><line style="stroke:#181818;stroke-width:0.3;" x1="621.3" x2="713.1" y1="726.8438" y2="726.8438"/><ellipse cx="627.3" cy="735.4266" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="55.2" x="632.7" y="737.9637">valueOf(email)</text><ellipse cx="627.3" cy="745.9922" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="77.4" x="632.7" y="748.5293">EmailAddress(email)</text></g><!--MD5=[2f01b1126ff33a0669651ec2488a5ef9]
+class Password--><g id="elem_Password"><rect codeLine="55" fill="#F1F1F1" height="56.3531" id="Password" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="186.6" x="681.3" y="855.9"/><ellipse cx="748.95" cy="868.7109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M750.15,866.6109 Q750.2719,866.3109 750.4125,866.1609 Q750.5531,866.0109 750.7125,866.0109 Q750.9938,866.0109 751.1719,866.1797 Q751.35,866.3484 751.35,866.7422 L751.35,867.6797 Q751.35,868.0734 751.1813,868.2422 Q751.0125,868.4109 750.75,868.4109 Q750.5156,868.4109 750.3656,868.3078 Q750.2156,868.2047 750.15,867.9328 Q750.1219,867.7453 750.0188,867.6422 Q749.8313,867.4453 749.4938,867.3328 Q749.1563,867.2109 748.8188,867.2109 Q748.3969,867.2109 748.0406,867.3797 Q747.6938,867.5484 747.4219,867.9234 Q747.15,868.2984 747.15,868.8141 L747.15,869.3672 Q747.15,869.9859 747.6563,870.3984 Q748.1625,870.8109 749.0625,870.8109 Q749.5969,870.8109 749.9719,870.6891 Q750.1875,870.6234 750.4313,870.4078 Q750.5906,870.2859 750.675,870.2484 Q750.7594,870.2109 750.8625,870.2109 Q751.0594,870.2109 751.2,870.3703 Q751.35,870.5203 751.35,870.7359 Q751.35,870.9422 751.1438,871.1859 Q750.8438,871.5422 750.3656,871.7391 Q749.7375,872.0109 748.9688,872.0109 Q748.0688,872.0109 747.3469,871.6547 Q746.7656,871.3734 746.3531,870.7641 Q745.95,870.1547 745.95,869.4328 L745.95,868.7766 Q745.95,868.0266 746.3063,867.3703 Q746.6719,866.7141 747.3,866.3672 Q747.9375,866.0109 748.65,866.0109 Q749.0813,866.0109 749.4563,866.1609 Q749.8313,866.3109 750.15,866.6109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="760.05" y="866.3742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="36.6" x="766.05" y="876.6762">Password</text><line style="stroke:#181818;stroke-width:0.3;" x1="681.9" x2="867.3" y1="881.5219" y2="881.5219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="686.1" y="888.3047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="66" x="693.3" y="892.6418">Password : String</text><line style="stroke:#181818;stroke-width:0.3;" x1="681.9" x2="867.3" y1="896.8875" y2="896.8875"/><ellipse cx="687.9" cy="905.4703" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="171" x="693.3" y="908.0074">encodedAndValid(password, policy, encoder)</text></g><!--MD5=[ba7731d2bbdb81fc0704c700614d70af]
+class FullName--><g id="elem_FullName"><rect codeLine="60" fill="#F1F1F1" height="66.9188" id="FullName" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="91.8" x="734.7" y="681.3"/><ellipse cx="755.58" cy="694.1109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M756.78,692.0109 Q756.9019,691.7109 757.0425,691.5609 Q757.1831,691.4109 757.3425,691.4109 Q757.6238,691.4109 757.8019,691.5797 Q757.98,691.7484 757.98,692.1422 L757.98,693.0797 Q757.98,693.4734 757.8113,693.6422 Q757.6425,693.8109 757.38,693.8109 Q757.1456,693.8109 756.9956,693.7078 Q756.8456,693.6047 756.78,693.3328 Q756.7519,693.1453 756.6488,693.0422 Q756.4613,692.8453 756.1238,692.7328 Q755.7863,692.6109 755.4487,692.6109 Q755.0269,692.6109 754.6706,692.7797 Q754.3237,692.9484 754.0519,693.3234 Q753.78,693.6984 753.78,694.2141 L753.78,694.7672 Q753.78,695.3859 754.2863,695.7984 Q754.7925,696.2109 755.6925,696.2109 Q756.2269,696.2109 756.6019,696.0891 Q756.8175,696.0234 757.0613,695.8078 Q757.2206,695.6859 757.305,695.6484 Q757.3894,695.6109 757.4925,695.6109 Q757.6894,695.6109 757.83,695.7703 Q757.98,695.9203 757.98,696.1359 Q757.98,696.3422 757.7738,696.5859 Q757.4738,696.9422 756.9956,697.1391 Q756.3675,697.4109 755.5988,697.4109 Q754.6987,697.4109 753.9769,697.0547 Q753.3956,696.7734 752.9831,696.1641 Q752.58,695.5547 752.58,694.8328 L752.58,694.1766 Q752.58,693.4266 752.9363,692.7703 Q753.3019,692.1141 753.93,691.7672 Q754.5675,691.4109 755.28,691.4109 Q755.7113,691.4109 756.0863,691.5609 Q756.4613,691.7109 756.78,692.0109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="765.42" y="691.7742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="35.4" x="772.02" y="702.0762">FullName</text><line style="stroke:#181818;stroke-width:0.3;" x1="735.3" x2="825.9" y1="706.9219" y2="706.9219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="739.5" y="713.7047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="61.8" x="746.7" y="718.0418">fullName : String</text><line style="stroke:#181818;stroke-width:0.3;" x1="735.3" x2="825.9" y1="722.2875" y2="722.2875"/><ellipse cx="741.3" cy="730.8703" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="67.8" x="746.7" y="733.4074">valueOf(fullName)</text><ellipse cx="741.3" cy="741.4359" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="76.2" x="746.7" y="743.973">FullName (fullName)</text></g><!--MD5=[f338b7fac0450cb697edae5d9e4bb9ca]
+class ShortName--><g id="elem_ShortName"><rect codeLine="66" fill="#F1F1F1" height="66.9188" id="ShortName" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="100.2" x="847.5" y="681.3"/><ellipse cx="872.16" cy="694.1109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M873.36,692.0109 Q873.4819,691.7109 873.6225,691.5609 Q873.7631,691.4109 873.9225,691.4109 Q874.2037,691.4109 874.3819,691.5797 Q874.56,691.7484 874.56,692.1422 L874.56,693.0797 Q874.56,693.4734 874.3912,693.6422 Q874.2225,693.8109 873.96,693.8109 Q873.7256,693.8109 873.5756,693.7078 Q873.4256,693.6047 873.36,693.3328 Q873.3319,693.1453 873.2287,693.0422 Q873.0412,692.8453 872.7037,692.7328 Q872.3662,692.6109 872.0288,692.6109 Q871.6069,692.6109 871.2506,692.7797 Q870.9038,692.9484 870.6319,693.3234 Q870.36,693.6984 870.36,694.2141 L870.36,694.7672 Q870.36,695.3859 870.8662,695.7984 Q871.3725,696.2109 872.2725,696.2109 Q872.8069,696.2109 873.1819,696.0891 Q873.3975,696.0234 873.6412,695.8078 Q873.8006,695.6859 873.885,695.6484 Q873.9694,695.6109 874.0725,695.6109 Q874.2694,695.6109 874.41,695.7703 Q874.56,695.9203 874.56,696.1359 Q874.56,696.3422 874.3537,696.5859 Q874.0537,696.9422 873.5756,697.1391 Q872.9475,697.4109 872.1787,697.4109 Q871.2788,697.4109 870.5569,697.0547 Q869.9756,696.7734 869.5631,696.1641 Q869.16,695.5547 869.16,694.8328 L869.16,694.1766 Q869.16,693.4266 869.5162,692.7703 Q869.8819,692.1141 870.51,691.7672 Q871.1475,691.4109 871.86,691.4109 Q872.2912,691.4109 872.6662,691.5609 Q873.0412,691.7109 873.36,692.0109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="882.84" y="691.7742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="42" x="886.14" y="702.0762">ShortName</text><line style="stroke:#181818;stroke-width:0.3;" x1="848.1" x2="947.1" y1="706.9219" y2="706.9219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="852.3" y="713.7047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="70.2" x="859.5" y="718.0418">shortName : String</text><line style="stroke:#181818;stroke-width:0.3;" x1="848.1" x2="947.1" y1="722.2875" y2="722.2875"/><ellipse cx="854.1" cy="730.8703" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="76.2" x="859.5" y="733.4074">valueOf(shortName)</text><ellipse cx="854.1" cy="741.4359" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="84.6" x="859.5" y="743.973">FullName (shortName)</text></g><!--MD5=[e6c63db5240f7c9aea50f4d0a5b19113]
+class SystemUserBuilder--><g id="elem_SystemUserBuilder"><rect codeLine="72" fill="#F1F1F1" height="162.0094" id="SystemUserBuilder" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="121.2" x="620.4" y="478.8"/><ellipse cx="643.17" cy="491.6109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M644.37,489.5109 Q644.4919,489.2109 644.6325,489.0609 Q644.7731,488.9109 644.9325,488.9109 Q645.2138,488.9109 645.3919,489.0797 Q645.57,489.2484 645.57,489.6422 L645.57,490.5797 Q645.57,490.9734 645.4013,491.1422 Q645.2325,491.3109 644.97,491.3109 Q644.7356,491.3109 644.5856,491.2078 Q644.4356,491.1047 644.37,490.8328 Q644.3419,490.6453 644.2388,490.5422 Q644.0513,490.3453 643.7138,490.2328 Q643.3763,490.1109 643.0388,490.1109 Q642.6169,490.1109 642.2606,490.2797 Q641.9138,490.4484 641.6419,490.8234 Q641.37,491.1984 641.37,491.7141 L641.37,492.2672 Q641.37,492.8859 641.8763,493.2984 Q642.3825,493.7109 643.2825,493.7109 Q643.8169,493.7109 644.1919,493.5891 Q644.4075,493.5234 644.6513,493.3078 Q644.8106,493.1859 644.895,493.1484 Q644.9794,493.1109 645.0825,493.1109 Q645.2794,493.1109 645.42,493.2703 Q645.57,493.4203 645.57,493.6359 Q645.57,493.8422 645.3638,494.0859 Q645.0638,494.4422 644.5856,494.6391 Q643.9575,494.9109 643.1888,494.9109 Q642.2888,494.9109 641.5669,494.5547 Q640.9856,494.2734 640.5731,493.6641 Q640.17,493.0547 640.17,492.3328 L640.17,491.6766 Q640.17,490.9266 640.5263,490.2703 Q640.8919,489.6141 641.52,489.2672 Q642.1575,488.9109 642.87,488.9109 Q643.3013,488.9109 643.6763,489.0609 Q644.0513,489.2109 644.37,489.5109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30" x="675.33" y="489.2742">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="71.4" x="654.63" y="499.5762">SystemUserBuilder</text><line style="stroke:#181818;stroke-width:0.3;" x1="621" x2="741" y1="504.4219" y2="504.4219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="625.2" y="511.2047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="78.6" x="632.4" y="515.5418">email : EmailAddress</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="625.2" y="521.7703"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="79.8" x="632.4" y="526.1074">password : Password</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="625.2" y="532.3359"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="75" x="632.4" y="536.673">fullName : FullName</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="625.2" y="542.9016"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="90" x="632.4" y="547.2387">shortName : ShortName</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="625.2" y="553.4672"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="55.8" x="632.4" y="557.8043">roles : RoleSet</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="625.2" y="564.0328"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.2" x="632.4" y="568.3699">createdOn : Calendar</text><line style="stroke:#181818;stroke-width:0.3;" x1="621" x2="741" y1="572.6156" y2="572.6156"/><ellipse cx="627" cy="581.1984" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="63" x="632.4" y="583.7355">withEmail (email)</text><ellipse cx="627" cy="591.7641" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="95.4" x="632.4" y="594.3012">withPassword (password)</text><ellipse cx="627" cy="602.3297" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="95.4" x="632.4" y="604.8668">withFullName (pfullName)</text><ellipse cx="627" cy="612.8953" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="105.6" x="632.4" y="615.4324">withShortName (shortName)</text><ellipse cx="627" cy="623.4609" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="63" x="632.4" y="625.998">withRoles (roles)</text><ellipse cx="627" cy="634.0266" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="28.8" x="632.4" y="636.5637">build ();</text></g><!--MD5=[093c210125347143eef5bb9199eae634]
+class UserRepository--><g id="elem_UserRepository"><rect codeLine="89" fill="#F1F1F1" height="39.3656" id="UserRepository" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="78" x="1077" y="540"/><ellipse cx="1086" cy="549.6" fill="#B4A7E5" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M1086.6,547.8 L1086.6,551.4 L1087.8,551.4 L1088.0906,551.4 L1088.4,551.775 L1088.4,552 L1088.4,552.225 L1088.0906,552.6 L1087.8,552.6 L1084.2,552.6 L1083.9094,552.6 L1083.6,552.225 L1083.6,552 L1083.6,551.775 L1083.9094,551.4 L1084.2,551.4 L1085.4,551.4 L1085.4,547.8 L1084.2,547.8 L1083.9094,547.8 L1083.6,547.425 L1083.6,547.2 L1083.6,546.975 L1083.9094,546.6 L1084.2,546.6 L1087.8,546.6 L1088.0906,546.6 L1088.4,546.975 L1088.4,547.2 L1088.4,547.425 L1088.0906,547.8 L1087.8,547.8 L1086.6,547.8 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="58.8" x="1094.4" y="553.0371">UserRepository</text><line style="stroke:#181818;stroke-width:0.3;" x1="1077.6" x2="1154.4" y1="559.2" y2="559.2"/><line style="stroke:#181818;stroke-width:0.3;" x1="1077.6" x2="1154.4" y1="564" y2="564"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="28.8" x="1080.6" y="575.1199">findAll()</text></g><!--MD5=[f415f89b6a39f78e45412d639a322eb4]
+class ListUsersController--><g id="elem_ListUsersController"><rect codeLine="94" fill="#F1F1F1" height="66.9188" id="ListUsersController" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="148.2" x="233.7" y="127.2"/><ellipse cx="269.25" cy="140.0109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M270.45,137.9109 Q270.5719,137.6109 270.7125,137.4609 Q270.8531,137.3109 271.0125,137.3109 Q271.2938,137.3109 271.4719,137.4797 Q271.65,137.6484 271.65,138.0422 L271.65,138.9797 Q271.65,139.3734 271.4813,139.5422 Q271.3125,139.7109 271.05,139.7109 Q270.8156,139.7109 270.6656,139.6078 Q270.5156,139.5047 270.45,139.2328 Q270.4219,139.0453 270.3187,138.9422 Q270.1312,138.7453 269.7938,138.6328 Q269.4563,138.5109 269.1188,138.5109 Q268.6969,138.5109 268.3406,138.6797 Q267.9938,138.8484 267.7219,139.2234 Q267.45,139.5984 267.45,140.1141 L267.45,140.6672 Q267.45,141.2859 267.9563,141.6984 Q268.4625,142.1109 269.3625,142.1109 Q269.8969,142.1109 270.2719,141.9891 Q270.4875,141.9234 270.7313,141.7078 Q270.8906,141.5859 270.975,141.5484 Q271.0594,141.5109 271.1625,141.5109 Q271.3594,141.5109 271.5,141.6703 Q271.65,141.8203 271.65,142.0359 Q271.65,142.2422 271.4437,142.4859 Q271.1438,142.8422 270.6656,143.0391 Q270.0375,143.3109 269.2688,143.3109 Q268.3688,143.3109 267.6469,142.9547 Q267.0656,142.6734 266.6531,142.0641 Q266.25,141.4547 266.25,140.7328 L266.25,140.0766 Q266.25,139.3266 266.6063,138.6703 Q266.9719,138.0141 267.6,137.6672 Q268.2375,137.3109 268.95,137.3109 Q269.3812,137.3109 269.7562,137.4609 Q270.1312,137.6109 270.45,137.9109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="298.05" y="137.6742">«controller»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="72" x="281.55" y="147.9762">ListUsersController</text><line style="stroke:#181818;stroke-width:0.3;" x1="234.3" x2="381.3" y1="152.8219" y2="152.8219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="238.5" y="159.6047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="105" x="245.7" y="163.9418">authz : AuthorizationService</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="238.5" y="170.1703"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="132.6" x="245.7" y="174.5074">userSvc : UserManagementService</text><line style="stroke:#181818;stroke-width:0.3;" x1="234.3" x2="381.3" y1="178.7531" y2="178.7531"/><ellipse cx="240.3" cy="187.3359" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="36" x="245.7" y="189.873">allUsers()</text></g><!--MD5=[54a33dd013dd881697601ca49de6dfbc]
+class AuthorizationService--><g id="elem_AuthorizationService"><rect codeLine="100" fill="#F1F1F1" height="109.1812" id="AuthorizationService" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="180.6" x="13.5" y="230.4"/><ellipse cx="62.55" cy="243.2109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M63.75,241.1109 Q63.8719,240.8109 64.0125,240.6609 Q64.1531,240.5109 64.3125,240.5109 Q64.5938,240.5109 64.7719,240.6797 Q64.95,240.8484 64.95,241.2422 L64.95,242.1797 Q64.95,242.5734 64.7813,242.7422 Q64.6125,242.9109 64.35,242.9109 Q64.1156,242.9109 63.9656,242.8078 Q63.8156,242.7047 63.75,242.4328 Q63.7219,242.2453 63.6188,242.1422 Q63.4313,241.9453 63.0938,241.8328 Q62.7562,241.7109 62.4187,241.7109 Q61.9969,241.7109 61.6406,241.8797 Q61.2937,242.0484 61.0219,242.4234 Q60.75,242.7984 60.75,243.3141 L60.75,243.8672 Q60.75,244.4859 61.2562,244.8984 Q61.7625,245.3109 62.6625,245.3109 Q63.1969,245.3109 63.5719,245.1891 Q63.7875,245.1234 64.0313,244.9078 Q64.1906,244.7859 64.275,244.7484 Q64.3594,244.7109 64.4625,244.7109 Q64.6594,244.7109 64.8,244.8703 Q64.95,245.0203 64.95,245.2359 Q64.95,245.4422 64.7437,245.6859 Q64.4438,246.0422 63.9656,246.2391 Q63.3375,246.5109 62.5687,246.5109 Q61.6687,246.5109 60.9469,246.1547 Q60.3656,245.8734 59.9531,245.2641 Q59.55,244.6547 59.55,243.9328 L59.55,243.2766 Q59.55,242.5266 59.9063,241.8703 Q60.2719,241.2141 60.9,240.8672 Q61.5375,240.5109 62.25,240.5109 Q62.6813,240.5109 63.0563,240.6609 Q63.4313,240.8109 63.75,241.1109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.8" x="97.65" y="240.8742">«service»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="77.4" x="74.85" y="251.1762">AuthorizationService</text><line style="stroke:#181818;stroke-width:0.3;" x1="14.1" x2="193.5" y1="256.0219" y2="256.0219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="18.3" y="262.8047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="101.4" x="25.5" y="267.1418">userSession : UserSession</text><line style="stroke:#181818;stroke-width:0.3;" x1="14.1" x2="193.5" y1="271.3875" y2="271.3875"/><ellipse cx="20.1" cy="279.9703" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="107.4" x="25.5" y="282.5074">createSessionForUser(user)</text><ellipse cx="20.1" cy="290.5359" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="54.6" x="25.5" y="293.073">clearSession()</text><ellipse cx="20.1" cy="301.1016" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.8" x="25.5" y="303.6387">hasSession()</text><ellipse cx="20.1" cy="311.6672" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="34.8" x="25.5" y="314.2043">session()</text><ellipse cx="20.1" cy="322.2328" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="157.2" x="25.5" y="324.7699">isAuthenticatedUserAuthorizedTo (action)</text><ellipse cx="20.1" cy="332.7984" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="165" x="25.5" y="335.3355">ensureAuthenticatedUserHasAnyOf (action)</text></g><!--MD5=[b07be2b600772d055921457a51a4b081]
+class AuthenticationService--><g id="elem_AuthenticationService"><rect codeLine="110" fill="#F1F1F1" height="109.1812" id="AuthenticationService" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="211.2" x="215.4" y="230.4"/><ellipse cx="277.35" cy="243.2109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M278.55,241.1109 Q278.6719,240.8109 278.8125,240.6609 Q278.9531,240.5109 279.1125,240.5109 Q279.3938,240.5109 279.5719,240.6797 Q279.75,240.8484 279.75,241.2422 L279.75,242.1797 Q279.75,242.5734 279.5813,242.7422 Q279.4125,242.9109 279.15,242.9109 Q278.9156,242.9109 278.7656,242.8078 Q278.6156,242.7047 278.55,242.4328 Q278.5219,242.2453 278.4188,242.1422 Q278.2313,241.9453 277.8938,241.8328 Q277.5563,241.7109 277.2188,241.7109 Q276.7969,241.7109 276.4406,241.8797 Q276.0938,242.0484 275.8219,242.4234 Q275.55,242.7984 275.55,243.3141 L275.55,243.8672 Q275.55,244.4859 276.0563,244.8984 Q276.5625,245.3109 277.4625,245.3109 Q277.9969,245.3109 278.3719,245.1891 Q278.5875,245.1234 278.8313,244.9078 Q278.9906,244.7859 279.075,244.7484 Q279.1594,244.7109 279.2625,244.7109 Q279.4594,244.7109 279.6,244.8703 Q279.75,245.0203 279.75,245.2359 Q279.75,245.4422 279.5438,245.6859 Q279.2438,246.0422 278.7656,246.2391 Q278.1375,246.5109 277.3688,246.5109 Q276.4688,246.5109 275.7469,246.1547 Q275.1656,245.8734 274.7531,245.2641 Q274.35,244.6547 274.35,243.9328 L274.35,243.2766 Q274.35,242.5266 274.7063,241.8703 Q275.0719,241.2141 275.7,240.8672 Q276.3375,240.5109 277.05,240.5109 Q277.4813,240.5109 277.8563,240.6609 Q278.2313,240.8109 278.55,241.1109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.8" x="314.85" y="240.8742">«service»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.2" x="289.65" y="251.1762">AuthenticationService</text><line style="stroke:#181818;stroke-width:0.3;" x1="216" x2="426" y1="256.0219" y2="256.0219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="220.2" y="262.8047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.8" x="227.4" y="267.1418">repo : UserRepository</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="220.2" y="273.3703"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="105" x="227.4" y="277.7074">authz : AuthorizationService</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="220.2" y="283.9359"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87.6" x="227.4" y="288.273">policy : PasswordPolicy</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="220.2" y="294.5016"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="106.8" x="227.4" y="298.8387">encoder : PasswordEncoder</text><line style="stroke:#181818;stroke-width:0.3;" x1="216" x2="426" y1="303.0844" y2="303.0844"/><ellipse cx="222" cy="311.6672" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="195.6" x="227.4" y="314.2043">AuthenticationService (repo, authz, policy, encoder)</text><ellipse cx="222" cy="322.2328" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="185.4" x="227.4" y="324.7699">authenticate(email, rawPassword, requiredRoles)</text><ellipse cx="222" cy="332.7984" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="72" x="227.4" y="335.3355">retrieveUser(email)</text></g><!--MD5=[dee3711f8c64a3e2b37828f172d71c22]
+class UserManagementService--><g id="elem_UserManagementService"><rect codeLine="120" fill="#F1F1F1" height="77.4844" id="UserManagementService" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="138.6" x="447.9" y="246.3"/><ellipse cx="467.97" cy="259.1109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M469.17,257.0109 Q469.2919,256.7109 469.4325,256.5609 Q469.5731,256.4109 469.7325,256.4109 Q470.0138,256.4109 470.1919,256.5797 Q470.37,256.7484 470.37,257.1422 L470.37,258.0797 Q470.37,258.4734 470.2013,258.6422 Q470.0325,258.8109 469.77,258.8109 Q469.5356,258.8109 469.3856,258.7078 Q469.2356,258.6047 469.17,258.3328 Q469.1419,258.1453 469.0388,258.0422 Q468.8513,257.8453 468.5138,257.7328 Q468.1763,257.6109 467.8388,257.6109 Q467.4169,257.6109 467.0606,257.7797 Q466.7138,257.9484 466.4419,258.3234 Q466.17,258.6984 466.17,259.2141 L466.17,259.7672 Q466.17,260.3859 466.6763,260.7984 Q467.1825,261.2109 468.0825,261.2109 Q468.6169,261.2109 468.9919,261.0891 Q469.2075,261.0234 469.4513,260.8078 Q469.6106,260.6859 469.695,260.6484 Q469.7794,260.6109 469.8825,260.6109 Q470.0794,260.6109 470.22,260.7703 Q470.37,260.9203 470.37,261.1359 Q470.37,261.3422 470.1638,261.5859 Q469.8638,261.9422 469.3856,262.1391 Q468.7575,262.4109 467.9888,262.4109 Q467.0888,262.4109 466.3669,262.0547 Q465.7856,261.7734 465.3731,261.1641 Q464.97,260.5547 464.97,259.8328 L464.97,259.1766 Q464.97,258.4266 465.3263,257.7703 Q465.6919,257.1141 466.32,256.7672 Q466.9575,256.4109 467.67,256.4109 Q468.1013,256.4109 468.4763,256.5609 Q468.8513,256.7109 469.17,257.0109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.8" x="510.33" y="256.7742">«service»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="94.8" x="478.83" y="267.0762">UserManagementService</text><line style="stroke:#181818;stroke-width:0.3;" x1="448.5" x2="585.9" y1="271.9219" y2="271.9219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="452.7" y="278.7047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="123" x="459.9" y="283.0418">userRepository : UserRepository</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="452.7" y="289.2703"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="106.8" x="459.9" y="293.6074">encoder : PasswordEncoder</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="452.7" y="299.8359"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87.6" x="459.9" y="304.173">policy : PasswordPolicy</text><line style="stroke:#181818;stroke-width:0.3;" x1="448.5" x2="585.9" y1="308.4188" y2="308.4188"/><ellipse cx="454.5" cy="317.0016" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="36" x="459.9" y="319.5387">allUsers()</text></g><!--MD5=[f2f4f081f533f1801637718551dd4ff8]
+class PasswordEncoder--><g id="elem_PasswordEncoder"><rect codeLine="127" fill="#F1F1F1" height="66.9188" id="PasswordEncoder" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="175.2" x="275.4" y="375.6"/><ellipse cx="326.25" cy="388.4109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M327.45,386.3109 Q327.5719,386.0109 327.7125,385.8609 Q327.8531,385.7109 328.0125,385.7109 Q328.2938,385.7109 328.4719,385.8797 Q328.65,386.0484 328.65,386.4422 L328.65,387.3797 Q328.65,387.7734 328.4813,387.9422 Q328.3125,388.1109 328.05,388.1109 Q327.8156,388.1109 327.6656,388.0078 Q327.5156,387.9047 327.45,387.6328 Q327.4219,387.4453 327.3187,387.3422 Q327.1312,387.1453 326.7938,387.0328 Q326.4563,386.9109 326.1188,386.9109 Q325.6969,386.9109 325.3406,387.0797 Q324.9938,387.2484 324.7219,387.6234 Q324.45,387.9984 324.45,388.5141 L324.45,389.0672 Q324.45,389.6859 324.9563,390.0984 Q325.4625,390.5109 326.3625,390.5109 Q326.8969,390.5109 327.2719,390.3891 Q327.4875,390.3234 327.7313,390.1078 Q327.8906,389.9859 327.975,389.9484 Q328.0594,389.9109 328.1625,389.9109 Q328.3594,389.9109 328.5,390.0703 Q328.65,390.2203 328.65,390.4359 Q328.65,390.6422 328.4437,390.8859 Q328.1438,391.2422 327.6656,391.4391 Q327.0375,391.7109 326.2688,391.7109 Q325.3688,391.7109 324.6469,391.3547 Q324.0656,391.0734 323.6531,390.4641 Q323.25,389.8547 323.25,389.1328 L323.25,388.4766 Q323.25,387.7266 323.6063,387.0703 Q323.9719,386.4141 324.6,386.0672 Q325.2375,385.7109 325.95,385.7109 Q326.3812,385.7109 326.7562,385.8609 Q327.1312,386.0109 327.45,386.3109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.8" x="356.85" y="386.0742">«service»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="68.4" x="338.55" y="396.3762">PasswordEncoder</text><line style="stroke:#181818;stroke-width:0.3;" x1="276" x2="450" y1="401.2219" y2="401.2219"/><line style="stroke:#181818;stroke-width:0.3;" x1="276" x2="450" y1="406.0219" y2="406.0219"/><ellipse cx="282" cy="414.6047" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="84" x="287.4" y="417.1418">encode(rawPassword)</text><ellipse cx="282" cy="425.1703" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="159.6" x="287.4" y="427.7074">matches(rawPassword,encodedPassword)</text><ellipse cx="282" cy="435.7359" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="142.8" x="287.4" y="438.273">upgradeEncoding(encodedPassword)</text></g><!--MD5=[0681c2e94bdf5871eea92a1a4901fc0d]
+class PasswordPolicy--><g id="elem_PasswordPolicy"><rect codeLine="133" fill="#F1F1F1" height="45.7875" id="PasswordPolicy" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="105.6" x="148.8" y="386.4"/><ellipse cx="170.22" cy="399.2109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M171.42,397.1109 Q171.5419,396.8109 171.6825,396.6609 Q171.8231,396.5109 171.9825,396.5109 Q172.2638,396.5109 172.4419,396.6797 Q172.62,396.8484 172.62,397.2422 L172.62,398.1797 Q172.62,398.5734 172.4513,398.7422 Q172.2825,398.9109 172.02,398.9109 Q171.7856,398.9109 171.6356,398.8078 Q171.4856,398.7047 171.42,398.4328 Q171.3919,398.2453 171.2888,398.1422 Q171.1013,397.9453 170.7638,397.8328 Q170.4262,397.7109 170.0887,397.7109 Q169.6669,397.7109 169.3106,397.8797 Q168.9637,398.0484 168.6919,398.4234 Q168.42,398.7984 168.42,399.3141 L168.42,399.8672 Q168.42,400.4859 168.9262,400.8984 Q169.4325,401.3109 170.3325,401.3109 Q170.8669,401.3109 171.2419,401.1891 Q171.4575,401.1234 171.7013,400.9078 Q171.8606,400.7859 171.945,400.7484 Q172.0294,400.7109 172.1325,400.7109 Q172.3294,400.7109 172.47,400.8703 Q172.62,401.0203 172.62,401.2359 Q172.62,401.4422 172.4138,401.6859 Q172.1137,402.0422 171.6356,402.2391 Q171.0075,402.5109 170.2387,402.5109 Q169.3387,402.5109 168.6169,402.1547 Q168.0356,401.8734 167.6231,401.2641 Q167.22,400.6547 167.22,399.9328 L167.22,399.2766 Q167.22,398.5266 167.5763,397.8703 Q167.9419,397.2141 168.57,396.8672 Q169.2075,396.5109 169.92,396.5109 Q170.3513,396.5109 170.7263,396.6609 Q171.1013,396.8109 171.42,397.1109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.8" x="194.88" y="396.8742">«service»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="58.8" x="181.38" y="407.1762">PasswordPolicy</text><line style="stroke:#181818;stroke-width:0.3;" x1="149.4" x2="253.8" y1="412.0219" y2="412.0219"/><line style="stroke:#181818;stroke-width:0.3;" x1="149.4" x2="253.8" y1="416.8219" y2="416.8219"/><ellipse cx="155.4" cy="425.4047" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="90" x="160.8" y="427.9418">isSatisfiedBy(password)</text></g><!--MD5=[c5b08e60048ef1bcd788d24cf324082e]
+class UserSession--><g id="elem_UserSession"><rect codeLine="138" fill="#F1F1F1" height="77.4844" id="UserSession" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="136.8" x="180.6" y="521.1"/><ellipse cx="222.75" cy="533.9109" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M223.95,531.8109 Q224.0719,531.5109 224.2125,531.3609 Q224.3531,531.2109 224.5125,531.2109 Q224.7938,531.2109 224.9719,531.3797 Q225.15,531.5484 225.15,531.9422 L225.15,532.8797 Q225.15,533.2734 224.9813,533.4422 Q224.8125,533.6109 224.55,533.6109 Q224.3156,533.6109 224.1656,533.5078 Q224.0156,533.4047 223.95,533.1328 Q223.9219,532.9453 223.8188,532.8422 Q223.6313,532.6453 223.2938,532.5328 Q222.9562,532.4109 222.6188,532.4109 Q222.1969,532.4109 221.8406,532.5797 Q221.4938,532.7484 221.2219,533.1234 Q220.95,533.4984 220.95,534.0141 L220.95,534.5672 Q220.95,535.1859 221.4562,535.5984 Q221.9625,536.0109 222.8625,536.0109 Q223.3969,536.0109 223.7719,535.8891 Q223.9875,535.8234 224.2313,535.6078 Q224.3906,535.4859 224.475,535.4484 Q224.5594,535.4109 224.6625,535.4109 Q224.8594,535.4109 225,535.5703 Q225.15,535.7203 225.15,535.9359 Q225.15,536.1422 224.9438,536.3859 Q224.6437,536.7422 224.1656,536.9391 Q223.5375,537.2109 222.7687,537.2109 Q221.8688,537.2109 221.1469,536.8547 Q220.5656,536.5734 220.1531,535.9641 Q219.75,535.3547 219.75,534.6328 L219.75,533.9766 Q219.75,533.2266 220.1063,532.5703 Q220.4719,531.9141 221.1,531.5672 Q221.7375,531.2109 222.45,531.2109 Q222.8813,531.2109 223.2563,531.3609 Q223.6313,531.5109 223.95,531.8109 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="234.45" y="531.5742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="47.4" x="235.05" y="541.8762">UserSession</text><line style="stroke:#181818;stroke-width:0.3;" x1="181.2" x2="316.8" y1="546.7219" y2="546.7219"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="185.4" y="553.5047"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="121.2" x="192.6" y="557.8418">authenticatedUser : SystemUser</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="185.4" y="564.0703"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="67.8" x="192.6" y="568.4074">UUID token : UUID</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="185.4" y="574.6359"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="79.8" x="192.6" y="578.973">startedOn : Calendar</text><line style="stroke:#181818;stroke-width:0.3;" x1="181.2" x2="316.8" y1="583.2188" y2="583.2188"/><ellipse cx="187.2" cy="591.8016" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="70.2" x="192.6" y="594.3387">UserSession(user)</text></g><!--MD5=[3d2b0370d2fa1c3d90b0543433a55286]
+reverse link Set to RoleSet--><g id="link_Set_RoleSet"><path d="M999.426,830.004 C999.024,837.57 998.586,845.892 998.178,853.68 " fill="none" id="Set-backto-RoleSet" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="995.244,829.608,1000.068,817.848,1003.632,830.052,995.244,829.608" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[4aebd9904aa32d79c0c8a6f34f000b95]
+link ListUsersController to AuthorizationService--><g id="link_ListUsersController_AuthorizationService"><path codeLine="150" d="M252.864,194.526 C235.356,205.08 215.484,217.062 196.08,228.762 " fill="none" id="ListUsersController-to-AuthorizationService" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="193.47,230.334,199.3335,229.5994,196.0387,228.7842,196.8538,225.4894,193.47,230.334" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[d1fdfbe69774d5eebb32a2cfa1746ce1]
+link ListUsersUI to ListUsersController--><g id="link_ListUsersUI_ListUsersController"><path codeLine="151" d="M307.8,81.624 C307.8,94.536 307.8,110.088 307.8,123.93 " fill="none" id="ListUsersUI-to-ListUsersController" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="307.8,127.038,310.2,121.638,307.8,124.038,305.4,121.638,307.8,127.038" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[87941850f4221cb3925a030c008032ec]
+link ListUsersController to UserManagementService--><g id="link_ListUsersController_UserManagementService"><path codeLine="152" d="M372.648,194.454 C393.39,205.464 416.286,218.064 436.8,230.4 C444.18,234.834 451.824,239.658 459.33,244.536 " fill="none" id="ListUsersController-to-UserManagementService" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="461.874,246.192,458.6532,241.2376,459.3583,244.5576,456.0382,245.2627,461.874,246.192" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[5f40d7ef9d0060e73af9ce8686cfc92e]
+link SystemUser to FullName--><g id="link_SystemUser_FullName"><path codeLine="155" d="M843.774,634.872 C831.594,650.184 819.312,665.628 808.854,678.774 " fill="none" id="SystemUser-to-FullName" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="806.922,681.198,812.1621,678.4665,808.7898,678.8504,808.406,675.478,806.922,681.198" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[a00b48498abbf4d3aa5edbf04235e8b3]
+link SystemUser to Password--><g id="link_SystemUser_Password"><path codeLine="156" d="M949.71,635.004 C966.546,671.826 977.226,716.142 958.2,753 C934.2,799.5 885.126,833.046 843.75,854.472 " fill="none" id="SystemUser-to-Password" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="841.038,855.864,846.939,855.5504,843.7109,854.5018,844.7595,851.2738,841.038,855.864" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[14d1a09acbd2a86c46c8e0adbba04549]
+link SystemUser to EmailAddress--><g id="link_SystemUser_EmailAddress"><path codeLine="157" d="M788.484,634.83 C767.106,648.762 744.966,663.21 724.2,676.8 C721.674,678.456 719.082,680.148 716.472,681.864 " fill="none" id="SystemUser-to-EmailAddress" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="713.85,683.586,719.6821,682.6337,716.3592,681.9417,717.0512,678.6189,713.85,683.586" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[8fd088f9363de2db7451b770fad45cc2]
+link SystemUser to ShortName--><g id="link_SystemUser_ShortName"><path codeLine="158" d="M900.384,634.872 C899.856,649.932 899.328,665.112 898.872,678.114 " fill="none" id="SystemUser-to-ShortName" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="898.764,681.198,901.3476,675.8834,898.8668,678.1998,896.5504,675.7189,898.764,681.198" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[355d05d6de50819a91dcbeed962da43b]
+link UserSession to SystemUser--><g id="link_UserSession_SystemUser"><path codeLine="159" d="M317.436,532.554 C391.086,504.81 512.358,463.662 621.3,447.6 C647.814,443.694 715.716,441.9 741.9,447.6 C769.212,453.546 795.558,467.196 818.754,483.006 " fill="none" id="UserSession-to-SystemUser" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="821.28,484.746,818.1898,479.709,818.8079,483.0464,815.4705,483.6644,821.28,484.746" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[51777fa5f2d524d4088e82040ea93a10]
+link AuthorizationService to UserSession--><g id="link_AuthorizationService_UserSession"><path codeLine="160" d="M108.228,339.78 C112.554,371.304 121.11,410.976 138,442.8 C153.222,471.474 177.51,498.114 199.494,518.652 " fill="none" id="AuthorizationService-to-UserSession" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="201.888,520.872,199.5567,515.442,199.6869,518.8336,196.2953,518.9638,201.888,520.872" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[dd01f312a1a31f5c58fd232e6e753f0a]
+link AuthenticationService to AuthorizationService--><g id="link_AuthenticationService_AuthorizationService"><path codeLine="161" d="M215.214,285 C209.238,285 203.262,285 197.286,285 " fill="none" id="AuthenticationService-to-AuthorizationService" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="194.16,285,199.56,287.4,197.16,285,199.56,282.6,194.16,285" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[56cff2aa35e6cbb5a4b3b585c15b534a]
+link AuthenticationService to Role--><g id="link_AuthenticationService_Role"><path codeLine="162" d="M426.756,339.504 C439.812,349.944 451.728,361.956 460.8,375.6 C506.676,444.6 493.2,476.34 493.2,559.2 C493.2,559.2 493.2,559.2 493.2,951 C493.2,1046.202 640.632,1066.686 710.496,1071.048 " fill="none" id="AuthenticationService-to-Role" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="713.556,1071.228,708.3099,1068.508,710.5614,1071.0478,708.0216,1073.2993,713.556,1071.228" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[556368b0dc0754eda9e92a0b3e129342]
+link AuthenticationService to Password--><g id="link_AuthenticationService_Password"><path codeLine="163" d="M426.642,335.034 C468.51,354.84 507.216,373.512 508.8,375.6 C558.9,441.6 541.2,476.34 541.2,559.2 C541.2,559.2 541.2,559.2 541.2,715.5 C541.2,786.894 614.028,830.946 678.318,855.93 " fill="none" id="AuthenticationService-to-Password" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="681.18,857.028,676.9929,852.8581,678.3778,855.9568,675.279,857.3416,681.18,857.028" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[46b3713f55f7be2bf8c1dff280b713b4]
+link AuthenticationService to EmailAddress--><g id="link_AuthenticationService_EmailAddress"><path codeLine="164" d="M426.672,335.394 C430.278,336.846 433.86,338.256 437.4,339.6 C489.204,359.31 519.498,334.608 556.8,375.6 C637.722,464.526 560.172,531.474 610.2,640.8 C615.498,652.374 622.932,663.786 630.696,674.046 " fill="none" id="AuthenticationService-to-EmailAddress" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="632.67,676.626,631.2909,670.8799,630.8454,674.2446,627.4807,673.7992,632.67,676.626" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[4fba07f5ae7fc2ebff05bb0b153d6c8e]
+link AuthenticationService to PasswordEncoder--><g id="link_AuthenticationService_PasswordEncoder"><path codeLine="165" d="M339.48,339.726 C343.284,350.862 347.196,362.322 350.718,372.624 " fill="none" id="AuthenticationService-to-PasswordEncoder" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="351.696,375.498,352.2227,369.6122,350.7268,372.6589,347.6801,371.163,351.696,375.498" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[a315b212f5722cf0f8fe1b5f91cf190f]
+link AuthenticationService to PasswordPolicy--><g id="link_AuthenticationService_PasswordPolicy"><path codeLine="166" d="M268.458,339.726 C253.374,355.266 237.672,371.436 225.282,384.204 " fill="none" id="AuthenticationService-to-PasswordPolicy" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="223.164,386.388,228.6489,384.1889,225.2551,384.2369,225.2071,380.8431,223.164,386.388" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[45e1401b0d4fa0ea16e4baa7e0cf3aa8]
+link RoleSet to RoleAssignment--><g id="link_RoleSet_RoleAssignment"><path codeLine="167" d="M984.714,914.412 C973.326,942.882 955.896,986.454 942.24,1020.606 " fill="none" id="RoleSet-to-RoleAssignment" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="941.094,1023.462,945.3279,1019.3396,942.2082,1020.6766,940.8712,1017.5569,941.094,1023.462" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[94ccdb2a9334601dc2d1e0d756dd9d0f]
+link RoleAssignment to Role--><g id="link_RoleAssignment_Role"><path codeLine="168" d="M846.81,1072.8 C825.348,1072.8 803.88,1072.8 782.418,1072.8 " fill="none" id="RoleAssignment-to-Role" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="779.25,1072.8,784.65,1075.2,782.25,1072.8,784.65,1070.4,779.25,1072.8" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[4b3459968d088df87e9815732244c564]
+link UserManagementService to SystemUserBuilder--><g id="link_UserManagementService_SystemUserBuilder"><path codeLine="170" d="M559.08,323.766 C574.062,338.892 590.232,357.078 602.4,375.6 C622.59,406.332 639.54,443.112 652.47,475.65 " fill="none" id="UserManagementService-to-SystemUserBuilder" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="653.628,478.584,653.8822,472.6802,652.5287,475.7927,649.4161,474.4391,653.628,478.584" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[70f515139769217ce8852e9134711a94]
+link SystemUser to RoleSet--><g id="link_SystemUser_RoleSet"><path codeLine="172" d="M957.372,634.902 C984.87,677.634 1014.954,733.656 1027.2,789 C1031.832,809.94 1024.746,832.83 1016.232,850.842 " fill="none" id="SystemUser-to-RoleSet" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="1014.852,853.686,1019.3603,849.8656,1016.1558,850.9841,1015.0373,847.7796,1014.852,853.686" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[137dab0f304d11d41381903e70413919]
+link SystemUserBuilder to SystemUser--><g id="link_SystemUserBuilder_SystemUser"><path codeLine="173" d="M741.702,559.8 C747.606,559.8 753.51,559.8 759.408,559.8 " fill="none" id="SystemUserBuilder-to-SystemUser" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="762.498,559.8,757.098,557.4,759.498,559.8,757.098,562.2,762.498,559.8" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[18f98f898b33518a07ec32b030c48693]
+link UserManagementService to UserRepository--><g id="link_UserManagementService_UserRepository"><path codeLine="174" d="M586.71,291.3 C696.57,303.528 912.282,340.956 1053,452.4 C1080.972,474.552 1099.134,512.796 1108.464,537.006 " fill="none" id="UserManagementService-to-UserRepository" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1109.556,539.886,1109.8854,533.9859,1108.4923,537.0809,1105.3973,535.6878,1109.556,539.886" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[dabe728235bc0ea6fdae2c1a3266723a]
+link UserRepository to SystemUser--><g id="link_UserRepository_SystemUser"><path codeLine="178" d="M1076.868,559.8 C1066.758,559.8 1056.648,559.8 1046.544,559.8 " fill="none" id="UserRepository-to-SystemUser" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="1043.406,559.8,1048.806,562.2,1046.406,559.8,1048.806,557.4,1043.406,559.8" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[eae05237fb7055c54352186cab4a3c6b]
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ListUsersUI <<ui>>{
+    - theController : ListUsersController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+
+        class Role <<value object>>{
+        -roleName
+        +Role(name)
+        }
+
+        class RoleAssignment <<value object>>{
+               -pk
+               -type
+               - assignedOn
+               - unassignedOn
+               - expired
+               +RoleAssignment(type, assignedOn)
+        }
+
+        class RoleSet implements Set{
+        -assignments
+        +add(role)
+        +hasAssignment(role)
+        }
+
+
+        class SystemUser <<aggregate root>> <<entity>>{
+        - email : EmailAddress
+        - password : Password
+        - fullName : FullName
+        - shortName : ShortName
+        - roles : RoleSet
+        - createdOn : Calendar
+        - active : boolean
+        - activatedOn : Calendar
+        - activatedOn : Calendar
+        + SystemUser (email, password, fullName, shortName, roles, createdOn)
+        }
+
+        class EmailAddress <<value object>> <<id>>{
+         -email : String
+         +valueOf(email)
+         +EmailAddress(email)
+        }
+
+        class Password <<value object>>{
+        - Password : String
+        +encodedAndValid(password, policy, encoder)
+        }
+
+        class FullName <<value object>>{
+        -fullName : String
+         +valueOf(fullName)
+        +FullName (fullName)
+        }
+
+        class ShortName<<value object>>{
+        -shortName : String
+         +valueOf(shortName)
+        + FullName (shortName)
+        }
+
+        class SystemUserBuilder<<factory>>{
+        - email : EmailAddress
+        - password : Password
+        - fullName : FullName
+        - shortName : ShortName
+        - roles : RoleSet
+        - createdOn : Calendar
+        + withEmail (email)
+        + withPassword (password)
+        + withFullName (pfullName)
+        + withShortName (shortName)
+        + withRoles (roles)
+        + build ();
+        }
+
+}
+    package "persistence" #dbd8ae{
+       interface UserRepository{
+       findAll()
+       }
+    }
+package "application" #eaf4d3{
+    class ListUsersController <<controller>>{
+        - authz : AuthorizationService
+        - userSvc : UserManagementService
+        + allUsers()
+    }
+
+    class AuthorizationService <<service>>{
+        - userSession : UserSession
+        + createSessionForUser(user)
+        + clearSession()
+        + hasSession()
+        + session()
+        + isAuthenticatedUserAuthorizedTo (action)
+        + ensureAuthenticatedUserHasAnyOf (action)
+    }
+
+    class AuthenticationService <<service>>{
+        - repo : UserRepository
+        - authz : AuthorizationService
+        - policy : PasswordPolicy
+        - encoder : PasswordEncoder
+        + AuthenticationService (repo, authz, policy, encoder)
+        + authenticate(email, rawPassword, requiredRoles)
+        + retrieveUser(email)
+    }
+
+    class UserManagementService <<service>>{
+         - userRepository : UserRepository
+         - encoder : PasswordEncoder
+         - policy : PasswordPolicy
+         + allUsers()
+    }
+
+    class PasswordEncoder <<service>>{
+        +encode(rawPassword)
+        +matches(rawPassword,encodedPassword)
+        +upgradeEncoding(encodedPassword)
+    }
+
+    class PasswordPolicy <<service>>{
+       +isSatisfiedBy(password)
+    }
+
+
+    class UserSession <<value object>>{
+        -authenticatedUser : SystemUser
+        -UUID token : UUID
+        -startedOn : Calendar
+        + UserSession(user)
+    }
+}
+
+interface Set{
+}
+
+
+ListUsersController .-> AuthorizationService
+ListUsersUI .-> ListUsersController
+ListUsersController .-> UserManagementService
+
+
+SystemUser - -> FullName
+SystemUser - - - -> Password
+SystemUser - -> EmailAddress
+SystemUser - -> ShortName
+UserSession .> SystemUser
+AuthorizationService .- -> UserSession
+AuthenticationService .> AuthorizationService
+AuthenticationService .> Role
+AuthenticationService .> Password
+AuthenticationService .-> EmailAddress
+AuthenticationService .-> PasswordEncoder
+AuthenticationService .-> PasswordPolicy
+RoleSet .- - -> RoleAssignment
+RoleAssignment -> Role
+
+UserManagementService .-> SystemUserBuilder
+
+SystemUser - - - -> RoleSet
+SystemUserBuilder .> SystemUser
+UserManagementService .> UserRepository
+
+
+
+UserRepository -> SystemUser
+
+@enduml
+
+@startuml
+
+package "presentation" #DDDDDD{
+    class ListUsersUI <<ui>>{
+    - theController : ListUsersController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+
+        class Role <<value object>>{
+        -roleName
+        +Role(name)
+        }
+
+        class RoleAssignment <<value object>>{
+               -pk
+               -type
+               - assignedOn
+               - unassignedOn
+               - expired
+               +RoleAssignment(type, assignedOn)
+        }
+
+        class RoleSet implements Set{
+        -assignments
+        +add(role)
+        +hasAssignment(role)
+        }
+
+
+        class SystemUser <<aggregate root>> <<entity>>{
+        - email : EmailAddress
+        - password : Password
+        - fullName : FullName
+        - shortName : ShortName
+        - roles : RoleSet
+        - createdOn : Calendar
+        - active : boolean
+        - activatedOn : Calendar
+        - activatedOn : Calendar
+        + SystemUser (email, password, fullName, shortName, roles, createdOn)
+        }
+
+        class EmailAddress <<value object>> <<id>>{
+         -email : String
+         +valueOf(email)
+         +EmailAddress(email)
+        }
+
+        class Password <<value object>>{
+        - Password : String
+        +encodedAndValid(password, policy, encoder)
+        }
+
+        class FullName <<value object>>{
+        -fullName : String
+         +valueOf(fullName)
+        +FullName (fullName)
+        }
+
+        class ShortName<<value object>>{
+        -shortName : String
+         +valueOf(shortName)
+        + FullName (shortName)
+        }
+
+        class SystemUserBuilder<<factory>>{
+        - email : EmailAddress
+        - password : Password
+        - fullName : FullName
+        - shortName : ShortName
+        - roles : RoleSet
+        - createdOn : Calendar
+        + withEmail (email)
+        + withPassword (password)
+        + withFullName (pfullName)
+        + withShortName (shortName)
+        + withRoles (roles)
+        + build ();
+        }
+
+}
+    package "persistence" #dbd8ae{
+       interface UserRepository{
+       findAll()
+       }
+    }
+package "application" #eaf4d3{
+    class ListUsersController <<controller>>{
+        - authz : AuthorizationService
+        - userSvc : UserManagementService
+        + allUsers()
+    }
+
+    class AuthorizationService <<service>>{
+        - userSession : UserSession
+        + createSessionForUser(user)
+        + clearSession()
+        + hasSession()
+        + session()
+        + isAuthenticatedUserAuthorizedTo (action)
+        + ensureAuthenticatedUserHasAnyOf (action)
+    }
+
+    class AuthenticationService <<service>>{
+        - repo : UserRepository
+        - authz : AuthorizationService
+        - policy : PasswordPolicy
+        - encoder : PasswordEncoder
+        + AuthenticationService (repo, authz, policy, encoder)
+        + authenticate(email, rawPassword, requiredRoles)
+        + retrieveUser(email)
+    }
+
+    class UserManagementService <<service>>{
+         - userRepository : UserRepository
+         - encoder : PasswordEncoder
+         - policy : PasswordPolicy
+         + allUsers()
+    }
+
+    class PasswordEncoder <<service>>{
+        +encode(rawPassword)
+        +matches(rawPassword,encodedPassword)
+        +upgradeEncoding(encodedPassword)
+    }
+
+    class PasswordPolicy <<service>>{
+       +isSatisfiedBy(password)
+    }
+
+
+    class UserSession <<value object>>{
+        -authenticatedUser : SystemUser
+        -UUID token : UUID
+        -startedOn : Calendar
+        + UserSession(user)
+    }
+}
+
+interface Set{
+}
+
+
+ListUsersController .-> AuthorizationService
+ListUsersUI .-> ListUsersController
+ListUsersController .-> UserManagementService
+
+
+SystemUser - -> FullName
+SystemUser - - - -> Password
+SystemUser - -> EmailAddress
+SystemUser - -> ShortName
+UserSession .> SystemUser
+AuthorizationService .- -> UserSession
+AuthenticationService .> AuthorizationService
+AuthenticationService .> Role
+AuthenticationService .> Password
+AuthenticationService .-> EmailAddress
+AuthenticationService .-> PasswordEncoder
+AuthenticationService .-> PasswordPolicy
+RoleSet .- - -> RoleAssignment
+RoleAssignment -> Role
+
+UserManagementService .-> SystemUserBuilder
+
+SystemUser - - - -> RoleSet
+SystemUserBuilder .> SystemUser
+UserManagementService .> UserRepository
+
+
+
+UserRepository -> SystemUser
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

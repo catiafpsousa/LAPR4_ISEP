@@ -1,0 +1,26 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant ScheduleMeetingUI as UI <<presentation>>
+
+
+
+Actor --> UI: Schedule a meeting
+activate UI
+
+
+        UI --> Actor: Ask information about the meeting
+        Actor --> UI: Duration, Date, List of Participants
+        UI-->Actor: displayAvailableParticipantList
+        UI-->Actor
+
+
+
+
+deactivate UI
+@enduml

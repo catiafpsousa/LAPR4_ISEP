@@ -1,0 +1,17 @@
+Exam Title-"Primeiro Exame de JAVA"
+Exam Description-"Exame JAVA"
+[Exam Header]
+Header Description-"SEM1 DEI ISEP"
+[Sections]
+Section 1-"Verdadeiro ou Falso"
+Section Description-"Diga se as expressoes estao corretas"
+$TRUE_OR_FALSE$
+Section 2-"Multiple choice"
+Section Description-"Escolha a alinea correta"
+$MULTIPLE_CHOICE$
+$MATCHING$
+$SHORT_ANSWER$
+$NUMERICAL$
+$SELECT_MISSING_WORD$
+[/Sections]
+Course code-"ESOFT1"

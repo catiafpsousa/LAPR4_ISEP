@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shared Board</title>
+    <script src="rcomp-ajax.js"></script>
+</head>
+<body onload="refreshboard()">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap");
+    *{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.post-it{
+    background-color: #b1f8b1;
+    padding: 4px;
+    position: relative;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-2deg);
+    width: 90%;
+    height: 90%;
+}
+    .post-it-image{
+        max-height: 150px;
+        max-width: 150px;
+        object-fit: cover;
+    }
+table{
+    width: 95%;
+    height: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    background-color: #ffffff;
+}
+    td{
+        border: 1px solid black;
+        padding: 18px;
+        min-height: 150px;
+        min-width: 150px;
+        max-height: 150px;
+        max-width: 150px;
+    }
+
+    th.row-title,
+    td:first-child {
+        border-left: none;
+        padding: 5px;
+        text-align: right;
+    }
+
+
+    td:last-child {
+        border-right: none;
+    }
+    tr:first-child td {
+        border-top: none;
+    }
+    tr:last-child td {
+        border-bottom: none;
+    }
+
+    td:nth-child(2) {
+        border-left: none;
+    }
+
+    th:first-child + td:nth-child(2) {
+        border-left: 1px solid black;
+    }
+
+td:nth-child(2) .post-it
+{
+    background-color: rgb(253, 253, 133);
+    transform: rotate(2deg);
+}
+td:nth-child(3) .post-it
+{
+    background-color: #88d2f1;
+    transform: rotate(-1deg);
+}
+td:nth-child(4) .post-it
+{
+    background-color: #cfb8da;
+    transform: rotate(3deg);
+}
+
+    .post-it-text{
+        font-family: 'Swanky and Moo Moo', cursive;
+        font-size: 24px;
+        text-align: center;
+
+    }
+
+    h2 {
+        text-align: center;
+        color: rgba(147, 147, 255, 0.99);
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+    .row-title, .column-title {
+        color: #494949;
+    }
+    footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+    }
+
+</style>
+<div id="board"></div>
+<footer>
+    @SharedBoardApplication 1.0.0 (C) 2022 - 2023, GRUPO 46 - FUSAO
+</footer>
+
+</body>
+</html>
+</body>
+</html>

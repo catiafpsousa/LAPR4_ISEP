@@ -1,0 +1,62 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant ActivateUserUI as UI <<presentation>>
+participant ActivateUserController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant UserManagementService as userSvc <<application>>
+
+participant SystemUser as user <<domain>>
+database UserRepository as Repository <<repository>>
+
+
+Actor --> UI: Deactivate User
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: deactiveUsers()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller --> userSvc : create
+
+
+Controller -> userSvc : deactiveUsers()
+ activate userSvc
+            userSvc -> Repository: deactiveUsers = findbyActive(false)
+            activate Repository
+
+            Repository --> userSvc
+            deactivate Repository
+            userSvc --> Controller
+            Controller --> UI : deactiveUsers
+
+        UI-->Actor: list active users
+
+        Actor --> UI : selects user
+        UI -> Controller : activateUser(user)
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+                activate authz
+                deactivate authz
+        Controller -> userSvc : activateUser(user)
+        userSvc ->  user : activate(CurrentTimeCalendars.now())
+        userSvc ->  Repository : save(user)
+
+        activate Repository
+
+        Repository --> userSvc
+        deactivate Repository
+         userSvc -->  Controller
+         Controller --> UI
+         UI --> Actor : displays success
+
+         deactivate Controller
+deactivate UI
+@enduml

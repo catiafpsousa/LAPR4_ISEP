@@ -1,0 +1,96 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor Teacher as Actor
+ participant ListGradesOfCourseUI as UI <<presentation>>
+ participant ListGradeOfCourseController as Controller <<application>>
+ participant AuthorizationService  as authz <<application>>
+ participant CourseManagementService as courseSvc <<application>>
+ participant GradeManagementService as gradeSvc <<application>>
+
+ participant PersistenceContext as Persistence <<persistence>>
+ participant RepositoryFactory as Factory <<factory>>
+ database CourseRepository as CourseRepository <<repository>>
+ database GradeRepository as GradeRepository <<repository>>
+
+
+
+ Actor --> UI: ask list of grades by course
+ activate UI
+
+  UI --> Controller: create
+
+Controller -> authz: ensureAuthenticatedUserHasAnyOf(TEACHER)
+
+                activate authz
+
+                deactivate authz
+
+     UI -> Controller: allCoursesByTeacher()
+
+  Controller -> courseSvc : allCoursesBySystemUser(systemUser)
+
+
+       courseSvc   -> Persistence : repositories()
+                     activate Persistence
+
+                     deactivate Persistence
+                     courseSvc -> Factory: courses()
+                     activate Factory
+
+                     Factory -> CourseRepository: create
+
+                     Factory -> courseSvc: courseRepository
+                     deactivate Factory
+
+                     courseSvc -> CourseRepository : findBySystemUser(systemUser)
+                     activate CourseRepository
+
+                     CourseRepository --> courseSvc : listOfCourses
+
+                    deactivate CourseRepository
+                       courseSvc --> Controller: listOfCourses
+
+
+         Controller --> UI : listOfCourses
+
+    UI-->Actor : list Of Courses
+
+Actor --> UI: choose a course
+
+UI -> Controller: allGradesByCourse(course)
+
+        Controller -> gradeSvc : allGradesByCourse(courseCode)
+
+
+       gradeSvc   -> Persistence : repositories()
+                     activate Persistence
+
+                     deactivate Persistence
+                     gradeSvc -> Factory: grades()
+                     activate Factory
+
+                     Factory -> GradeRepository: create
+
+                     Factory -> gradeSvc: gradeRepository
+                     deactivate Factory
+
+                     gradeSvc -> GradeRepository : findByCourse(course)
+                     activate GradeRepository
+
+                     GradeRepository --> gradeSvc : listOfGrades
+                    deactivate GradeRepository
+                       gradeSvc --> Controller: listOfGrades
+
+
+         Controller --> UI :listOfGrades
+     deactivate Controller
+
+
+         UI-->Actor : list Of Grades
+ deactivate UI
+
+ @enduml

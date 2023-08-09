@@ -1,0 +1,99 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ViewBoardHistoryUI <<ui>>{
+    - theController : ViewBoardHistoryController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+        class PostIt <<entity>>{
+        - owner : SystemUser
+        - parent : PostIt
+        - next : PostIt
+        - content : Content
+        - timestamp : Calendar
+        - isDeleted : boolean
+        + PostIt(owner, content)
+        + PostIt(parent, newContent)
+        + PostIt(parent)
+        }
+        class Content<<value object>>{
+        - textContent: String
+         }
+
+        class SharedBoard <<aggregate root>> <<entity>>{
+        -owner : SystemUser
+        - rowNumber: NumberOfRow
+        - columnNumber: NumberOfColumn
+        - Set <Cell> cells : Cell
+        - Set<Modification> modifications : Modification
+        + SharedBoard(owner, rowNumber, columnNumber, cells title)
+        + availableCells()
+
+        }
+
+      class Cell <<entity>>{
+             - row : BoardRow
+             - column : BoardColumn
+             +  Cell (row, column)
+             + canHavePostIt()
+             + addPostIt (owner, content)
+             + latestPostIt()
+             + undoPostIt(parent)
+       }
+
+      class BoardModification <<value object>>{
+          - postIt : PostIt
+          - modifiedOn : Calendar
+          - description : ModificationDescription
+          - type : ModificationType
+      }
+
+
+
+
+}
+    package "persistence" #dbd8ae{
+       interface BoardRepository{
+       + findBySystemUserWithReadPermission(user)
+       + save(board)
+       }
+    }
+package "application" #eaf4d3{
+    class ViewBoardHistoryController <<controller>>{
+        - authz : AuthorizationService
+        - boardSvc : BoardManagementService
+        - boardRepository : BoardRepository
+        + sharedBoardWithWritePermission()
+        + currentUser()
+    }
+
+    class BoardManagementService <<service>>{
+         - boardRepository : BoardRepository
+         + availableCells(board)
+         + allBoardsBySystemUserWithReadPermission(user)
+         + deleteStatePostIt(board, postIt)
+         + updatePostItLastChange(board, postIt)
+    }
+
+}
+
+
+ViewBoardHistoryUI .-> ViewBoardHistoryController
+ViewBoardHistoryController .-> BoardManagementService
+
+
+
+BoardManagementService .> BoardRepository
+
+PostIt --> Content
+Cell -> PostIt
+SharedBoard --> Cell
+SharedBoard --> BoardModification
+ViewBoardHistoryController .--> SharedBoard
+
+
+@enduml

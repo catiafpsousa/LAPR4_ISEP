@@ -1,0 +1,118 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class TakeAnAutomaticExamUI <<ui>>{
+    - theController : TakeAnAutomaticExamController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+        class AutomaticFormativeExam <<aggregate root>> <<entity>>{
+        - examTitle : ExamTitle
+        - string : String
+        - id : Long
+        - courseCode : CourseCode
+        - examQuestion : ExamQuestion
+        + init(examTitle, courseCode , string)
+
+        }
+        class ExamTitle <<valueObject>> {
+        }
+
+        class CourseCode <<valueObject>> {
+        }
+
+         class ExamQuestion <<entity>> {
+         - id : Long
+         - question : Question
+         - score : Score
+         + init(question, score)
+         }
+
+
+}
+    package "persistence" #dbd8ae{
+       interface ExamRepository{
+       + AllAutomaticFormativeExam()
+       }
+
+         interface QuestionRepository{
+              + findQuestionByType()
+              }
+                interface EnrollmentRepository{
+                            + findAllCourseByStudent()
+                            }
+
+    }
+package "application" #eaf4d3{
+    class TakeAnAutomaticExamController <<controller>>{
+        - authz : AuthorizationService
+        + findAllCourseByStudent()
+        + findFormativeExamsByCourse(courseCode)
+        + automaticExamToTxt(exam)
+        + verifyAnswers(answerPath, list)
+       }
+
+    class ExamManagementService <<service>>{
+         - examRepository : ExamRepository
+         + findFormativeExamsByCourse(courseCode)
+         + automaticExamToTxt(exam)
+         + verifyAnswers(answerPath, list)
+    }
+     class EnrollmentManagementService <<service>>{
+         - enrollmentRepository : EnrollmentRepository
+         + findAllCourseByStudent()
+            }
+
+    class QuestionManagementService <<service>>{
+             - questionRepository : QuestionRepository
+             + findQuestionByType()
+        }
+
+    class AutomaticExamGenerateQuestionsVisitor{
+        + visit(tree)
+    }
+
+    class ConvertExamIntoSolutionsListener {
+        + getExamAnswers()
+
+    }
+
+    class ConvertIntoExamReadyToBeAnsweredVisitor{
+        + visit(sectionsTree)
+        }
+
+    class GradeAnsweredExamVisitor{
+        + visit(answerd_tree)
+        }
+}
+
+
+
+TakeAnAutomaticExamController .-> AuthorizationService
+TakeAnAutomaticExamUI .-> TakeAnAutomaticExamController
+TakeAnAutomaticExamController .-> ExamManagementService
+TakeAnAutomaticExamController .-> EnrollmentManagementService
+
+
+ExamManagementService -> AutomaticFormativeExam
+
+AutomaticFormativeExam -> ExamTitle
+AutomaticFormativeExam -> CourseCode
+AutomaticFormativeExam -> ExamQuestion
+
+ExamManagementService .-> ExamRepository
+ExamManagementService .-> AutomaticExamGenerateQuestionsVisitor
+AutomaticExamGenerateQuestionsVisitor .-> QuestionManagementService
+ExamManagementService .-> ConvertExamIntoSolutionsListener
+ExamManagementService .-> ConvertIntoExamReadyToBeAnsweredVisitor
+ExamManagementService .->  GradeAnsweredExamVisitor
+QuestionManagementService .-> QuestionRepository
+EnrollmentManagementService .-> EnrollmentRepository
+
+@enduml

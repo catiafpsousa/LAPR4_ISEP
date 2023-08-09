@@ -1,0 +1,17 @@
+@startuml
+
+scale 200 width
+hide empty description
+
+skinparam state {
+    BackgroundColor White
+    BorderColor Black
+}
+
+[*] --> Requested
+Requested --> Approved
+Requested --> Rejected
+Approved --> [*]
+Rejected --> [*]
+
+@enduml

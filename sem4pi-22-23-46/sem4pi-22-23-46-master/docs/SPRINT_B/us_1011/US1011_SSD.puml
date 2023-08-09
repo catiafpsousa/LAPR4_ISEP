@@ -1,0 +1,37 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Teacher as Actor
+participant SheduleExtraClassUI as UI <<presentation>>
+
+
+
+Actor --> UI: schedule extraordinary class
+activate UI
+
+  UI-->Actor: shows courses list and asks to select one
+
+  Actor --> UI : selects the intended course
+
+  UI --> Actor : requests data (title, date, duration)
+
+  Actor --> UI : enters data (title, date, duration)
+
+  UI --> Actor : shows course students list and asks to select participants
+
+  Actor --> UI : selects participants
+
+  UI --> Actor: requests confirmation to save
+
+  Actor --> UI : confirms
+
+  UI --> Actor : informs operation success
+
+
+deactivate UI
+@enduml

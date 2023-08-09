@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as user
+participant ListParticipantsInMeetingUI as System <<presentation>>
+
+user -> System: Selects List Participants in Meeting option
+System --> user: Shows list of meetings
+System --> user: Asks to select one meeting
+user -> System: Selects a meeting
+System --> user: Shows list of participants (w/status) in the meeting
+
+@enduml

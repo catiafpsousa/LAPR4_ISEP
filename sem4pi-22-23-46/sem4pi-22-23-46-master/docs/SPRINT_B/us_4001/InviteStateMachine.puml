@@ -1,0 +1,18 @@
+@startuml
+
+scale 200 width
+hide empty description
+
+skinparam state {
+    BackgroundColor White
+    BorderColor Black
+}
+
+[*] --> Send : Meeting
+Send --> Accept
+Send --> Reject
+Send --> Unknown
+Accept --> [*]
+Reject --> [*]
+Unknown --> [*]
+@enduml

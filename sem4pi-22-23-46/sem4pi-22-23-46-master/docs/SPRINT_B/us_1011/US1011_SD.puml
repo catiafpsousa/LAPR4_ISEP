@@ -1,0 +1,115 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+
+actor Teacher as Actor
+participant ScheduleExtraClassUI as UI <<presentation>>
+participant ScheduleExtraClassController as Controller <<application>>
+participant CourseManagementService as  CourseManagementService <<application>>
+participant ScheduleManagementService as  ScheduleManagementService <<application>>
+participant StudentManagementService as StudentManagementService <<aplication>>
+participant ClassBuilder as Builder <<builder>>
+participant ExtraordinaryClass as ExtraClass <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant RepositoryFactory as Factory <<factory>>
+participant ExtraordinaryClass as ExtraClass <<domain>>
+database ClassRepository as Repository <<repository>>
+
+
+Actor -> UI: schedule extraordinary class
+activate UI
+  UI -> Controller  : create()
+  activate Controller
+  UI -> Controller : listCourses()
+  Controller -> CourseManagementService : create()
+  activate  CourseManagementService
+  Controller -> CourseManagementService : listCoursesByTeacher()
+  deactivate  CourseManagementService
+  ref over  CourseManagementService: SD_ CourseManagementService
+  CourseManagementService --> Controller
+  Controller --> UI
+  deactivate Controller
+  UI-->Actor: shows courses list and asks to select one
+
+  Actor -> UI : selects the intended course
+
+  UI --> Actor : requests data (title, day, time, duration)
+
+  Actor -> UI : enters data (title, day, time, duration)
+
+  UI -> Controller: checkAvailability()
+   activate Controller
+  Controller -> ScheduleManagementService : create ()
+  activate ScheduleManagementService
+  Controller-> ScheduleManagementService: checkAvailabilityByID()
+  deactivate ScheduleManagementService
+  ref over ScheduleManagementService: SD_ScheduleManagementService
+ ScheduleManagementService --> Controller: true
+  Controller --> UI : true
+
+  UI -> Controller : StudentList()
+
+  Controller ->  StudentsManagementService: create ()
+
+  activate  StudentManagementService
+
+  Controller ->  StudentManagementService : listStudentsByCourse()
+
+  deactivate  StudentManagementService
+
+  ref over  StudentManagementService : SD_ StudentManagementService
+
+   StudentManagementService --> Controller
+  Controller --> UI
+
+  deactivate Controller
+
+  UI --> Actor : shows course students list and asks to select participants
+
+  Actor -> UI : selects participants
+
+  UI --> Actor: requests confirmation to save
+  Actor -> UI : confirms
+   UI -> Controller : schedulesExtraClass(teacher, course, title, day, time duration, participantList)
+   activate Controller
+   Controller -> Builder:with(teacher, course, title, day, time duration, participantList)
+           activate Builder
+           Controller-> Builder:build()
+
+               Builder -> ExtraClass: create (teacher, course, title, day, time duration, participantList)
+               activate ExtraClass
+               ExtraClass-->Builder: extraClass
+               deactivate ExtraClass
+               Builder --> Controller
+    Controller -> Persistence : repositories()
+   activate Persistence
+   Persistence -> set: instance()
+   activate set
+   Persistence -> set: getRepositoryFactory()
+   deactivate Persistence
+   set -> Factory : create
+   activate Factory
+   Factory --> set:
+   set -->Controller: factory
+   deactivate set
+  Controller -> Factory : Class()
+
+   Factory -> Repository : create
+   activate Repository
+   note over Repository: The properties file determines if the created repository is JPA or in memory
+   Factory --> Controller : ClassRepository
+   deactivate Factory
+  Controller -> Repository : save (extraClass)
+  Repository --> Controller
+
+  deactivate Repository
+  Controller --> UI
+  deactivate Controller
+  UI --> Actor : informs operation success
+    deactivate UI
+@enduml

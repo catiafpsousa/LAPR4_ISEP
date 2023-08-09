@@ -1,0 +1,186 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class DeactivateUserUI <<ui>>{
+    - theController : DeactivateUserController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+
+        class Role <<value object>>{
+        -roleName
+        +Role(name)
+        }
+
+        class RoleAssignment <<value object>>{
+               -pk
+               -type
+               - assignedOn
+               - unassignedOn
+               - expired
+               +RoleAssignment(type, assignedOn)
+        }
+
+        class RoleSet implements Set{
+        -assignments
+        +add(role)
+        +hasAssignment(role)
+        }
+
+
+        class SystemUser <<aggregate root>> <<entity>>{
+        - email : EmailAddress
+        - password : Password
+        - fullName : FullName
+        - shortName : ShortName
+        - roles : RoleSet
+        - createdOn : Calendar
+        - active : boolean
+        - activatedOn : Calendar
+        - deactivatedOn : Calendar
+        + SystemUser (email, password, fullName, shortName, roles, createdOn)
+        + init(email, password, fullName, shortName, roles, createdOn)
+        + deactivate(deactivatedOn)
+        }
+
+        class EmailAddress <<value object>> <<id>>{
+         -email : String
+         +valueOf(email)
+         +EmailAddress(email)
+        }
+
+        class Password <<value object>>{
+        - Password : String
+        +encodedAndValid(password, policy, encoder)
+        }
+
+        class FullName <<value object>>{
+        -fullName : String
+         +valueOf(fullName)
+        +FullName (fullName)
+        }
+
+        class ShortName<<value object>>{
+        -shortName : String
+         +valueOf(shortName)
+        + FullName (shortName)
+        }
+
+        class SystemUserBuilder<<factory>>{
+        - email : EmailAddress
+        - password : Password
+        - fullName : FullName
+        - shortName : ShortName
+        - roles : RoleSet
+        - createdOn : Calendar
+        + withEmail (email)
+        + withPassword (password)
+        + withFullName (pfullName)
+        + withShortName (shortName)
+        + withRoles (roles)
+        + build ();
+        }
+
+}
+    package "persistence" #dbd8ae{
+       interface UserRepository{
+       findByActive(true)
+       save(user : SystemUser)
+       }
+    }
+package "application" #eaf4d3{
+    class DeactivateUserController <<controller>>{
+        - authz : AuthorizationService
+        - userSvc : UserManagementService
+        + activeUsers ()
+        + deactivateUser(user)
+
+    }
+
+    class AuthorizationService <<service>>{
+        - userSession : UserSession
+        + createSessionForUser(user)
+        + clearSession()
+        + hasSession()
+        + session()
+        + isAuthenticatedUserAuthorizedTo (action)
+        + ensureAuthenticatedUserHasAnyOf (action)
+    }
+
+    class AuthenticationService <<service>>{
+        - repo : UserRepository
+        - authz : AuthorizationService
+        - policy : PasswordPolicy
+        - encoder : PasswordEncoder
+        + AuthenticationService (repo, authz, policy, encoder)
+        + authenticate(email, rawPassword, requiredRoles)
+        + retrieveUser(email)
+    }
+
+    class UserManagementService <<service>>{
+         - userRepository : UserRepository
+         - encoder : PasswordEncoder
+         - policy : PasswordPolicy
+         + deactivateUser(user)
+    }
+
+    class PasswordEncoder <<service>>{
+        +encode(rawPassword)
+        +matches(rawPassword,encodedPassword)
+        +upgradeEncoding(encodedPassword)
+    }
+
+    class PasswordPolicy <<service>>{
+       +isSatisfiedBy(password)
+    }
+
+
+    class UserSession <<value object>>{
+        -authenticatedUser : SystemUser
+        -UUID token : UUID
+        -startedOn : Calendar
+        + UserSession(user)
+    }
+}
+
+interface Set{
+}
+
+
+DeactivateUserController .-> AuthorizationService
+DeactivateUserUI .-> DeactivateUserController
+DeactivateUserController .-> UserManagementService
+
+
+SystemUser --> FullName
+SystemUser ----> Password
+SystemUser --> EmailAddress
+SystemUser --> ShortName
+UserSession .> SystemUser
+AuthorizationService .--> UserSession
+AuthenticationService .> AuthorizationService
+AuthenticationService .> Role
+AuthenticationService .> Password
+AuthenticationService .-> EmailAddress
+AuthenticationService .-> PasswordEncoder
+AuthenticationService .-> PasswordPolicy
+RoleSet .---> RoleAssignment
+RoleAssignment -> Role
+
+UserManagementService .-> SystemUserBuilder
+
+SystemUser ----> RoleSet
+SystemUserBuilder .> SystemUser
+UserManagementService .> UserRepository
+
+
+
+UserRepository -> SystemUser
+
+@enduml

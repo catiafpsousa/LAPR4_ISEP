@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Student as student
+participant ListFutureExamsUI as System <<presentation>>
+
+student -> System: Choose List Future Exams
+System --> student: Shows list of courses
+System --> student: Asks to select a course
+student -> System : Selects a course
+System --> student: Shows list of future exams
+
+@enduml

@@ -1,0 +1,72 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+
+
+actor User as Actor
+participant AcceptOrRejectMeetingRequestUI as UI <<presentation>>
+participant AcceptOrRejectMeetingRequestController as Controller <<application>>
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant RepositoryFactory as Factory <<factory>>
+database MeetingRepository as Repository <<repository>>
+participant Meeting as Meeting <<domain>>
+participant MeetingParticipant as MeetingParticipant <<domain>>
+
+activate Actor
+Actor -> UI: accept or reject meeting request
+activate UI
+UI -> Controller : create()
+activate Controller
+UI -> Controller : findPendingInvitations(user)
+note over Controller: user is the current logged user
+Controller -> Persistence : repositories()
+activate Persistence
+Persistence -> set: instance()
+activate set
+Persistence -> set: getRepositoryFactory()
+set -> Factory : create
+activate Factory
+Factory --> set:
+set -->Controller: factory
+deactivate set
+deactivate Persistence
+Controller -> Factory : meeting()
+Factory -> Repository : create
+activate Repository
+Factory --> Controller : MeetingRepository
+deactivate Factory
+Controller -> Repository : findPendingMeetingsByUser(user)
+Repository --> Controller:
+deactivate Repository
+Controller --> UI: list Meeting
+deactivate Controller
+UI --> Actor : shows the list of meetings where that user is a participant \nand the invitation is pending and asks to select one.
+deactivate Controller
+Actor -> UI: selects one meeting
+UI --> Actor : asks if user wants to accept/reject invitation
+Actor -> UI : accepts/rejects
+UI-> Controller : acceptOrRejectMeetingRequest(user, status, meeting)
+note over Controller: status might be ACCEPT or REJECT
+activate Controller
+Controller -> Meeting: updateParticipantInvitationStatus(status, user)
+activate Meeting
+Meeting -> MeetingParticipant: updateParticipantInvitationStatus\n(status, user)
+activate MeetingParticipant
+MeetingParticipant --> Meeting
+deactivate MeetingParticipant
+Meeting --> Controller
+deactivate Meeting
+Controller -> Repository : save(meeting)
+activate Repository
+Repository --> Controller
+deactivate Repository
+Controller --> UI
+deactivate Controller
+UI --> Actor : informs operation success
+deactivate UI
+@enduml

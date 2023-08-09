@@ -1,0 +1,92 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+
+
+actor User as Actor
+participant CreateBoardUI as UI <<presentation>>
+participant CreateBoardController as Controller <<application>>
+participant ClassBuilder as Builder <<builder>>
+participant SharedBoard as SharedBoard <<domain>>
+participant Cell as Cell <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant RepositoryFactory as Factory <<factory>>
+database SharedBoardRepository as Repository <<repository>>
+
+Actor -> UI: create board
+activate UI
+UI -> Controller : create()
+activate Controller
+UI-->Actor: requests data (shared board title, number of columns, number of rows)
+deactivate Controller
+Actor -> UI : types requested data
+ref over Controller : SD_USER_LOGGED
+note over Controller: user is the current logged user (sharedBoard owner)
+note over Controller: The number of columns and rows is validated according to properties file that sets the its maximum number
+UI-> Controller : createBoard()
+activate Controller
+Controller -> Builder:with(user, sharedBoardTitle, rowsNumber, columnNumber)
+           activate Builder
+           Controller-> Builder:build()
+
+               Builder -> SharedBoard: create (user, sharedBoardTitle, rowsNumber, columnNumber)
+               activate SharedBoard
+               SharedBoard-->Builder: sharedboard
+               deactivate SharedBoard
+               Builder --> Controller
+               deactivate Builder
+               Controller --> UI
+deactivate Controller
+UI --> Actor : asks if user wants to give a title to shared board entries (columns and/or rows)
+Actor -> UI : confirms
+note right of UI: If the user chooses not to assign a title to the entries, the system does not display all rows and columns and the value objects are created with the NULL title attribute.
+UI --> Actor : displays all columns and rows
+loop
+Actor -> UI : shows row/column
+UI --> Actor : requests title
+Actor -> UI : enters title
+UI -> Controller : updateTitleOfRow(title) / updateTitleOfColumn (title)
+activate Controller
+Controller -> SharedBoard : updateTitleOfRow(title) / updateTitleOfColumn (title)
+activate SharedBoard
+SharedBoard -> Cell : updateTitleOfRow(title) / updateTitleOfColumn (title)
+activate Cell
+deactivate Cell
+deactivate SharedBoard
+deactivate Controller
+end
+UI --> Actor : requests confirmation to save
+Actor -> UI : confirms data
+UI -> Controller: save (sharedBoard))
+activate Controller
+Controller -> Persistence : repositories()
+activate Persistence
+
+
+Persistence -> set: instance()
+activate set
+Persistence -> set: getRepositoryFactory()
+set -> Factory : create
+activate Factory
+Factory --> set:
+set -->Controller: factory
+deactivate set
+deactivate Persistence
+Controller -> Factory : sharedboard()
+Factory -> Repository : create
+activate Repository
+note over Repository: The properties file determines if the created repository is JPA or in memory
+Factory --> Controller : SharedBoardRepository
+deactivate Factory
+Controller -> Repository : save (sharedBoard)
+deactivate Repository
+Controller --> UI : sharedBoard
+deactivate Controller
+UI --> Actor : informs operation success
+deactivate UI
+@enduml

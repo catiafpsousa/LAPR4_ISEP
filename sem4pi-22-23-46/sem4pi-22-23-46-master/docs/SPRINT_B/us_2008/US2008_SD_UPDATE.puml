@@ -1,0 +1,76 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor User as Actor
+ participant UpdateAutomaticExamsUI as UI <<presentation>>
+ participant UpdateAutomaticExamsController as Controller <<application>>
+ participant AuthorizationService  as authz <<application>>
+ participant ExamManagementService as examSvc <<application>>
+
+ participant "exam:Exam" as Domain <<domain>>
+ participant PersistenceContext as Persistence <<persistence>>
+ participant RepositoryFactory as Factory <<factory>>
+ database ExamRepository as ExamRepository <<repository>>
+
+
+    Actor -> UI: updateAutomaticFormativeExam()
+ activate UI
+     UI --> Controller: create
+
+
+    UI -> Controller: listAutomaticFormativeExam()
+activate Controller
+
+   Controller -> authz: ensureAuthenticatedUserHasAnyOf(TEACHER)
+                activate authz
+                deactivate authz
+
+Controller -> examSvc :  allAutomaticFormativeExam()
+examSvc   -> Persistence : repositories()
+                     activate Persistence
+
+                     deactivate Persistence
+                     examSvc -> Factory: exams()
+                     activate Factory
+                     Factory -> ExamRepository: create
+
+                     Factory -> examSvc: examRepository
+                     deactivate Factory
+
+
+                     activate ExamRepository
+
+                    deactivate ExamRepository
+                       examSvc --> Controller
+
+examSvc -> ExamRepository : allAutomaticFormativeExam()
+ExamRepository -> examSvc : exams
+examSvc --> Controller : exams
+Controller --> UI : exams
+ UI --> Actor: shows list of Automatic formative exams
+ Actor -> UI : choose one
+ UI --> Actor: shows fields to modify
+Actor -> UI: choose one and write the new data
+
+     UI -> Controller:  updateAutomaticFormativeExam( examTitle,examDescription,  section, examHeader, courseCode ,questionType)
+
+
+        Controller -> examSvc :saveAutomaticFormativeExam(examTitle, examDescription, section, examHeader, courseCode)
+activate examSvc
+
+examSvc -> ExamRepository: delete(oldAutomaticFormativeExam)
+
+examSvc -> ExamRepository: save(newAutomaticFormativeExam)
+deactivate examSvc
+deactivate ExamRepository
+         Controller --> UI
+     deactivate Controller
+
+
+         UI-->Actor
+ deactivate UI
+
+ @enduml

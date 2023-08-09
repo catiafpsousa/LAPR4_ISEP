@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as user
+participant ArchiveBoardUI as System <<presentation>>
+
+user -> System: Selects Archive Board option
+System --> user: Shows list of boards the user owns
+System --> user: Asks to select one board
+user --> System: Selects a board
+System --> user: Archives the board and confirms the request
+
+@enduml

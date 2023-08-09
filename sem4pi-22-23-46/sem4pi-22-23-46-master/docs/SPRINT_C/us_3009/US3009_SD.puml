@@ -1,0 +1,56 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant ViewBoardHistoryUI as UI <<presentation>>
+participant ViewBoardHistoryController as Controller <<application>>
+
+participant BoardManagementService as BoardManagementService <<application>>
+
+participant SharedBoard as SharedBoard <<domain>>
+database boardRepository as BoardRepository <<repository>>
+
+
+
+Actor --> UI: view board history
+activate UI
+UI -> Controller: create()
+UI -> Controller: sharedBoardsWithReadPermission()
+activate Controller
+Controller -> Controller : user:currentUser()
+Controller -> BoardManagementService: allBoardsBySystemUserWithReadPermission(user)
+activate BoardManagementService
+
+BoardManagementService -> BoardRepository: findBySystemUserWithReadPermission(user)
+ref over BoardManagementService : SD_findBySystemUserWithReadPermission
+activate BoardRepository
+
+BoardRepository --> BoardManagementService: allUserBoardsWithReadPermissions
+deactivate BoardRepository
+
+BoardManagementService --> Controller: allUserBoardsWithReadPermissions
+Controller --> UI: allUserBoardsWithReadPermissions
+UI --> Actor: lists the boards with read permissions
+Actor -> UI: selects a board
+
+UI -> Controller : boardHistory(bardSelected)
+Controller -> BoardManagementService : boardModifications(board)
+
+BoardManagementService -> SharedBoard: modifications()
+activate SharedBoard
+ SharedBoard --> BoardManagementService: modifications
+ deactivate SharedBoard
+  BoardManagementService --> Controller: modifications
+    Controller --> UI: modifications
+
+
+         UI --> Actor : displays info
+
+
+         deactivate Controller
+deactivate UI
+@enduml

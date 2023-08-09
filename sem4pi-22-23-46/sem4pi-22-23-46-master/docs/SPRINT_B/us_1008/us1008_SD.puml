@@ -1,0 +1,65 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Student as Actor
+participant RequestEnrollmentUI as UI <<presentation>>
+participant RequestEnrollmentController as Controller <<application>>
+participant CourseManagementService as CourseManagementService <<application>>
+participant EnrollmentManagementService as EnrollmentManagementService <<application>>
+participant "enrollment:Enrollment" as Enrollment <<domain>>
+participant PersistenceContext as PersistenceContext <<persistence>>
+participant RepositoryFactory as ReposioryFactory <<factory>>
+database EnrollmentRepository as EnrollmentRepository <<repository>>
+
+Actor -> UI: Request Enrollment in a Course
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> CourseManagementService: enrollCourses()
+activate CourseManagementService
+ref over CourseManagementService
+  SD_ListCoursesInEnrollState
+end ref
+
+
+CourseManagementService --> Controller: courses
+Controller --> UI: courses
+deactivate CourseManagementService
+UI --> Actor: Shows list of courses in state enroll
+UI --> Actor : Asks to choose one course
+Actor -> UI: Selects a course
+
+UI -> Controller: addNewEnrollment()
+Controller -> EnrollmentManagementService: registerNewEnrollment(student, course, status, modifiedOn)
+activate EnrollmentManagementService
+EnrollmentManagementService -> Enrollment: create(student, course, status, modifiedOn)
+activate Enrollment
+Enrollment --> EnrollmentManagementService: enrollment
+deactivate Enrollment
+EnrollmentManagementService -> PersistenceContext: repositories()
+activate PersistenceContext
+PersistenceContext -> ReposioryFactory: create()
+PersistenceContext -> EnrollmentManagementService: factory
+deactivate PersistenceContext
+EnrollmentManagementService -> ReposioryFactory: enrollments()
+activate ReposioryFactory
+ReposioryFactory -> EnrollmentRepository: create()
+ReposioryFactory --> EnrollmentManagementService: EnrollmentRepository
+deactivate ReposioryFactory
+
+EnrollmentManagementService -> EnrollmentRepository: save(enrollment)
+activate EnrollmentRepository
+EnrollmentRepository --> EnrollmentManagementService
+deactivate EnrollmentRepository
+EnrollmentManagementService --> Controller: enrollment
+deactivate EnrollmentManagementService
+Controller --> UI: enrollment
+deactivate Controller
+UI --> Actor: Confirms the request
+@enduml
+

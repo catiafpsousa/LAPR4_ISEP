@@ -1,0 +1,129 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor Student as Actor
+ participant TakeAnExamUI as UI <<presentation>>
+ participant TakeAnExamController as Controller <<application>>
+ participant AuthorizationService  as authz <<application>>
+ participant ExamManagementService as examSvc <<application>>
+ participant EnrollmentManagementService as enrollmentSvc <<application>>
+ participant GradeManagementService as gradeSvc <<application>>
+
+ participant PersistenceContext as Persistence <<persistence>>
+ participant RepositoryFactory as Factory <<factory>>
+ database EnrollmentRepository as EnrollmentRepository <<repository>>
+ database ExamRepository as ExamRepository <<repository>>
+ database GradeRepository as GradeRepository <<repository>>
+
+
+ Actor --> UI: take An Exam
+ activate UI
+
+  UI --> Controller: create
+
+Controller -> authz: ensureAuthenticatedUserHasAnyOf(STUDENT)
+activate Controller
+                activate authz
+                deactivate authz
+    Controller -> enrollmentSvc : allCoursesByStudent()
+
+activate enrollmentSvc
+
+enrollmentSvc -> EnrollmentRepository : findAllCourseByStudent( systemUser)
+activate EnrollmentRepository
+
+EnrollmentRepository -> enrollmentSvc : coursesList
+deactivate EnrollmentRepository
+enrollmentSvc --> Controller : coursesList
+deactivate enrollmentSvc
+Controller --> UI : coursesList
+  UI --> Actor : List of courses
+Actor --> UI: choose a course
+UI -> Controller : course
+
+  Controller -> examSvc :   allExamsByCourseAndDate(courseCode, calendar)
+
+    activate examSvc
+
+  examSvc  -> ExamRepository : findExamsByCourseAndDate(courseCode, calendar)
+
+activate ExamRepository
+
+  ExamRepository -> examSvc  : examsList
+
+  deactivate ExamRepository
+  examSvc  --> Controller : examsList
+
+  Controller --> UI : examsList
+  UI --> Actor : List of exams
+
+Actor --> UI: choose an exam to answer
+
+UI --> Controller: exam
+UI-->Actor : ask path to the file with the answers
+       Actor --> UI: insert the path to the file with the answers
+
+
+ UI --> Controller:saveExamToBeAnsweredOnPath(selectedExam , filepath)
+
+ Controller -> examSvc : convertExamToExamToBeAnswered(selectedExam)
+
+
+examSvc -> ConvertIntoExamReadyToBeAnsweredVisitor: examToBeAnsweredVisitor.visit(sectionsTree)
+ activate ConvertIntoExamReadyToBeAnsweredVisitor
+                deactivate ConvertIntoExamReadyToBeAnsweredVisitor
+ConvertIntoExamReadyToBeAnsweredVisitor --> examSvc : sectionsOfExamToBeAnswerd
+examSvc --> Controller : sectionsOfExamToBeAnswerd
+
+UI --> Controller: gradeSubmitedExam(examWithSolutions, filePathAnsweredExam)
+
+ Controller -> examSvc :getGradeSubmitedExam(examWithSolution , filePathAnsweredExam)
+
+examSvc -> ConvertExamIntoSolutionsListener: convertIntoSolutionsListener.getExamAnswers()
+ activate ConvertExamIntoSolutionsListener
+                deactivate ConvertExamIntoSolutionsListener
+ConvertExamIntoSolutionsListener --> examSvc : solutionsofExam
+
+examSvc -> GradeAnsweredExamVisitor: gradeExamVisitor.visit(answerd_tree)
+activate GradeAnsweredExamVisitor
+                deactivate GradeAnsweredExamVisitor
+GradeAnsweredExamVisitor --> examSvc : grade
+
+examSvc --> Controller : grade
+
+Controller --> gradeSvc : saveGrade(systemUser, examWithSolutions, examGrade)
+activate gradeSvc
+       gradeSvc   -> Persistence : repositories()
+                     activate Persistence
+
+                     deactivate Persistence
+                     examSvc -> Factory: grades()
+                     activate Factory
+
+                     Factory -> GradeRepository: create
+
+                     Factory -> gradeSvc: gradeRepository
+                     deactivate Factory
+
+                     gradeSvc -> GradeRepository: save(grade)
+
+                     activate GradeRepository
+
+                     GradeRepository --> gradeSvc
+
+                    deactivate GradeRepository
+                    gradeSvc --> Controller
+deactivate gradeSvc
+ examSvc --> Controller : grade and feedback
+deactivate examSvc
+
+         Controller --> UI : grade and feedback
+     deactivate Controller
+
+         UI-->Actor : Display Grade and Feedback
+ deactivate UI
+
+ @enduml

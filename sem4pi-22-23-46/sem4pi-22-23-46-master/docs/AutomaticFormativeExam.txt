@@ -1,0 +1,11 @@
+Exam Title: Exame teste
+Exam Description: Examepara testar
+Exam Header
+Header Description- Header Description
+FeedbackType- ONSUBMISSION
+GradeType- ONSUBMISSION
+List of sections:
+[Sections]
+Section Description- section
+Type= Matching
+Aprog-1

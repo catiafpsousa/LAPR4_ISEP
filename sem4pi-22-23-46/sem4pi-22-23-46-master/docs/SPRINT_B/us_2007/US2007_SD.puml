@@ -1,0 +1,90 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+
+actor Teacher as Actor
+participant AddExamQuestionUI as UI <<presentation>>
+participant AddExamQuestionController as Controller <<application>>
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant RepositoryFactory as Factory <<factory>>
+database QuestionTypeRepository as RepositoryType <<repository>>
+database QuestionRepository as Repository <<repository>>
+participant Question as Question <<domain>>
+participant QuestionType as QuestionType <<domain>>
+
+
+
+Actor -> UI: add exam question
+activate UI
+UI -> Controller : create()
+activate Controller
+UI -> Controller : listQuestionTypes()
+Controller -> Persistence : repositories()
+activate Persistence
+
+Persistence -> set: instance()
+activate set
+Persistence -> set: getRepositoryFactory()
+set -> Factory : create
+activate Factory
+Factory --> set:
+deactivate Factory
+set -->Controller: factory
+deactivate set
+deactivate Persistence
+Controller -> Factory : QuestionTypes()
+activate Factory
+Factory -> RepositoryType : create
+activate RepositoryType
+Factory --> Controller: QuestionTypeRepository
+deactivate Factory
+Controller -> RepositoryType: findAll()
+RepositoryType --> Controller
+deactivate RepositoryType
+Controller --> UI
+deactivate Controller
+
+UI-->Actor:  shows question types and asks to select one
+deactivate Controller
+Actor -> UI : selects one
+UI --> Actor: requests data(questionInstruction, questionText, (...))
+Actor -> UI: enter requests data (questionInstruction, questionText, (...)
+UI -> Controller: addXQuestion(questionType, questionInstruction, questionText, (...))
+activate Controller
+Controller -> Question : new XQuestion (questionType, questionInstruction, questionText, (...))
+activate Question
+note right Question: According to the question type chosen, \n **Question** might be an instance of: \n** **MatchingQuestion**,\n** **MissingWordsQuestion**,\n** **MultipleChoiceQuestion**,\n** **NumericalQuestion**,\n** **ShortAnswerQuestion**,\n** **TrueOrFalseQuestion**
+Question --> Controller: xQuestion
+deactivate Question
+Controller -> Persistence : repositories()
+activate Persistence
+
+
+Persistence -> set: instance()
+activate set
+Persistence -> set: getRepositoryFactory()
+set -> Factory : create
+activate Factory
+Factory --> set:
+set -->Controller: factory
+deactivate set
+deactivate Persistence
+Controller -> Factory : Question()
+Factory -> Repository : create
+activate Repository
+note over Repository: The properties file determines if the created repository is JPA or in memory
+Repository --> Factory
+Factory --> Controller : QuestionRepository
+deactivate Factory
+Controller -> Repository : save (xQuestion)
+deactivate Repository
+Controller --> UI : Question
+deactivate Controller
+UI --> Actor : informs operation success
+deactivate UI
+@enduml

@@ -1,0 +1,14 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor Student as Actor
+ participant ListMyGradesUI as UI <<presentation>>
+
+     Actor --> UI: ask list of grades
+     UI --> Actor : shows list of grades
+
+
+ @enduml

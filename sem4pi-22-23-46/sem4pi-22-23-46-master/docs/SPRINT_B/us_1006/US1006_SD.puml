@@ -1,0 +1,69 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant ListCoursesByUserUI as UI <<presentation>>
+participant ListCoursesByUserController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant CourseManagementService as courseSvc <<application>>
+
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant Course as course <<domain>>
+participant RepositoryFactory as Factory <<factory>>
+database CoursesRepository as Repository <<repository>>
+
+
+Actor --> UI: List Courses
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: allCoursesByUser()
+    activate Controller
+
+  Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER, STUDENT, TEACHER)
+        activate authz
+        deactivate authz
+        Controller --> courseSvc : create
+
+Controller -> courseSvc : user: userOfSession()
+
+activate courseSvc
+ courseSvc --> Controller
+Controller -> courseSvc : allCoursesByUser(user)
+         courseSvc   -> Persistence : repositories()
+        activate Persistence
+
+            Persistence -> set: instance()
+            Persistence -> set: getRepositoryFactory()
+            deactivate Persistence
+            activate set
+            set --> Factory: create
+            activate Factory
+            Factory --> set
+            deactivate Factory
+            set --> courseSvc
+             deactivate set
+
+
+
+       courseSvc -> Factory: courses()
+        activate Factory
+            Factory --> Repository: courses()
+            courseSvc -> Repository: coursesByUser = findCoursesByUser(user)
+            activate Repository
+ref over Repository :  allCoursesByManager_SD \nallCoursesByStudent_SD \nallCoursesByTeacher_SD
+            Repository --> courseSvc
+            deactivate Repository
+            courseSvc --> Controller
+            Controller --> UI : coursesByUser
+
+        UI-->Actor: shows courses list by user
+
+         deactivate Controller
+deactivate UI
+@enduml

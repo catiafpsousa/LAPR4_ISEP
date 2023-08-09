@@ -1,0 +1,45 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Student as Actor
+participant ListFutureExamsUI as UI <<presentation>>
+participant ListFutureExamsController as Controller <<application>>
+participant CourseManagementService as courseSvc <<application>>
+participant ExamManagementService as examSvc <<application>>
+
+database ExamRepository as ExamRepository <<repository>>
+
+Actor -> UI: List Future Exams
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> courseSvc : allCoursesByStudent(user)
+activate courseSvc
+ref over courseSvc : SD_ListCoursesByStudent
+courseSvc --> Controller : courses
+deactivate courseSvc
+Controller --> UI : courses
+UI --> Actor : Shows list of courses
+UI --> Actor : Asks to select one course
+Actor -> UI : Selects one course
+UI -> Controller : course
+Controller -> examSvc : allExamsByCourse(course)
+activate examSvc
+Controller -> examSvc : allFormativeExamsByCourse(course)
+examSvc -> ExamRepository: formativeExams = findFormativeExamsByCourse(course)
+activate ExamRepository
+examSvc -> ExamRepository: regularExams = findExamsByCourse(course)
+ExamRepository --> examSvc: exams
+deactivate ExamRepository
+examSvc --> Controller: exams
+deactivate examSvc
+Controller --> UI : exams
+deactivate Controller
+UI-->Actor: Shows list of future exams
+
+deactivate UI
+@enduml

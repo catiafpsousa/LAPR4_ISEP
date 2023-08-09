@@ -1,0 +1,60 @@
+[Sections]
+Section 1-"Verdadeiro ou Falso"
+Section Description-"Diga se as expressoes estao corretas"
+**TRUE_OR_FALSE**
+score-1
+Question-"int x = x?"
+Answer:
+FALSE
+Question-"int exemplo(valor1, valor2)"
+Answer:
+TRUE
+Section 2-"Multiple choice"
+Section Description-"Escolha a alinea correta"
+**MULTIPLE_CHOICE**
+score-1.5
+Question-"Qual dos for esta correto?"
+"for()"
+"for(int i; i++)"
+"for(int i; i<10; i++)"
+"for(int i; i<10)"
+(If you chose more than one option write each one in a new line)
+Answer:
+"for(int i; i<10; i++)"
+"for(int i; i<10; i++)"
+"for(int i; i<10; i++)"
+**MATCHING**
+score-3
+Question-"Match the code to the language"
+Left_column:
+"numbers_list = [2, 5, 62, 5, 42, 52, 48, 5]"
+"int[] age = {12, 4, 5};"
+"int numbers[5] = {7, 5, 6, 12, 35};"
+Right_column:
+"C/C++"
+"JavaScript"
+"Python"
+"PHP"
+(Answer like this example: "Left column option"--"Right column option")
+Answer:
+"int[] age = {12, 4, 5};"--"JavaScript"
+"int numbers[5] = {7, 5, 6, 12, 35};"--"C/C++"
+"numbers_list = [2, 5, 62, 5, 42, 52, 48, 5]"--"Python"
+"numbers_list = [2, 5, 62, 5, 42, 52, 48, 5]"--"Python"
+"numbers_list = [2, 5, 62, 5, 42, 52, 48, 5]"--"Python"
+**SHORT_ANSWER**
+score-3
+Question-"2+2?"
+Answer:
+"quatro"
+**NUMERICAL**
+score-2
+Question-"2/3?"
+Answer:
+0.66
+**SELECT_MISSING_WORD**
+score-2.5
+"Em portugal há" Answer: 18 "distritos em Portugal."
+"A cidade do" Answer: Porto "tem as"Answer: melhores"asd"
+[/Sections]
+Course code-"APROG"

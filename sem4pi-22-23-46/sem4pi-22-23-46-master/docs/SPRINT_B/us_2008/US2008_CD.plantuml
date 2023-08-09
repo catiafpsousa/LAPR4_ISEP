@@ -1,0 +1,131 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class CreateAutomaticExamsUI <<ui>>{
+    - theController : CreateAutomaticExamsController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+        class AutomaticFormativeExam <<aggregate root>> <<entity>>{
+        - examTitle : ExamTitle
+        - examDescription : ExamDescription
+        - examHeader : ExamHeader
+        - section : List<Section>
+        - id : Long
+        - courseCode : CourseCode
+        + init(examTitle, examDescription, section, examHeader, courseCode)
+
+        }
+        class ExamTitle <<valueObject>> {
+        }
+        class ExamDescription <<valueObject>> {
+        }
+        class CourseCode <<valueObject>> {
+        }
+
+         class ExamHeader <<entity>>{
+         - feedbackType : FeedbackType
+         - id : Long
+         - gradeType : GradeType
+         - examHeaderDescription : ExamHeaderDescription
+         + init(feedbackType, gradeType, examHeaderDescription)
+         }
+         enum GradeType <<valueObject>> {
+         }
+         enum FeedbackType <<valueObject>> {
+         }
+         class ExamHeaderDescription <<valueObject>> {
+         }
+
+         class Section <<entity>> {
+         - id : Long
+         - examSectionDescription : ExamSectionDescription
+         - questionList : List<ExamQuestion>
+         + init(examSectionDescription, questionList)
+         }
+         class ExamSectionDescription <<valueObject>> {
+         }
+
+         class ExamQuestion <<entity>> {
+         - id : Long
+         - question : Question
+         - score : Score
+         + init(question, score)
+         }
+         class Score <<valueObject>> {
+         }
+         class Question <<valueObject>> {
+         }
+
+}
+    package "persistence" #dbd8ae{
+       interface ExamRepository{
+       + save(newAutomaticFormativeExam)
+       }
+       interface CourseRepository{
+        + allCourses()
+        }
+        interface QuestionTypeRepository{
+                + findQuestionType()
+                }
+    }
+package "application" #eaf4d3{
+    class CreateAutomaticExamsController <<controller>>{
+        - authz : AuthorizationService
+        + allCourses()
+        + findQuestionType()
+        + verifyAutomaticFormativeExam(newExamFileLanguage)
+        + saveAutomaticFormativeExam(examTitle, examDescription, section, examHeader, courseCode)
+    }
+
+    class ExamManagementService <<service>>{
+         - examRepository : ExamRepository
+         + save(newAutomaticFormativeExam)
+    }
+    class CourseManagementService <<service>>{
+             - courseRepository : CourseRepository
+             + allCourses()
+        }
+    class QuestionManagementService <<service>>{
+             - questionTypeRepository : QuestionTypeRepository
+             + findQuestionType()
+        }
+
+}
+
+
+
+CreateAutomaticExamsController .-> AuthorizationService
+CreateAutomaticExamsUI .-> CreateAutomaticExamsController
+CreateAutomaticExamsController .-> CourseManagementService
+CreateAutomaticExamsController .-> QuestionManagementService
+CreateAutomaticExamsController .-> ExamManagementService
+
+ExamManagementService -> AutomaticFormativeExam
+
+AutomaticFormativeExam -> ExamTitle
+AutomaticFormativeExam -> ExamDescription
+AutomaticFormativeExam -> CourseCode
+AutomaticFormativeExam -> ExamHeader
+ExamHeader -> GradeType
+ExamHeader -> FeedbackType
+ExamHeader -> ExamHeaderDescription
+AutomaticFormativeExam -> Section
+Section --> ExamSectionDescription
+Section --> ExamQuestion
+ExamQuestion --> Score
+ExamQuestion --> Question
+
+CourseManagementService .-> CourseRepository
+QuestionManagementService .-> QuestionTypeRepository
+ExamManagementService .-> ExamRepository
+
+
+
+@enduml

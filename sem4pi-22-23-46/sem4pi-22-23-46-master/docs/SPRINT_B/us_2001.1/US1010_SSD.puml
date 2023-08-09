@@ -1,0 +1,31 @@
+@startuml
+autonumber
+
+actor "Teacher" as Tea
+
+activate Tea
+
+Tea -> ":System": asks to schedule a class
+activate ":System"
+Tea <-- ":System": shows the list of Courses \n(??Apenas os visiveis para aquele professor??)\n(??Mostra também closed courses??))
+note right: event create (-> state close) -> event open (->state open) -> \nevent open enrollments (-> state enroll) -> event close enrollments (-> state in progress) -> \nevent close (-> state closed)
+deactivate ":System"
+
+Tea -> ":System":selects a Course
+activate ":System"
+Tea <-- ":System": requests data: (title, date, hour, duration of the class)
+deactivate ":System"
+
+Tea -> ":System":types requested data
+activate ":System"
+Tea <-- ":System":shows all data and requests confirmation
+deactivate ":System"
+
+Tea -> ":System":confirms the data
+activate ":System"
+Tea <-- ":System":informs operation success
+deactivate ":System"
+
+deactivate Tea
+
+@enduml

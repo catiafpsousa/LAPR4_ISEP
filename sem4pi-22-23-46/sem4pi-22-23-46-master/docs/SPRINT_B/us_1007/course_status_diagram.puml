@@ -1,0 +1,17 @@
+@startuml
+
+scale 200 width
+hide empty description
+
+skinparam state {
+    BackgroundColor White
+    BorderColor Black
+}
+
+[*] --> Activated
+Activated --> Deactivated
+Deactivated --> Activated
+Activated -> [*]
+Deactivated -> [*]
+
+@enduml

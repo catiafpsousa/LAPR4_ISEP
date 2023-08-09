@@ -1,0 +1,138 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ScheduleRecurringClassUI <<UI>>{
+    - ctrl : ScheduleRecurringClassController
+    + doShow()
+    }
+}
+
+
+package "domain" #dbd8ae{
+    class Class <<aggregate root>> <<entity>>{
+    - ClassTitle : title
+    - ClassDuration: duration
+    - Calendar: dayClass
+    - int: weekDay
+    - LocalTime: classTimeStart
+    - LocalTime: classTimeEnd
+    - Teacher: teacher
+    - Course: course
+    + Class(title, duration, day, time, teacher, course)
+    }
+
+    class RecurringClass <<entity>> extends Class {
+    - Map <Calendar,RescheduledClassDate> : rescheduledClasses
+    + RecurringClass(super(title,..))
+    + addReschedule()
+    }
+
+    class RescheduledClassDate <<value object>> {
+     - Calendar : newdDay
+     - LocalTime : newTimeStart
+     - LocalTime : newTimeEnd
+     + RescheduledClassDate(newdDay, newTimeStart, newTimeEnd)
+     }
+
+    class ClassTitle <<value object>>{
+    - classTitle : String
+    + valueOf(classTitle)
+    +  CourseTitle (classTitle)
+    }
+
+    class ClassDuration <<value object>>{
+        - classDuration : Calendar
+        + valueOf(classDuration)
+        +  ClassDuration (ClassDuration)
+    }
+
+
+    class Teacher <<entity>> {
+
+    }
+
+    class Course <<entity>> {
+
+    }
+
+    class RecurringClassBuilder <<Builder>>{
+    +withTeacher()
+    +withDay()
+    +withTime()
+    +withTitle()
+    +withCourse()
+    +build()
+    }
+
+}
+
+
+
+
+package "application" #eaf4d3{
+    class ScheduleRecurringClassController <<controller>>{
+        - courseSvc : CourseManagementService
+        - courseSvc : CourseManagementService
+        - builder : RecurringClassBuilder
+        + allCoursesBySystemUser()
+        + checkScheduleAvailability()
+        + scheduleRecurringClass()
+    }
+
+    class CourseManagementService <<service>>{
+         - courseRepository : CourseRepository
+         + allCoursesBySystemUser()
+    }
+
+}
+
+package "repositories" #LightSteelBlue {
+
+    interface ClassRepository <<repository>>{
+    save(recurringClass)
+    }
+
+    interface CourseRepository <<repository>>{
+    + findBySystemUser()
+    }
+
+}
+
+package "persistence" #LightSteelBlue {
+    class JpaClassRepository {
+    }
+
+    class InMemoryClassRepository {
+    }
+
+}
+
+
+ScheduleRecurringClassUI .-> ScheduleRecurringClassController
+ScheduleRecurringClassController .-> CourseManagementService
+
+
+
+CourseManagementService ..> CourseRepository
+
+
+
+ClassRepository <-. JpaClassRepository  : implements
+ClassRepository <-. InMemoryClassRepository : implements
+
+ScheduleRecurringClassController .> RecurringClass
+ScheduleRecurringClassController .-> ClassRepository
+
+Class --> Teacher
+Class --> Course
+Class --> ClassDuration
+Class --> ClassTitle
+
+ScheduleRecurringClassController .> RecurringClassBuilder
+RecurringClassBuilder .-> RecurringClass
+
+RecurringClass <.- ClassRepository
+RecurringClass --> RescheduledClassDate
+
+@enduml

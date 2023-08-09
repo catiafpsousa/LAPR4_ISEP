@@ -1,0 +1,93 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class SetCourseTeachersUI <<ui>>{
+    - theController : SetCourseTeachersController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+
+
+        class CourseStudentsLimit <<value object>> {
+        }
+
+        class Course <<aggregate root>> <<entity>>{
+        - courseTeachers : List<Teacher>
+        - teacherInCharge : Teacher
+        + setCourseTeachers (courseTeachers)
+        }
+
+        class Teacher <<value object>> <<id>>{
+         -acronym : Acronym
+         -systemUser : SystemUser
+         +Teacher(user : SystemUser)
+        }
+
+        class CourseDescription <<value object>>{
+        }
+
+        class CourseCode <<value object>>{
+          }
+
+        class CourseName<<value object>>{
+         }
+
+
+}
+    package "persistence" #dbd8ae{
+       interface CourseRepository{
+       +allCourses()
+       +save(course : Course)
+       }
+       interface TeacherRepository{
+       +allTeachers()
+       }
+    }
+package "application" #eaf4d3{
+    class SetCourseTeachersController <<controller>>{
+        - authz : AuthorizationService
+        - teacherSvc : TeacherManagementService
+        - courseSvc : CourseManagementService
+        - courseRepository : CourseRepository
+        + setCourseTeachers(selection, allTeachers, course)
+    }
+
+        class TeacherManagementService <<service>>{
+             - teacherRepository : TeacherRepository
+             + allTeachers()
+        }
+
+    class CourseManagementService <<service>>{
+         - courseRepository : CourseRepository
+         + getCourseRepository()
+         + allCourses()
+    }
+
+}
+
+
+SetCourseTeachersUI .-> SetCourseTeachersController
+SetCourseTeachersController .-> CourseManagementService
+SetCourseTeachersController .-> TeacherManagementService
+
+
+Course --> CourseCode
+Course ---> CourseDescription
+Course --> Teacher
+Course --> CourseName
+
+CourseManagementService .> CourseRepository
+TeacherManagementService .> TeacherRepository
+
+Course ----> CourseStudentsLimit
+SetCourseTeachersController .--> Course
+
+CourseRepository --> Course
+
+@enduml

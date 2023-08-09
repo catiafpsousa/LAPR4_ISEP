@@ -1,0 +1,84 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant RegisterUserUI as UI <<presentation>>
+participant RegisterUserController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant UserManagementService as userSvc <<application>>
+
+participant UserBuilder as Builder <<builder>>
+participant "user:User" as Domain <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database UserRepository as Repository <<repository>>
+
+Actor --> UI: Register User
+activate UI
+    UI --> Controller: create
+    UI --> Actor: Ask user information
+    Actor --> UI: Email, Password,\nFull Name,\nShort Name
+
+
+        UI --> Actor: Show List\nof Role Types
+        Actor --> UI: Role Type
+
+    UI -> Controller: addUser(email, \npassword, fullName,\nshortName, \nroles)
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller -> userSvc : registerNewUser (email, password, fullName, shortName, roles, createdOn)
+        activate userSvc
+
+
+        userSvc --> Builder: create
+
+
+         note right of Builder:UserBuilder é usado para criar uma entidade do tipo User num estado válido
+
+        userSvc -> Builder:with(email,rawPassword, fullName,shortName).createdOn(createdOn).withRoles(roles)
+        activate Builder
+        userSvc -> Builder:build()
+
+            Builder -> Domain: create (email,\npassword, fullName,\nshortName, roles)
+            Domain->Builder: user
+            Builder -> userSvc:user
+        deactivate Builder
+          userSvc -> Persistence: repositories()
+
+
+
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence --> Factory: create
+            Persistence -> userSvc: factory
+        deactivate Persistence
+
+        userSvc -> Factory: users()
+        activate Factory
+            Factory --> Repository: create
+            Factory --> userSvc: userRepository
+
+        deactivate Factory
+
+        userSvc->Repository:save(user)
+         activate Repository
+
+
+
+         Repository --> userSvc
+         deactivate Repository
+         userSvc --> Controller : user
+         deactivate userSvc
+        Controller-->UI: user
+    deactivate Controller
+
+        UI-->Actor: displayUserInfo
+deactivate UI
+@enduml

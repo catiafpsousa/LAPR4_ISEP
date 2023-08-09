@@ -1,0 +1,74 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant CreateCourseUI as UI <<presentation>>
+participant CreateCourseController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant CourseManagementService as courseSvc <<application>>
+
+participant "course:Course" as Domain <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database CourseRepository as Repository <<repository>>
+
+Actor --> UI: Create Course
+activate UI
+    UI --> Controller: create
+    UI --> Actor: Ask course information
+    Actor --> UI: Code, Name,\nDescription,\nMininum Students,\nMaximum Students
+
+    UI -> Controller: addCourse(code, name, description, \nmin, max, CurrentTimeCalendars.now())
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller -> courseSvc : registerNewCourse (code, name, description, minimumStudents, maximunStudents, createdOn)
+        activate courseSvc
+
+
+        courseSvc --> Domain: create
+
+
+
+
+
+
+
+          courseSvc -> Persistence: repositories()
+
+
+
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence --> Factory: create
+            Persistence -> courseSvc: factory
+        deactivate Persistence
+
+        courseSvc -> Factory: courses()
+        activate Factory
+            Factory --> Repository: create
+            Factory --> courseSvc: CourseRepository
+
+        deactivate Factory
+
+        courseSvc->Repository:save(course)
+         activate Repository
+
+
+
+         Repository --> courseSvc
+         deactivate Repository
+         courseSvc --> Controller : course
+         deactivate courseSvc
+        Controller-->UI: course
+    deactivate Controller
+
+        UI-->Actor: displayCourseInfo
+deactivate UI
+@enduml

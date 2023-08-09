@@ -1,0 +1,60 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant EnrollStudentsInBulkbyCSVFileUI as UI <<presentation>>
+participant EnrollStudentsInBulkbyCSVFileController as Controller <<application>>
+participant CSVReader as Reader<<utils>>
+participant EnrollmentManagementService as EnrollmentManagementService <<application>>
+participant CourseManagementService as CourseManagementService <<application>>
+participant StudentManagementService as StudentManagementService <<application>>
+participant Enrollment as Enrollment <<domain>>
+database EnrollmentRepository as EnrollmentRepository <<repository>>
+
+Actor -> UI: Request to Import \nEnrollments in bulk
+activate UI
+UI -> Controller: create()
+activate Controller
+
+UI --> Actor: Asks file name
+Actor --> UI : Inputs the file name
+
+
+UI -> Controller: readCsvFile(filename)
+Controller -> Reader: readCsvStudentFile (filename)
+Reader -> Controller: list
+Controller -> UI: list
+UI -> Controller: createEnrollmentFromList (list)
+loop  number of CVS file lines
+Controller -> EnrollmentManagementService: createEnrollmentfromParameters(userinfo, line)
+activate EnrollmentManagementService
+EnrollmentManagementService -> StudentManagementService : userStudentOfIdentity(mechanographicNumber)
+activate StudentManagementService
+StudentManagementService -> EnrollmentManagementService : studentToEnroll
+deactivate StudentManagementService
+
+EnrollmentManagementService -> CourseManagementService : courseOfIdentity(courseCode)
+activate CourseManagementService
+CourseManagementService -> EnrollmentManagementService : courseToEnroll
+deactivate CourseManagementService
+EnrollmentManagementService --> Enrollment : enrollment = create(studentToEnroll, courseToEnroll, EnrollmentSatus.ACCEPTED, createdOn)
+EnrollmentManagementService -> EnrollmentRepository: save(enrollment)
+
+activate EnrollmentRepository
+EnrollmentRepository --> EnrollmentManagementService : enrollment
+deactivate EnrollmentRepository
+EnrollmentManagementService --> Controller: enrollment
+deactivate EnrollmentManagementService
+
+
+Controller --> UI: enrollment
+
+UI --> Actor: Displays operation success
+end
+@enduml
+

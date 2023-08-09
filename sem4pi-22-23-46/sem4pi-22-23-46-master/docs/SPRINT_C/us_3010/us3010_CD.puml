@@ -1,0 +1,82 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ArchiveBoardUI <<ui>>{
+    - theController : ArchiveBoardController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+
+ class SharedBoard <<aggregate root>> <<entity>>{
+    -owner : SystemUser
+    -rowNumber: NumberOfRow
+    - columnNumber: NumberOfColumn
+    - Set <Cell> cells : Cell
+    + SharedBoard(owner, rowNumber, columnNumber, cells title)
+    }
+
+
+    class SharedBoardTitle <<value object>>{
+    - classTitle : String
+    + valueOf(classTitle)
+    +  CourseTitle (classTitle)
+    }
+
+
+        class SystemUser<<entity>>{
+
+        }
+
+
+
+        class SharedBoardBuilder <<Builder>>{
+        +withOwnwer()
+        +withRowNumber()
+        +withCells()
+        +withColumnNumber()
+        +withTitle()
+        +build()
+        }
+
+}
+
+package "persistence" #dbd8ae{
+
+    interface BoardRepository <<repository>>{
+    findBoardsOwnedByUser(user)
+    archiveBoard(board)
+    }
+
+}
+
+package "application" #eaf4d3{
+ class ArchiveBoardController <<controller>>{
+    - authz : AuthorizationService
+    - boardSvc : BoardManagementService
+    + allBoardsOwnedByUser()
+    + archiveBoard(board)
+    }
+
+ class BoardManagementService <<service>>{
+    - boardRepository : BoardRepository
+    +allBoardsOwnedByUser(user)
+    +archiveBoard(board)
+    }
+}
+
+ArchiveBoardUI .-> ArchiveBoardController
+ArchiveBoardController .-> BoardManagementService
+BoardManagementService ..> SharedBoard
+BoardManagementService .-> BoardRepository
+ArchiveBoardController .-> SharedBoard
+BoardRepository -> SharedBoard
+SharedBoardBuilder .-> SharedBoard
+SharedBoard -> SharedBoardTitle
+SharedBoard -> SystemUser
+
+
+
+@enduml

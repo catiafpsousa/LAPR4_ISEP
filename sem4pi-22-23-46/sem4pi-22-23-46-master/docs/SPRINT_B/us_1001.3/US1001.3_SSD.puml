@@ -1,0 +1,19 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant ListUsersUI as UI <<presentation>>
+
+
+
+Actor --> UI: List Users
+activate UI
+
+        UI-->Actor: Shows users list
+
+deactivate UI
+@enduml

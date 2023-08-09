@@ -1,0 +1,82 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor User as Actor
+ participant ScheduleMeetingUI as UI <<presentation>>
+ participant ScheduleMeetingController as Controller <<application>>
+ participant AuthorizationService  as authz <<application>>
+ participant MeetingManagementService as meetingSvc <<application>>
+
+ participant "meeting:Meeting" as Domain <<domain>>
+ participant PersistenceContext as Persistence <<persistence>>
+ participant RepositoryFactory as Factory <<factory>>
+ database MeetingRepository as MeetingRepository <<repository>>
+
+
+ Actor --> UI: Schedule a meeting
+ activate UI
+     UI -> Controller: create
+     UI --> Actor: Ask information about the meeting
+     Actor --> UI:  Duration, Date,  List of Participants
+
+     UI -> Controller:  checkParticipantAvailability(date, duration, participantList)
+     activate Controller
+
+         Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER, STUDENT, TEACHER)
+         activate authz
+         deactivate authz
+         Controller -> meetingSvc: checkParticipantAvailability(date, time, participantList)
+         activate meetingSvc
+
+
+
+         meetingSvc   -> Persistence : repositories()
+                     activate Persistence
+                     note right of Persistence: pode criar repositório em memória ou JPA
+                     deactivate Persistence
+                     meetingSvc -> Factory: schedules()
+                     activate Factory
+                     Factory -> MeetingRepository: create
+
+                     Factory -> meetingSvc: meetingRepository
+                     deactivate Factory
+
+                     meetingSvc -> MeetingRepository: checkParticipantAvailability(date, time, participantList)
+                     ref over MeetingRepository :  checkAvailableParticipant_SD
+                     activate MeetingRepository
+                     MeetingRepository --> meetingSvc
+
+                       meetingSvc --> Controller : availableParticipantList
+
+                    Controller->UI: availableParticipantList
+                    UI-->Actor: displayAvailableParticipantList
+
+                      UI -> Controller: scheduleMeeting(date, duration, availableParticipantList)
+
+                    Controller -> meetingSvc: scheduleMeeting( duration, date, availableParticipantList)
+
+             meetingSvc -> Domain: scheduleMeeting(duration, date, availableParticipantList)
+                Domain -> meetingSvc: meeting
+
+            meetingSvc-> MeetingRepository:saveMeetingParticipant(meetingParticipant)
+             MeetingRepository --> meetingSvc
+
+             meetingSvc-> MeetingRepository:save(meeting)
+
+             MeetingRepository --> meetingSvc
+             deactivate MeetingRepository
+
+             meetingSvc --> Controller : meeting
+
+             deactivate meetingSvc
+             Controller->UI: meeting
+     deactivate Controller
+
+
+         UI-->Actor
+ deactivate UI
+
+ @enduml

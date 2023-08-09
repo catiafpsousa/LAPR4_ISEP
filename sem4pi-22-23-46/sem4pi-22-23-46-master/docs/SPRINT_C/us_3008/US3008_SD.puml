@@ -1,0 +1,135 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant UndoLastChangeInPostItUI as UI <<presentation>>
+participant UndoLastChangeInPostItController as Controller <<application>>
+
+participant BoardManagementService as BoardManagementService <<application>>
+
+
+participant parentCell as cell2 <<domain>>
+participant Cell as cell <<domain>>
+participant postIt as postIt <<domain>>
+participant postItParent as parent <<domain>>
+participant SharedBoard as SharedBoard <<domain>>
+participant "mod : BoardModification" as modification <<domain>>
+database boardRepository as BoardRepository <<repository>>
+
+
+
+Actor --> UI: undo last change in PostIt
+activate UI
+UI -> Controller: create()
+UI -> Controller: sharedBoardsWithWritePermission()
+activate Controller
+Controller -> Controller : user:currentUser()
+Controller -> BoardManagementService: allBoardsBySystemUserWithWritePermission(user)
+activate BoardManagementService
+
+BoardManagementService -> BoardRepository: findBySystemUserWithWritePermission(user)
+ref over BoardManagementService : SD_findBySystemUserWithWritePermission
+activate BoardRepository
+
+BoardRepository --> BoardManagementService: allUserBoardsWithWritePermissions
+deactivate BoardRepository
+
+BoardManagementService --> Controller: allUserBoardsWithWritePermissions
+Controller --> UI: allUserBoardsWithWritePermissions
+UI --> Actor: lists the boards with write permissions
+Actor -> UI: selects a board
+
+UI -> Controller : cellsOfBoardAndUser(boardSelected)
+Controller -> Controller : user:currentUser()
+Controller -> BoardManagementService : findCellsWithUserPostIts(board, user)
+
+BoardManagementService -> BoardRepository: cellsWithOwnedPostIts = findCellsWithUserPostIts(board, user)
+activate BoardRepository
+BoardRepository --> BoardManagementService : cellsWithOwnedPostIts
+deactivate BoardRepository
+BoardManagementService --> Controller : cellsWithOwnedPostIts
+
+
+Controller --> UI : cellsWithOwnedPostIts
+
+
+UI --> Actor : shows cells with postIts owned by the user
+Actor -> UI: selects postIt to undo last change
+
+                        UI -> Controller : undoLastChange(boardSelected, postIt)
+                                         Controller -> BoardManagementService : undoLastChange(boardSelected, postIt)
+                                           alt parentCell == postItCell
+
+                                          BoardManagementService -> BoardManagementService : deleteSatePostIt(board, postIt)
+                                          activate BoardManagementService
+                                               BoardManagementService --> postIt : deleteSatePostIt()
+                                               activate postIt
+                                               deactivate postIt
+                                               deactivate BoardManagementService
+                                               BoardManagementService --> BoardRepository : save(board)
+                                               activate BoardRepository
+                                               deactivate BoardRepository
+                                               BoardManagementService --> cell : undoPostIt(postIt)
+                                               activate cell
+                                               cell --> postIt : postItFromUndo = newPostIt(parent)
+                                               activate cell
+                                               cell --> cell : postItList.add(posItFromUndo)
+                                                end
+                                                deactivate cell
+                                                deactivate cell
+
+
+                                        alt parentCell != postItCell
+
+                                          BoardManagementService -> BoardManagementService : deleteSatePostIt(board, postIt)
+                                          activate BoardManagementService
+                                               BoardManagementService --> postIt : deleteSatePostIt()
+                                               activate postIt
+                                               deactivate postIt
+                                               deactivate BoardManagementService
+                                               BoardManagementService --> BoardRepository : save(board)
+                                               activate BoardRepository
+                                               deactivate BoardRepository
+                                               BoardManagementService --> cell : undoPostIt(postIt)
+                                               activate cell
+
+                                               cell --> postIt : postItFromUndo = newPostIt(parent)
+                                               activate cell2
+                                               cell --> cell2 : postItList.add(posItFromUndo)
+                                                end
+                                                 deactivate cell
+                                                deactivate cell2
+
+
+
+
+
+                                              BoardManagementService --> BoardManagementService : registerPrimaryBoardModification(board, postIt, ModificationType.UNDO, cell);
+                                              activate BoardManagementService
+                                               BoardManagementService --> SharedBoard : addUndoModification(createdPostIt, cell)
+                                              activate SharedBoard
+
+                                              SharedBoard --> modification : createBoardModification()
+                                              SharedBoard --> SharedBoard : addBoardModification(mod)
+                                               deactivate BoardManagementService
+  BoardManagementService -> BoardRepository: save(board)
+  deactivate SharedBoard
+             activate BoardRepository
+
+         BoardRepository ---> BoardManagementService : updatedBoard
+      deactivate BoardRepository
+
+
+         BoardManagementService --> Controller : updatedBoard
+          Controller --> UI : updatedBoard
+
+         UI --> Actor : displays success
+
+
+         deactivate Controller
+deactivate UI
+@enduml

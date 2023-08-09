@@ -1,0 +1,55 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class  ListCoursesByUserUI  <<ui>>{
+    - theController :  ListCoursesByUserController
+    + doShow()
+    }
+}
+
+
+    package "persistence" #dbd8ae{
+       interface CourseRepository{
+        + findAll()
+        + findByEnrollState()
+        + findBySystemUser(systemUser)
+       }
+        interface EnrollmentRepository{
+               + findByAcceptedStatusAndSystemUser(systemUser)
+       }
+    }
+package "application" #eaf4d3{
+    class  ListCoursesByUserController <<controller>>{
+        - authz : AuthorizationService
+        - courseSvc : CourseManagementService
+        + userOfSession()
+        + allCoursesStateEnroll()
+        + allCoursesByAcceptedStatusAndSystemUser()
+        + allCoursesBySystemUser()
+        + systemUser()
+    }
+
+    class CourseManagementService <<service>>{
+         - courseRepository : CourseRepository
+         - enrollmentRepository : EnrollmentRepository
+          + allCourses()
+          + enrollingCourses()
+          + allCoursesByAcceptedStatusAndSystemUser()
+          + allCoursesBySystemUser()
+    }
+
+}
+
+
+
+ListCoursesByUserController .-> AuthorizationService
+ListCoursesByUserUI .-> ListCoursesByUserController
+ListCoursesByUserController .-> CourseManagementService
+
+
+
+CourseManagementService .> CourseRepository
+CourseManagementService .> EnrollmentRepository
+
+@enduml

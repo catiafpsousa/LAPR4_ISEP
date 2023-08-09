@@ -1,0 +1,33 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant ApproveRejectStudentRequestUI as UI <<presentation>>
+
+Actor --> UI: Approve/Reject \nStudent Request
+activate UI
+
+
+        UI-->Actor: list pending student requests
+
+        Actor --> UI : selects request
+        UI --> Actor : shows options
+        Actor --> UI : selects action
+
+        alt if option == approve
+
+
+                end
+
+        alt option == reject
+
+        end
+        UI --> Actor : displays success
+
+
+deactivate UI
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Teacher as teacher
+teacher -> System: createAutomaticFormativeExam()
+System --> teacher: ask information about the exam
+System --> teacher : CourseList
+System --> teacher : QuestionTypeList
+teacher -> System: courseCode , title, exameDescription, nrOfSections, \n sectionDescription, questionType, numberOfquestions, \n scoreOfquestion
+System-->teacher
+participant CreateAutomaticFormativeExams as System <<presentation>>
+
+
+
+@enduml

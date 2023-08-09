@@ -1,0 +1,29 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten true
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant ShareABoardUI as UI <<presentation>>
+activate Actor
+activate UI
+Actor -> UI: share a board
+UI-->Actor:shows list of boards that he owns and asks to select one
+Actor -> UI :selects one board
+UI --> Actor: shows list of users and asks to select those who want to share that board
+Actor-> UI: selects users
+loop
+note over Actor: for each user selection
+UI --> Actor:  asks if user will have read or write permissions
+Actor -> UI: selects read or write
+end loop
+UI -->Actor: asks if owner wants to save shared list
+Actor->UI : confirms
+UI --> Actor : informs operation success
+
+deactivate UI
+deactivate Actor
+@enduml

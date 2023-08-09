@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="737.1px" preserveAspectRatio="none" style="width:1135px;height:737px;background:#FFFFFF;" version="1.1" viewBox="0 0 1135 737" width="1135.8px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="526.7461" style="stroke:#181818;stroke-width:0.9;" width="9" x="144.9" y="106.7133"/><rect fill="#FFFFFF" height="472.1133" style="stroke:#181818;stroke-width:0.9;" width="9" x="272.7" y="161.3461"/><rect fill="#FFFFFF" height="27" style="stroke:#181818;stroke-width:0.9;" width="9" x="618.3" y="188.6625"/><rect fill="#FFFFFF" height="27" style="stroke:#181818;stroke-width:0.9;" width="9" x="618.3" y="459.3938"/><rect fill="#FFFFFF" height="371.2641" style="stroke:#181818;stroke-width:0.9;" width="9" x="769.05" y="270.2953"/><rect fill="#FFFFFF" height="12.6" style="stroke:#181818;stroke-width:0.9;" width="9" x="1084.05" y="297.6117"/><rect fill="#FFFFFF" height="12.6" style="stroke:#181818;stroke-width:0.9;" width="9" x="1084.05" y="568.343"/><line style="stroke:#181818;stroke-width:0.45;stroke-dasharray:5.0,5.0;" x1="32.4" x2="32.4" y1="77.5969" y2="649.6594"/><line style="stroke:#181818;stroke-width:0.45;stroke-dasharray:5.0,5.0;" x1="148.95" x2="148.95" y1="77.5969" y2="649.6594"/><line style="stroke:#181818;stroke-width:0.45;stroke-dasharray:5.0,5.0;" x1="276.75" x2="276.75" y1="77.5969" y2="649.6594"/><line style="stroke:#181818;stroke-width:0.45;stroke-dasharray:5.0,5.0;" x1="622.35" x2="622.35" y1="77.5969" y2="649.6594"/><line style="stroke:#181818;stroke-width:0.45;stroke-dasharray:5.0,5.0;" x1="773.55" x2="773.55" y1="77.5969" y2="649.6594"/><line style="stroke:#181818;stroke-width:0.45;stroke-dasharray:5.0,5.0;" x1="992.7" x2="992.7" y1="77.5969" y2="649.6594"/><line style="stroke:#181818;stroke-width:0.45;stroke-dasharray:5.0,5.0;" x1="1088.1" x2="1088.1" y1="77.5969" y2="649.6594"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="50.4" x="4.5" y="74.8283">Manager</text><ellipse cx="32.4" cy="15.3984" fill="#E2E2F0" rx="7.2" ry="7.2" style="stroke:#181818;stroke-width:0.45;"/><path d="M32.4,22.5984 L32.4,46.8984 M20.7,29.7984 L44.1,29.7984 M32.4,46.8984 L20.7,60.3984 M32.4,46.8984 L44.1,60.3984 " fill="none" style="stroke:#181818;stroke-width:0.45;"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="50.4" x="4.5" y="661.8393">Manager</text><ellipse cx="32.4" cy="672.2578" fill="#E2E2F0" rx="7.2" ry="7.2" style="stroke:#181818;stroke-width:0.45;"/><path d="M32.4,679.4578 L32.4,703.7578 M20.7,686.6578 L44.1,686.6578 M32.4,703.7578 L20.7,717.2578 M32.4,703.7578 L44.1,717.2578 " fill="none" style="stroke:#181818;stroke-width:0.45;"/><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="98.1" x="100.35" y="32.4"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="85.5" x="106.65" y="51.7799">«presentation»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="81.9" x="108.45" y="67.6283">ActivateUserUI</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="98.1" x="100.35" y="648.7594"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="85.5" x="106.65" y="668.1393">«presentation»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="81.9" x="108.45" y="683.9877">ActivateUserUI</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="139.5" x="207.45" y="32.4"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="75.6" x="239.4" y="51.7799">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="126.9" x="213.75" y="67.6283">ActivateUserController</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="139.5" x="207.45" y="648.7594"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="75.6" x="239.4" y="668.1393">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="126.9" x="213.75" y="683.9877">ActivateUserController</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="128.7" x="558.45" y="32.4"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="75.6" x="585" y="51.7799">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="116.1" x="564.75" y="67.6283">AuthorizationService</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="128.7" x="558.45" y="648.7594"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="75.6" x="585" y="668.1393">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="116.1" x="564.75" y="683.9877">AuthorizationService</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="154.8" x="696.15" y="32.4"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="75.6" x="735.75" y="51.7799">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="142.2" x="702.45" y="67.6283">UserManagementService</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="154.8" x="696.15" y="648.7594"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="75.6" x="735.75" y="668.1393">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="142.2" x="702.45" y="683.9877">UserManagementService</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="80.1" x="953.1" y="32.4"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="55.8" x="965.25" y="51.7799">«domain»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="67.5" x="959.4" y="67.6283">SystemUser</text><rect fill="#E2E2F0" height="44.2969" rx="2.25" ry="2.25" style="stroke:#181818;stroke-width:0.45;" width="80.1" x="953.1" y="648.7594"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="55.8" x="965.25" y="668.1393">«domain»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="67.5" x="959.4" y="683.9877">SystemUser</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="71.1" x="1050.3" y="58.9799">«repository»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="87.3" x="1042.2" y="74.8283">UserRepository</text><path d="M1072.35,13.5 C1072.35,4.5 1088.55,4.5 1088.55,4.5 C1088.55,4.5 1104.75,4.5 1104.75,13.5 L1104.75,36.9 C1104.75,45.9 1088.55,45.9 1088.55,45.9 C1088.55,45.9 1072.35,45.9 1072.35,36.9 L1072.35,13.5 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.35;"/><path d="M1072.35,13.5 C1072.35,22.5 1088.55,22.5 1088.55,22.5 C1088.55,22.5 1104.75,22.5 1104.75,13.5 " fill="none" style="stroke:#181818;stroke-width:1.35;"/><text fill="#000000" font-family="FG Virgil" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="71.1" x="1050.3" y="661.8393">«repository»</text><text fill="#000000" font-family="FG Virgil" font-size="12.6" lengthAdjust="spacing" textLength="87.3" x="1042.2" y="677.6877">UserRepository</text><path d="M1072.35,689.4563 C1072.35,680.4563 1088.55,680.4563 1088.55,680.4563 C1088.55,680.4563 1104.75,680.4563 1104.75,689.4563 L1104.75,712.8563 C1104.75,721.8563 1088.55,721.8563 1088.55,721.8563 C1088.55,721.8563 1072.35,721.8563 1072.35,712.8563 L1072.35,689.4563 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.35;"/><path d="M1072.35,689.4563 C1072.35,698.4563 1088.55,698.4563 1088.55,698.4563 C1088.55,698.4563 1104.75,698.4563 1104.75,689.4563 " fill="none" style="stroke:#181818;stroke-width:1.35;"/><rect fill="#FFFFFF" height="526.7461" style="stroke:#181818;stroke-width:0.9;" width="9" x="144.9" y="106.7133"/><rect fill="#FFFFFF" height="472.1133" style="stroke:#181818;stroke-width:0.9;" width="9" x="272.7" y="161.3461"/><rect fill="#FFFFFF" height="27" style="stroke:#181818;stroke-width:0.9;" width="9" x="618.3" y="188.6625"/><rect fill="#FFFFFF" height="27" style="stroke:#181818;stroke-width:0.9;" width="9" x="618.3" y="459.3938"/><rect fill="#FFFFFF" height="371.2641" style="stroke:#181818;stroke-width:0.9;" width="9" x="769.05" y="270.2953"/><rect fill="#FFFFFF" height="12.6" style="stroke:#181818;stroke-width:0.9;" width="9" x="1084.05" y="297.6117"/><rect fill="#FFFFFF" height="12.6" style="stroke:#181818;stroke-width:0.9;" width="9" x="1084.05" y="568.343"/><polygon fill="#181818" points="134.1,103.1133,143.1,106.7133,134.1,110.3133,137.7,106.7133" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="32.4" x2="139.5" y1="106.7133" y2="106.7133"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="81.9" x="38.7" y="102.3425">Deactivate User</text><polygon fill="#181818" points="266.4,130.4297,275.4,134.0297,266.4,137.6297,270,134.0297" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="153.9" x2="271.8" y1="134.0297" y2="134.0297"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="32.4" x="160.2" y="129.6589">create</text><polygon fill="#181818" points="261.9,157.7461,270.9,161.3461,261.9,164.9461,265.5,161.3461" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="153.9" x2="267.3" y1="161.3461" y2="161.3461"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="80.1" x="160.2" y="156.9753">deactiveUsers()</text><polygon fill="#181818" points="607.5,185.0625,616.5,188.6625,607.5,192.2625,611.1,188.6625" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="281.7" x2="612.9" y1="188.6625" y2="188.6625"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="319.5" x="288" y="184.2917">ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)</text><polygon fill="#181818" points="762.75,239.3789,771.75,242.9789,762.75,246.5789,766.35,242.9789" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="281.7" x2="768.15" y1="242.9789" y2="242.9789"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="32.4" x="288" y="238.6081">create</text><polygon fill="#181818" points="758.25,266.6953,767.25,270.2953,758.25,273.8953,761.85,270.2953" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="281.7" x2="763.65" y1="270.2953" y2="270.2953"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="80.1" x="288" y="265.9245">deactiveUsers()</text><polygon fill="#181818" points="1073.25,294.0117,1082.25,297.6117,1073.25,301.2117,1076.85,297.6117" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="778.05" x2="1078.65" y1="297.6117" y2="297.6117"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="180.9" x="784.35" y="293.2409">deactiveUsers = findbyActive(false)</text><polygon fill="#181818" points="787.95,306.6117,778.95,310.2117,787.95,313.8117,784.35,310.2117" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="782.55" x2="1087.65" y1="310.2117" y2="310.2117"/><polygon fill="#181818" points="291.6,319.2117,282.6,322.8117,291.6,326.4117,288,322.8117" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="286.2" x2="768.15" y1="322.8117" y2="322.8117"/><polygon fill="#181818" points="163.8,346.5281,154.8,350.1281,163.8,353.7281,160.2,350.1281" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="158.4" x2="271.8" y1="350.1281" y2="350.1281"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="72.9" x="169.2" y="345.7573">deactiveUsers</text><polygon fill="#181818" points="42.3,373.8445,33.3,377.4445,42.3,381.0445,38.7,377.4445" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="36.9" x2="144" y1="377.4445" y2="377.4445"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="81" x="47.7" y="373.0737">list active users</text><polygon fill="#181818" points="134.1,401.1609,143.1,404.7609,134.1,408.3609,137.7,404.7609" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="32.4" x2="139.5" y1="404.7609" y2="404.7609"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="63.9" x="38.7" y="400.3901">selects user</text><polygon fill="#181818" points="261.9,428.4773,270.9,432.0773,261.9,435.6773,265.5,432.0773" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="153.9" x2="267.3" y1="432.0773" y2="432.0773"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="93.6" x="160.2" y="427.7065">activateUser(user)</text><polygon fill="#181818" points="607.5,455.7938,616.5,459.3938,607.5,462.9938,611.1,459.3938" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="281.7" x2="612.9" y1="459.3938" y2="459.3938"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="319.5" x="288" y="455.0229">ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)</text><polygon fill="#181818" points="758.25,510.1102,767.25,513.7102,758.25,517.3102,761.85,513.7102" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="281.7" x2="763.65" y1="513.7102" y2="513.7102"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="93.6" x="288" y="509.3394">activateUser(user)</text><polygon fill="#181818" points="982.35,537.4266,991.35,541.0266,982.35,544.6266,985.95,541.0266" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="778.05" x2="987.75" y1="541.0266" y2="541.0266"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="193.5" x="784.35" y="536.6558">activate(CurrentTimeCalendars.now())</text><polygon fill="#181818" points="1073.25,564.743,1082.25,568.343,1073.25,571.943,1076.85,568.343" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;" x1="778.05" x2="1078.65" y1="568.343" y2="568.343"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="53.1" x="784.35" y="563.9722">save(user)</text><polygon fill="#181818" points="787.95,577.343,778.95,580.943,787.95,584.543,784.35,580.943" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="782.55" x2="1087.65" y1="580.943" y2="580.943"/><polygon fill="#181818" points="291.6,589.943,282.6,593.543,291.6,597.143,288,593.543" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="286.2" x2="768.15" y1="593.543" y2="593.543"/><polygon fill="#181818" points="163.8,602.543,154.8,606.143,163.8,609.743,160.2,606.143" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="158.4" x2="271.8" y1="606.143" y2="606.143"/><polygon fill="#181818" points="42.3,629.8594,33.3,633.4594,42.3,637.0594,38.7,633.4594" style="stroke:#181818;stroke-width:0.9;"/><line style="stroke:#181818;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="36.9" x2="148.5" y1="633.4594" y2="633.4594"/><text fill="#000000" font-family="FG Virgil" font-size="11.7" lengthAdjust="spacing" textLength="90.9" x="47.7" y="629.0886">displays success</text><!--MD5=[c8f217d370510f7a4e7a4d25024e9759]
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant ActivateUserUI as UI <<presentation>>
+participant ActivateUserController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant UserManagementService as userSvc <<application>>
+
+participant SystemUser as user <<domain>>
+database UserRepository as Repository <<repository>>
+
+
+Actor - -> UI: Deactivate User
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: deactiveUsers()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller - -> userSvc : create
+
+
+Controller -> userSvc : deactiveUsers()
+ activate userSvc
+            userSvc -> Repository: deactiveUsers = findbyActive(false)
+            activate Repository
+
+            Repository - -> userSvc
+            deactivate Repository
+            userSvc - -> Controller
+            Controller - -> UI : deactiveUsers
+
+        UI- ->Actor: list active users
+
+        Actor - -> UI : selects user
+        UI -> Controller : activateUser(user)
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+                activate authz
+                deactivate authz
+        Controller -> userSvc : activateUser(user)
+        userSvc ->  user : activate(CurrentTimeCalendars.now())
+        userSvc ->  Repository : save(user)
+
+        activate Repository
+
+        Repository - -> userSvc
+        deactivate Repository
+         userSvc - ->  Controller
+         Controller - -> UI
+         UI - -> Actor : displays success
+
+         deactivate Controller
+deactivate UI
+@enduml
+
+@startuml
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant ActivateUserUI as UI <<presentation>>
+participant ActivateUserController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant UserManagementService as userSvc <<application>>
+
+participant SystemUser as user <<domain>>
+database UserRepository as Repository <<repository>>
+
+
+Actor - -> UI: Deactivate User
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: deactiveUsers()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller - -> userSvc : create
+
+
+Controller -> userSvc : deactiveUsers()
+ activate userSvc
+            userSvc -> Repository: deactiveUsers = findbyActive(false)
+            activate Repository
+
+            Repository - -> userSvc
+            deactivate Repository
+            userSvc - -> Controller
+            Controller - -> UI : deactiveUsers
+
+        UI- ->Actor: list active users
+
+        Actor - -> UI : selects user
+        UI -> Controller : activateUser(user)
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+                activate authz
+                deactivate authz
+        Controller -> userSvc : activateUser(user)
+        userSvc ->  user : activate(CurrentTimeCalendars.now())
+        userSvc ->  Repository : save(user)
+
+        activate Repository
+
+        Repository - -> userSvc
+        deactivate Repository
+         userSvc - ->  Controller
+         Controller - -> UI
+         UI - -> Actor : displays success
+
+         deactivate Controller
+deactivate UI
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

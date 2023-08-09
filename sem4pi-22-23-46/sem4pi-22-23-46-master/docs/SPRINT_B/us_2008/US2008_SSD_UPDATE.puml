@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Teacher as teacher
+teacher -> System: updateAutomaticFormativeExam()
+System --> teacher: shows list of Automatic formative exams
+teacher --> System : choose one
+System --> teacher : shows fields to modify
+teacher -> System: choose one and write the new data
+System-->teacher
+participant UpdateAutomaticFormativeExams as System <<presentation>>
+
+
+
+@enduml

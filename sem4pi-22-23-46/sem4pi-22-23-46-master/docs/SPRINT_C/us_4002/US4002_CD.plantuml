@@ -1,0 +1,98 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class CancelMeetingUI <<ui>>{
+    - theController : CancelMeetingController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+        class Meeting <<aggregate root>> <<entity>>{
+        - meetingToken : MeetingToken
+        - duration : MeetingDuration
+        - date : Calendar
+        - owner : SystemUser
+        - meetingStatus : MeetingStatus
+        - participantList : List<MeetingParticipant>
+        - id : Long
+        + init(owner ,duration, date, participantList)
+        }
+
+         class MeetingParticipant <<entity>>{
+         - inviteStatus : InviteStatus
+         - id : Long
+         - systemUser : SystemUser
+         + init(systemUser, inviteStatus)
+         }
+
+        enum MeetingStatus <<valueObject>> {
+
+         }
+
+         enum InviteStatus <<valueObject>> {
+
+         }
+
+         class MeetingDuration <<valueObject>> {
+
+         }
+
+          class MeetingToken <<valueObject>> {
+
+          }
+
+}
+    package "persistence" #dbd8ae{
+       interface MeetingRepository{
+       + allMeetingsByOwner(systemUser)
+       + save(meeting)
+       }
+    }
+
+
+package "application" #eaf4d3{
+    class CancelMeetingController <<controller>>{
+        - authz : AuthorizationService
+        - meetingSvc : MeetingManagementService
+        + cancelMeeting (meeting)
+        + allMeetingsByOwner(systemUser)
+        + systemUser()
+    }
+
+    class MeetingManagementService <<service>>{
+         - meetingRepository : MeetingRepository
+         + cancelMeeting (meeting)
+         + allMeetingsByOwner(systemUser)
+
+}
+
+
+}
+
+interface Set{
+}
+
+
+CancelMeetingController .-> AuthorizationService
+CancelMeetingUI .-> CancelMeetingController
+CancelMeetingController .-> MeetingManagementService
+
+
+
+
+MeetingManagementService -> Meeting
+Meeting --> MeetingDuration
+Meeting --> MeetingParticipant
+Meeting --> MeetingStatus
+MeetingParticipant --> InviteStatus
+Meeting --> MeetingToken
+
+MeetingManagementService .-> MeetingRepository
+
+
+@enduml

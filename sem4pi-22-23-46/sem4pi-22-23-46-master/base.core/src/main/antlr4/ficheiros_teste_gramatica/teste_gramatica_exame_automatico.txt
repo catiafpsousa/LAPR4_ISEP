@@ -1,0 +1,17 @@
+Exam Title-"Primeiro Exame de ESOFT1"
+Exam Description-"Exame ESOFT1"
+[Exam Header]
+Header Description-"SEM1 DEI ISEP"
+[Sections]
+Section 1-"Arvores Binárias"
+Section Description-"Secção com questões de escolha muitlipla e verdadeiros e falsos"
+$MULTIPLE_CHOICE$
+$TRUE_OR_FALSE$
+$TRUE_OR_FALSE$
+Section 2-"AVL"
+Section Description-"Secção com uma questão de resposta curta e de correspondência"
+$SHORT_ANSWER$
+$SHORT_ANSWER$
+$MATCHING$
+[/Sections]
+Course code-"ESOFT1"

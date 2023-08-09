@@ -1,0 +1,66 @@
+@startuml
+autonumber
+
+actor "Teacher" as TEACHER
+participant ScheduleClassUI as UI <<presentation>>
+participant ScheduleClassController as CTRL <<application>>
+
+participant ClassFactory as CLASS_FACTORY <<factory>>
+participant Class as CLASS <<domain>>
+
+participant ListCourseService as LISTCOURSE_SERVICE <<???>>
+
+
+activate TEACHER
+
+TEACHER -> UI: asks to schedule a class
+activate UI
+UI -> CTRL: create()
+UI -> CTRL: getListOfCourses()
+activate CTRL
+CTRL -> LISTCOURSE_SERVICE: getListOfCoursesForTeacher(teacherID)
+activate LISTCOURSE_SERVICE
+ref over LISTCOURSE_SERVICE : SD_USER_LOGGED
+deactivate LISTCOURSE_SERVICE
+deactivate CTRL
+TEACHER <-- UI: shows the list of Courses \n(??Apenas os visiveis para aquele professor??)\n(??Mostra também closed courses??))
+deactivate UI
+
+
+TEACHER -> UI:selects a Course
+activate UI
+UI -> CTRL: setCourse(selected_course)
+activate CTRL
+CTRL -> CTRL: curr_course = selected_course
+activate CTRL
+deactivate CTRL
+deactivate CTRL
+TEACHER <-- UI: requests data: (title, date, hour, class_duration)
+deactivate UI
+
+
+TEACHER -> UI:types requested data
+activate UI
+UI -> CTRL: createClassSchedule(title, date, hour, class_duration)
+activate CTRL
+CTRL -> CLASS_FACTORY: newClassScheduleForCourse(course, title, date, hour, class_duration)
+activate CLASS_FACTORY
+CLASS_FACTORY -> CLASS: createClass(course, title, date, hour, class_duration)
+activate CLASS
+
+deactivate CLASS
+
+deactivate CLASS_FACTORY
+deactivate CTRL
+
+TEACHER <-- UI:shows all data and requests confirmation
+deactivate UI
+
+TEACHER -> UI:confirms the data
+activate UI
+TEACHER <-- UI:informs operation success
+deactivate UI
+
+deactivate TEACHER
+
+@enduml

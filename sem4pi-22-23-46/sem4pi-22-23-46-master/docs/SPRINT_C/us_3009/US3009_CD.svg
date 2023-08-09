@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="892.5px" preserveAspectRatio="none" style="width:616px;height:892px;background:#FFFFFF;" version="1.1" viewBox="0 0 616 892" width="616.7px" zoomAndPan="magnify"><defs/><g><!--MD5=[3dcf69e4e87a10af00fce8354034ba4c]
+cluster presentation--><g id="cluster_presentation"><path d="M38.85,4.2 L102.55,4.2 A2.625,2.625 0 0 1 104.3,5.95 L109.2,20.7266 L262.15,20.7266 A1.75,1.75 0 0 1 263.9,22.4766 L263.9,104.65 A1.75,1.75 0 0 1 262.15,106.4 L38.85,106.4 A1.75,1.75 0 0 1 37.1,104.65 L37.1,5.95 A1.75,1.75 0 0 1 38.85,4.2 " fill="#DDDDDD" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="37.1" x2="109.2" y1="20.7266" y2="20.7266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="63" x="39.9" y="15.7732">presentation</text></g><!--MD5=[27f772719433d509ddbc20ff768eba08]
+cluster domain--><g id="cluster_domain"><path d="M93.45,424.2 L129.85,424.2 A2.625,2.625 0 0 1 131.6,425.95 L136.5,440.7266 L610.05,440.7266 A1.75,1.75 0 0 1 611.8,442.4766 L611.8,885.85 A1.75,1.75 0 0 1 610.05,887.6 L93.45,887.6 A1.75,1.75 0 0 1 91.7,885.85 L91.7,425.95 A1.75,1.75 0 0 1 93.45,424.2 " fill="#DBD8AE" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="91.7" x2="136.5" y1="440.7266" y2="440.7266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="35.7" x="94.5" y="435.7732">domain</text></g><!--MD5=[0334151241c2df87d13997940bbf650c]
+cluster persistence--><g id="cluster_persistence"><path d="M322.35,290.5 L381.85,290.5 A2.625,2.625 0 0 1 383.6,292.25 L388.5,307.0266 L558.25,307.0266 A1.75,1.75 0 0 1 560,308.7766 L560,383.25 A1.75,1.75 0 0 1 558.25,385 L322.35,385 A1.75,1.75 0 0 1 320.6,383.25 L320.6,292.25 A1.75,1.75 0 0 1 322.35,290.5 " fill="#DBD8AE" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="320.6" x2="388.5" y1="307.0266" y2="307.0266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="58.8" x="323.4" y="302.0732">persistence</text></g><!--MD5=[3ff016c1aa5003d713567a073e2181a6]
+cluster application--><g id="cluster_application"><path d="M5.95,123.2 L60.55,123.2 A2.625,2.625 0 0 1 62.3,124.95 L67.2,139.7266 L267.05,139.7266 A1.75,1.75 0 0 1 268.8,141.4766 L268.8,405.65 A1.75,1.75 0 0 1 267.05,407.4 L5.95,407.4 A1.75,1.75 0 0 1 4.2,405.65 L4.2,124.95 A1.75,1.75 0 0 1 5.95,123.2 " fill="#EAF4D3" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="4.2" x2="67.2" y1="139.7266" y2="139.7266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="53.9" x="7" y="134.7732">application</text></g><!--MD5=[08f4ed1bb5a60a7a8da7e0dae889d8a3]
+class ViewBoardHistoryUI--><g id="elem_ViewBoardHistoryUI"><rect codeLine="4" fill="#F1F1F1" height="65.7453" id="ViewBoardHistoryUI" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="204.4" x="48.3" y="29.4"/><ellipse cx="104.825" cy="44.3461" fill="#ADD1B2" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M106.225,41.8961 Q106.3672,41.5461 106.5312,41.3711 Q106.6953,41.1961 106.8812,41.1961 Q107.2094,41.1961 107.4172,41.393 Q107.625,41.5898 107.625,42.0492 L107.625,43.143 Q107.625,43.6023 107.4281,43.7992 Q107.2312,43.9961 106.925,43.9961 Q106.6516,43.9961 106.4766,43.8758 Q106.3016,43.7555 106.225,43.4383 Q106.1922,43.2195 106.0719,43.0992 Q105.8531,42.8695 105.4594,42.7383 Q105.0656,42.5961 104.6719,42.5961 Q104.1797,42.5961 103.7641,42.793 Q103.3594,42.9898 103.0422,43.4273 Q102.725,43.8648 102.725,44.4664 L102.725,45.1117 Q102.725,45.8336 103.3156,46.3148 Q103.9062,46.7961 104.9562,46.7961 Q105.5797,46.7961 106.0172,46.6539 Q106.2687,46.5773 106.5531,46.3258 Q106.7391,46.1836 106.8375,46.1398 Q106.9359,46.0961 107.0562,46.0961 Q107.2859,46.0961 107.45,46.282 Q107.625,46.457 107.625,46.7086 Q107.625,46.9492 107.3844,47.2336 Q107.0344,47.6492 106.4766,47.8789 Q105.7437,48.1961 104.8469,48.1961 Q103.7969,48.1961 102.9547,47.7805 Q102.2766,47.4523 101.7953,46.7414 Q101.325,46.0305 101.325,45.1883 L101.325,44.4227 Q101.325,43.5477 101.7406,42.782 Q102.1672,42.0164 102.9,41.6117 Q103.6437,41.1961 104.475,41.1961 Q104.9781,41.1961 105.4156,41.3711 Q105.8531,41.5461 106.225,41.8961 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="16.8" x="153.475" y="41.6199">«ui»</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="85.4" x="119.175" y="53.6389">ViewBoardHistoryUI</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="49" x2="252" y1="59.2922" y2="59.2922"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="53.9" y="67.2055"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="186.2" x="62.3" y="72.2654">theController : ViewBoardHistoryController</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="49" x2="252" y1="77.2187" y2="77.2187"/><ellipse cx="56" cy="87.232" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="42" x="62.3" y="90.192">doShow()</text></g><!--MD5=[458552462bbdcbc92793825846cc11c0]
+class PostIt--><g id="elem_PostIt"><rect codeLine="11" fill="#F1F1F1" height="152.0312" id="PostIt" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="136.5" x="262.15" y="629.3"/><ellipse cx="313.775" cy="644.2461" fill="#ADD1B2" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M315.175,641.7961 Q315.3172,641.4461 315.4812,641.2711 Q315.6453,641.0961 315.8312,641.0961 Q316.1594,641.0961 316.3672,641.293 Q316.575,641.4898 316.575,641.9492 L316.575,643.043 Q316.575,643.5023 316.3781,643.6992 Q316.1812,643.8961 315.875,643.8961 Q315.6016,643.8961 315.4266,643.7758 Q315.2516,643.6555 315.175,643.3383 Q315.1422,643.1195 315.0219,642.9992 Q314.8031,642.7695 314.4094,642.6383 Q314.0156,642.4961 313.6219,642.4961 Q313.1297,642.4961 312.7141,642.693 Q312.3094,642.8898 311.9922,643.3273 Q311.675,643.7648 311.675,644.3664 L311.675,645.0117 Q311.675,645.7336 312.2656,646.2148 Q312.8562,646.6961 313.9062,646.6961 Q314.5297,646.6961 314.9672,646.5539 Q315.2187,646.4773 315.5031,646.2258 Q315.6891,646.0836 315.7875,646.0398 Q315.8859,645.9961 316.0062,645.9961 Q316.2359,645.9961 316.4,646.182 Q316.575,646.357 316.575,646.6086 Q316.575,646.8492 316.3344,647.1336 Q315.9844,647.5492 315.4266,647.7789 Q314.6937,648.0961 313.7969,648.0961 Q312.7469,648.0961 311.9047,647.6805 Q311.2266,647.3523 310.7453,646.6414 Q310.275,645.9305 310.275,645.0883 L310.275,644.3227 Q310.275,643.4477 310.6906,642.682 Q311.1172,641.9164 311.85,641.5117 Q312.5937,641.0961 313.425,641.0961 Q313.9281,641.0961 314.3656,641.2711 Q314.8031,641.4461 315.175,641.7961 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="30.1" x="326.725" y="641.5199">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="24.5" x="329.525" y="653.5389">PostIt</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="262.85" x2="397.95" y1="659.1922" y2="659.1922"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="267.75" y="667.1055"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="87.5" x="276.15" y="672.1654">owner : SystemUser</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="267.75" y="679.432"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="61.6" x="276.15" y="684.492">parent : PostIt</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="267.75" y="691.7586"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="51.1" x="276.15" y="696.8186">next : PostIt</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="267.75" y="704.0852"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="76.3" x="276.15" y="709.1451">content : Content</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="267.75" y="716.4117"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="93.8" x="276.15" y="721.4717">timestamp : Calendar</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="267.75" y="728.7383"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="85.4" x="276.15" y="733.7982">isDeleted : boolean</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="262.85" x2="397.95" y1="738.7516" y2="738.7516"/><ellipse cx="269.85" cy="748.7648" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="96.6" x="276.15" y="751.7248">PostIt(owner, content)</text><ellipse cx="269.85" cy="761.0914" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="118.3" x="276.15" y="764.0514">PostIt(parent, newContent)</text><ellipse cx="269.85" cy="773.418" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="60.2" x="276.15" y="776.3779">PostIt(parent)</text></g><!--MD5=[fd7366e9f96236d9aa60dcc04f2b83e5]
+class Content--><g id="elem_Content"><rect codeLine="22" fill="#F1F1F1" height="53.4187" id="Content" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="100.1" x="280.35" y="823.2"/><ellipse cx="301.56" cy="838.1461" fill="#ADD1B2" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M302.96,835.6961 Q303.1022,835.3461 303.2662,835.1711 Q303.4303,834.9961 303.6162,834.9961 Q303.9444,834.9961 304.1522,835.193 Q304.36,835.3898 304.36,835.8492 L304.36,836.943 Q304.36,837.4023 304.1631,837.5992 Q303.9662,837.7961 303.66,837.7961 Q303.3866,837.7961 303.2116,837.6758 Q303.0366,837.5555 302.96,837.2383 Q302.9272,837.0195 302.8069,836.8992 Q302.5881,836.6695 302.1944,836.5383 Q301.8006,836.3961 301.4069,836.3961 Q300.9147,836.3961 300.4991,836.593 Q300.0944,836.7898 299.7772,837.2273 Q299.46,837.6648 299.46,838.2664 L299.46,838.9117 Q299.46,839.6336 300.0506,840.1148 Q300.6412,840.5961 301.6912,840.5961 Q302.3147,840.5961 302.7522,840.4539 Q303.0037,840.3773 303.2881,840.1258 Q303.4741,839.9836 303.5725,839.9398 Q303.6709,839.8961 303.7912,839.8961 Q304.0209,839.8961 304.185,840.082 Q304.36,840.257 304.36,840.5086 Q304.36,840.7492 304.1194,841.0336 Q303.7694,841.4492 303.2116,841.6789 Q302.4787,841.9961 301.5819,841.9961 Q300.5319,841.9961 299.6897,841.5805 Q299.0116,841.2523 298.5303,840.5414 Q298.06,839.8305 298.06,838.9883 L298.06,838.2227 Q298.06,837.3477 298.4756,836.582 Q298.9022,835.8164 299.635,835.4117 Q300.3787,834.9961 301.21,834.9961 Q301.7131,834.9961 302.1506,835.1711 Q302.5881,835.3461 302.96,835.6961 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="56.7" x="312.34" y="835.4199">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="35" x="323.19" y="847.4389">Content</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="281.05" x2="379.75" y1="853.0922" y2="853.0922"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="285.95" y="861.0055"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="81.9" x="294.35" y="866.0654">textContent: String</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="281.05" x2="379.75" y1="871.0187" y2="871.0187"/></g><!--MD5=[3762909e135fb728396985e200594027]
+class SharedBoard--><g id="elem_SharedBoard"><rect codeLine="26" fill="#F1F1F1" height="137.9437" id="SharedBoard" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="280.7" x="154.35" y="449.4"/><ellipse cx="260.225" cy="469.6289" fill="#ADD1B2" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M261.625,467.1789 Q261.7672,466.8289 261.9312,466.6539 Q262.0953,466.4789 262.2812,466.4789 Q262.6094,466.4789 262.8172,466.6758 Q263.025,466.8727 263.025,467.332 L263.025,468.4258 Q263.025,468.8852 262.8281,469.082 Q262.6312,469.2789 262.325,469.2789 Q262.0516,469.2789 261.8766,469.1586 Q261.7016,469.0383 261.625,468.7211 Q261.5922,468.5023 261.4719,468.382 Q261.2531,468.1523 260.8594,468.0211 Q260.4656,467.8789 260.0719,467.8789 Q259.5797,467.8789 259.1641,468.0758 Q258.7594,468.2727 258.4422,468.7102 Q258.125,469.1477 258.125,469.7492 L258.125,470.3945 Q258.125,471.1164 258.7156,471.5977 Q259.3062,472.0789 260.3562,472.0789 Q260.9797,472.0789 261.4172,471.9367 Q261.6687,471.8602 261.9531,471.6086 Q262.1391,471.4664 262.2375,471.4227 Q262.3359,471.3789 262.4562,471.3789 Q262.6859,471.3789 262.85,471.5648 Q263.025,471.7398 263.025,471.9914 Q263.025,472.232 262.7844,472.5164 Q262.4344,472.932 261.8766,473.1617 Q261.1437,473.4789 260.2469,473.4789 Q259.1969,473.4789 258.3547,473.0633 Q257.6766,472.7352 257.1953,472.0242 Q256.725,471.3133 256.725,470.4711 L256.725,469.7055 Q256.725,468.8305 257.1406,468.0648 Q257.5672,467.2992 258.3,466.8945 Q259.0437,466.4789 259.875,466.4789 Q260.3781,466.4789 260.8156,466.6539 Q261.2531,466.8289 261.625,467.1789 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="65.8" x="273.175" y="461.6199">«aggregate root»</text><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="30.1" x="291.025" y="472.1855">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="58.8" x="276.675" y="484.2045">SharedBoard</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="155.05" x2="434.35" y1="489.8578" y2="489.8578"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="159.95" y="497.7711"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="87.5" x="168.35" y="502.8311">owner : SystemUser</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="159.95" y="510.0977"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="119" x="168.35" y="515.1576">rowNumber: NumberOfRow</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="159.95" y="522.4242"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="149.8" x="168.35" y="527.4842">columnNumber: NumberOfColumn</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="159.95" y="534.7508"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="93.1" x="168.35" y="539.8107">Set &lt;Cell&gt; cells : Cell</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="159.95" y="547.0773"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="199.5" x="168.35" y="552.1373">Set&lt;Modification&gt; modifications : Modification</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="155.05" x2="434.35" y1="557.0906" y2="557.0906"/><ellipse cx="162.05" cy="567.1039" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="262.5" x="168.35" y="570.0639">SharedBoard(owner, rowNumber, columnNumber, cells title)</text><ellipse cx="162.05" cy="579.4305" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="67.9" x="168.35" y="582.3904">availableCells()</text></g><!--MD5=[fea3dc74c7473bae0133d22265a91e2f]
+class Cell--><g id="elem_Cell"><rect codeLine="37" fill="#F1F1F1" height="127.3781" id="Cell" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="134.4" x="102.9" y="641.55"/><ellipse cx="153.475" cy="656.4961" fill="#ADD1B2" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M154.875,654.0461 Q155.0172,653.6961 155.1812,653.5211 Q155.3453,653.3461 155.5312,653.3461 Q155.8594,653.3461 156.0672,653.543 Q156.275,653.7398 156.275,654.1992 L156.275,655.293 Q156.275,655.7523 156.0781,655.9492 Q155.8812,656.1461 155.575,656.1461 Q155.3016,656.1461 155.1266,656.0258 Q154.9516,655.9055 154.875,655.5883 Q154.8422,655.3695 154.7219,655.2492 Q154.5031,655.0195 154.1094,654.8883 Q153.7156,654.7461 153.3219,654.7461 Q152.8297,654.7461 152.4141,654.943 Q152.0094,655.1398 151.6922,655.5773 Q151.375,656.0148 151.375,656.6164 L151.375,657.2617 Q151.375,657.9836 151.9656,658.4648 Q152.5562,658.9461 153.6062,658.9461 Q154.2297,658.9461 154.6672,658.8039 Q154.9187,658.7273 155.2031,658.4758 Q155.3891,658.3336 155.4875,658.2898 Q155.5859,658.2461 155.7062,658.2461 Q155.9359,658.2461 156.1,658.432 Q156.275,658.607 156.275,658.8586 Q156.275,659.0992 156.0344,659.3836 Q155.6844,659.7992 155.1266,660.0289 Q154.3937,660.3461 153.4969,660.3461 Q152.4469,660.3461 151.6047,659.9305 Q150.9266,659.6023 150.4453,658.8914 Q149.975,658.1805 149.975,657.3383 L149.975,656.5727 Q149.975,655.6977 150.3906,654.932 Q150.8172,654.1664 151.55,653.7617 Q152.2937,653.3461 153.125,653.3461 Q153.6281,653.3461 154.0656,653.5211 Q154.5031,653.6961 154.875,654.0461 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="30.1" x="166.425" y="653.7699">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="16.8" x="173.075" y="665.7889">Cell</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="103.6" x2="236.6" y1="671.4422" y2="671.4422"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="108.5" y="679.3555"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="69.3" x="116.9" y="684.4154">row : BoardRow</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="108.5" y="691.682"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="100.1" x="116.9" y="696.742">column : BoardColumn</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="103.6" x2="236.6" y1="701.6953" y2="701.6953"/><ellipse cx="110.6" cy="711.7086" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="79.1" x="116.9" y="714.6686">Cell (row, column)</text><ellipse cx="110.6" cy="724.0352" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="70" x="116.9" y="726.9951">canHavePostIt()</text><ellipse cx="110.6" cy="736.3617" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="116.2" x="116.9" y="739.3217">addPostIt (owner, content)</text><ellipse cx="110.6" cy="748.6883" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="55.3" x="116.9" y="751.6482">latestPostIt()</text><ellipse cx="110.6" cy="761.0148" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="82.6" x="116.9" y="763.9748">undoPostIt(parent)</text></g><!--MD5=[a6e52422306d00f76faaf51b308e56fb]
+class BoardModification--><g id="elem_BoardModification"><rect codeLine="47" fill="#F1F1F1" height="90.3984" id="BoardModification" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="177.1" x="423.15" y="660.1"/><ellipse cx="469.175" cy="675.0461" fill="#ADD1B2" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M470.575,672.5961 Q470.7172,672.2461 470.8812,672.0711 Q471.0453,671.8961 471.2312,671.8961 Q471.5594,671.8961 471.7672,672.093 Q471.975,672.2898 471.975,672.7492 L471.975,673.843 Q471.975,674.3023 471.7781,674.4992 Q471.5812,674.6961 471.275,674.6961 Q471.0016,674.6961 470.8266,674.5758 Q470.6516,674.4555 470.575,674.1383 Q470.5422,673.9195 470.4219,673.7992 Q470.2031,673.5695 469.8094,673.4383 Q469.4156,673.2961 469.0219,673.2961 Q468.5297,673.2961 468.1141,673.493 Q467.7094,673.6898 467.3922,674.1273 Q467.075,674.5648 467.075,675.1664 L467.075,675.8117 Q467.075,676.5336 467.6656,677.0148 Q468.2562,677.4961 469.3062,677.4961 Q469.9297,677.4961 470.3672,677.3539 Q470.6187,677.2773 470.9031,677.0258 Q471.0891,676.8836 471.1875,676.8398 Q471.2859,676.7961 471.4062,676.7961 Q471.6359,676.7961 471.8,676.982 Q471.975,677.157 471.975,677.4086 Q471.975,677.6492 471.7344,677.9336 Q471.3844,678.3492 470.8266,678.5789 Q470.0937,678.8961 469.1969,678.8961 Q468.1469,678.8961 467.3047,678.4805 Q466.6266,678.1523 466.1453,677.4414 Q465.675,676.7305 465.675,675.8883 L465.675,675.1227 Q465.675,674.2477 466.0906,673.482 Q466.5172,672.7164 467.25,672.3117 Q467.9937,671.8961 468.825,671.8961 Q469.3281,671.8961 469.7656,672.0711 Q470.2031,672.2461 470.575,672.5961 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="56.7" x="494.725" y="672.3199">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="79.1" x="483.525" y="684.3389">BoardModification</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="423.85" x2="599.55" y1="689.9922" y2="689.9922"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="428.75" y="697.9055"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="56.7" x="437.15" y="702.9654">postIt : PostIt</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="428.75" y="710.232"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="99.4" x="437.15" y="715.292">modifiedOn : Calendar</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="428.75" y="722.5586"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="158.9" x="437.15" y="727.6186">description : ModificationDescription</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="428.75" y="734.8852"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="102.2" x="437.15" y="739.9451">type : ModificationType</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="423.85" x2="599.55" y1="744.8984" y2="744.8984"/></g><!--MD5=[343839bb48731e46d0fda742d45fdd31]
+class BoardRepository--><g id="elem_BoardRepository"><rect codeLine="59" fill="#F1F1F1" height="58.2531" id="BoardRepository" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="216.3" x="332.15" y="315.7"/><ellipse cx="400.225" cy="326.9" fill="#B4A7E5" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M400.925,324.8 L400.925,329 L402.325,329 L402.6641,329 L403.025,329.4375 L403.025,329.7 L403.025,329.9625 L402.6641,330.4 L402.325,330.4 L398.125,330.4 L397.7859,330.4 L397.425,329.9625 L397.425,329.7 L397.425,329.4375 L397.7859,329 L398.125,329 L399.525,329 L399.525,324.8 L398.125,324.8 L397.7859,324.8 L397.425,324.3625 L397.425,324.1 L397.425,323.8375 L397.7859,323.4 L398.125,323.4 L402.325,323.4 L402.6641,323.4 L403.025,323.8375 L403.025,324.1 L403.025,324.3625 L402.6641,324.8 L402.325,324.8 L400.925,324.8 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-style="italic" lengthAdjust="spacing" textLength="74.2" x="414.575" y="330.91">BoardRepository</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="332.85" x2="547.75" y1="338.1" y2="338.1"/><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="332.85" x2="547.75" y1="343.7" y2="343.7"/><ellipse cx="339.85" cy="353.7133" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="198.1" x="346.15" y="356.6732">findBySystemUserWithReadPermission(user)</text><ellipse cx="339.85" cy="366.0398" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="53.9" x="346.15" y="368.9998">save(board)</text></g><!--MD5=[f704468f83f86cbdcc3f6ce9854f274d]
+class ViewBoardHistoryController--><g id="elem_ViewBoardHistoryController"><rect codeLine="65" fill="#F1F1F1" height="102.725" id="ViewBoardHistoryController" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="185.5" x="57.75" y="148.4"/><ellipse cx="87.465" cy="163.3461" fill="#ADD1B2" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M88.865,160.8961 Q89.0072,160.5461 89.1712,160.3711 Q89.3353,160.1961 89.5212,160.1961 Q89.8494,160.1961 90.0572,160.393 Q90.265,160.5898 90.265,161.0492 L90.265,162.143 Q90.265,162.6023 90.0681,162.7992 Q89.8712,162.9961 89.565,162.9961 Q89.2916,162.9961 89.1166,162.8758 Q88.9416,162.7555 88.865,162.4383 Q88.8322,162.2195 88.7119,162.0992 Q88.4931,161.8695 88.0994,161.7383 Q87.7056,161.5961 87.3119,161.5961 Q86.8197,161.5961 86.4041,161.793 Q85.9994,161.9898 85.6822,162.4273 Q85.365,162.8648 85.365,163.4664 L85.365,164.1117 Q85.365,164.8336 85.9556,165.3148 Q86.5462,165.7961 87.5962,165.7961 Q88.2197,165.7961 88.6572,165.6539 Q88.9087,165.5773 89.1931,165.3258 Q89.3791,165.1836 89.4775,165.1398 Q89.5759,165.0961 89.6962,165.0961 Q89.9259,165.0961 90.09,165.282 Q90.265,165.457 90.265,165.7086 Q90.265,165.9492 90.0244,166.2336 Q89.6744,166.6492 89.1166,166.8789 Q88.3837,167.1961 87.4869,167.1961 Q86.4369,167.1961 85.5947,166.7805 Q84.9166,166.4523 84.4353,165.7414 Q83.965,165.0305 83.965,164.1883 L83.965,163.4227 Q83.965,162.5477 84.3806,161.782 Q84.8072,161.0164 85.54,160.6117 Q86.2837,160.1961 87.115,160.1961 Q87.6181,160.1961 88.0556,160.3711 Q88.4931,160.5461 88.865,160.8961 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="45.5" x="138.985" y="160.6199">«controller»</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="120.4" x="101.535" y="172.6389">ViewBoardHistoryController</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="58.45" x2="242.55" y1="178.2922" y2="178.2922"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="63.35" y="186.2055"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="122.5" x="71.75" y="191.2654">authz : AuthorizationService</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="63.35" y="198.532"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="167.3" x="71.75" y="203.592">boardSvc : BoardManagementService</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="63.35" y="210.8586"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="156.1" x="71.75" y="215.9186">boardRepository : BoardRepository</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="58.45" x2="242.55" y1="220.8719" y2="220.8719"/><ellipse cx="65.45" cy="230.8852" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="155.4" x="71.75" y="233.8451">sharedBoardWithWritePermission()</text><ellipse cx="65.45" cy="243.2117" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="58.8" x="71.75" y="246.1717">currentUser()</text></g><!--MD5=[5abe2099ea2bd16c1a85e7670c243c6b]
+class BoardManagementService--><g id="elem_BoardManagementService"><rect codeLine="73" fill="#F1F1F1" height="102.725" id="BoardManagementService" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="241.5" x="15.75" y="293.3"/><ellipse cx="75.075" cy="308.2461" fill="#ADD1B2" rx="7.7" ry="7.7" style="stroke:#181818;stroke-width:0.6999999999999998;"/><path d="M76.475,305.7961 Q76.6172,305.4461 76.7812,305.2711 Q76.9453,305.0961 77.1312,305.0961 Q77.4594,305.0961 77.6672,305.293 Q77.875,305.4898 77.875,305.9492 L77.875,307.043 Q77.875,307.5023 77.6781,307.6992 Q77.4812,307.8961 77.175,307.8961 Q76.9016,307.8961 76.7266,307.7758 Q76.5516,307.6555 76.475,307.3383 Q76.4422,307.1195 76.3219,306.9992 Q76.1031,306.7695 75.7094,306.6383 Q75.3156,306.4961 74.9219,306.4961 Q74.4297,306.4961 74.0141,306.693 Q73.6094,306.8898 73.2922,307.3273 Q72.975,307.7648 72.975,308.3664 L72.975,309.0117 Q72.975,309.7336 73.5656,310.2148 Q74.1562,310.6961 75.2062,310.6961 Q75.8297,310.6961 76.2672,310.5539 Q76.5187,310.4773 76.8031,310.2258 Q76.9891,310.0836 77.0875,310.0398 Q77.1859,309.9961 77.3062,309.9961 Q77.5359,309.9961 77.7,310.182 Q77.875,310.357 77.875,310.6086 Q77.875,310.8492 77.6344,311.1336 Q77.2844,311.5492 76.7266,311.7789 Q75.9937,312.0961 75.0969,312.0961 Q74.0469,312.0961 73.2047,311.6805 Q72.5266,311.3523 72.0453,310.6414 Q71.575,309.9305 71.575,309.0883 L71.575,308.3227 Q71.575,307.4477 71.9906,306.682 Q72.4172,305.9164 73.15,305.5117 Q73.8937,305.0961 74.725,305.0961 Q75.2281,305.0961 75.6656,305.2711 Q76.1031,305.4461 76.475,305.7961 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="37.1" x="129.325" y="305.5199">«service»</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="116.9" x="89.425" y="317.5389">BoardManagementService</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="16.45" x2="256.55" y1="323.1922" y2="323.1922"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="21.35" y="331.1055"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="156.1" x="29.75" y="336.1654">boardRepository : BoardRepository</text><line style="stroke:#181818;stroke-width:0.3499999999999999;" x1="16.45" x2="256.55" y1="341.1187" y2="341.1187"/><ellipse cx="23.45" cy="351.132" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="93.8" x="29.75" y="354.092">availableCells(board)</text><ellipse cx="23.45" cy="363.4586" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="223.3" x="29.75" y="366.4186">allBoardsBySystemUserWithReadPermission(user)</text><ellipse cx="23.45" cy="375.7852" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="137.2" x="29.75" y="378.7451">deleteStatePostIt(board, postIt)</text><ellipse cx="23.45" cy="388.1117" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="171.5" x="29.75" y="391.0717">updatePostItLastChange(board, postIt)</text></g><!--MD5=[a3e5147b33016f71d85d469faac18017]
+link ViewBoardHistoryUI to ViewBoardHistoryController--><g id="link_ViewBoardHistoryUI_ViewBoardHistoryController"><path codeLine="84" d="M150.5,95.263 C150.5,110.019 150.5,127.918 150.5,144.669 " fill="none" id="ViewBoardHistoryUI-to-ViewBoardHistoryController" style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="150.5,148.218,153.3,141.918,150.5,144.718,147.7,141.918,150.5,148.218" style="stroke:#181818;stroke-width:0.6999999999999998;"/></g><!--MD5=[33588e2c9303f9139477d2e8ac45ffe1]
+link ViewBoardHistoryController to BoardManagementService--><g id="link_ViewBoardHistoryController_BoardManagementService"><path codeLine="85" d="M145.544,251.342 C144.34,263.725 143.038,277.018 141.813,289.562 " fill="none" id="ViewBoardHistoryController-to-BoardManagementService" style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="141.47,293.083,144.8693,287.0851,141.8103,289.5996,139.2959,286.5406,141.47,293.083" style="stroke:#181818;stroke-width:0.6999999999999998;"/></g><!--MD5=[03bf995c65e60f6c5efceff683f7804e]
+link BoardManagementService to BoardRepository--><g id="link_BoardManagementService_BoardRepository"><path codeLine="89" d="M257.544,344.75 C281.148,344.75 304.752,344.75 328.356,344.75 " fill="none" id="BoardManagementService-to-BoardRepository" style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="332.143,344.75,325.843,341.95,328.643,344.75,325.843,347.55,332.143,344.75" style="stroke:#181818;stroke-width:0.6999999999999998;"/></g><!--MD5=[d169426e0fc7faeee53011ef1e88d799]
+link PostIt to Content--><g id="link_PostIt_Content"><path codeLine="91" d="M330.4,781.298 C330.4,794.85 330.4,808.227 330.4,819.469 " fill="none" id="PostIt-to-Content" style="stroke:#181818;stroke-width:0.6999999999999998;"/><polygon fill="#181818" points="330.4,823.2,333.2,816.9,330.4,819.7,327.6,816.9,330.4,823.2" style="stroke:#181818;stroke-width:0.6999999999999998;"/></g><!--MD5=[5fc02342b073558faf3663735d41a666]
+link Cell to PostIt--><g id="link_Cell_PostIt"><path codeLine="92" d="M237.412,705.25 C244.426,705.25 251.433,705.25 258.447,705.25 " fill="none" id="Cell-to-PostIt" style="stroke:#181818;stroke-width:0.6999999999999998;"/><polygon fill="#181818" points="262.115,705.25,255.815,702.45,258.615,705.25,255.815,708.05,262.115,705.25" style="stroke:#181818;stroke-width:0.6999999999999998;"/></g><!--MD5=[d7b5bd00dc78842bc19c5ed9353a54c1]
+link SharedBoard to Cell--><g id="link_SharedBoard_Cell"><path codeLine="93" d="M248.836,587.335 C237.664,603.96 225.736,621.726 214.627,638.26 " fill="none" id="SharedBoard-to-Cell" style="stroke:#181818;stroke-width:0.6999999999999998;"/><polygon fill="#181818" points="212.562,641.333,218.4009,637.6674,214.515,638.4286,213.7538,634.5426,212.562,641.333" style="stroke:#181818;stroke-width:0.6999999999999998;"/></g><!--MD5=[e20a2f2dc2515b2485d3c7b46d43e515]
+link SharedBoard to BoardModification--><g id="link_SharedBoard_BoardModification"><path codeLine="94" d="M374.577,587.335 C401.982,610.757 432.005,636.419 456.953,657.748 " fill="none" id="SharedBoard-to-BoardModification" style="stroke:#181818;stroke-width:0.6999999999999998;"/><polygon fill="#181818" points="459.662,660.065,456.6874,653.8455,456.9997,657.793,453.0522,658.1053,459.662,660.065" style="stroke:#181818;stroke-width:0.6999999999999998;"/></g><!--MD5=[e21e8b4430e54f8f1a2d9941481b1c76]
+link ViewBoardHistoryController to SharedBoard--><g id="link_ViewBoardHistoryController_SharedBoard"><path codeLine="95" d="M240.884,251.398 C252.063,261.17 262.129,272.342 269.5,284.9 C297.885,333.235 303.002,397.033 301.679,445.613 " fill="none" id="ViewBoardHistoryController-to-SharedBoard" style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="301.567,449.379,304.5635,443.1701,301.6769,445.8807,298.9663,442.9942,301.567,449.379" style="stroke:#181818;stroke-width:0.6999999999999998;"/></g><!--MD5=[62eedb3e18e740b7c1bbef0c052fb2ce]
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ViewBoardHistoryUI <<ui>>{
+    - theController : ViewBoardHistoryController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+        class PostIt <<entity>>{
+        - owner : SystemUser
+        - parent : PostIt
+        - next : PostIt
+        - content : Content
+        - timestamp : Calendar
+        - isDeleted : boolean
+        + PostIt(owner, content)
+        + PostIt(parent, newContent)
+        + PostIt(parent)
+        }
+        class Content<<value object>>{
+        - textContent: String
+         }
+
+        class SharedBoard <<aggregate root>> <<entity>>{
+        -owner : SystemUser
+        - rowNumber: NumberOfRow
+        - columnNumber: NumberOfColumn
+        - Set <Cell> cells : Cell
+        - Set<Modification> modifications : Modification
+        + SharedBoard(owner, rowNumber, columnNumber, cells title)
+        + availableCells()
+
+        }
+
+      class Cell <<entity>>{
+             - row : BoardRow
+             - column : BoardColumn
+             +  Cell (row, column)
+             + canHavePostIt()
+             + addPostIt (owner, content)
+             + latestPostIt()
+             + undoPostIt(parent)
+       }
+
+      class BoardModification <<value object>>{
+          - postIt : PostIt
+          - modifiedOn : Calendar
+          - description : ModificationDescription
+          - type : ModificationType
+      }
+
+
+
+
+}
+    package "persistence" #dbd8ae{
+       interface BoardRepository{
+       + findBySystemUserWithReadPermission(user)
+       + save(board)
+       }
+    }
+package "application" #eaf4d3{
+    class ViewBoardHistoryController <<controller>>{
+        - authz : AuthorizationService
+        - boardSvc : BoardManagementService
+        - boardRepository : BoardRepository
+        + sharedBoardWithWritePermission()
+        + currentUser()
+    }
+
+    class BoardManagementService <<service>>{
+         - boardRepository : BoardRepository
+         + availableCells(board)
+         + allBoardsBySystemUserWithReadPermission(user)
+         + deleteStatePostIt(board, postIt)
+         + updatePostItLastChange(board, postIt)
+    }
+
+}
+
+
+ViewBoardHistoryUI .-> ViewBoardHistoryController
+ViewBoardHistoryController .-> BoardManagementService
+
+
+
+BoardManagementService .> BoardRepository
+
+PostIt - -> Content
+Cell -> PostIt
+SharedBoard - -> Cell
+SharedBoard - -> BoardModification
+ViewBoardHistoryController .- -> SharedBoard
+
+
+@enduml
+
+@startuml
+
+package "presentation" #DDDDDD{
+    class ViewBoardHistoryUI <<ui>>{
+    - theController : ViewBoardHistoryController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+        class PostIt <<entity>>{
+        - owner : SystemUser
+        - parent : PostIt
+        - next : PostIt
+        - content : Content
+        - timestamp : Calendar
+        - isDeleted : boolean
+        + PostIt(owner, content)
+        + PostIt(parent, newContent)
+        + PostIt(parent)
+        }
+        class Content<<value object>>{
+        - textContent: String
+         }
+
+        class SharedBoard <<aggregate root>> <<entity>>{
+        -owner : SystemUser
+        - rowNumber: NumberOfRow
+        - columnNumber: NumberOfColumn
+        - Set <Cell> cells : Cell
+        - Set<Modification> modifications : Modification
+        + SharedBoard(owner, rowNumber, columnNumber, cells title)
+        + availableCells()
+
+        }
+
+      class Cell <<entity>>{
+             - row : BoardRow
+             - column : BoardColumn
+             +  Cell (row, column)
+             + canHavePostIt()
+             + addPostIt (owner, content)
+             + latestPostIt()
+             + undoPostIt(parent)
+       }
+
+      class BoardModification <<value object>>{
+          - postIt : PostIt
+          - modifiedOn : Calendar
+          - description : ModificationDescription
+          - type : ModificationType
+      }
+
+
+
+
+}
+    package "persistence" #dbd8ae{
+       interface BoardRepository{
+       + findBySystemUserWithReadPermission(user)
+       + save(board)
+       }
+    }
+package "application" #eaf4d3{
+    class ViewBoardHistoryController <<controller>>{
+        - authz : AuthorizationService
+        - boardSvc : BoardManagementService
+        - boardRepository : BoardRepository
+        + sharedBoardWithWritePermission()
+        + currentUser()
+    }
+
+    class BoardManagementService <<service>>{
+         - boardRepository : BoardRepository
+         + availableCells(board)
+         + allBoardsBySystemUserWithReadPermission(user)
+         + deleteStatePostIt(board, postIt)
+         + updatePostItLastChange(board, postIt)
+    }
+
+}
+
+
+ViewBoardHistoryUI .-> ViewBoardHistoryController
+ViewBoardHistoryController .-> BoardManagementService
+
+
+
+BoardManagementService .> BoardRepository
+
+PostIt - -> Content
+Cell -> PostIt
+SharedBoard - -> Cell
+SharedBoard - -> BoardModification
+ViewBoardHistoryController .- -> SharedBoard
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

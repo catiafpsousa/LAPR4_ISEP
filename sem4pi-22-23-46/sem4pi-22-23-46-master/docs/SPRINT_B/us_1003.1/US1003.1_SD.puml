@@ -1,0 +1,66 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant OpenEnrollmentsUI as UI <<presentation>>
+participant OpenEnrollmentsController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant CourseManagementService as courseSvc <<application>>
+
+participant Course as course <<domain>>
+
+database courseRepository as Repository <<repository>>
+
+
+Actor --> UI: Open Enrolls in course
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: openedCourses()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+        activate authz
+        deactivate authz
+        Controller --> courseSvc : create
+
+
+Controller -> courseSvc : openedCourses()
+ activate courseSvc
+
+            courseSvc -> Repository: openedCourses = findByOpenedState()
+            activate Repository
+
+            Repository --> courseSvc
+            deactivate Repository
+            courseSvc --> Controller
+            Controller --> UI : openedCourses
+
+
+
+
+
+        UI-->Actor: list opened courses
+
+        Actor --> UI : selects course
+        UI -> Controller : openEnrollments(course)
+        Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+                activate authz
+                deactivate authz
+        Controller -> courseSvc : openEnrollments(course)
+        courseSvc ->  course : enroll(CurrentTimeCalendars.now())
+        courseSvc ->  Repository : save(course)
+        activate Repository
+        Repository --> courseSvc
+        deactivate Repository
+         courseSvc -->  Controller
+         Controller --> UI
+         UI --> Actor : displays success
+
+         deactivate Controller
+deactivate UI
+@enduml

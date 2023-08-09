@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="436.8px" preserveAspectRatio="none" style="width:258px;height:436px;background:#FFFFFF;" version="1.1" viewBox="0 0 258 436" width="259px" zoomAndPan="magnify"><defs/><g><ellipse cx="132.3" cy="22.4" fill="#222222" rx="14" ry="14" style="stroke:none;stroke-width:1.3999999999999997;"/><rect fill="#FFFFFF" height="56" rx="17.5" ry="17.5" style="stroke:#000000;stroke-width:0.6999999999999998;" width="110.6" x="77" y="120.4"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="96.6" x="84" y="155.1949">Requested</text><rect fill="#FFFFFF" height="56" rx="17.5" ry="17.5" style="stroke:#000000;stroke-width:0.6999999999999998;" width="99.4" x="9.8" y="260.4"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="85.4" x="16.8" y="295.1949">Approved</text><rect fill="#FFFFFF" height="56" rx="17.5" ry="17.5" style="stroke:#000000;stroke-width:0.6999999999999998;" width="92.4" x="158.9" y="260.4"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="78.4" x="165.9" y="295.1949">Rejected</text><ellipse cx="132.3" cy="414.4" fill="none" rx="14" ry="14" style="stroke:#222222;stroke-width:1.3999999999999997;"/><ellipse cx="133" cy="415.1" fill="#222222" rx="8.4" ry="8.4" style="stroke:none;stroke-width:1.3999999999999997;"/><!--MD5=[517ebae0285aa6f7234795139d56c3f2]
+link *start to Requested--><g id="link_*start_Requested"><path d="M132.3,36.526 C132.3,54.348 132.3,87.43 132.3,112.756 " fill="none" id="*start-to-Requested" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#181818" points="132.3,120.344,137.9,107.744,132.3,113.344,126.7,107.744,132.3,120.344" style="stroke:#181818;stroke-width:1.3999999999999997;"/></g><!--MD5=[29aa84d76683ce57740721ee65e675a1]
+link Requested to Approved--><g id="link_Requested_Approved"><path d="M117.922,176.904 C106.246,198.898 89.754,229.992 77.266,253.526 " fill="none" id="Requested-to-Approved" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#181818" points="73.85,259.952,84.7035,251.4477,77.1316,253.7689,74.8105,246.1971,73.85,259.952" style="stroke:#181818;stroke-width:1.3999999999999997;"/></g><!--MD5=[b1403e41d6fc0921d388f0d609f64b2a]
+link Requested to Rejected--><g id="link_Requested_Rejected"><path d="M146.678,176.904 C158.354,198.898 174.846,229.992 187.334,253.526 " fill="none" id="Requested-to-Rejected" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#181818" points="190.75,259.952,189.7895,246.1971,187.4684,253.7689,179.8965,251.4477,190.75,259.952" style="stroke:#181818;stroke-width:1.3999999999999997;"/></g><!--MD5=[849e4116ee6af2cc603baa6feef1430c]
+link Approved to *end--><g id="link_Approved_*end"><path d="M75.292,316.526 C89.418,340.438 109.718,374.794 121.898,395.402 " fill="none" id="Approved-to-*end" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#181818" points="125.692,401.828,124.1185,388.1297,122.1376,395.7975,114.4698,393.8167,125.692,401.828" style="stroke:#181818;stroke-width:1.3999999999999997;"/></g><!--MD5=[275b679d9522866ba41d4dbf575c856d]
+link Rejected to *end--><g id="link_Rejected_*end"><path d="M189.308,316.526 C175.182,340.438 154.882,374.794 142.702,395.402 " fill="none" id="Rejected-to-*end" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#181818" points="138.908,401.828,150.1302,393.8167,142.4624,395.7975,140.4815,388.1297,138.908,401.828" style="stroke:#181818;stroke-width:1.3999999999999997;"/></g><!--MD5=[2f195ff964941e8a02e460225f33fd11]
+@startuml
+
+scale 200 width
+hide empty description
+
+skinparam state {
+    BackgroundColor White
+    BorderColor Black
+}
+
+[*] - -> Requested
+Requested - -> Approved
+Requested - -> Rejected
+Approved - -> [*]
+Rejected - -> [*]
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

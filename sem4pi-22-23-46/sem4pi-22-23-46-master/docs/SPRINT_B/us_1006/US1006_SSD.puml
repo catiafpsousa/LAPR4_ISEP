@@ -1,0 +1,22 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant ListCoursesUI as UI <<presentation>>
+
+
+
+Actor --> UI: List Courses
+activate UI
+
+        UI-->Actor: Shows courses list
+
+
+
+
+deactivate UI
+@enduml

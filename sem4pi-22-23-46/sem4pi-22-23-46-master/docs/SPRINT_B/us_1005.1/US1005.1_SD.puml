@@ -1,0 +1,96 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant SetCourseTeachersUI as UI <<presentation>>
+participant SetCourseTeachersController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant CourseManagementService as courseSvc <<application>>
+participant TeacherManagementService as teacherSvc <<application>>
+
+participant Course as course <<domain>>
+
+database courseRepository as Repository <<repository>>
+database teacherRepository as Repository2 <<repository>>
+
+
+Actor --> UI: set Course Teachers
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: allCourses()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+        activate authz
+        deactivate authz
+        Controller --> courseSvc : create
+
+
+Controller -> courseSvc : allCourses()
+ activate courseSvc
+
+            courseSvc -> Repository: allCourses = findAll()
+            activate Repository
+
+            Repository --> courseSvc
+            deactivate Repository
+            courseSvc --> Controller
+            Controller --> UI : allCourses
+
+
+
+
+
+        UI-->Actor: list all courses
+
+        Actor --> UI : selects course
+        UI -> Controller : allTeachers()
+
+        Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+                activate authz
+                deactivate authz
+                 Controller --> teacherSvc : create
+                         Controller -> teacherSvc : allTeachers()
+                         activate teacherSvc
+                         teacherSvc -> Repository2: allTeachers = findAll()
+                         activate Repository2
+                         Repository2 --> teacherSvc
+                         deactivate Repository2
+                         teacherSvc --> Controller
+                         deactivate teacherSvc
+
+
+
+          Controller --> UI : allTeachers
+
+         UI --> Actor : list all teachers
+
+
+        Actor --> UI : inputs Teachers so set
+                UI -> Controller : setCourseTeachers(selection, allTeachers, course)
+
+                Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+                        activate authz
+                        deactivate authz
+                                 Controller -> courseSvc : selectedTeachers = setCourseTeachers(selection, allTeachers, course)
+                                 courseSvc -> course : setCourseTeachers(teachers)
+                                 courseSvc -> Repository: save(course)
+                                 activate Repository
+                                 Repository --> courseSvc
+                                 deactivate Repository
+                                 courseSvc --> Controller
+
+
+                  Controller --> UI :
+
+
+          UI --> Actor : displays success
+
+         deactivate Controller
+deactivate UI
+@enduml

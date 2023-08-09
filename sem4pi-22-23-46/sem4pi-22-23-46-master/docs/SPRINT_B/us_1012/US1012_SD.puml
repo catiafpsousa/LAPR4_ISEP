@@ -1,0 +1,86 @@
+@startuml
+autonumber
+
+actor "Teacher" as TEACHER
+participant UpdateClassScheduleUI as UI <<presentation>>
+participant UpdateClassScheduleController as CTRL <<application>>
+
+
+
+participant "chosenClass\n:RecurringClass" as chosenClass <<domain>>
+participant "rcd\n:RescheduledClassDate" as rcd <<domain>>
+database ClassRepository as Repository <<repository>>
+participant Class as CLASS <<domain>>
+participant ClassFactory as CLASS_FACTORY <<factory>>
+
+
+activate TEACHER
+
+TEACHER -> UI: asks to update the schedule of a class
+activate UI
+UI -> CTRL: create()
+activate CTRL
+UI -> CTRL: listRecurringClasses()
+CTRL -> Repository: create()
+activate Repository
+CTRL -> Repository: findRecurringClassesOfTeacher(this_teacher)
+deactivate Repository
+deactivate CTRL
+TEACHER <-- UI: shows the list of recurring classes
+deactivate UI
+
+
+TEACHER -> UI:selects a Recurring Class
+activate UI
+
+TEACHER <-- UI: requests the date to be rescheduled
+deactivate UI
+
+TEACHER -> UI:types the date
+activate UI
+UI -> UI: validateChosenDay
+activate UI
+deactivate UI
+TEACHER <-- UI: requestsdata: newClassDate, time and duration\n of the new class schedule
+deactivate UI
+
+TEACHER -> UI:types requested data
+activate UI
+UI -> CTRL: checkAvailability(newClassDate, time , duration)
+activate CTRL
+
+CTRL-> Repository: checkScheduleAvailability(teacher, newClassDate, startTime, endTime)
+activate Repository
+deactivate Repository
+ref over Repository: SD_CheckScheduleAvailability
+
+
+deactivate CTRL
+
+TEACHER <-- UI:shows all data and requests confirmation
+deactivate UI
+
+TEACHER -> UI:confirms the data
+activate UI
+
+UI -> CTRL : updateClassSchedule(chosenClass, \nclassDateToChange, newClassDate, time, duration)
+activate CTRL
+CTRL -> chosenClass : addReschedule(classDateToChange, newClassDate, time, duration);
+activate chosenClass
+chosenClass -> rcd** : RescheduledClassDate(newClassDate,\n startTime, startTime, endTime)
+chosenClass -> chosenClass : put(classDateToChange, rcd)
+activate chosenClass
+
+deactivate chosenClass
+deactivate chosenClass
+CTRL -> Repository: save(chosenClass)
+activate Repository
+deactivate Repository
+deactivate CTRL
+
+TEACHER <-- UI:informs operation success
+deactivate UI
+
+deactivate TEACHER
+
+@enduml

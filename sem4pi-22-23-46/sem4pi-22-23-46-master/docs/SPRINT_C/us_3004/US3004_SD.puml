@@ -1,0 +1,97 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+
+
+actor User as Actor
+participant ShareABoardUI as UI <<presentation>>
+participant ShareABoardController as Controller <<application>>
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant RepositoryFactory as Factory <<factory>>
+database BoardRepository as Repository <<repository>>
+database UserRepository as Repository2 <<repository>>
+participant Board as Board <<domain>>
+participant BoardParticipant as BoardParticipant <<domain>>
+
+activate Actor
+Actor -> UI: share a board
+activate UI
+UI -> Controller : create()
+activate Controller
+UI -> Controller : listBoards(user)
+note over Controller: user is the current logged user
+Controller -> Persistence : repositories()
+activate Persistence
+Persistence -> set: instance()
+activate set
+Persistence -> set: getRepositoryFactory()
+set -> Factory : create
+activate Factory
+Factory --> set:
+set -->Controller: factory
+deactivate set
+deactivate Persistence
+Controller -> Factory : Board()
+Factory -> Repository : create
+activate Repository
+Factory --> Controller : BoardRepository
+deactivate Factory
+Controller -> Repository : findBoardsByOwner(user)
+Repository --> Controller:
+deactivate Repository
+Controller --> UI: list boards
+deactivate Controller
+UI --> Actor : shows the list of boards that he owns\nand asks to select one
+deactivate Controller
+Actor -> UI: selects one board
+UI -> Controller: findAllUsers()
+activate Controller
+Controller -> Factory : User()
+activate Factory
+Factory -> Repository2 : create
+activate Repository2
+Factory --> Controller : UserRepository
+deactivate Factory
+Controller -> Repository2 : findAll()
+Repository2 --> Controller:
+deactivate Repository2
+Controller --> UI: list users
+deactivate Controller
+UI --> Actor : shows list of users and asks to select\nthose who want to share that board
+Actor-> UI: selects users
+loop
+note over Actor: for each user selection
+UI --> Actor:  asks if user will have read or write permissions
+Actor -> UI: selects read or write
+note over Controller: permission might be READ or WRITE
+UI-> Controller: shareABoard(user, permission)
+activate Controller
+Controller->Board: shareBoard(user, permission)
+activate Board
+Board -> BoardParticipant: new BoardParticipant(user, permission)
+activate BoardParticipant
+BoardParticipant-->Board
+deactivate BoardParticipant
+Board --> Controller
+deactivate Board
+Controller -->UI
+deactivate Controller
+end loop
+UI -->Actor: asks if wants to save shared list
+Actor->UI : confirms
+UI -> Controller: saveSharedBoard(board)
+activate Controller
+Controller -> Repository: save(board)
+activate Repository
+Repository --> Controller
+deactivate Repository
+Controller --> UI
+deactivate Controller
+UI --> Actor : informs operation success
+deactivate UI
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Teacher as teacher
+participant ListAllExamsOfCourse as System <<presentation>>
+
+teacher -> System: Choose List All Exams of Course
+System --> teacher: Shows list of courses
+System --> teacher: Asks to select one course
+teacher -> System: Selects one course
+System --> teacher: Shows list of exams of the course
+
+@enduml

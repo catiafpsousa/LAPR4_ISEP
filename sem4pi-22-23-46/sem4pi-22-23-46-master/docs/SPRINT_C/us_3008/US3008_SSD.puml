@@ -1,0 +1,31 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor User as Actor
+participant UndoLastChangeInPostItUI as UI <<presentation>>
+
+
+
+
+Actor --> UI: undo last change in PostIt
+activate UI
+
+UI --> Actor: lists the boards with write permissions
+Actor -> UI: selects a board
+
+
+
+UI --> Actor : shows cells with postIts owned by the user
+Actor -> UI: selects postIt to undo last change
+
+
+
+         UI --> Actor : displays success
+
+
+deactivate UI
+@enduml

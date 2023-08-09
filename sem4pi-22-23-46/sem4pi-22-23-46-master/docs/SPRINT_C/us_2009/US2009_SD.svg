@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="1367px" preserveAspectRatio="none" style="width:3464px;height:1367px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 3464 1367" width="3464px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <rect fill="#FFFFFF" height="1140.5156" style="stroke:#181818;stroke-width:1.0;" width="10" x="372"
+              y="114.7266"/>
+        <rect fill="#FFFFFF" height="1082.25" style="stroke:#181818;stroke-width:1.0;" width="10" x="781" y="143.8594"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1107" y="172.9922"/>
+        <rect fill="#FFFFFF" height="731.7891" style="stroke:#181818;stroke-width:1.0;" width="10" x="1299.5"
+              y="465.1875"/>
+        <rect fill="#FFFFFF" height="87.3984" style="stroke:#181818;stroke-width:1.0;" width="10" x="1530" y="232.125"/>
+        <rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="2067"
+              y="261.2578"/>
+        <rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="2221.5"
+              y="494.3203"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="2450.5" y="785.6484"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="2786.5" y="873.9141"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="3098" y="962.1797"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="3347" y="1108.7109"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="37" x2="37" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="376.5" x2="376.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="785.5" x2="785.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1111.5" x2="1111.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1304.5" x2="1304.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1534.5" x2="1534.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1743.5" x2="1743.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1905.5" x2="1905.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2071.5" x2="2071.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2226.5" x2="2226.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2455.5" x2="2455.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2791.5" x2="2791.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="3102.5" x2="3102.5" y1="83.5938"
+              y2="1273.2422"/>
+        <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="3351.5" x2="3351.5" y1="83.5938"
+              y2="1273.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="58" x="5"
+              y="80.292">Student
+        </text>
+        <ellipse cx="37" cy="15.7969" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M37,23.7969 L37,50.7969 M24,31.7969 L50,31.7969 M37,50.7969 L24,65.7969 M37,50.7969 L50,65.7969 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="58" x="5"
+              y="1285.2373">Student
+        </text>
+        <ellipse cx="37" cy="1297.0391" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+        <path d="M37,1305.0391 L37,1332.0391 M24,1313.0391 L50,1313.0391 M37,1332.0391 L24,1347.0391 M37,1332.0391 L50,1347.0391 "
+              fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="195"
+              x="279.5" y="36"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="108" x="323" y="55.9951">&#171;presentation&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="181" x="286.5"
+              y="72.292">TakeAnAutomaticExamUI
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="195"
+              x="279.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="108" x="323" y="1292.2373">&#171;presentation&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="181" x="286.5"
+              y="1308.5342">TakeAnAutomaticExamUI
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="255"
+              x="658.5" y="36"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="97" x="737.5" y="55.9951">&#171;application&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="241" x="665.5"
+              y="72.292">TakeAnAutomaticExamController
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="255"
+              x="658.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="97" x="737.5" y="1292.2373">&#171;application&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="241" x="665.5"
+              y="1308.5342">TakeAnAutomaticExamController
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165"
+              x="1029.5" y="36"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="97" x="1063.5" y="55.9951">&#171;application&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="151" x="1036.5"
+              y="72.292">AuthorizationService
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165"
+              x="1029.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="97" x="1063.5" y="1292.2373">&#171;application&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="151" x="1036.5"
+              y="1308.5342">AuthorizationService
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="200"
+              x="1204.5" y="36"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="97" x="1256" y="55.9951">&#171;application&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="186" x="1211.5"
+              y="72.292">ExamManagementService
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="200"
+              x="1204.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="97" x="1256" y="1292.2373">&#171;application&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="186" x="1211.5"
+              y="1308.5342">ExamManagementService
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="241"
+              x="1414.5" y="36"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="97" x="1486.5" y="55.9951">&#171;application&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="227" x="1421.5"
+              y="72.292">EnrollmentManagementService
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="241"
+              x="1414.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="97" x="1486.5" y="1292.2373">&#171;application&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="227" x="1421.5"
+              y="1308.5342">EnrollmentManagementService
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157"
+              x="1665.5" y="36"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="100" x="1694" y="55.9951">&#171;persistence&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="143" x="1672.5"
+              y="72.292">PersistenceContext
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157"
+              x="1665.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="100" x="1694" y="1292.2373">&#171;persistence&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="143" x="1672.5"
+              y="1308.5342">PersistenceContext
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="147"
+              x="1832.5" y="36"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="68" x="1872" y="55.9951">&#171;factory&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="133" x="1839.5"
+              y="72.292">RepositoryFactory
+        </text>
+        <rect fill="#E2E2F0" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="147"
+              x="1832.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="68" x="1872" y="1292.2373">&#171;factory&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="133" x="1839.5"
+              y="1308.5342">RepositoryFactory
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="90" x="2024" y="63.9951">&#171;repository&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="159" x="1989.5"
+              y="80.292">EnrollmentRepository
+        </text>
+        <path d="M2054,15 C2054,5 2072,5 2072,5 C2072,5 2090,5 2090,15 L2090,41 C2090,51 2072,51 2072,51 C2072,51 2054,51 2054,41 L2054,15 "
+              fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/>
+        <path d="M2054,15 C2054,25 2072,25 2072,25 C2072,25 2090,25 2090,15 " fill="none"
+              style="stroke:#181818;stroke-width:1.5;"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="90" x="2024" y="1285.2373">&#171;repository&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="159" x="1989.5"
+              y="1301.5342">EnrollmentRepository
+        </text>
+        <path d="M2054,1314.8359 C2054,1304.8359 2072,1304.8359 2072,1304.8359 C2072,1304.8359 2090,1304.8359 2090,1314.8359 L2090,1340.8359 C2090,1350.8359 2072,1350.8359 2072,1350.8359 C2072,1350.8359 2054,1350.8359 2054,1340.8359 L2054,1314.8359 "
+              fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/>
+        <path d="M2054,1314.8359 C2054,1324.8359 2072,1324.8359 2072,1324.8359 C2072,1324.8359 2090,1324.8359 2090,1314.8359 "
+              fill="none" style="stroke:#181818;stroke-width:1.5;"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="90" x="2178.5" y="63.9951">&#171;repository&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="118" x="2164.5"
+              y="80.292">ExamRepository
+        </text>
+        <path d="M2208.5,15 C2208.5,5 2226.5,5 2226.5,5 C2226.5,5 2244.5,5 2244.5,15 L2244.5,41 C2244.5,51 2226.5,51 2226.5,51 C2226.5,51 2208.5,51 2208.5,41 L2208.5,15 "
+              fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/>
+        <path d="M2208.5,15 C2208.5,25 2226.5,25 2226.5,25 C2226.5,25 2244.5,25 2244.5,15 " fill="none"
+              style="stroke:#181818;stroke-width:1.5;"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing"
+              textLength="90" x="2178.5" y="1285.2373">&#171;repository&#187;
+        </text>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="118" x="2164.5"
+              y="1301.5342">ExamRepository
+        </text>
+        <path d="M2208.5,1314.8359 C2208.5,1304.8359 2226.5,1304.8359 2226.5,1304.8359 C2226.5,1304.8359 2244.5,1304.8359 2244.5,1314.8359 L2244.5,1340.8359 C2244.5,1350.8359 2226.5,1350.8359 2226.5,1350.8359 C2226.5,1350.8359 2208.5,1350.8359 2208.5,1340.8359 L2208.5,1314.8359 "
+              fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/>
+        <path d="M2208.5,1314.8359 C2208.5,1324.8359 2226.5,1324.8359 2226.5,1324.8359 C2226.5,1324.8359 2244.5,1324.8359 2244.5,1314.8359 "
+              fill="none" style="stroke:#181818;stroke-width:1.5;"/>
+        <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="314"
+              x="2298.5" y="52.2969"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="300" x="2305.5"
+              y="72.292">AutomaticExamGenerateQuestionsVisitor
+        </text>
+        <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="314"
+              x="2298.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="300" x="2305.5"
+              y="1292.2373">AutomaticExamGenerateQuestionsVisitor
+        </text>
+        <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="338"
+              x="2622.5" y="52.2969"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="324" x="2629.5"
+              y="72.292">ConvertIntoExamReadyToBeAnsweredVisitor
+        </text>
+        <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="338"
+              x="2622.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="324" x="2629.5"
+              y="1292.2373">ConvertIntoExamReadyToBeAnsweredVisitor
+        </text>
+        <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="265"
+              x="2970.5" y="52.2969"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="251" x="2977.5"
+              y="72.292">ConvertExamIntoSolutionsListener
+        </text>
+        <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="265"
+              x="2970.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="251" x="2977.5"
+              y="1292.2373">ConvertExamIntoSolutionsListener
+        </text>
+        <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="213"
+              x="3245.5" y="52.2969"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="199" x="3252.5"
+              y="72.292">GradeAnsweredExamVisitor
+        </text>
+        <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="213"
+              x="3245.5" y="1272.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="199" x="3252.5"
+              y="1292.2373">GradeAnsweredExamVisitor
+        </text>
+        <rect fill="#FFFFFF" height="1140.5156" style="stroke:#181818;stroke-width:1.0;" width="10" x="372"
+              y="114.7266"/>
+        <rect fill="#FFFFFF" height="1082.25" style="stroke:#181818;stroke-width:1.0;" width="10" x="781" y="143.8594"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1107" y="172.9922"/>
+        <rect fill="#FFFFFF" height="731.7891" style="stroke:#181818;stroke-width:1.0;" width="10" x="1299.5"
+              y="465.1875"/>
+        <rect fill="#FFFFFF" height="87.3984" style="stroke:#181818;stroke-width:1.0;" width="10" x="1530" y="232.125"/>
+        <rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="2067"
+              y="261.2578"/>
+        <rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="2221.5"
+              y="494.3203"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="2450.5" y="785.6484"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="2786.5" y="873.9141"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="3098" y="962.1797"/>
+        <rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="3347" y="1108.7109"/>
+        <polygon fill="#181818" points="360,110.7266,370,114.7266,360,118.7266,364,114.7266"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="37" x2="366" y1="114.7266"
+              y2="114.7266"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="213" x="44"
+              y="109.6606">takeAnAutomaticFormativeExam
+        </text>
+        <polygon fill="#181818" points="769,139.8594,779,143.8594,769,147.8594,773,143.8594"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="382" x2="775" y1="143.8594"
+              y2="143.8594"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="41" x="389"
+              y="138.7935">create
+        </text>
+        <polygon fill="#181818" points="1095,168.9922,1105,172.9922,1095,176.9922,1099,172.9922"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="791" x2="1101" y1="172.9922" y2="172.9922"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="297" x="798"
+              y="167.9263">ensureAuthenticatedUserHasAnyOf(STUDENT)
+        </text>
+        <polygon fill="#181818" points="1518,228.125,1528,232.125,1518,236.125,1522,232.125"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="791" x2="1524" y1="232.125" y2="232.125"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="142" x="798"
+              y="227.0591">allCoursesByStudent()
+        </text>
+        <polygon fill="#181818" points="2055,257.2578,2065,261.2578,2055,265.2578,2059,261.2578"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="1540" x2="2061" y1="261.2578" y2="261.2578"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="241" x="1547"
+              y="256.1919">findAllCourseByStudent( systemUser)
+        </text>
+        <polygon fill="#181818" points="1551,286.3906,1541,290.3906,1551,294.3906,1547,290.3906"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="1545" x2="2071" y1="290.3906" y2="290.3906"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="72" x="1557"
+              y="285.3247">coursesList
+        </text>
+        <polygon fill="#181818" points="802,315.5234,792,319.5234,802,323.5234,798,319.5234"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="796" x2="1534" y1="319.5234"
+              y2="319.5234"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="72" x="808"
+              y="314.4575">coursesList
+        </text>
+        <polygon fill="#181818" points="393,344.6563,383,348.6563,393,352.6563,389,348.6563"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="387" x2="780" y1="348.6563"
+              y2="348.6563"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="72" x="399"
+              y="343.5903">coursesList
+        </text>
+        <polygon fill="#181818" points="48,373.7891,38,377.7891,48,381.7891,44,377.7891"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="42" x2="371" y1="377.7891"
+              y2="377.7891"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="93" x="54"
+              y="372.7231">List of courses
+        </text>
+        <polygon fill="#181818" points="360,402.9219,370,406.9219,360,410.9219,364,406.9219"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="37" x2="366" y1="406.9219"
+              y2="406.9219"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="105" x="44"
+              y="401.856">choose a course
+        </text>
+        <polygon fill="#181818" points="769,432.0547,779,436.0547,769,440.0547,773,436.0547"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="382" x2="775" y1="436.0547"
+              y2="436.0547"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="43" x="389"
+              y="430.9888">course
+        </text>
+        <polygon fill="#181818" points="1287.5,461.1875,1297.5,465.1875,1287.5,469.1875,1291.5,465.1875"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="791" x2="1293.5" y1="465.1875" y2="465.1875"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="268" x="798"
+              y="460.1216">allAutomaticFormativeExam(courseCode)
+        </text>
+        <polygon fill="#181818" points="2209.5,490.3203,2219.5,494.3203,2209.5,498.3203,2213.5,494.3203"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="1309.5" x2="2215.5" y1="494.3203" y2="494.3203"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="268" x="1316.5"
+              y="489.2544">allAutomaticFormativeExam(courseCode)
+        </text>
+        <polygon fill="#181818" points="1320.5,519.4531,1310.5,523.4531,1320.5,527.4531,1316.5,523.4531"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="1314.5" x2="2225.5" y1="523.4531" y2="523.4531"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="174" x="1326.5"
+              y="518.3872">automaticFormativeExams
+        </text>
+        <polygon fill="#181818" points="802,548.5859,792,552.5859,802,556.5859,798,552.5859"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="796" x2="1298.5" y1="552.5859"
+              y2="552.5859"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="174" x="808"
+              y="547.52">automaticFormativeExams
+        </text>
+        <polygon fill="#181818" points="393,577.7188,383,581.7188,393,585.7188,389,581.7188"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="387" x2="780" y1="581.7188"
+              y2="581.7188"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="174" x="399"
+              y="576.6528">automaticFormativeExams
+        </text>
+        <polygon fill="#181818" points="48,606.8516,38,610.8516,48,614.8516,44,610.8516"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="42" x2="371" y1="610.8516"
+              y2="610.8516"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="221" x="54"
+              y="605.7856">list of automatic Formative Exams
+        </text>
+        <polygon fill="#181818" points="360,635.9844,370,639.9844,360,643.9844,364,639.9844"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="37" x2="366" y1="639.9844"
+              y2="639.9844"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="311" x="44"
+              y="634.9185">choose an automatic formative exam to answer
+        </text>
+        <polygon fill="#181818" points="48,665.1172,38,669.1172,48,673.1172,44,669.1172"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="42" x2="371" y1="669.1172"
+              y2="669.1172"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="234" x="54"
+              y="664.0513">ask path to the file with the answers
+        </text>
+        <polygon fill="#181818" points="360,694.25,370,698.25,360,702.25,364,698.25"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="37" x2="366" y1="698.25"
+              y2="698.25"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="273" x="44"
+              y="693.1841">insert the path to the file with the answers
+        </text>
+        <polygon fill="#181818" points="769,723.3828,779,727.3828,769,731.3828,773,727.3828"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="382" x2="775" y1="727.3828"
+              y2="727.3828"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="375" x="389"
+              y="722.3169">takeAnAutomaticFormativeExam( filepath , examContent)
+        </text>
+        <polygon fill="#181818" points="1287.5,752.5156,1297.5,756.5156,1287.5,760.5156,1291.5,756.5156"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="791" x2="1293.5" y1="756.5156" y2="756.5156"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="118" x="798"
+              y="751.4497">examTotxt(exam)
+        </text>
+        <polygon fill="#181818" points="2438.5,781.6484,2448.5,785.6484,2438.5,789.6484,2442.5,785.6484"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="1309.5" x2="2444.5" y1="785.6484" y2="785.6484"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="194" x="1316.5"
+              y="780.5825">genQuestionsVisitor.visit(tree)
+        </text>
+        <polygon fill="#181818" points="1320.5,840.7813,1310.5,844.7813,1320.5,848.7813,1316.5,844.7813"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1314.5" x2="2454.5" y1="844.7813"
+              y2="844.7813"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="103" x="1326.5"
+              y="839.7153">generatedExam
+        </text>
+        <polygon fill="#181818" points="2774.5,869.9141,2784.5,873.9141,2774.5,877.9141,2778.5,873.9141"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="1309.5" x2="2780.5" y1="873.9141" y2="873.9141"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="295" x="1316.5"
+              y="868.8481">examToBeAnsweredVisitor.visit(sectionsTree)
+        </text>
+        <polygon fill="#181818" points="1320.5,929.0469,1310.5,933.0469,1320.5,937.0469,1316.5,933.0469"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1314.5" x2="2790.5" y1="933.0469"
+              y2="933.0469"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="193" x="1326.5"
+              y="927.981">sectionsOfExamToBeAnswerd
+        </text>
+        <polygon fill="#181818" points="3086,958.1797,3096,962.1797,3086,966.1797,3090,962.1797"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="1309.5" x2="3092" y1="962.1797" y2="962.1797"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="309" x="1316.5"
+              y="957.1138">convertIntoSolutionsListener.getExamAnswers()
+        </text>
+        <polygon fill="#181818" points="1320.5,1017.3125,1310.5,1021.3125,1320.5,1025.3125,1316.5,1021.3125"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1314.5" x2="3102" y1="1021.3125"
+              y2="1021.3125"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="107" x="1326.5"
+              y="1016.2466">solutionsofExam
+        </text>
+        <polygon fill="#181818" points="802,1046.4453,792,1050.4453,802,1054.4453,798,1050.4453"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="796" x2="1298.5" y1="1050.4453"
+              y2="1050.4453"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="107" x="808"
+              y="1045.3794">solutionsofExam
+        </text>
+        <polygon fill="#181818" points="1287.5,1075.5781,1297.5,1079.5781,1287.5,1083.5781,1291.5,1079.5781"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="791" x2="1293.5" y1="1079.5781" y2="1079.5781"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="293" x="798"
+              y="1074.5122">verifyAnswers(answerPath, solutionsofExam)
+        </text>
+        <polygon fill="#181818" points="3335,1104.7109,3345,1108.7109,3335,1112.7109,3339,1108.7109"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;" x1="1309.5" x2="3341" y1="1108.7109" y2="1108.7109"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="242" x="1316.5"
+              y="1103.645">gradeExamVisitor.visit(answerd_tree)
+        </text>
+        <polygon fill="#181818" points="1320.5,1163.8438,1310.5,1167.8438,1320.5,1171.8438,1316.5,1167.8438"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1314.5" x2="3351" y1="1167.8438"
+              y2="1167.8438"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="37" x="1326.5"
+              y="1162.7778">grade
+        </text>
+        <polygon fill="#181818" points="802,1192.9766,792,1196.9766,802,1200.9766,798,1196.9766"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="796" x2="1303.5" y1="1196.9766"
+              y2="1196.9766"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="128" x="808"
+              y="1191.9106">grade and feedback
+        </text>
+        <polygon fill="#181818" points="393,1222.1094,383,1226.1094,393,1230.1094,389,1226.1094"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="387" x2="785" y1="1226.1094"
+              y2="1226.1094"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="128" x="399"
+              y="1221.0435">grade and feedback
+        </text>
+        <polygon fill="#181818" points="48,1251.2422,38,1255.2422,48,1259.2422,44,1255.2422"
+                 style="stroke:#181818;stroke-width:1.0;"/>
+        <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="42" x2="376" y1="1255.2422"
+              y2="1255.2422"/>
+        <text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="183" x="54"
+              y="1250.1763">Display Grade and Feedback
+        </text><!--SRC=[ZLVRRjiu47tNL_3H0Tf-W604SDCu6w3Rcvs-BbXnP1EHIOEadQXVlpFKZP8eMNw8PSwSC-IPGugnhrATkU4dTkHAl1df72YMyy92mcmRFFFibHzWvye2c87CXK41ERyKRgkL-yPFmBPFxBSq1rc4IVR8XNwJwb2J9undJXksSnS1oZ5ksOO64gnbdCpacUFedh_2HcqkJfyu3Zw-yzFBC-NYt_NwRC0Y5YDQtT_VH3xW18qk2Z344FnQh_dvNCWiIeGKHstaNn_SWRdA31WHS0pydSTIrN-vGkLEECy6Z5Z0mEwQtK0hcXyXunnjECRKf_e1nagBhSs0rWtlNl1WbDJiVWrdyWlEsahiJhdrNIi9tJokrtdrH2Z17V_3BGIJxy24YewlrwRzqMT1dGRu_iW0YSlsBc8VFzwZHrBc-ZROQaFVLo0QRq5vvGumDM7aAO9rnaXPPW3366ipksWIE0XXtWufTiLU391fS8dK3X0l5im_t6vK-JrVxVOlNnw_xUzmfeDFMy8pZS82RYJWfp-Zla5InelYGL-C1VkvhBVTQcuUFVmuhq-FzQAjJLakbTWqfRlAp9PejXE9SpSzXnZdU2hHoX45ichvNz7cS_f6YzvOViyuoqlrDPxhfpVq3UBMmzKcI1bbCPqte16WlrcoezQuwNYTdemsH5i-6NcjFj1IHZQBxxTLXNtG0chRTJ9KS1niYBoX-dizNKhTDR97G3K7bC7CYJxARGaNkgDF6avvADOCOQorK-cZjXPrMri0Qn6ihX3lh0eWUGkX1J2dCMpVy5p3lYEkgSNjAxuBt94Iy533xOnNW3T90qUe8Qsn-bMbmitjVDvjXYHo_iwTtYlFuta_-1Nu5vjosFyfQzBJNhjtjwAdkwI9aBBXHU4951XizSyBM7gTsj_IDpjb1r33mKzN-buv0p0-npg7BoemTr8i8rYKvMNkP3dKQSA_54DLKCWhTl1PELsvdejohpzZJwXd85fTAcL7WLeRYnT6Ah-lD0hVfKlevrHPIh4mRw1CC_7l-MDlWIAc4gKG_quN5u_wwczJ_XhHLHz5Fnt0Gojckue8DCcyG9bfxAs4eHPDNES3dmnFlL7cvBi2wykyR5PUdGG_S4T_67BSzGH_CboqdQDmjpyf4epK1goOnNzkOC0feZbT9p5JWU5kepJKP58-du37ec0vWFY3_tabuOMXVbCcivU424V47yr5DWck3y79_qNQSy7BQiMURDkI1KGlp_y3]-->
+    </g>
+</svg>

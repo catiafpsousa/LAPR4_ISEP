@@ -1,0 +1,80 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant ApproveRejectStudentRequestUI as UI <<presentation>>
+participant ApproveRejectStudentRequestController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant EnrollmentManagementService as enrollSvc <<application>>
+participant Enrollment as enrollment <<domain>>
+database EnrollmentRepository as Repository <<repository>>
+
+
+Actor --> UI: Approve/Reject \nStudent Request
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: pendingRequests()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller --> enrollSvc : create
+
+
+Controller -> enrollSvc : pendingRequests()
+   activate enrollSvc
+            enrollSvc -> Repository: pendingRequests = findbyRequestedStatus()
+            activate Repository
+            Repository --> enrollSvc : pendingRequests
+            deactivate Repository
+            enrollSvc --> Controller : pendingRequestes
+            Controller --> UI : pendingRequests
+
+
+
+
+
+        UI-->Actor: list pending student requests
+
+        Actor --> UI : selects request
+        UI --> Actor : shows options
+        Actor --> UI : selects action
+
+        alt if option == approve
+        UI -> Controller : approveStudentRequest(enrollment)
+
+        Controller -> enrollSvc : approveRequest(enrollment)
+        enrollSvc ->  enrollment : accepted(CurrentTimeCalendars.now())
+
+        enrollSvc ->  Repository : save(enrollment)
+                activate Repository
+
+        Repository --> enrollSvc
+                deactivate Repository
+                enrollSvc -->  Controller
+                Controller --> UI
+                end
+
+        alt option == reject
+         UI -> Controller : rejectStudentRequest(enrollment)
+                Controller -> enrollSvc : rejectRequest(enrollment)
+                enrollSvc ->  enrollment : rejected(CurrentTimeCalendars.now())
+                enrollSvc ->  Repository : save(enrollment)
+        activate Repository
+        Repository --> enrollSvc
+        deactivate Repository
+        enrollSvc -->  Controller
+        Controller --> UI
+        end
+        UI --> Actor : displays success
+
+
+        deactivate Controller
+deactivate UI
+@enduml

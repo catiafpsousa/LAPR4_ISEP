@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ListFutureExamsUI <<ui>>{
+    - theController : ListFutureExamsController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+    class Exam <<aggregate root>> <<entity>>{
+    -examTitle : ExamTitle
+    -examDescription : ExamDescription
+    -examDates : ExamDates
+    -examHeader : ExamHeader
+    -section : List<Section>
+    + Exam(examTitle, examDates, examDescription, section,examHeader)
+    }
+
+    class AutomaticFormativeExam <<entity>>{
+    -examTitle : ExamTitle
+    -examDescription : ExamDescription
+    -section : List<Section>
+    -examHeader : ExamHeader
+    -courseCode : CourseCode
+    + AutomaticFormativeExam(examTitle, examDescription, section, examHeader, courseCode)
+    }
+
+    class ExamDates <<value object>>{
+    -openDate : Calendar
+    -closeDate : Calendar
+    + ExamDates(openDate, closeDate)
+    }
+
+}
+
+package "persistence" #dbd8ae{
+
+    interface CourseRepository <<repository>>{
+    findByAcceptedStatusAndSystemUser(user)
+    }
+
+    interface ExamRepository <<repository>>{
+    findExamsByCourseAndDate(course)
+    findFormativeExamsByCourse(course)
+    }
+
+}
+
+package "application" #eaf4d3{
+ class ListFutureExamsController <<controller>>{
+    - authz : AuthorizationService
+    - courseSvc : CourseManagementService
+    - examSvc : ExamManagementService
+    + allCoursesByStudent()
+    + allExamsByCourse(course)
+    + allFormativeExamsByCourse(course)
+    }
+
+ class CourseManagementService <<service>>{
+    - courseRepository : CourseRepository
+    +allCoursesByAcceptedStatusAndSystemUser(user)
+    }
+
+ class ExamManagementService <<service>>{
+    - examRepository : ExamRepository
+    + findExamsByCourseAndDate(course)
+    + findFormativeExamsByCourse(course)
+    }
+}
+
+ListFutureExamsUI .-> ListFutureExamsController
+ListFutureExamsController .-> CourseManagementService
+ListFutureExamsController .-> ExamManagementService
+CourseManagementService .-> CourseRepository
+ExamManagementService ..> Exam
+ExamManagementService .-> ExamRepository
+ExamRepository -> Exam
+ListFutureExamsController ..> Exam
+Exam -> ExamDates
+Exam <|-- AutomaticFormativeExam
+ExamManagementService ..> AutomaticFormativeExam
+
+@enduml

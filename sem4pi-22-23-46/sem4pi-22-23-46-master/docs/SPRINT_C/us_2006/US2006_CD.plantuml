@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ListGradesOfCourseUI <<ui>>{
+    - theController : ListGradeOfCourseController
+    + doShow()
+    }
+}
+
+
+
+    package "persistence" #dbd8ae{
+        interface CourseRepository{
+              + findBySystemUser(systemUser)
+              }
+        interface GradeRepository{
+              + findByCourse(course)
+              }
+
+    }
+package "application" #eaf4d3{
+    class ListGradeOfCourseController <<controller>>{
+        - authz : AuthorizationService
+        + allCoursesByTeacher()
+        + allGradesByCourse(courseCode)
+       }
+
+
+
+}
+
+
+
+ListGradeOfCourseController .-> AuthorizationService
+ListGradesOfCourseUI .-> ListGradeOfCourseController
+
+
+ListGradeOfCourseController .-> GradeRepository
+ListGradeOfCourseController .-> CourseRepository
+
+@enduml

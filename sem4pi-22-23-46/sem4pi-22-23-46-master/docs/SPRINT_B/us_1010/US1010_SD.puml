@@ -1,0 +1,98 @@
+@startuml
+autonumber
+
+actor "Teacher" as TEACHER
+participant ScheduleRecurringClassUI as UI <<presentation>>
+participant ScheduleRecurringClassController as CTRL <<application>>
+
+participant CourseManagementService as COURSE_SERVICE <<application>>
+
+
+participant ClassBuilder as Builder <<builder>>
+participant RecurringClass as RecClass <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant AppSettings as set
+participant RepositoryFactory as Factory <<factory>>
+database ClassRepository as Repository <<repository>>
+participant Class as CLASS <<domain>>
+participant ClassFactory as CLASS_FACTORY <<factory>>
+
+
+activate TEACHER
+
+TEACHER -> UI: asks to schedule a class
+activate UI
+UI -> CTRL: create()
+activate CTRL
+UI -> CTRL: listCourses()
+CTRL -> COURSE_SERVICE: create()
+activate COURSE_SERVICE
+CTRL -> COURSE_SERVICE: allCoursesBySystemUser(systemUser())
+ref over COURSE_SERVICE : SD_ CourseManagementService
+deactivate COURSE_SERVICE
+deactivate CTRL
+TEACHER <-- UI: shows the list of Courses
+deactivate UI
+
+
+TEACHER -> UI:selects a Course
+activate UI
+
+TEACHER <-- UI: requests data: (title, date, time, duration)
+deactivate UI
+
+
+TEACHER -> UI:types requested data
+activate UI
+UI -> CTRL: checkAvailability(date, time , duration)
+activate CTRL
+CTRL -> Repository : create ()
+activate Repository
+CTRL-> Repository: checkScheduleAvailability(teacher, date, startTime, endTime)
+deactivate Repository
+ref over Repository: SD_CheckScheduleAvailability
+
+
+deactivate CTRL
+
+TEACHER <-- UI:shows all data and requests confirmation
+deactivate UI
+
+TEACHER -> UI:confirms the data
+activate UI
+
+UI -> CTRL : scheduleRecurringClass(title, duration, date, time, course)
+activate CTRL
+CTRL -> Builder**:with(teacher, course, title, day, time, duration, teacher)
+activate Builder
+CTRL-> Builder:recurringClass = build()
+
+Builder -> RecClass**: new RecurringClass(title, duration, day, time, teacher, course)
+deactivate Builder
+CTRL -> Persistence : repositories()
+activate Persistence
+Persistence -> set: instance()
+activate set
+Persistence -> set: getRepositoryFactory()
+deactivate Persistence
+set -> Factory : create()
+activate Factory
+deactivate set
+
+Factory -> Repository : create
+activate Repository
+note over Repository: The properties file determines if the created repository is JPA or in memory
+Factory --> CTRL : ClassRepository
+deactivate Factory
+CTRL -> Repository : save (recurringClass)
+
+deactivate Repository
+deactivate CTRL
+
+
+TEACHER <-- UI:informs operation success
+deactivate UI
+
+deactivate TEACHER
+
+@enduml

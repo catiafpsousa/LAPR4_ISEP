@@ -1,0 +1,71 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class RequestEnrollmentUI <<ui>>{
+    - theController : RequestEnrollmentController
+    + doShow()
+    }
+}
+
+package "domain" #dbd8ae{
+    class Enrollment <<aggregate root>> <<entity>>{
+    -student : Student
+    -course : Course
+    -enrollmentStatus : EnrollmentStatus
+    - modifiedOn : Calendar
+    -enrollmentToken : EnrollmentToken
+    + Enrollment(student, course, status, modifiedOn)
+    }
+
+    enum EnrollmentStatus{
+    REQUESTED
+    ACCEPTED
+    REJECTED
+    }
+
+}
+
+package "persistence" #dbd8ae{
+
+    interface CourseRepository <<repository>>{
+    findByEnrollState()
+    }
+
+    interface EnrollmentRepository <<repository>>{
+    findAll()
+    save(enrollment : Enrollment)
+    }
+
+}
+
+package "application" #eaf4d3{
+ class RequestEnrollmentController <<controller>>{
+    - authz : AuthorizationService
+    - courseSvc : CourseManagementService
+    - enrollmentSvc : EnrollmentManagementService
+    + enrollCourses()
+    + addNewEnrollment(course)
+    }
+
+ class CourseManagementService <<service>>{
+    - courseRepository : CourseRepository
+    + enrollingCourses()
+    }
+
+ class EnrollmentManagementService <<service>>{
+    - enrollmentRepository : EnrollmentRepository
+    + registerNewEnrollment(student, course, status, modifiedOn)
+    }
+}
+
+RequestEnrollmentUI .-> RequestEnrollmentController
+RequestEnrollmentController .-> CourseManagementService
+RequestEnrollmentController .-> EnrollmentManagementService
+CourseManagementService .-> CourseRepository
+Enrollment -> EnrollmentStatus
+EnrollmentManagementService ..> Enrollment
+EnrollmentManagementService .-> EnrollmentRepository
+EnrollmentRepository -> Enrollment
+RequestEnrollmentController ..> Enrollment
+@enduml

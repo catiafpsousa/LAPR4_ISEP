@@ -1,0 +1,103 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class ScheduleMeetingUI <<ui>>{
+    - theController : ScheduleMeetingController
+    + doShow()
+    }
+}
+
+
+
+package "domain" #dbd8ae{
+
+        class Meeting <<aggregate root>> <<entity>>{
+       - meetingToken : MeetingToken
+        - duration : MeetingDuration
+        - date : Calendar
+        - participantList : List<MeetingParticipant>
+        - id : Long
+        + init(duration, date, participantList)
+
+        }
+
+         class MeetingParticipant <<entity>>{
+         - inviteStatus : InviteStatus
+         - id : Long
+         - systemUser : SystemUser
+         + init(systemUser, inviteStatus)
+         }
+
+         enum InviteStatus <<valueObject>> {
+
+         }
+
+         class MeetingDuration <<valueObject>> {
+
+         }
+          class MeetingToken <<valueObject>> {
+
+          }
+
+}
+    package "persistence" #dbd8ae{
+       interface MeetingRepository{
+       + findAll()
+       + findByDateAndUser(user, data, time)
+       + allMeetings ( date, time)
+       + saveMeetingParticipant(availableParticipant)
+       }
+       interface ClassRepository{
+        + findBycourseAndSystemUserinClasses(user, data, time)
+        + findByDateAndSystemUserExtraClass(user, data, time)
+        + allClasses( date , time)
+        }
+    }
+package "application" #eaf4d3{
+    class ScheduleMeetingController <<controller>>{
+        - authz : AuthorizationService
+        - meetingSvc : MeetingManagementService
+        + availableMeetingParticipant(selection, duration, date, participantList)
+        + scheduleMeeting (duration, date, availableParticipantList)
+        + allUsers()
+    }
+
+
+    class MeetingManagementService <<service>>{
+         - meetingRepository : MeetingRepository
+         - userRepository : UserRepository
+         - classRepository : ClassRepository
+         + availableMeetingParticipant(selection, duration, date, participantList)
+         + scheduleMeeting (duration, date, availableParticipantList)
+         + setParticipantList(selection, participantList)
+         + allUsers()
+}
+
+
+}
+
+interface Set{
+}
+
+
+ScheduleMeetingController .-> AuthorizationService
+ScheduleMeetingUI .-> ScheduleMeetingController
+ScheduleMeetingController .-> MeetingManagementService
+
+
+
+
+MeetingManagementService -> Meeting
+Meeting --> MeetingDuration
+Meeting --> MeetingParticipant
+MeetingParticipant --> InviteStatus
+Meeting --> MeetingToken
+
+MeetingManagementService .-> MeetingRepository
+MeetingManagementService .-> ClassRepository
+
+
+
+
+@enduml

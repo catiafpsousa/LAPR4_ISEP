@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1075px" preserveAspectRatio="none" style="width:1740px;height:1075px;background:#FFFFFF;" version="1.1" viewBox="0 0 1740 1075" width="1740px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="841.7344" style="stroke:#181818;stroke-width:1.0;" width="10" x="182" y="118.5703"/><rect fill="#FFFFFF" height="781.0313" style="stroke:#181818;stroke-width:1.0;" width="10" x="514" y="179.2734"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="913" y="209.625"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="913" y="510.4375"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="913" y="811.25"/><rect fill="#FFFFFF" height="668.9766" style="stroke:#181818;stroke-width:1.0;" width="10" x="1089" y="300.3281"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1291.5" y="601.1406"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1544" y="330.6797"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1544" y="901.9531"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1673.5" y="631.4922"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="36" x2="36" y1="86.2188" y2="978.3047"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="187" x2="187" y1="86.2188" y2="978.3047"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="519" x2="519" y1="86.2188" y2="978.3047"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="917.5" x2="917.5" y1="86.2188" y2="978.3047"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1093.5" x2="1093.5" y1="86.2188" y2="978.3047"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1296.5" x2="1296.5" y1="86.2188" y2="978.3047"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1442.5" x2="1442.5" y1="86.2188" y2="978.3047"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1548.5" x2="1548.5" y1="86.2188" y2="978.3047"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1678.5" x2="1678.5" y1="86.2188" y2="978.3047"/><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="56" x="5" y="83.1426">Manager</text><ellipse cx="36" cy="17.1094" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M36,25.1094 L36,52.1094 M23,33.1094 L49,33.1094 M36,52.1094 L23,67.1094 M36,52.1094 L49,67.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="56" x="5" y="991.8379">Manager</text><ellipse cx="36" cy="1003.4141" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M36,1011.4141 L36,1038.4141 M23,1019.4141 L49,1019.4141 M36,1038.4141 L23,1053.4141 M36,1038.4141 L49,1053.4141 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="108" y="36"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="139.5" y="57.5332">«presentation»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="144" x="115" y="75.1426">SetTeacherInChargeUI</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="108" y="977.3047"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="139.5" y="998.8379">«presentation»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="144" x="115" y="1016.4473">SetTeacherInChargeUI</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="208" x="415" y="36"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="477" y="57.5332">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="194" x="422" y="75.1426">SetTeacherInChargeController</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="208" x="415" y="977.3047"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="477" y="998.8379">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="194" x="422" y="1016.4473">SetTeacherInChargeController</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="143" x="846.5" y="36"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="876" y="57.5332">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="129" x="853.5" y="75.1426">AuthorizationService</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="143" x="846.5" y="977.3047"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="876" y="998.8379">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="129" x="853.5" y="1016.4473">AuthorizationService</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="189" x="999.5" y="36"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="1052" y="57.5332">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="175" x="1006.5" y="75.1426">CourseManagementService</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="189" x="999.5" y="977.3047"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="1052" y="998.8379">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="175" x="1006.5" y="1016.4473">CourseManagementService</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="196" x="1198.5" y="36"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="1254.5" y="57.5332">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="182" x="1205.5" y="75.1426">TeacherManagementService</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="196" x="1198.5" y="977.3047"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="1254.5" y="998.8379">«application»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="182" x="1205.5" y="1016.4473">TeacherManagementService</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="1404.5" y="36"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1411.5" y="57.5332">«domain»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="46" x="1419.5" y="75.1426">Course</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="1404.5" y="977.3047"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1411.5" y="998.8379">«domain»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="46" x="1419.5" y="1016.4473">Course</text><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1506.5" y="65.5332">«repository»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="111" x="1490.5" y="83.1426">courseRepository</text><path d="M1531,15 C1531,5 1549,5 1549,5 C1549,5 1567,5 1567,15 L1567,41 C1567,51 1549,51 1549,51 C1549,51 1531,51 1531,41 L1531,15 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1531,15 C1531,25 1549,25 1549,25 C1549,25 1567,25 1567,15 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1506.5" y="991.8379">«repository»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="111" x="1490.5" y="1009.4473">courseRepository</text><path d="M1531,1022.5234 C1531,1012.5234 1549,1012.5234 1549,1012.5234 C1549,1012.5234 1567,1012.5234 1567,1022.5234 L1567,1048.5234 C1567,1058.5234 1549,1058.5234 1549,1058.5234 C1549,1058.5234 1531,1058.5234 1531,1048.5234 L1531,1022.5234 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1531,1022.5234 C1531,1032.5234 1549,1032.5234 1549,1032.5234 C1549,1032.5234 1567,1032.5234 1567,1022.5234 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1636" y="65.5332">«repository»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="116" x="1617.5" y="83.1426">teacherRepository</text><path d="M1660.5,15 C1660.5,5 1678.5,5 1678.5,5 C1678.5,5 1696.5,5 1696.5,15 L1696.5,41 C1696.5,51 1678.5,51 1678.5,51 C1678.5,51 1660.5,51 1660.5,41 L1660.5,15 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1660.5,15 C1660.5,25 1678.5,25 1678.5,25 C1678.5,25 1696.5,25 1696.5,15 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="FG Virgil" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1636" y="991.8379">«repository»</text><text fill="#000000" font-family="FG Virgil" font-size="14" lengthAdjust="spacing" textLength="116" x="1617.5" y="1009.4473">teacherRepository</text><path d="M1660.5,1022.5234 C1660.5,1012.5234 1678.5,1012.5234 1678.5,1012.5234 C1678.5,1012.5234 1696.5,1012.5234 1696.5,1022.5234 L1696.5,1048.5234 C1696.5,1058.5234 1678.5,1058.5234 1678.5,1058.5234 C1678.5,1058.5234 1660.5,1058.5234 1660.5,1048.5234 L1660.5,1022.5234 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1660.5,1022.5234 C1660.5,1032.5234 1678.5,1032.5234 1678.5,1032.5234 C1678.5,1032.5234 1696.5,1032.5234 1696.5,1022.5234 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><rect fill="#FFFFFF" height="841.7344" style="stroke:#181818;stroke-width:1.0;" width="10" x="182" y="118.5703"/><rect fill="#FFFFFF" height="781.0313" style="stroke:#181818;stroke-width:1.0;" width="10" x="514" y="179.2734"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="913" y="209.625"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="913" y="510.4375"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="913" y="811.25"/><rect fill="#FFFFFF" height="668.9766" style="stroke:#181818;stroke-width:1.0;" width="10" x="1089" y="300.3281"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1291.5" y="601.1406"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1544" y="330.6797"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1544" y="901.9531"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1673.5" y="631.4922"/><polygon fill="#181818" points="170,114.5703,180,118.5703,170,122.5703,174,118.5703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="176" y1="118.5703" y2="118.5703"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="127" x="43" y="113.7139">set Teacher in Charge</text><polygon fill="#181818" points="507,144.9219,517,148.9219,507,152.9219,511,148.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="192" x2="513" y1="148.9219" y2="148.9219"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="36" x="199" y="144.0654">create</text><polygon fill="#181818" points="502,175.2734,512,179.2734,502,183.2734,506,179.2734" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="192" x2="508" y1="179.2734" y2="179.2734"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="69" x="199" y="174.417">allCourses()</text><polygon fill="#181818" points="901,205.625,911,209.625,901,213.625,905,209.625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="524" x2="907" y1="209.625" y2="209.625"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="370" x="531" y="204.7686">ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)</text><polygon fill="#181818" points="1082,265.9766,1092,269.9766,1082,273.9766,1086,269.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="524" x2="1088" y1="269.9766" y2="269.9766"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="36" x="531" y="265.1201">create</text><polygon fill="#181818" points="1077,296.3281,1087,300.3281,1077,304.3281,1081,300.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="524" x2="1083" y1="300.3281" y2="300.3281"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="69" x="531" y="295.4717">allCourses()</text><polygon fill="#181818" points="1532,326.6797,1542,330.6797,1532,334.6797,1536,330.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1099" x2="1538" y1="330.6797" y2="330.6797"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="120" x="1106" y="325.8232">allCourses = findAll()</text><polygon fill="#181818" points="1110,340.6797,1100,344.6797,1110,348.6797,1106,344.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1104" x2="1548" y1="344.6797" y2="344.6797"/><polygon fill="#181818" points="535,354.6797,525,358.6797,535,362.6797,531,358.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="529" x2="1088" y1="358.6797" y2="358.6797"/><polygon fill="#181818" points="203,385.0313,193,389.0313,203,393.0313,199,389.0313" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="197" x2="513" y1="389.0313" y2="389.0313"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="61" x="209" y="384.1748">allCourses</text><polygon fill="#181818" points="47,415.3828,37,419.3828,47,423.3828,43,419.3828" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="41" x2="181" y1="419.3828" y2="419.3828"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="84" x="53" y="414.5264">list all courses</text><polygon fill="#181818" points="170,445.7344,180,449.7344,170,453.7344,174,449.7344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="176" y1="449.7344" y2="449.7344"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="85" x="43" y="444.8779">selects course</text><polygon fill="#181818" points="502,476.0859,512,480.0859,502,484.0859,506,480.0859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="192" x2="508" y1="480.0859" y2="480.0859"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="74" x="199" y="475.2295">allTeachers()</text><polygon fill="#181818" points="901,506.4375,911,510.4375,901,514.4375,905,510.4375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="524" x2="907" y1="510.4375" y2="510.4375"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="370" x="531" y="505.5811">ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)</text><polygon fill="#181818" points="1284.5,566.7891,1294.5,570.7891,1284.5,574.7891,1288.5,570.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="524" x2="1290.5" y1="570.7891" y2="570.7891"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="36" x="531" y="565.9326">create</text><polygon fill="#181818" points="1279.5,597.1406,1289.5,601.1406,1279.5,605.1406,1283.5,601.1406" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="524" x2="1285.5" y1="601.1406" y2="601.1406"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="74" x="531" y="596.2842">allTeachers()</text><polygon fill="#181818" points="1661.5,627.4922,1671.5,631.4922,1661.5,635.4922,1665.5,631.4922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1301.5" x2="1667.5" y1="631.4922" y2="631.4922"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="125" x="1308.5" y="626.6357">allTeachers = findAll()</text><polygon fill="#181818" points="1312.5,641.4922,1302.5,645.4922,1312.5,649.4922,1308.5,645.4922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1306.5" x2="1677.5" y1="645.4922" y2="645.4922"/><polygon fill="#181818" points="535,655.4922,525,659.4922,535,663.4922,531,659.4922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="529" x2="1295.5" y1="659.4922" y2="659.4922"/><polygon fill="#181818" points="203,685.8438,193,689.8438,203,693.8438,199,689.8438" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="197" x2="513" y1="689.8438" y2="689.8438"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="66" x="209" y="684.9873">allTeachers</text><polygon fill="#181818" points="47,716.1953,37,720.1953,47,724.1953,43,720.1953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="41" x2="181" y1="720.1953" y2="720.1953"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="88" x="53" y="715.3389">list all teachers</text><polygon fill="#181818" points="170,746.5469,180,750.5469,170,754.5469,174,750.5469" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="176" y1="750.5469" y2="750.5469"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="122" x="43" y="745.6904">inputs Teacher to set</text><polygon fill="#181818" points="502,776.8984,512,780.8984,502,784.8984,506,780.8984" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="192" x2="508" y1="780.8984" y2="780.8984"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="298" x="199" y="776.042">SetTeacherInCharge(selection, allTeachers, course)</text><polygon fill="#181818" points="901,807.25,911,811.25,901,815.25,905,811.25" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="524" x2="907" y1="811.25" y2="811.25"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="370" x="531" y="806.3936">ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)</text><polygon fill="#181818" points="1430.5,867.6016,1440.5,871.6016,1430.5,875.6016,1434.5,871.6016" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="524" x2="1436.5" y1="871.6016" y2="871.6016"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="168" x="531" y="866.7451">SetTeacherInCharge(teacher)</text><polygon fill="#181818" points="1532,897.9531,1542,901.9531,1532,905.9531,1536,901.9531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="524" x2="1538" y1="901.9531" y2="901.9531"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="73" x="531" y="897.0967">save(course)</text><polygon fill="#181818" points="535,911.9531,525,915.9531,535,919.9531,531,915.9531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="529" x2="1548" y1="915.9531" y2="915.9531"/><polygon fill="#181818" points="203,925.9531,193,929.9531,203,933.9531,199,929.9531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="197" x2="513" y1="929.9531" y2="929.9531"/><polygon fill="#181818" points="47,956.3047,37,960.3047,47,964.3047,43,960.3047" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="41" x2="186" y1="960.3047" y2="960.3047"/><text fill="#000000" font-family="FG Virgil" font-size="13" lengthAdjust="spacing" textLength="101" x="53" y="955.4482">displays success</text><!--MD5=[02bd1344ec987f6e761aee70c28963bd]
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant SetTeacherInChargeUI as UI <<presentation>>
+participant SetTeacherInChargeController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant CourseManagementService as courseSvc <<application>>
+participant TeacherManagementService as teacherSvc <<application>>
+
+participant Course as course <<domain>>
+
+database courseRepository as Repository <<repository>>
+database teacherRepository as Repository2 <<repository>>
+
+
+Actor - -> UI: set Teacher in Charge
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: allCourses()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+        activate authz
+        deactivate authz
+        Controller - -> courseSvc : create
+
+
+Controller -> courseSvc : allCourses()
+ activate courseSvc
+
+            courseSvc -> Repository: allCourses = findAll()
+            activate Repository
+
+            Repository - -> courseSvc
+            deactivate Repository
+            courseSvc - -> Controller
+            Controller - -> UI : allCourses
+
+
+
+
+
+        UI- ->Actor: list all courses
+
+        Actor - -> UI : selects course
+        UI -> Controller : allTeachers()
+
+        Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+                activate authz
+                deactivate authz
+                 Controller - -> teacherSvc : create
+                         Controller -> teacherSvc : allTeachers()
+                         activate teacherSvc
+                         teacherSvc -> Repository2: allTeachers = findAll()
+                         activate Repository2
+                         Repository2 - -> teacherSvc
+                         deactivate Repository2
+                         teacherSvc - -> Controller
+                         deactivate teacherSvc
+
+
+
+          Controller - -> UI : allTeachers
+
+         UI - -> Actor : list all teachers
+
+
+        Actor - -> UI : inputs Teacher to set
+                UI -> Controller : SetTeacherInCharge(selection, allTeachers, course)
+
+                Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+                        activate authz
+                        deactivate authz
+                                 Controller -> course : SetTeacherInCharge(teacher)
+                                 Controller -> Repository: save(course)
+                                 activate Repository
+                                 Repository - -> Controller
+                                 deactivate Repository
+                       
+
+
+                  Controller - -> UI :
+
+
+          UI - -> Actor : displays success
+
+         deactivate Controller
+deactivate UI
+@enduml
+
+@startuml
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant SetTeacherInChargeUI as UI <<presentation>>
+participant SetTeacherInChargeController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant CourseManagementService as courseSvc <<application>>
+participant TeacherManagementService as teacherSvc <<application>>
+
+participant Course as course <<domain>>
+
+database courseRepository as Repository <<repository>>
+database teacherRepository as Repository2 <<repository>>
+
+
+Actor - -> UI: set Teacher in Charge
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: allCourses()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+        activate authz
+        deactivate authz
+        Controller - -> courseSvc : create
+
+
+Controller -> courseSvc : allCourses()
+ activate courseSvc
+
+            courseSvc -> Repository: allCourses = findAll()
+            activate Repository
+
+            Repository - -> courseSvc
+            deactivate Repository
+            courseSvc - -> Controller
+            Controller - -> UI : allCourses
+
+
+
+
+
+        UI- ->Actor: list all courses
+
+        Actor - -> UI : selects course
+        UI -> Controller : allTeachers()
+
+        Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+                activate authz
+                deactivate authz
+                 Controller - -> teacherSvc : create
+                         Controller -> teacherSvc : allTeachers()
+                         activate teacherSvc
+                         teacherSvc -> Repository2: allTeachers = findAll()
+                         activate Repository2
+                         Repository2 - -> teacherSvc
+                         deactivate Repository2
+                         teacherSvc - -> Controller
+                         deactivate teacherSvc
+
+
+
+          Controller - -> UI : allTeachers
+
+         UI - -> Actor : list all teachers
+
+
+        Actor - -> UI : inputs Teacher to set
+                UI -> Controller : SetTeacherInCharge(selection, allTeachers, course)
+
+                Controller -> authz: ensureAuthenticatedcourseHasAnyOf(ADMIN, POWER_course)
+                        activate authz
+                        deactivate authz
+                                 Controller -> course : SetTeacherInCharge(teacher)
+                                 Controller -> Repository: save(course)
+                                 activate Repository
+                                 Repository - -> Controller
+                                 deactivate Repository
+                       
+
+
+                  Controller - -> UI :
+
+
+          UI - -> Actor : displays success
+
+         deactivate Controller
+deactivate UI
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

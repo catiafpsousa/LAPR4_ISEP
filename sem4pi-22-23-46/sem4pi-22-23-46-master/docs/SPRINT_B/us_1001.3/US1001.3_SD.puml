@@ -1,0 +1,45 @@
+@startuml
+'http://plantuml.com/skinparam.html
+skinparam handwritten false
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+actor Manager as Actor
+participant ListUsersUI as UI <<presentation>>
+participant ListUsersController as Controller <<application>>
+participant AuthorizationService  as authz <<application>>
+participant UserManagementService as userSvc <<application>>
+
+
+database UserRepository as Repository <<repository>>
+
+
+Actor --> UI: List Users
+activate UI
+    UI -> Controller: create
+
+    UI -> Controller: allUsers()
+    activate Controller
+
+        Controller -> authz: ensureAuthenticatedUserHasAnyOf(ADMIN, POWER_USER)
+        activate authz
+        deactivate authz
+        Controller --> userSvc : create
+
+
+Controller -> userSvc : allUsers()
+activate userSvc
+            userSvc -> Repository: users = findbyAll()
+            activate Repository
+
+            Repository --> userSvc
+            deactivate Repository
+            userSvc --> Controller
+            Controller --> UI : users
+
+        UI-->Actor: shows users list
+
+         deactivate Controller
+deactivate UI
+@enduml

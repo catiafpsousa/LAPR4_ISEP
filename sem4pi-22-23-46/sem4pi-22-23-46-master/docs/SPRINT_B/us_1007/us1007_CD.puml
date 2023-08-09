@@ -1,0 +1,95 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "presentation" #DDDDDD{
+    class EnrollStudentsInBulkbyCSVFileUI <<ui>>{
+    - theController : EnrollStudentsInBulkbyCSVFileController
+    + doShow()
+    }
+}
+
+package "utils" #DDDDDD{
+    class CSVReader {
+    + tryReadFile(fileName)
+    + readCsvStudentFile(fileName)
+    }
+}
+
+package "domain" #dbd8ae{
+    class Enrollment <<aggregate root>> <<entity>>{
+    + Enrollment(mechanographicNumber, courseIdentifier)
+    }
+
+    class EnrollmentStatus <<value object>>{
+    - enrollmentStatus : String
+    + valueOf(enrollmentStatus)
+    + EnrollmentStatus(enrollmentStatus)
+    }
+
+    class EnrollmentStatusDate <<value object>>{
+    - enrollmentStatusDate : Date
+    + valueOf(enrollmentStatusDate)
+    + EnrollmentStatusDate(enrollmentStatusDate)
+    }
+}
+
+package "persistence" #dbd8ae{
+
+    interface CourseRepository <<repository>>{
+        ofIdentity(enrollment)
+    }
+
+
+
+    interface StudentRepository <<repository>>{
+    ofIdentity(enrollment)
+    }
+
+        interface EnrollmentRepository <<repository>>{
+        save(enrollment)
+        }
+
+}
+
+package "application" #eaf4d3{
+ class EnrollStudentsInBulkbyCSVFileController <<controller>>{
+    - enrollmentSvc : EnrollmentManagementService
+    + enrollmentList : readCsvFile()
+    + createEnrollmentfromParameters()
+    }
+
+ class CourseManagementService <<service>>{
+    - courseRepository : CourseRepository
+    + courseOfIdentity()
+    }
+
+ class EnrollmentManagementService <<service>>{
+    - enrollmentRepository : EnrollmentRepository
+    + registerEnrollment()
+    }
+
+  class StudentManagementService <<service>>{
+    - studentRepository : StudentRepository
+    + userStudentOfIdentity()
+    }
+}
+
+EnrollStudentsInBulkbyCSVFileController .-> CSVReader
+
+EnrollStudentsInBulkbyCSVFileUI .-> EnrollStudentsInBulkbyCSVFileController
+EnrollStudentsInBulkbyCSVFileController .-> EnrollmentManagementService
+EnrollmentManagementService .-> CourseManagementService
+EnrollmentManagementService .-> StudentManagementService
+
+
+CourseManagementService .-> CourseRepository
+EnrollmentManagementService .-> EnrollmentRepository
+StudentManagementService .-> StudentRepository
+
+Enrollment --> EnrollmentStatus
+EnrollmentStatus --> EnrollmentStatusDate
+EnrollmentManagementService ..> Enrollment
+
+
+
+@enduml

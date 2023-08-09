@@ -1,0 +1,99 @@
+@startuml use-case-realization.svg
+ skinparam handwritten false
+ skinparam packageStyle rect
+ skinparam defaultFontName FG Virgil
+ skinparam shadowing false
+
+ actor Student as Actor
+ participant TakeAnAutomaticExamUI as UI <<presentation>>
+ participant TakeAnAutomaticExamController as Controller <<application>>
+ participant AuthorizationService  as authz <<application>>
+ participant ExamManagementService as examSvc <<application>>
+ participant EnrollmentManagementService as enrollmentSvc <<application>>
+
+ participant PersistenceContext as Persistence <<persistence>>
+ participant RepositoryFactory as Factory <<factory>>
+ database EnrollmentRepository as EnrollmentRepository <<repository>>
+ database ExamRepository as ExamRepository <<repository>>
+
+
+ Actor --> UI: takeAnAutomaticFormativeExam
+ activate UI
+  UI --> Controller: create
+  activate Controller
+Controller -> authz: ensureAuthenticatedUserHasAnyOf(STUDENT)
+
+                activate authz
+                deactivate authz
+                   Controller -> enrollmentSvc : allCoursesByStudent()
+
+                activate enrollmentSvc
+
+                enrollmentSvc -> EnrollmentRepository : findAllCourseByStudent( systemUser)
+                activate EnrollmentRepository
+
+                EnrollmentRepository -> enrollmentSvc : coursesList
+                deactivate EnrollmentRepository
+                enrollmentSvc --> Controller : coursesList
+                deactivate enrollmentSvc
+                Controller --> UI : coursesList
+                  UI --> Actor : List of courses
+                Actor --> UI: choose a course
+UI --> Controller : course
+  Controller -> examSvc :  allAutomaticFormativeExam(courseCode)
+
+    activate examSvc
+  examSvc  -> ExamRepository : allAutomaticFormativeExam(courseCode)
+
+activate ExamRepository
+
+  ExamRepository -> examSvc  : automaticFormativeExams
+
+  deactivate ExamRepository
+  examSvc  --> Controller : automaticFormativeExams
+
+  Controller --> UI : automaticFormativeExams
+  UI --> Actor : list of automatic Formative Exams
+
+Actor --> UI: choose an automatic formative exam to answer
+
+UI-->Actor : ask path to the file with the answers
+       Actor --> UI: insert the path to the file with the answers
+
+ UI --> Controller:takeAnAutomaticFormativeExam( filepath , examContent)
+
+Controller -> examSvc : examTotxt(exam)
+examSvc -> AutomaticExamGenerateQuestionsVisitor: genQuestionsVisitor.visit(tree)
+                 activate AutomaticExamGenerateQuestionsVisitor
+                deactivate AutomaticExamGenerateQuestionsVisitor
+AutomaticExamGenerateQuestionsVisitor --> examSvc : generatedExam
+
+examSvc -> ConvertIntoExamReadyToBeAnsweredVisitor: examToBeAnsweredVisitor.visit(sectionsTree)
+ activate ConvertIntoExamReadyToBeAnsweredVisitor
+                deactivate ConvertIntoExamReadyToBeAnsweredVisitor
+ConvertIntoExamReadyToBeAnsweredVisitor --> examSvc : sectionsOfExamToBeAnswerd
+
+examSvc -> ConvertExamIntoSolutionsListener: convertIntoSolutionsListener.getExamAnswers()
+ activate ConvertExamIntoSolutionsListener
+                deactivate ConvertExamIntoSolutionsListener
+ConvertExamIntoSolutionsListener --> examSvc : solutionsofExam
+
+examSvc --> Controller : solutionsofExam
+
+ Controller -> examSvc : verifyAnswers(answerPath, solutionsofExam)
+
+examSvc -> GradeAnsweredExamVisitor: gradeExamVisitor.visit(answerd_tree)
+ activate GradeAnsweredExamVisitor
+                deactivate GradeAnsweredExamVisitor
+GradeAnsweredExamVisitor --> examSvc : grade
+
+ examSvc --> Controller : grade and feedback
+deactivate examSvc
+
+         Controller --> UI : grade and feedback
+     deactivate Controller
+
+         UI-->Actor : Display Grade and Feedback
+ deactivate UI
+
+ @enduml
